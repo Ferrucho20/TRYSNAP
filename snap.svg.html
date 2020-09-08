@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <title>
+        snap.svg
+    </title>
+    <script src="dist/snap.svg-min.js"></script>
+</head>
+
+<body>
+    <svg id="svg"></svg>
+    <script>
+        var s = Snap('#svg')
+        
+        Snap.load("archivo.svg", onSVGLoaded);
+
+        function onSVGLoaded(data) {
+            s.append(data);
+        }
+        //   var myCircle = s.circle(150,150,100)
+        //myCircle.attr({
+        //    fill:'#f00',
+        //    stroke:'#000',
+        //    strokeWidth:2
+        //}) 
+
+
+    </script>
+</body>
+
+</html>
