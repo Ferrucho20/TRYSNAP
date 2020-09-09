@@ -1,49 +1,33 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+    <meta content="utf-8" http-equiv="encoding" />
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <title>snap.svg</title>
+    <script src="/snap.svg.js"></script>
+  </head>
 
-<head>
-    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
-    <meta content="utf-8" http-equiv="encoding">
-    <link rel="stylesheet" type="text/css" href="/style.css">
-    <title>
-        snap.svg
-    </title>
-    <script src="{{asset('dist/snap.svg-min.js')}}"></script>
-</head>
-
-<body>
-    <svg id="svg"></svg>
+  <body style="height: 1000px; width: 1500px">
+    <svg style="height: 100%; width: 100%" id="svg"></svg>
     <script>
-
-        
-        //Snap.load("archivo.svg", onSVGLoaded);
-
-        //function onSVGLoaded(data) {
-        //    s.append(data);
-        //}
-
-        //   var myCircle = s.circle(150,150,100)
-        //myCircle.attr({
-        //    fill:'#f00',
-        //    stroke:'#000',
-        //    strokeWidth:2
-        //}) 
-        var s = Snap()
-        
-        Snap.load('TERRACOTA\ 20-07-16\ -\ marcado_NEW.svg', fragment);
-        
-            s.append(fragment);
-            doOtherStuffOnceLoadingComplete();
-        
-
-        function doOtherStuffOnceLoadingComplete() {
-            var c = Snap("#svg");
-        }
-
-
+      var state = false;
+      var s = Snap("#svg");
+      var name = "/TERRACOTA 20-07-16 - marcado_NEW.svg";
+      var fragment = Snap.load(name, (data) => {
+        s.append(data);
+        let button = document.getElementById("L_ADM_TORRE_01_1");
+        button.onclick = () => {
+          state = !state;
+          let layer = document.getElementById("layer2");
+          if (!state) {
+            layer.style.display = "none";
+          } else {
+            layer.style.display = "contents";
+          }
+        };
+      });
     </script>
     <!--<svg></svg> -->
-
-</body>
-
+  </body>
 </html>
