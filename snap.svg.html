@@ -15,30 +15,32 @@
     <svg id="svg"></svg>
     <script>
 
-        
-        //Snap.load("archivo.svg", onSVGLoaded);
+var s = Snap("#svg")
+        Snap.load("archivo.svg", onSVGLoaded);
 
-        //function onSVGLoaded(data) {
-        //    s.append(data);
-        //}
+        function onSVGLoaded(data) {
+            s.append(data);
+        }
 
-        //   var myCircle = s.circle(150,150,100)
+           var myCircle = s.circle(150,150,100)
         //myCircle.attr({
         //    fill:'#f00',
         //    stroke:'#000',
         //    strokeWidth:2
         //}) 
-        var s = Snap()
         
-        Snap.load('TERRACOTA\ 20-07-16\ -\ marcado_NEW.svg', fragment);
         
-            s.append(fragment);
-            doOtherStuffOnceLoadingComplete();
+        //var s = Snap()
+        
+        //Snap.load('TERRACOTA\ 20-07-16\ -\ marcado_NEW.svg', fragment);
+        
+        //    s.append(fragment);
+        //    doOtherStuffOnceLoadingComplete();
         
 
-        function doOtherStuffOnceLoadingComplete() {
-            var c = Snap("#svg");
-        }
+        //function doOtherStuffOnceLoadingComplete() {
+        //    var c = Snap("#svg");
+        //}
 
 
     </script>
