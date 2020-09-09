@@ -14,21 +14,31 @@
 <body>
     <svg id="svg"></svg>
     <script>
-        var s = Snap('#svg')
-        Snap.load("archivo.svg", onSVGLoaded);
 
-        function onSVGLoaded(data) {
-            s.append(data);
-        }
+        var s = Snap()
+        //Snap.load("archivo.svg", onSVGLoaded);
+
+        //function onSVGLoaded(data) {
+        //    s.append(data);
+        //}
+
         //   var myCircle = s.circle(150,150,100)
         //myCircle.attr({
         //    fill:'#f00',
         //    stroke:'#000',
         //    strokeWidth:2
         //}) 
+        Snap.load('TERRACOTA 20-07-16 - marcado_NEW', fragment) {
+            s.append(fragment);
+            doOtherStuffOnceLoadingComplete();
+        }
+
+        function doOtherStuffOnceLoadingComplete() {
+            var c = Snap("#svg");
+        }
 
 
-    </script> 
+    </script>
     <!--<svg></svg> -->
 
 </body>
