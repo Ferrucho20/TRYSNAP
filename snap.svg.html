@@ -15,28 +15,36 @@
     <svg id="svg"></svg>
     <script>
 
-var s = Snap("#svg")
-        Snap.load("archivo.svg", onSVGLoaded);
+        var button = document.getElementById("L_ADM_TORRE_01_1");
+        button.onclick = function () {
+            let layer = document.getElementById("layer2");
+            layer.innerHTML = "";
+        };
 
-        function onSVGLoaded(data) {
-            s.append(data);
-        }
+        //var s = Snap("#svg")
+        //Snap.load("archivo.svg", onSVGLoaded);
 
-           var myCircle = s.circle(150,150,100)
+        //function onSVGLoaded(data) {
+        //    s.append(data);
+        //}
+
+        //var myCircle = s.circle(150, 150, 100)
+        
+        
         //myCircle.attr({
         //    fill:'#f00',
         //    stroke:'#000',
         //    strokeWidth:2
         //}) 
-        
-        
+
+
         //var s = Snap()
-        
+
         //Snap.load('TERRACOTA\ 20-07-16\ -\ marcado_NEW.svg', fragment);
-        
+
         //    s.append(fragment);
         //    doOtherStuffOnceLoadingComplete();
-        
+
 
         //function doOtherStuffOnceLoadingComplete() {
         //    var c = Snap("#svg");
