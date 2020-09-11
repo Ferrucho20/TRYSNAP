@@ -1,57 +1,80 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
-    <meta content="utf-8" http-equiv="encoding" />
-    <link rel="stylesheet" type="text/css" href="/style.css" />
-    <title>snap.svg</title>
-    <script src="/snap.svg.js"></script>
-  </head>
 
-  <body style="height: 1000px; width: 1500px">
-    <svg style="height: 100%; width: 100%" id="svg"></svg>
-    <script>
-      var state = false;
-      var state2 = false;
+<head>
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+  <meta content="utf-8" http-equiv="encoding" />
+  <link rel="stylesheet" type="text/css" href="/style.css" />
+  <title>snap.svg</title>
+  <script src="/snap.svg.js"></script>
+</head>
 
-      var s = Snap("#svg");
-      var name = "/LA FLORA 20-07-10_NEW (1).svg";
-      var fragment = Snap.load(name, (data) => {
-        s.append(data);
-        let button = document.getElementById("L_ADM_TORRE_01_1");
-        button.onclick = () => {
-          state = !state;
-          //let layer = document.getElementById("gFrenteT1");
-          
-          if (!state) {
-//            layer.style.display = "none";
+<body style="height: 1000px; width: 1500px">
+  <svg style="height: 100%; width: 100%" id="svg"></svg>
+  <script>
+    var state = false;
+    var state2 = false;
+
+    var s = Snap("#svg");
+    var name = "/LA FLORA 20-07-10_NEW (1).svg";
+    var fragment = Snap.load(name, (data) => {
+      s.append(data);
+      let button = document.getElementById("L_ADM_TORRE_01_1");
+
+      button.onclick = () => {
+        //let layer = document.getElementById("gFrenteT1");
+        var visi = document.getElementById("gFrenteT1");
+        if (visi.style.visibility === "visible") {
+          //layer.style.display = "none";
+          console.log("entró a visible");
           document.getElementById("gFrenteT1").style.visibility = "hidden";
+          //state2 = !state2;
+        } else if (visi.style.visibility === "hidden") {
+          console.log("entró a hidden");
+          //document.getElementById("gFrenteT2").style.visibility;
+          document.getElementById("gFrenteT1").style.visibility = "visible";
+          //state2 = !state2;
 
-          } else {
-            document.getElementById("gFrenteT1").style.visibility = "visible";
+          //layer.style.display = "contents";
+        } else if(visi.style.visibility === "") {
+          document.getElementById("gFrenteT1").style.visibility = "hidden";
+        }
+      };
 
-            //layer.style.display = "contents";
-          }
-        };
+      let button2 = document.getElementById("L_ADM_TORRE_02_1");
+      button2.onclick = () => {
+        var visi2 = document.getElementById("gFrenteT2");
+
+        console.log(visi2.style.visibility === "visible");
+        console.log(visi2.style.visibility === "hidden");
+        console.log(visi2.style.visibility === "");
+        
+
+        //let layer2 = document.getElementById("gFrenteT2");
+
+        if (visi2.style.visibility === "visible") {
+          //layer.style.display = "none";
+          console.log("entró a visible");
+          document.getElementById("gFrenteT2").style.visibility = "hidden";
+          //state2 = !state2;
+        } else if (visi2.style.visibility === "hidden") {
+          console.log("entró a hidden");
+          //document.getElementById("gFrenteT2").style.visibility;
+          document.getElementById("gFrenteT2").style.visibility = "visible";
+          //state2 = !state2;
+
+          //layer.style.display = "contents";
+        } else if(visi2.style.visibility === "") {
+          document.getElementById("gFrenteT2").style.visibility = "hidden";
+        }
+      };
 
 
-        let button2 = document.getElementById("L_ADM_TORRE_02_1");
-        button2.onclick = () => {
-          state2 = !state2;
-          let layer2 = document.getElementById("gFrenteT2");
-          if (!state2) {
-            //layer.style.display = "none";
-            document.getElementById("gFrenteT2").style.visibility = "hidden";
-          } else {
-            document.getElementById("gFrenteT2").style.visibility = "visible";
-
-            //layer.style.display = "contents";
-          }
-        };
 
 
-      });
-    </script>
-    <!--<svg></svg> -->
-  </body>
+    });
+  </script>
+  <!--<svg></svg> -->
+</body>
+
 </html>
