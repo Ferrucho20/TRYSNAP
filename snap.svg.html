@@ -12,20 +12,44 @@
     <svg style="height: 100%; width: 100%" id="svg"></svg>
     <script>
       var state = false;
+      var state2 = false;
+
       var s = Snap("#svg");
-      var name = "/TERRACOTA 20-07-16 - marcado_NEW.svg";
+      var name = "/LA FLORA 20-07-10_NEW (1).svg";
       var fragment = Snap.load(name, (data) => {
         s.append(data);
         let button = document.getElementById("L_ADM_TORRE_01_1");
         button.onclick = () => {
           state = !state;
-          let layer = document.getElementById("gFrenteT1");
+          //let layer = document.getElementById("gFrenteT1");
+          
           if (!state) {
-            layer.style.display = "none";
+//            layer.style.display = "none";
+          document.getElementById("gFrenteT1").style.visibility = "hidden";
+
           } else {
-            layer.style.display = "contents";
+            document.getElementById("gFrenteT1").style.visibility = "visible";
+
+            //layer.style.display = "contents";
           }
         };
+
+
+        let button2 = document.getElementById("L_ADM_TORRE_02_1");
+        button2.onclick = () => {
+          state2 = !state2;
+          let layer2 = document.getElementById("gFrenteT2");
+          if (!state2) {
+            //layer.style.display = "none";
+            document.getElementById("gFrenteT2").style.visibility = "hidden";
+          } else {
+            document.getElementById("gFrenteT2").style.visibility = "visible";
+
+            //layer.style.display = "contents";
+          }
+        };
+
+
       });
     </script>
     <!--<svg></svg> -->
