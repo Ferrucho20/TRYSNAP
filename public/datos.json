@@ -1,0 +1,18 @@
+{
+    "estado": "Aprovado [A]",
+    "mensaje" : "Efecty",
+    "listaId" :[
+        {
+            "id": "L2009"
+        },
+        {
+            "id": "L2012"
+        },
+        {
+            "id": "L2009"
+        },
+        {
+            "id": "L2009"
+        }
+    ]
+}

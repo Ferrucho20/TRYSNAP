@@ -1,94 +1,121 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
-    <meta content="utf-8" http-equiv="encoding" />
-    <link rel="stylesheet" type="text/css" href="/style.css" />
-    <title>snap.svg</title>
-    <script src="/snap.svg.js"></script>
-  </head>
 
-  <body style="height: 1000px; width: 1500px">
-    <div style="height: 100%; width: 100%">
-      <svg style="height: 100%; width: 100%" id="svg"></svg>
-    </div>
+<head>
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+  <meta content="utf-8" http-equiv="encoding" />
+  <link rel="stylesheet" type="text/css" href="/style.css" />
+  <title>snap.svg</title>
+  <script src="/snap.svg.js"></script>
+</head>
 
-    <script>
-      var state2 = false;
+<body style="height: 1000px; width: 1500px">
+  <div style="height: 100%; width: 100%">
+    <svg style="height: 100%; width: 100%" id="svg"></svg>
+  </div>
 
-      var s = Snap("#svg");
-      var name = "/LA FLORA 20-07-10_NEW (1).svg";
-      var name2 = {
-            "id" : "L2009"
-            };
-      var fragment = Snap.load(name, (data) => {
-        s.append(data);
-          console.log(name2.id);
-          var apto = document.getElementById(name2.id);
-          apto.style.fill = "red";
+  <script>
+    var state2 = false;
 
-          //apto.style.color = "magenta";
-        //for (var i in json) {
-          //console.log(json[i].id)
-          //if(json[i].id == name2 ){
-          //  document.getElementById("L0302").style.color = "glightbluereen";
+    var s = Snap("#svg");
+    var name = "/LA FLORA 20-07-10_NEW (1).svg";
+    var name2 = {
+      "estado": "Aprovado [A]",
+      "mensaje": "Efecty",
+      "listaId": [
+        {
+          "id": "L2009",
+          "color":"#F00125"
+        },
+        {
+          "id": "L2012",
+          "color":"#F00125"
 
-          //}
-        //} 
-        //let button = document.getElementById("L_ADM_TORRE_01_1");
+        },
+        {
+          "id": "L2013",
+          "color":"#F00125"
 
-        //button.onclick = () => {
-          //let layer = document.getElementById("gFrenteT1");
-        //  var visi = document.getElementById("gFrenteT1");
-        //  if (visi.style.visibility === "visible") {
-            //layer.style.display = "none";
-        //    console.log("entró a visible");
-        //    document.getElementById("gFrenteT1").style.visibility = "hidden";
-            //state2 = !state2;
-        //  } else if (visi.style.visibility === "hidden") {
-        //    console.log("entró a hidden");
-            //document.getElementById("gFrenteT2").style.visibility;
-        //    document.getElementById("gFrenteT1").style.visibility = "visible";
-            //state2 = !state2;
+        },
+        {
+          "id": "L1908",
+          "color":"#F00125"
 
-            //layer.style.display = "contents";
-        //  } else if (visi.style.visibility === "") {
-        //    document.getElementById("gFrenteT1").style.visibility = "hidden";
-        //  }
-        //};
+        }
+      ]
+    };
+    var fragment = Snap.load(name, (data) => {
+      s.append(data);
+      for (var i = 0; i < name2.listaId.length; i++) {
+        var apto = document.getElementById(name2.listaId[i].id);
+        apto.style.fill = name2.listaId[i].color;
 
-        const handleButtonClick1 = () => {
-          var visi1 = document.getElementById("gFrenteT1");
-          document.getElementById("L0302").style.color = "glightbluereen";
-          if (visi1.style.opacity === "0") {
-            visi1.style.opacity = "1";
-          } else if (visi1.style.opacity === "1") {
-            visi1.style.opacity = "0";
-          } else {
-            visi1.style.opacity = "0";
-          }
-        };
+      }
 
-        var button1 = document.getElementById("L_ADM_TORRE_01_1");
-        button1.onclick = handleButtonClick1;
 
-        //Esta es la parte que sirve
+      //apto.style.color = "magenta";
+      //for (var i in json) {
+      //console.log(json[i].id)
+      //if(json[i].id == name2 ){
+      //  document.getElementById("L0302").style.color = "glightbluereen";
 
-        const handleButtonClick = () => {
-          var visi2 = document.getElementById("gFrenteT2");
-          if (visi2.style.opacity === "0") {
-            visi2.style.opacity = "1";
-          } else if (visi2.style.opacity === "1") {
-            visi2.style.opacity = "0";
-          } else {
-            visi2.style.opacity = "0";
-          }
-        };
+      //}
+      //} 
+      //let button = document.getElementById("L_ADM_TORRE_01_1");
 
-        var button2 = document.getElementById("L_ADM_TORRE_02_1");
-        button2.onclick = handleButtonClick;
-      });
-    </script>
-    <!--<svg></svg> -->
-  </body>
+      //button.onclick = () => {
+      //let layer = document.getElementById("gFrenteT1");
+      //  var visi = document.getElementById("gFrenteT1");
+      //  if (visi.style.visibility === "visible") {
+      //layer.style.display = "none";
+      //    console.log("entró a visible");
+      //    document.getElementById("gFrenteT1").style.visibility = "hidden";
+      //state2 = !state2;
+      //  } else if (visi.style.visibility === "hidden") {
+      //    console.log("entró a hidden");
+      //document.getElementById("gFrenteT2").style.visibility;
+      //    document.getElementById("gFrenteT1").style.visibility = "visible";
+      //state2 = !state2;
+
+      //layer.style.display = "contents";
+      //  } else if (visi.style.visibility === "") {
+      //    document.getElementById("gFrenteT1").style.visibility = "hidden";
+      //  }
+      //};
+
+      const handleButtonClick1 = () => {
+        var visi1 = document.getElementById("gFrenteT1");
+        document.getElementById("L0302").style.color = "glightbluereen";
+        if (visi1.style.opacity === "0") {
+          visi1.style.opacity = "1";
+        } else if (visi1.style.opacity === "1") {
+          visi1.style.opacity = "0";
+        } else {
+          visi1.style.opacity = "0";
+        }
+      };
+
+      var button1 = document.getElementById("L_ADM_TORRE_01_1");
+      button1.onclick = handleButtonClick1;
+
+      //Esta es la parte que sirve
+
+      const handleButtonClick = () => {
+        var visi2 = document.getElementById("gFrenteT2");
+        if (visi2.style.opacity === "0") {
+          visi2.style.opacity = "1";
+        } else if (visi2.style.opacity === "1") {
+          visi2.style.opacity = "0";
+        } else {
+          visi2.style.opacity = "0";
+        }
+      };
+
+      var button2 = document.getElementById("L_ADM_TORRE_02_1");
+      button2.onclick = handleButtonClick;
+    });
+  </script>
+  <!--<svg></svg> -->
+</body>
+
 </html>
