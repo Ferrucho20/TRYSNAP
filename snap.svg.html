@@ -18,9 +18,23 @@
 
       var s = Snap("#svg");
       var name = "/LA FLORA 20-07-10_NEW (1).svg";
-
+      var name2 = {
+            "id" : "L2009"
+            };
       var fragment = Snap.load(name, (data) => {
         s.append(data);
+          console.log(name2.id);
+          var apto = document.getElementById(name2.id);
+          apto.style.fill = "red";
+
+          //apto.style.color = "magenta";
+        //for (var i in json) {
+          //console.log(json[i].id)
+          //if(json[i].id == name2 ){
+          //  document.getElementById("L0302").style.color = "glightbluereen";
+
+          //}
+        //} 
         //let button = document.getElementById("L_ADM_TORRE_01_1");
 
         //button.onclick = () => {
@@ -45,6 +59,7 @@
 
         const handleButtonClick1 = () => {
           var visi1 = document.getElementById("gFrenteT1");
+          document.getElementById("L0302").style.color = "glightbluereen";
           if (visi1.style.opacity === "0") {
             visi1.style.opacity = "1";
           } else if (visi1.style.opacity === "1") {
