@@ -24,23 +24,37 @@
       "mensaje": "Efecty",
       "listaId": [
         {
-          "id": "L2009",
-          "color":"#F00125"
-        },
-        {
-          "id": "L2012",
-          "color":"#F00125"
+          "id": "L1305",
+          "color": "#A0C0F8",
+          "estado": "vendido mes actual"
 
         },
         {
-          "id": "L2013",
-          "color":"#F00125"
+          "id": "L1009",
+          "color": "#7EABFA",
+          "estado": "vendido"
+        },
+        {
+          "id": "L1414",
+          "color": "#F9F511",
+          "estado": "opcionado"
+
+        },
+        {
+          "id": "L1406",
+          "color": "#1AED0C",
+          "estado": "en sala(venta)"
 
         },
         {
           "id": "L1908",
-          "color":"#F00125"
-
+          "color": "#FFFFFF",
+          "estado": "por lanzar"
+        },
+        {
+          "id": "L1108",
+          "color": "#00244D",
+          "estado": "Escriturado"
         }
       ]
     };
@@ -49,7 +63,8 @@
       for (var i = 0; i < name2.listaId.length; i++) {
         var apto = document.getElementById(name2.listaId[i].id);
         apto.style.fill = name2.listaId[i].color;
-
+        apto.style.opacity = "0.7 "
+        //var text = apto.id;
       }
 
 
