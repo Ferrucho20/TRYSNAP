@@ -69,13 +69,18 @@
 
       for (var i = 0; i < name2.listaId.length; i++) {
         var apto = document.getElementById(name2.listaId[i].id);
-        
+
         apto.style.fill = name2.listaId[i].color;
         apto.style.opacity = "0.7 "
-        let esta = Snap.parse('<title>Estado deplorable : '+ name2.listaId[i].estado +'</title>');
+        let esta = Snap.parse('<title>Estado deplorable : ' + name2.listaId[i].estado + '</title>');
         s.append(esta)
+
+
       }
 
+      //Declaración de las capas del frente Torre1
+      var frenteTorre1 = document.getElementById("layer5");
+      var vistaFrenteTorre1 = document.getElementById("layer6");
 
       //función para remover las 2 capas del Frente Torre1
       const handleButtonClickFrenteTorre1Hide = () => {
@@ -83,31 +88,12 @@
         vistaFrenteTorre1.remove()
         torre1 = false;
       };
-
       //función para mostrar las 2 capas del Frente Torre1
       const handleButtonClickFrenteTorre1Show = () => {
         s.append(frenteTorre1)
         s.append(vistaFrenteTorre1)
         torre1 = true
       };
-      //función para remover las 2 capas del Frente Torre1
-      const handleButtonClickFrenteTorre2Show = () => {
-        s.append(frenteTorre2)
-        s.append(vistaFrenteTorre2)
-        //validación de la superposición con el frente Torre1
-        if (torre1) {
-          s.append(frenteTorre1)
-          s.append(vistaFrenteTorre1)
-        }
-      };
-      //función para mostrar las 2 capas del Frente Torre1
-      const handleButtonClickFrenteTorre2Hide = () => {
-        frenteTorre2.remove()
-        vistaFrenteTorre2.remove()
-      };
-      //Declaración de las capas del frente Torre1
-      var frenteTorre1 = document.getElementById("layer5");
-      var vistaFrenteTorre1 = document.getElementById("layer6");
 
       //Asignación del botón respecto a la base Torre 1
       var buttonBaseTorre1 = document.getElementById("L_ADM_TORRE_01_0");
@@ -120,6 +106,22 @@
       //Declaración de las capas del frente Torre2
       var frenteTorre2 = document.getElementById("layer3");
       var vistaFrenteTorre2 = document.getElementById("layer4");
+
+      //función para mostrar las 2 capas del Frente Torre2
+      const handleButtonClickFrenteTorre2Show = () => {
+        s.append(frenteTorre2)
+        s.append(vistaFrenteTorre2)
+        //validación de la superposición con el frente Torre1
+        if (torre1) {
+          s.append(frenteTorre1)
+          s.append(vistaFrenteTorre1)
+        }
+      };
+      //función para remover las 2 capas del Frente Torre2
+      const handleButtonClickFrenteTorre2Hide = () => {
+        frenteTorre2.remove()
+        vistaFrenteTorre2.remove()
+      };
 
       //Asignación del botón respecto a la base Torre 2
       var buttonBaseTorre2 = document.getElementById("L_ADM_TORRE_02_0");
