@@ -7,11 +7,12 @@
   <link rel="stylesheet" type="text/css" href="/style.css" />
   <title>snap.svg</title>
   <script src="/snap.svg.js"></script>
+
 </head>
 
-<body style="height: 1000px; width: 1500px">
+<body style="height: 100%; width: 100%">
   <div style="height: 100%; width: 100%">
-    <svg style="height: 100%; width: 100%" id="svg"></svg>
+    <object style="height: 100%; width: 100%" id="svg"></object>
   </div>
 
   <script>
@@ -20,6 +21,7 @@
     var s = Snap("#svg");
     //Archivo de diseño del plano 
     var name = "/LA FLORA 20-07-10 (1).svg";
+
     //archivo Json de la consulta por servicio Rest
     var name2 = {
       "estado": "Aprovado [A]",
@@ -29,7 +31,6 @@
           "id": "L1305",
           "color": "#A0C0F8",
           "estado": "vendido mes actual"
-
         },
         {
           "id": "L1009",
@@ -40,13 +41,11 @@
           "id": "L1414",
           "color": "#F9F511",
           "estado": "opcionado"
-
         },
         {
           "id": "L1406",
           "color": "#1AED0C",
           "estado": "en sala(venta)"
-
         },
         {
           "id": "L1908",
@@ -57,9 +56,61 @@
           "id": "L1108",
           "color": "#00244D",
           "estado": "Escriturado"
+        },
+        {
+          "id": "L0302",
+          "color": "#A0C0F8",
+          "estado": "vendido mes actual"
+        },
+        {
+          "id": "L1108",
+          "color": "#7EABFA",
+          "estado": "vendido"
+        },
+        {
+          "id": "L1313",
+          "color": "#F9F511",
+          "estado": "opcionado"
+        },
+        {
+          "id": "L1305",
+          "color": "#1AED0C",
+          "estado": "en sala(venta)"
+        },
+        {
+          "id": "L1801",
+          "color": "#FFFFFF",
+          "estado": "por lanzar"
+        },
+        {
+          "id": "L1002",
+          "color": "#00244D",
+          "estado": "Escriturado"
         }
       ]
     };
+
+
+
+    //function showText(x) {
+
+
+
+    //for (var i = 0; i < name2.listaId.length; i++) {
+    //  if (name2.listaId.id == x.id) {
+    //    console.log(name2.listaId.id)
+    //    console.log(x.id)
+
+    //    console.log("kati")
+    //  }
+    //  console.log("kati1")
+    //}
+    //}
+
+    //function hideText(x) {
+
+    //}
+
     //Carga del plano usando Snap
     var fragment = Snap.load(name, (data) => {
       //var title = Snap.parse('<title>Kata y estevan con humberto y alberto con el patrocinio de Larry Boy y el proxe</title>');
@@ -72,10 +123,14 @@
 
         apto.style.fill = name2.listaId[i].color;
         apto.style.opacity = "0.7 "
-        let esta = Snap.parse('<title>Estado deplorable : ' + name2.listaId[i].estado + '</title>');
-        s.append(esta)
+        //let esta = Snap.parse('<title>Estado deplorable : ' + name2.listaId[i].estado + '</title>');
+        //s.append(esta)
+        apto.estado
+        apto.addEventListener("mouseover", mouseOver);
+      }
 
-
+      function mouseOver() {
+        alert("katika");
       }
 
       //Declaración de las capas del frente Torre1
@@ -84,14 +139,22 @@
 
       //función para remover las 2 capas del Frente Torre1
       const handleButtonClickFrenteTorre1Hide = () => {
-        frenteTorre1.remove()
-        vistaFrenteTorre1.remove()
+
+        frenteTorre1.style.visibility = "hidden"
+        vistaFrenteTorre1.style.visibility = "hidden"
+
+        //frenteTorre1.remove()
+        //vistaFrenteTorre1.remove()
         torre1 = false;
       };
       //función para mostrar las 2 capas del Frente Torre1
       const handleButtonClickFrenteTorre1Show = () => {
-        s.append(frenteTorre1)
-        s.append(vistaFrenteTorre1)
+
+        frenteTorre1.style.visibility = "visible"
+        vistaFrenteTorre1.style.visibility = "visible"
+
+        //s.append(frenteTorre1)
+        //s.append(vistaFrenteTorre1)
         torre1 = true
       };
 
@@ -109,18 +172,26 @@
 
       //función para mostrar las 2 capas del Frente Torre2
       const handleButtonClickFrenteTorre2Show = () => {
-        s.append(frenteTorre2)
-        s.append(vistaFrenteTorre2)
+
+        frenteTorre2.style.visibility = "visible"
+        vistaFrenteTorre2.style.visibility = "visible"
+        //s.append(frenteTorre2)
+        //s.append(vistaFrenteTorre2)
         //validación de la superposición con el frente Torre1
-        if (torre1) {
-          s.append(frenteTorre1)
-          s.append(vistaFrenteTorre1)
-        }
+        //if (torre1) {
+
+        //  s.append(frenteTorre1)
+        //  s.append(vistaFrenteTorre1)
+        //}
       };
       //función para remover las 2 capas del Frente Torre2
       const handleButtonClickFrenteTorre2Hide = () => {
-        frenteTorre2.remove()
-        vistaFrenteTorre2.remove()
+
+        frenteTorre2.style.visibility = "hidden"
+        vistaFrenteTorre2.style.visibility = "hidden"
+
+        //frenteTorre2.remove()
+        //vistaFrenteTorre2.remove()
       };
 
       //Asignación del botón respecto a la base Torre 2
