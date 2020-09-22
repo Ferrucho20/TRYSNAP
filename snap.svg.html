@@ -125,12 +125,19 @@
         apto.style.opacity = "0.7 "
         //let esta = Snap.parse('<title>Estado deplorable : ' + name2.listaId[i].estado + '</title>');
         //s.append(esta)
-        apto.estado
-        apto.addEventListener("mouseover", mouseOver);
+        apto.addEventListener('click', myFunc, false);
+        var estado = apto.estado
+        function myFunc(estado) {
+          window.alert(estado);
+        }
+        //var palabra = apto.estado
+        //apto.addEventListener("click", function () {
+        //  mouseOver(palabra);
+        //}, false);
       }
 
-      function mouseOver() {
-        alert("katika");
+      function mouseOver(palabra) {
+        alert(palabra);
       }
 
       //Declaración de las capas del frente Torre1
