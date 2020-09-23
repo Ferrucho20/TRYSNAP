@@ -23,6 +23,7 @@
     var name = "/LA FLORA 20-07-10 (1).svg";
 
     //archivo Json de la consulta por servicio Rest
+    //Consumir dependencia axios, consumo web rest
     var name2 = {
       "estado": "Aprovado [A]",
       "mensaje": "Efecty",
@@ -90,54 +91,25 @@
       ]
     };
 
-
-
-    //function showText(x) {
-
-
-
-    //for (var i = 0; i < name2.listaId.length; i++) {
-    //  if (name2.listaId.id == x.id) {
-    //    console.log(name2.listaId.id)
-    //    console.log(x.id)
-
-    //    console.log("kati")
-    //  }
-    //  console.log("kati1")
-    //}
-    //}
-
-    //function hideText(x) {
-
-    //}
-
     //Carga del plano usando Snap
     var fragment = Snap.load(name, (data) => {
-      //var title = Snap.parse('<title>Kata y estevan con humberto y alberto con el patrocinio de Larry Boy y el proxe</title>');
-      //s.append(title);
       //Asignación de colores a los apartamentos por estado 
       s.append(data);
 
       for (var i = 0; i < name2.listaId.length; i++) {
         var apto = document.getElementById(name2.listaId[i].id);
-
         apto.style.fill = name2.listaId[i].color;
         apto.style.opacity = "0.7 "
-        //let esta = Snap.parse('<title>Estado deplorable : ' + name2.listaId[i].estado + '</title>');
-        //s.append(esta)
         apto.addEventListener('click', myFunc, false);
-        var estado = apto.estado
-        function myFunc(estado) {
-          window.alert(estado);
-        }
-        //var palabra = apto.estado
-        //apto.addEventListener("click", function () {
-        //  mouseOver(palabra);
-        //}, false);
       }
 
-      function mouseOver(palabra) {
-        alert(palabra);
+      function myFunc() {
+        for (var i = 0; i < name2.listaId.length; i++) {
+          if(this.id == name2.listaId[i].id){
+            //Mostrar información en globo de texto
+            alert(name2.listaId[i].estado);
+          }
+        }
       }
 
       //Declaración de las capas del frente Torre1
