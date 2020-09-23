@@ -11,26 +11,32 @@
 
 </head>
 
-<body >
-  <div class="container">
+<body>
+  <!--<div class="container">-->
+    <!-- tarjeta de convenciones-->
     <div id="mycard" class="card">
       <div class="card-body" id="card-body" >
         <h6 class="card-title">
-          <strong>Información apartamento:</strong> 
+          <strong>Información Estado apartamentos:</strong> 
         </h6>
         <hr id="line">
       </div>
-      
-      <p id="elpopover" class="card-text"></p>
+      <p class="card-text">
+        <p id="elpopover">POR LANZAR #FFFFFF</p>
+        <p id="elpopover">EN SALA #1AED0C</p>
+        <p id="elpopover">OPCIONADO #F9F511</p>
+        <p id="elpopover">VENDIDO #7EABFA</p>
+        <p id="elpopover">VENDIDO MES ACTUAL #A0C0F8</p>
+        <p id="elpopover">ESCRITURADO #00244D</p>
+      </p>
     </div>
     
-    <div id="plano">
-      <object style="height: 100%; width: 60%;"  id="svg"></object>
-    </div>
-  </div>
+   <!-- </div>-->
 
-
-
+    <!--plano svg-->
+    <figure id="plano">
+          <object style="height: 100%; width: 60%;"  id="svg"></object>
+    </figure>
   <script>
     var state2 = false;
     var torre1 = true;
@@ -115,21 +121,27 @@
       for (var i = 0; i < name2.listaId.length; i++) {
         var apto = document.getElementById(name2.listaId[i].id);
         apto.style.fill = name2.listaId[i].color;
-        apto.style.opacity = "0.7 "
-        apto.addEventListener('click', myFunc, false);
+        apto.style.opacity = "0.7";
+        //document.getElementById(name2.listaId[i].id).onmouseover = function() {mouseOver()};
+        //document.getElementById(name2.listaId[i].id).onmouseout = function() {mouseOut()};
+        apto.addEventListener('mouseover', myFunc, false);
       }
-
+      /*function mouseOver(){
+        for (var i = 0; i < name2.listaId.length; i++) {
+          if(this.id == name2.listaId[i].id){
+            var pru = document.createElement("button");
+            document.body.appendChild(pru);
+        } 
+      }
+      }*/
       function myFunc() {
         for (var i = 0; i < name2.listaId.length; i++) {
           if(this.id == name2.listaId[i].id){
-            var información = document.getElementById("elpopover");
-            información.innerHTML = name2.listaId[i].estado;
-          }
-        }
-        
-
-        
+            var pru = document.createElement("button");
+            document.body.appendChild(pru);
+        } 
       }
+    }
 
       //Declaración de las capas del frente Torre1
       var frenteTorre1 = document.getElementById("layer5");

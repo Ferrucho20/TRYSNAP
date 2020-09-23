@@ -8,16 +8,16 @@
 
 #svg10{
   width: 790px;
-  height: 465px;
+  height: 400px;
+  z-index: -auto;
 }
 
 #plano{
   position: absolute;
-  height: 100%; 
-  width: 60%;
-  left: 50px;
+  height: 60%; 
+  width: 65%;
+  left: 10px;
   top: 40px;
-  bottom: 50px;
 }
 
 #mycard{
@@ -29,6 +29,7 @@
   border-style: solid;
   border-color: black;
   box-shadow: 10px 10px 5px grey;
+  z-index: -1;
 }
 #card-body{
   padding: 10px;
@@ -42,4 +43,9 @@
 #line{
   border-top: 1px solid cadetblue;
 }
+
+.tooltip {
+	background-color: black;
+}
+
 
