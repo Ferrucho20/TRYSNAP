@@ -7,13 +7,29 @@
   <link rel="stylesheet" type="text/css" href="/style.css" />
   <title>snap.svg</title>
   <script src="/snap.svg.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
 </head>
 
-<body style="height: 100%; width: 100%">
-  <div style="height: 100%; width: 100%">
-    <object style="height: 100%; width: 100%" id="svg"></object>
+<body >
+  <div class="container">
+    <div id="mycard" class="card">
+      <div class="card-body" id="card-body" >
+        <h6 class="card-title">
+          <strong>Información apartamento:</strong> 
+        </h6>
+        <hr id="line">
+      </div>
+      
+      <p id="elpopover" class="card-text"></p>
+    </div>
+    
+    <div id="plano">
+      <object style="height: 100%; width: 60%;"  id="svg"></object>
+    </div>
   </div>
+
+
 
   <script>
     var state2 = false;
@@ -106,10 +122,13 @@
       function myFunc() {
         for (var i = 0; i < name2.listaId.length; i++) {
           if(this.id == name2.listaId[i].id){
-            //Mostrar información en globo de texto
-            alert(name2.listaId[i].estado);
+            var información = document.getElementById("elpopover");
+            información.innerHTML = name2.listaId[i].estado;
           }
         }
+        
+
+        
       }
 
       //Declaración de las capas del frente Torre1
@@ -183,6 +202,9 @@
 
     });
   </script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
   <!--<svg></svg> -->
 </body>
 
