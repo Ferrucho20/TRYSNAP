@@ -12,28 +12,25 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <script>
-    fetch('/api/sqlserver/JDEVTAS/getPlano', {
+    fetch('/api/', {
       method: 'GET',
       mode: 'cors',
       headers: {
-        'Access-Control-Allow-Credentials': true,
-        'Access-Control-Allow-Origin': '*',
-        'Access-Control-Allow-Methods': 'GET',
-        'Access-Control-Allow-Headers': 'application/json',
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
       },
-    }).then((response) => {
-      return response.json();
-    }).then((data) => {
-      console.log(data)
     })
+      .then(response => response.text())
+      .then(response => {
+        console.log(response)
+      })
       .catch(error => {
         console.error('Error:', error);
-      });;
-
+      });
   </script>
 </head>
 
-<body onbeforeunload="return getFilteredRequest()">
+<body>
   <!--<div class="container">-->
   <!-- tarjeta de convenciones-->
   <div id="mycard" class="card">
@@ -89,62 +86,92 @@
       "mensaje": "Efecty",
       "listaId": [
         {
-          "id": "L1305",
+          "id": "L0105",
           "color": "#A0C0F8",
           "estado": "vendido mes actual"
         },
         {
-          "id": "L1009",
+          "id": "L0209",
           "color": "#7EABFA",
           "estado": "vendido"
         },
         {
-          "id": "L1414",
+          "id": "L0314",
           "color": "#F9F511",
           "estado": "opcionado"
         },
         {
-          "id": "L1406",
+          "id": "L0406",
           "color": "#1AED0C",
           "estado": "en sala(venta)"
         },
         {
-          "id": "L1908",
+          "id": "L0508",
           "color": "#FFFFFF",
           "estado": "por lanzar"
         },
         {
-          "id": "L1108",
+          "id": "L0608",
           "color": "#00244D",
           "estado": "Escriturado"
         },
         {
-          "id": "L0302",
+          "id": "L0702",
           "color": "#A0C0F8",
           "estado": "vendido mes actual"
         },
         {
-          "id": "L1108",
+          "id": "L0808",
           "color": "#7EABFA",
           "estado": "vendido"
         },
         {
-          "id": "L1313",
+          "id": "L0913",
           "color": "#F9F511",
           "estado": "opcionado"
         },
         {
-          "id": "L1305",
+          "id": "L1005",
           "color": "#1AED0C",
           "estado": "en sala(venta)"
         },
         {
-          "id": "L1801",
+          "id": "L1101",
           "color": "#FFFFFF",
           "estado": "por lanzar"
         },
         {
-          "id": "L1002",
+          "id": "L1202",
+          "color": "#00244D",
+          "estado": "Escriturado"
+        },
+        {
+          "id": "L1302",
+          "color": "#A0C0F8",
+          "estado": "vendido mes actual"
+        },
+        {
+          "id": "L1408",
+          "color": "#7EABFA",
+          "estado": "vendido"
+        },
+        {
+          "id": "L1513",
+          "color": "#F9F511",
+          "estado": "opcionado"
+        },
+        {
+          "id": "L1605",
+          "color": "#1AED0C",
+          "estado": "en sala(venta)"
+        },
+        {
+          "id": "L1701",
+          "color": "#FFFFFF",
+          "estado": "por lanzar"
+        },
+        {
+          "id": "L1802",
           "color": "#00244D",
           "estado": "Escriturado"
         }
