@@ -7,45 +7,80 @@
   <link rel="stylesheet" type="text/css" href="/style.css" />
   <title>snap.svg</title>
   <script src="/snap.svg.js"></script>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <script>
+    fetch('https://68.183.64.28:10100/api/sqlserver/JDEVTAS/getPlano', {
+      method: 'GET',
+      mode: 'cors',
+      headers: {
+        'Access-Control-Allow-Credentials' : true,
+    'Access-Control-Allow-Origin':'*',
+    'Access-Control-Allow-Methods':'GET',
+    'Access-Control-Allow-Headers':'application/json',
+      },
+    }).then((response) => {
+      return response.json();
+    }).then((response) => {
+      console.log(response)
+    });
+
+  </script>
 </head>
 
-<body>
+<body onbeforeunload="return getFilteredRequest()">
   <!--<div class="container">-->
-    <!-- tarjeta de convenciones-->
-    <div id="mycard" class="card">
-      <div class="card-body" id="card-body" >
-        <h6 class="card-title">
-          <strong>Información Estado apartamentos:</strong> 
-        </h6>
-        <hr id="line">
-      </div>
-      <p class="card-text">
-        <p id="elpopover">POR LANZAR #FFFFFF</p>
-        <p id="elpopover">EN SALA #1AED0C</p>
-        <p id="elpopover">OPCIONADO #F9F511</p>
-        <p id="elpopover">VENDIDO #7EABFA</p>
-        <p id="elpopover">VENDIDO MES ACTUAL #A0C0F8</p>
-        <p id="elpopover">ESCRITURADO #00244D</p>
-      </p>
+  <!-- tarjeta de convenciones-->
+  <div id="mycard" class="card">
+    <div class="card-body" id="card-body">
+      <h6 class="card-title">
+        <strong>Información Estado apartamentos:</strong>
+      </h6>
+      <hr id="line">
     </div>
-    
-   <!-- </div>-->
 
-    <!--plano svg-->
-    <figure id="plano">
-          <object style="height: 100%; width: 60%;"  id="svg"></object>
-    </figure>
+    <p class="card-text">
+    <p id="elpopover">POR LANZAR
+    <div class="square"></div>
+    </p>
+    <p id="elpopover">EN SALA
+    <div class="square1"></div>
+    </p>
+    <p id="elpopover">OPCIONADO
+    <div class="square2"></div>
+    </p>
+    <p id="elpopover">VENDIDO
+    <div class="square3"></div>
+    </p>
+    <p id="elpopover">VENDIDO MES ACTUAL
+    <div class="square4"></div>
+    </p>
+    <p id="elpopover">ESCRITURADO
+    <div class="square5"></div>
+    </p>
+    </p>
+  </div>
+
+  <!-- </div>-->
+
+  <!--plano svg-->
+  <figure id="plano">
+    <object style="height: 100%; width: 60%;" id="svg"></object>
+  </figure>
   <script>
     var state2 = false;
     var torre1 = true;
     var s = Snap("#svg");
     //Archivo de diseño del plano 
     var name = "/LA FLORA 20-07-10 (1).svg";
-
+    //const name3 = {};
     //archivo Json de la consulta por servicio Rest
     //Consumir dependencia axios, consumo web rest
+
+
+
     var name2 = {
       "estado": "Aprovado [A]",
       "mensaje": "Efecty",
@@ -113,6 +148,10 @@
       ]
     };
 
+
+
+
+
     //Carga del plano usando Snap
     var fragment = Snap.load(name, (data) => {
       //Asignación de colores a los apartamentos por estado 
@@ -136,12 +175,12 @@
       }*/
       function myFunc() {
         for (var i = 0; i < name2.listaId.length; i++) {
-          if(this.id == name2.listaId[i].id){
+          if (this.id == name2.listaId[i].id) {
             var pru = document.createElement("button");
             document.body.appendChild(pru);
-        } 
+          }
+        }
       }
-    }
 
       //Declaración de las capas del frente Torre1
       var frenteTorre1 = document.getElementById("layer5");
@@ -214,9 +253,15 @@
 
     });
   </script>
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
   <!--<svg></svg> -->
 </body>
 

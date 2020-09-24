@@ -6,6 +6,68 @@
   visibility: hidden;
 }
 
+.square {
+  height: 20px;
+  width: 20px;
+  background-color: #1AED0C;
+  margin: auto;
+  position: relative;
+  left: 70px;
+  right: 0px;
+  bottom: 40px;
+}
+.square1 {
+  height: 20px;
+  width: 20px;
+  background-color: #1AED0C;
+  margin: auto;
+  position: relative;
+  left: 70px;
+  right: 0px;
+  bottom: 40px;
+}
+.square2 {
+  height: 20px;
+  width: 20px;
+  background-color: #F9F511;
+  margin: auto;
+  position: relative;
+  left: 70px;
+  right: 0px;
+  bottom: 40px;
+}
+.square3 {
+  height: 20px;
+  width: 20px;
+  background-color: #7EABFA;
+  margin: auto;
+  position: relative;
+  left: 70px;
+  right: 0px;
+  bottom: 40px;
+}
+.square4 {
+  height: 20px;
+  width: 20px;
+  background-color: #A0C0F8;
+  margin: auto;
+  position: relative;
+  left: 70px;
+  right: 0px;
+  bottom: 40px;
+}
+.square5 {
+  height: 20px;
+  width: 20px;
+  background-color: #00244D;
+  margin: auto;
+  position: relative;
+  left: 70px;
+  right: 0px;
+  bottom: 40px;
+}
+
+
 #svg10{
   width: 790px;
   height: 400px;
