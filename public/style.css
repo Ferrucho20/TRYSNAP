@@ -6,9 +6,74 @@
   visibility: hidden;
 }
 
+<<<<<<< HEAD
 path:hover {
   fill: #c5351c;
 }
+=======
+.square {
+  height: 20px;
+  width: 20px;
+  background-color: #FFFFFF;
+  margin: auto;
+  position: relative;
+  left: 70px;
+  right: 0px;
+  bottom: 40px;
+}
+.square1 {
+  height: 20px;
+  width: 20px;
+  background-color: #1AED0C;
+  margin: auto;
+  position: relative;
+  left: 70px;
+  right: 0px;
+  bottom: 40px;
+}
+.square2 {
+  height: 20px;
+  width: 20px;
+  background-color: #F9F511;
+  margin: auto;
+  position: relative;
+  left: 70px;
+  right: 0px;
+  bottom: 40px;
+}
+.square3 {
+  height: 20px;
+  width: 20px;
+  background-color: #7EABFA;
+  margin: auto;
+  position: relative;
+  left: 70px;
+  right: 0px;
+  bottom: 40px;
+}
+.square4 {
+  height: 20px;
+  width: 20px;
+  background-color: #A0C0F8;
+  margin: auto;
+  position: relative;
+  left: 70px;
+  right: 0px;
+  bottom: 40px;
+}
+.square5 {
+  height: 20px;
+  width: 20px;
+  background-color: #00244D;
+  margin: auto;
+  position: relative;
+  left: 70px;
+  right: 0px;
+  bottom: 40px;
+}
+
+
+>>>>>>> cd29593a658a5d8e986a89d0d44d0540435c9666
 #svg10{
   width: 790px;
   height: 400px;
