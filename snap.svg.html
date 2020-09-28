@@ -206,6 +206,14 @@
               //document.getElementById(name2.listaId[i].id).onmouseout = function() {mouseOut()};
               apto.addEventListener('mouseover', myFunc, false);
             }
+            function myFunc() {
+              for (var i = 0; i < response.dataList.length; i++) {
+                if (this.id == response.listaId[i].id) {
+                  var pru = document.createElement("button");
+                  document.body.appendChild(pru);
+                }
+              }
+            }
             console.log("name3 res + " + name3)
           })
           .catch(error => {
@@ -225,14 +233,7 @@
         } 
       }
       }*/
-      function myFunc() {
-        for (var i = 0; i < name3.dataList.length; i++) {
-          if (this.id == name3.listaId[i].id) {
-            var pru = document.createElement("button");
-            document.body.appendChild(pru);
-          }
-        }
-      }
+
 
       //Declaración de las capas del frente Torre1
       var frenteTorre1 = document.getElementById("layer5");
