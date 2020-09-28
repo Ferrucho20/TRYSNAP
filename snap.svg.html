@@ -185,7 +185,7 @@
       s.append(data);
       console.log("name3 == " + name3)
 
-      const  respuesta = await fetch('/api/api/sqlserver/JDEVTAS/getPlano', {
+      async const respuesta  = await fetch('/api/api/sqlserver/JDEVTAS/getPlano', {
           method: 'GET',
           mode: 'cors',
           headers: {
