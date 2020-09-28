@@ -176,8 +176,8 @@
           "estado": "Escriturado"
         }
       ]
-    };   
-      
+    };
+
 
     //Carga del plano usando Snap
     var fragment = Snap.load(name, (data) => {
@@ -185,8 +185,8 @@
       s.append(data);
       console.log("name3 == " + name3)
 
-      async function datos(){
-        const respuesta  = await fetch('/api/api/sqlserver/JDEVTAS/getPlano', {
+      async function datos() {
+        const respuesta = await fetch('/api/api/sqlserver/JDEVTAS/getPlano', {
           method: 'GET',
           mode: 'cors',
           headers: {
@@ -198,24 +198,25 @@
           .then(response => {
             console.log(response)
             name3 = JSON.stringify(response)
-            console.log("name3 res + "+ name3)
+            for (var i = 0; i < name3.dataList.length; i++) {
+              var apto = document.getElementById(name2.listaId[i].CodLot);
+              apto.style.fill = name2.listaId[i].color;
+              apto.style.opacity = "0.7";
+              //document.getElementById(name2.listaId[i].id).onmouseover = function() {mouseOver()};
+              //document.getElementById(name2.listaId[i].id).onmouseout = function() {mouseOut()};
+              apto.addEventListener('mouseover', myFunc, false);
+            }
+            console.log("name3 res + " + name3)
           })
           .catch(error => {
             console.error('Error:', error);
           });
       }
-      
+
       datos()
       console.log("name3 response = " + name3)
 
-      for (var i = 0; i < name3.dataList.length; i++) {
-        var apto = document.getElementById(name2.listaId[i].CodLot);
-        apto.style.fill = name2.listaId[i].color;
-        apto.style.opacity = "0.7";
-        //document.getElementById(name2.listaId[i].id).onmouseover = function() {mouseOver()};
-        //document.getElementById(name2.listaId[i].id).onmouseout = function() {mouseOut()};
-        apto.addEventListener('mouseover', myFunc, false);
-      }
+
       /*function mouseOver(){
         for (var i = 0; i < name2.listaId.length; i++) {
           if(this.id == name2.listaId[i].id){
