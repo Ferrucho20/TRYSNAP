@@ -181,21 +181,7 @@
     function assingData(data) {
       name3 = data
     }
-
-
-
-
-
-    //Carga del plano usando Snap
-    var fragment = Snap.load(name, (data) => {
-      //Asignación de colores a los apartamentos por estado 
-      s.append(data);
-      console.log("name3 == " + name3)
-
-
-
-
-      async function funcionAsincrona() {
+    async function funcionAsincrona() {
         const  respuesta = await fetch('/api/api/sqlserver/JDEVTAS/getPlano', {
           method: 'GET',
           mode: 'cors',
@@ -214,8 +200,23 @@
           });
       }
 
-      funcionAsincrona()
+      await funcionAsincrona()
       console.log("name3 == " + name3)
+
+
+
+
+    //Carga del plano usando Snap
+    var fragment = Snap.load(name, (data) => {
+      //Asignación de colores a los apartamentos por estado 
+      s.append(data);
+      console.log("name3 == " + name3)
+      funcionAsincrona()
+
+
+
+
+      
 
       for (var i = 0; i < name2.listaId.length; i++) {
         var apto = document.getElementById(name2.listaId[i].id);
