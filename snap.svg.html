@@ -191,24 +191,28 @@
       //Asignación de colores a los apartamentos por estado 
       s.append(data);
       console.log("name3 == " + name3)
-      fetch('/api/api/sqlserver/JDEVTAS/getPlano', {
-        method: 'GET',
-        mode: 'cors',
-        headers: {
-          'Content-Type': 'application/json',
-          'Accept': 'application/json'
-        },
-      })
-        .then(response => response.text())
-        .then(response => {
-          console.log(response)
-          name3 = response
-        })
-        .catch(error => {
-          console.error('Error:', error);
-        });
-        console.log("name3 == " + name3)
 
+
+
+
+      async function funcionAsincrona(url) {
+        const  respuesta = await fetch('/api/api/sqlserver/JDEVTAS/getPlano', {
+          method: 'GET',
+          mode: 'cors',
+          headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json'
+          },
+        })
+          .then(response => response.text())
+          .then(response => {
+            console.log(response)
+            data3 = response
+          })
+          .catch(error => {
+            console.error('Error:', error);
+          });
+      }
 
       for (var i = 0; i < name2.listaId.length; i++) {
         var apto = document.getElementById(name2.listaId[i].id);
