@@ -12,38 +12,40 @@
 </head>
 
 <body>
-  <!--<div class="container">-->
-    <!-- tarjeta de convenciones-->
-    <div id="mycard" class="card">
-      <div class="card-body" id="card-body" >
-        <h6 class="card-title">
-          <strong>Información Estado apartamentos:</strong> 
-        </h6>
-        <hr id="line">
-      </div>
-      <p class="card-text">
-        <p id="elpopover">POR LANZAR #FFFFFF</p>
-        <p id="elpopover">EN SALA #1AED0C</p>
-        <p id="elpopover">OPCIONADO #F9F511</p>
-        <p id="elpopover">VENDIDO #7EABFA</p>
-        <p id="elpopover">VENDIDO MES ACTUAL #A0C0F8</p>
-        <p id="elpopover">ESCRITURADO #00244D</p>
-      </p>
+  <div class="container">
+    <div class="row">
+        <div data-toggle="tooltip" title="Info apto" id="mycard1" class="card">
+              <h4>INFO</h4>
+        </div>
+            <!-- tarjeta de convenciones-->
+        <div data-toggle="tooltip" title="Convención colores" id="mycard" class="card">
+            <div class="card-body" id="card-body" >
+                <p id="elpopover"> <small>por lanzar</small> <span id="pro" class="badge badge-primary"> <div></div></span></p>
+                <p id="elpopover"> <small>en sala</small>  <span id="pro1" class="badge badge-secondary"> <div></div></span></p> <!--#1AED0C-->
+                <p id="elpopover"> <small>opcionado</small> <span id="pro2" class="badge badge-success"> <div></div> </span></p> <!--#F9F511-->
+                <p id="elpopover"> <small>vendido</small> <span id="pro3" class="badge badge-danger"><div></div> </span></p><!--#7EABFA-->
+                <p id="elpopover"><small>v mes actual</small> <span id="pro4" class="badge badge-warning"> <div></div> </span></p> <!--#A0C0F8-->
+                <p id="elpopover"> <small>Escriturado</small> <span id="pro5" class="badge badge-info"> <div></div> </span></p> <!--#00244D-->
+            </div>
+          </div>
+      <!--plano svg-->
+      <div class="row">
+        <figure id="plano" >
+          <div id="tooltipL2013" data-toggle="tooltip" title="info estado apto" style="background-color: beige;" >Info tooltip <br> info apto <br> Infotooltip <br> info apto <br> Infotooltip <br> info apto </div>
+              <object style="height: 100%; width: 60%;"  id="svg" >
+                <!--<div id="tooltipL2013" data-toggle="tooltip" title="info apto" style="background-color: beige;" >apto2013</div>-->
+              </object>
+        </figure>
+      </div>  
     </div>
-    
-   <!-- </div>-->
+  </div>
 
-    <!--plano svg-->
-    <figure id="plano">
-          <object style="height: 100%; width: 60%;"  id="svg"></object>
-    </figure>
   <script>
     var state2 = false;
     var torre1 = true;
     var s = Snap("#svg");
     //Archivo de diseño del plano 
     var name = "/LA FLORA 20-07-10 (1).svg";
-
     //archivo Json de la consulta por servicio Rest
     //Consumir dependencia axios, consumo web rest
     var name2 = {
@@ -117,28 +119,27 @@
     var fragment = Snap.load(name, (data) => {
       //Asignación de colores a los apartamentos por estado 
       s.append(data);
-
       for (var i = 0; i < name2.listaId.length; i++) {
         var apto = document.getElementById(name2.listaId[i].id);
         apto.style.fill = name2.listaId[i].color;
         apto.style.opacity = "0.7";
-        //document.getElementById(name2.listaId[i].id).onmouseover = function() {mouseOver()};
-        //document.getElementById(name2.listaId[i].id).onmouseout = function() {mouseOut()};
         apto.addEventListener('mouseover', myFunc, false);
       }
-      /*function mouseOver(){
-        for (var i = 0; i < name2.listaId.length; i++) {
-          if(this.id == name2.listaId[i].id){
-            var pru = document.createElement("button");
-            document.body.appendChild(pru);
-        } 
-      }
-      }*/
       function myFunc() {
         for (var i = 0; i < name2.listaId.length; i++) {
           if(this.id == name2.listaId[i].id){
-            var pru = document.createElement("button");
-            document.body.appendChild(pru);
+            $(function () {
+              $('[data-toggle="tooltip"]').tooltip()
+            });
+            var id = document.getElementById(name2.listaId[i].id);
+            console.log(id);
+            var eltitle = document.createElement("TITLE");
+            eltitle.setAttribute("id","mititle")
+            id.append(eltitle);
+            var prox = document.getElementById("mititle");
+            prox.innerHTML = "info tooltips";
+            document.getElementById("mycard1").innerHTML = "id: "+name2.listaId[i].id+" <br> estado: "+name2.listaId[i].estado;
+            //document.getElementById("mititle").innerHTML = this.id;
         } 
       }
     }

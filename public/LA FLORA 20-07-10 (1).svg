@@ -1940,14 +1940,17 @@
        d="m 233.28905,47.836674 -5.54515,5.73101 -3.16555,-0.43966 -2.55003,2.46209 -20.73763,-4.37018 v 3.90501 l 20.73763,4.37018 2.55003,-2.46209 3.16555,0.43966 5.54515,-5.73101 z"
        id="L1801"
        inkscape:connector-curvature="0"
-       inkscape:label="#path1414-1-2" />
+       inkscape:label="#path1414-1-2" /> <title>sasas</title> 
+    <g>   
     <path
        style="display:inline;opacity:0.2;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 233.33302,44.547188 -8.69427,-1.94663 -2.40144,2.467935 -2.67109,-0.593808 -0.0879,-1.582776 -10.90941,-2.195134 -7.14629,7.497469 -0.1319,3.02569 20.73763,4.37018 2.55003,-2.46209 3.16555,0.43966 5.54515,-5.73101 z"
        id="L1901"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccccccc"
-       inkscape:label="#path1414-7-97" />
+       inkscape:label="#path1414-7-97"/>
+       <title id="mititle">sssssss</title>
+       </g>
     <ellipse
        style="display:inline;opacity:0.2;vector-effect:none;fill:#000080;fill-opacity:1;stroke:#000700;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="L_ADM_TORRE_01_1"
@@ -1963,5 +1966,7 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc"
        inkscape:label="#path1822" />
+      
   </g>
+  
 </svg>
