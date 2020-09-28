@@ -208,7 +208,7 @@
             }
             function myFunc() {
               for (var i = 0; i < response.dataList.length; i++) {
-                if (this.id == response.listaId[i].id) {
+                if (this.id == response.dataList[i].CodLot) {
                   var pru = document.createElement("button");
                   document.body.appendChild(pru);
                 }
