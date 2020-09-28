@@ -31,7 +31,7 @@
 </head>
 
 <body>
-  <<<<<<< HEAD <div class="container">
+  <div class="container">
     <div class="row">
       <div data-toggle="tooltip" title="Info apto" id="mycard1" class="card">
         <h4>INFO</h4>
@@ -67,170 +67,169 @@
       <!--plano svg-->
       <div class="row">
         <figure id="plano">
-          <div id="tooltipL2013" data-toggle="tooltip" title="info estado apto" style="background-color: beige;">Info
-            tooltip <br> info apto <br> Infotooltip <br> info apto <br> Infotooltip <br> info apto </div>
+
           <object style="height: 100%; width: 60%;" id="svg">
             <!--<div id="tooltipL2013" data-toggle="tooltip" title="info apto" style="background-color: beige;" >apto2013</div>-->
           </object>
         </figure>
       </div>
     </div>
-    </div>
-    <script>
-      var state2 = false;
-      var torre1 = true;
-      var s = Snap("#svg");
-      //Archivo de diseño del plano 
-      var name = "/LA FLORA 20-07-10 (1).svg";
-      var name3 = {}
-      //archivo Json de la consulta por servicio Rest
-      //Consumir dependencia axios, consumo web rest
-      //Carga del plano usando Snap
-      var fragment = Snap.load(name, (data) => {
-        //Asignación de colores a los apartamentos por estado 
-        s.append(data);
-        console.log("name3 == " + name3)
+  </div>
+  <script>
+    var state2 = false;
+    var torre1 = true;
+    var s = Snap("#svg");
+    //Archivo de diseño del plano 
+    var name = "/LA FLORA 20-07-10 (1).svg";
+    var name3 = {}
+    //archivo Json de la consulta por servicio Rest
+    //Consumir dependencia axios, consumo web rest
+    //Carga del plano usando Snap
+    var fragment = Snap.load(name, (data) => {
+      //Asignación de colores a los apartamentos por estado 
+      s.append(data);
+      console.log("name3 == " + name3)
 
-        async function datos() {
-          const respuesta = await fetch('/api/api/sqlserver/JDEVTAS/getPlano', {
-            method: 'GET',
-            mode: 'cors',
-            headers: {
-              'Content-Type': 'application/json',
-              'Accept': 'application/json'
-            },
-          })
-            .then(response => response.json())
-            .then(response => {
-              console.log(response)
-              name3 = JSON.stringify(response)
-              for (var i = 0; i < response.dataList.length; i++) {
-                var apto = document.getElementById(response.dataList[i].CodLot);
-                apto.style.fill = response.dataList[i].EtqClr;
-                apto.style.opacity = "0.7";
-                //document.getElementById(name2.listaId[i].id).onmouseover = function() {mouseOver()};
-                //document.getElementById(name2.listaId[i].id).onmouseout = function() {mouseOut()};
-                apto.addEventListener('mouseover', myFunc, false);
-              }
-              function myFunc() {
-                for (var i = 0; i < name2.listaId.length; i++) {
-                  if (this.id == name2.listaId[i].id) {
-                    $(function () {
-                      $('[data-toggle="tooltip"]').tooltip()
-                    });
-                    var id = document.getElementById(name2.listaId[i].id);
-                    console.log(id);
-                    var eltitle = document.createElement("TITLE");
-                    eltitle.setAttribute("id", "mititle")
-                    id.append(eltitle);
-                    var prox = document.getElementById("mititle");
-                    prox.innerHTML = "info tooltips";
-                    document.getElementById("mycard1").innerHTML = "id: " + name2.listaId[i].id + " <br> estado: " + name2.listaId[i].estado;
-                    //document.getElementById("mititle").innerHTML = this.id;
-                  }
+      async function datos() {
+        const respuesta = await fetch('/api/api/sqlserver/JDEVTAS/getPlano', {
+          method: 'GET',
+          mode: 'cors',
+          headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json'
+          },
+        })
+          .then(response => response.json())
+          .then(response => {
+            console.log(response)
+            name3 = JSON.stringify(response)
+            for (var i = 0; i < response.dataList.length; i++) {
+              var apto = document.getElementById(response.dataList[i].CodLot);
+              apto.style.fill = response.dataList[i].EtqClr;
+              apto.style.opacity = "0.7";
+              //document.getElementById(name2.listaId[i].id).onmouseover = function() {mouseOver()};
+              //document.getElementById(name2.listaId[i].id).onmouseout = function() {mouseOut()};
+              apto.addEventListener('mouseover', myFunc, false);
+            }
+            function myFunc() {
+              for (var i = 0; i < name2.listaId.length; i++) {
+                if (this.id == name2.listaId[i].id) {
+                  $(function () {
+                    $('[data-toggle="tooltip"]').tooltip()
+                  });
+                  var id = document.getElementById(name2.listaId[i].id);
+                  console.log(id);
+                  var eltitle = document.createElement("TITLE");
+                  eltitle.setAttribute("id", "mititle")
+                  id.append(eltitle);
+                  var prox = document.getElementById("mititle");
+                  prox.innerHTML = "info tooltips";
+                  document.getElementById("mycard1").innerHTML = "id: " + name2.listaId[i].id + " <br> estado: " + name2.listaId[i].estado;
+                  //document.getElementById("mititle").innerHTML = this.id;
                 }
               }
-              console.log("name3 res + " + name3)
-            })
-            .catch(error => {
-              console.error('Error:', error);
-            });
-        }
+            }
+            console.log("name3 res + " + name3)
+          })
+          .catch(error => {
+            console.error('Error:', error);
+          });
+      }
 
-        datos()
-        console.log("name3 response = " + name3)
+      datos()
+      console.log("name3 response = " + name3)
 
 
-        /*function mouseOver(){
-          for (var i = 0; i < name2.listaId.length; i++) {
-            if(this.id == name2.listaId[i].id){
-              var pru = document.createElement("button");
-              document.body.appendChild(pru);
-          } 
-        }
-        }*/
+      /*function mouseOver(){
+        for (var i = 0; i < name2.listaId.length; i++) {
+          if(this.id == name2.listaId[i].id){
+            var pru = document.createElement("button");
+            document.body.appendChild(pru);
+        } 
+      }
+      }*/
 
-        //Declaración de las capas del frente Torre1
-        var frenteTorre1 = document.getElementById("layer5");
-        var vistaFrenteTorre1 = document.getElementById("layer6");
+      //Declaración de las capas del frente Torre1
+      var frenteTorre1 = document.getElementById("layer5");
+      var vistaFrenteTorre1 = document.getElementById("layer6");
 
-        //función para remover las 2 capas del Frente Torre1
-        const handleButtonClickFrenteTorre1Hide = () => {
+      //función para remover las 2 capas del Frente Torre1
+      const handleButtonClickFrenteTorre1Hide = () => {
 
-          frenteTorre1.style.visibility = "hidden"
-          vistaFrenteTorre1.style.visibility = "hidden"
+        frenteTorre1.style.visibility = "hidden"
+        vistaFrenteTorre1.style.visibility = "hidden"
 
-          //frenteTorre1.remove()
-          //vistaFrenteTorre1.remove()
-          torre1 = false;
-        };
-        //función para mostrar las 2 capas del Frente Torre1
-        const handleButtonClickFrenteTorre1Show = () => {
+        //frenteTorre1.remove()
+        //vistaFrenteTorre1.remove()
+        torre1 = false;
+      };
+      //función para mostrar las 2 capas del Frente Torre1
+      const handleButtonClickFrenteTorre1Show = () => {
 
-          frenteTorre1.style.visibility = "visible"
-          vistaFrenteTorre1.style.visibility = "visible"
+        frenteTorre1.style.visibility = "visible"
+        vistaFrenteTorre1.style.visibility = "visible"
 
-          //s.append(frenteTorre1)
-          //s.append(vistaFrenteTorre1)
-          torre1 = true
-        };
+        //s.append(frenteTorre1)
+        //s.append(vistaFrenteTorre1)
+        torre1 = true
+      };
 
-        //Asignación del botón respecto a la base Torre 1
-        var buttonBaseTorre1 = document.getElementById("L_ADM_TORRE_01_0");
-        buttonBaseTorre1.onclick = handleButtonClickFrenteTorre1Show;
+      //Asignación del botón respecto a la base Torre 1
+      var buttonBaseTorre1 = document.getElementById("L_ADM_TORRE_01_0");
+      buttonBaseTorre1.onclick = handleButtonClickFrenteTorre1Show;
 
-        //Asignación del botón respecto al frente Torre 1
-        var buttonFrenteTorre1 = document.getElementById("L_ADM_TORRE_01_1");
-        buttonFrenteTorre1.onclick = handleButtonClickFrenteTorre1Hide;
+      //Asignación del botón respecto al frente Torre 1
+      var buttonFrenteTorre1 = document.getElementById("L_ADM_TORRE_01_1");
+      buttonFrenteTorre1.onclick = handleButtonClickFrenteTorre1Hide;
 
-        //Declaración de las capas del frente Torre2
-        var frenteTorre2 = document.getElementById("layer3");
-        var vistaFrenteTorre2 = document.getElementById("layer4");
+      //Declaración de las capas del frente Torre2
+      var frenteTorre2 = document.getElementById("layer3");
+      var vistaFrenteTorre2 = document.getElementById("layer4");
 
-        //función para mostrar las 2 capas del Frente Torre2
-        const handleButtonClickFrenteTorre2Show = () => {
+      //función para mostrar las 2 capas del Frente Torre2
+      const handleButtonClickFrenteTorre2Show = () => {
 
-          frenteTorre2.style.visibility = "visible"
-          vistaFrenteTorre2.style.visibility = "visible"
-          //s.append(frenteTorre2)
-          //s.append(vistaFrenteTorre2)
-          //validación de la superposición con el frente Torre1
-          //if (torre1) {
+        frenteTorre2.style.visibility = "visible"
+        vistaFrenteTorre2.style.visibility = "visible"
+        //s.append(frenteTorre2)
+        //s.append(vistaFrenteTorre2)
+        //validación de la superposición con el frente Torre1
+        //if (torre1) {
 
-          //  s.append(frenteTorre1)
-          //  s.append(vistaFrenteTorre1)
-          //}
-        };
-        //función para remover las 2 capas del Frente Torre2
-        const handleButtonClickFrenteTorre2Hide = () => {
+        //  s.append(frenteTorre1)
+        //  s.append(vistaFrenteTorre1)
+        //}
+      };
+      //función para remover las 2 capas del Frente Torre2
+      const handleButtonClickFrenteTorre2Hide = () => {
 
-          frenteTorre2.style.visibility = "hidden"
-          vistaFrenteTorre2.style.visibility = "hidden"
+        frenteTorre2.style.visibility = "hidden"
+        vistaFrenteTorre2.style.visibility = "hidden"
 
-          //frenteTorre2.remove()
-          //vistaFrenteTorre2.remove()
-        };
+        //frenteTorre2.remove()
+        //vistaFrenteTorre2.remove()
+      };
 
-        //Asignación del botón respecto a la base Torre 2
-        var buttonBaseTorre2 = document.getElementById("L_ADM_TORRE_02_0");
-        buttonBaseTorre2.onclick = handleButtonClickFrenteTorre2Show;
+      //Asignación del botón respecto a la base Torre 2
+      var buttonBaseTorre2 = document.getElementById("L_ADM_TORRE_02_0");
+      buttonBaseTorre2.onclick = handleButtonClickFrenteTorre2Show;
 
-        //Asignación del botón respecto al frente Torre 2
-        var buttonFrenteTorre2 = document.getElementById("L_ADM_TORRE_02_1");
-        buttonFrenteTorre2.onclick = handleButtonClickFrenteTorre2Hide;
+      //Asignación del botón respecto al frente Torre 2
+      var buttonFrenteTorre2 = document.getElementById("L_ADM_TORRE_02_1");
+      buttonFrenteTorre2.onclick = handleButtonClickFrenteTorre2Hide;
 
-      });
-    </script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-      crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-      crossorigin="anonymous"></script>
-    <!--<svg></svg> -->
+    });
+  </script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <!--<svg></svg> -->
 </body>
 
 </html>
