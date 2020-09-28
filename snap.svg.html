@@ -176,13 +176,16 @@
           "estado": "Escriturado"
         }
       ]
-    };
+    };   
+      
 
-    function assingData(data) {
-      name3 = data
-    }
-    async function funcionAsincrona() {
-        const  respuesta = await fetch('/api/api/sqlserver/JDEVTAS/getPlano', {
+    //Carga del plano usando Snap
+    var fragment = Snap.load(name, (data) => {
+      //Asignación de colores a los apartamentos por estado 
+      s.append(data);
+      console.log("name3 == " + name3)
+
+      const  respuesta = await fetch('/api/api/sqlserver/JDEVTAS/getPlano', {
           method: 'GET',
           mode: 'cors',
           headers: {
@@ -198,23 +201,8 @@
           .catch(error => {
             console.error('Error:', error);
           });
-      }
 
-      await funcionAsincrona()
-      console.log("name3 == " + name3)
-
-
-
-
-    //Carga del plano usando Snap
-    var fragment = Snap.load(name, (data) => {
-      //Asignación de colores a los apartamentos por estado 
-      s.append(data);
-      console.log("name3 == " + name3)
-      funcionAsincrona()
-
-
-
+          console.log("respuesta:" + respuesta)
 
       
 
