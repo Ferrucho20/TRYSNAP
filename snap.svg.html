@@ -197,7 +197,7 @@
           .then(response => response.json())
           .then(response => {
             console.log(response)
-            respu = response
+            respu = JSON.stringify(response)
             console.log("respu + "+ respu)
           })
           .catch(error => {
