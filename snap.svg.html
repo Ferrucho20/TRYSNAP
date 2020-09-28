@@ -23,6 +23,7 @@
       .then(response => response.text())
       .then(response => {
         console.log(response)
+        const name3 = response
       })
       .catch(error => {
         console.error('Error:', error);
@@ -186,7 +187,7 @@
     var fragment = Snap.load(name, (data) => {
       //Asignación de colores a los apartamentos por estado 
       s.append(data);
-
+      console.log("name3 == "+ name3)
       for (var i = 0; i < name2.listaId.length; i++) {
         var apto = document.getElementById(name2.listaId[i].id);
         apto.style.fill = name2.listaId[i].color;
