@@ -185,7 +185,6 @@
       console.log("name3 == " + name3)
 
       async function datos(){
-        var respu = {};
         const respuesta  = await fetch('/api/api/sqlserver/JDEVTAS/getPlano', {
           method: 'GET',
           mode: 'cors',
@@ -197,16 +196,15 @@
           .then(response => response.json())
           .then(response => {
             console.log(response)
-            respu = JSON.stringify(response)
-            console.log("respu + "+ respu)
+            name3 = JSON.stringify(response)
+            console.log("name3 res + "+ name3)
           })
           .catch(error => {
             console.error('Error:', error);
           });
-          return respu;
       }
       
-      var name3 = datos()
+      datos()
       console.log("name3 response = " + name3)
 
       for (var i = 0; i < name2.listaId.length; i++) {
