@@ -200,7 +200,7 @@
             name3 = JSON.stringify(response)
             for (var i = 0; i < response.dataList.length; i++) {
               var apto = document.getElementById(response.dataList[i].CodLot);
-              apto.style.fill = response.dataList[i].color;
+              apto.style.fill = response.dataList[i].EtqClr;
               apto.style.opacity = "0.7";
               //document.getElementById(name2.listaId[i].id).onmouseover = function() {mouseOver()};
               //document.getElementById(name2.listaId[i].id).onmouseout = function() {mouseOut()};
