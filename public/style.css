@@ -6,11 +6,6 @@
   visibility: hidden;
 }
 
-<<<<<<< HEAD
-path:hover {
-  fill: #c5351c;
-}
-=======
 .square {
   height: 20px;
   width: 20px;
@@ -73,7 +68,6 @@ path:hover {
 }
 
 
->>>>>>> cd29593a658a5d8e986a89d0d44d0540435c9666
 #svg10{
   width: 790px;
   height: 400px;
