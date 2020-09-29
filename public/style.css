@@ -29,6 +29,9 @@ path:hover {
   left: 70%;
   top: 100px;
   box-shadow: 10px 10px 5px rgb(188, 193, 243);
+  padding-left: 15px;
+  font-family: 'monospace', 'Arial Narrow', Arial, sans-serif;
+  
 }
 #mycard{
   width: 130px;
@@ -62,29 +65,35 @@ path:hover {
 }
 
 #pro{
-  background-color: #f59f9f;
+  background-color: #ffffff;
   color: black;
+  border: 1px solid black;
   
 }
 #pro1{
   background-color: #1AED0C;
   color: black;
+  border: 1px solid black;
 }
 #pro2{
   background-color: #F9F511;
   color: black;
+  border: 1px solid black;
 }
 #pro3{
   background-color: #365ea3 ;
   color: black;
+  border: 1px solid black;
 }
 #pro4{
   background-color: #A0C0F8;
   color: black;
+  border: 1px solid black;
 }
 #pro5{
   background-color: #00244D;
   color: white;
+  border: 1px solid black;
 }
 #tooltipL2013{
   left: auto;
