@@ -28,7 +28,7 @@ path:hover {
   height: 200px;
   left: 70%;
   top: 100px;
-  box-shadow: 10px 10px 5px rgb(188, 193, 243);
+  box-shadow: 10px 10px 5px rgb(214, 217, 245);
   padding-left: 15px;
   font-family: 'monospace', 'Arial Narrow', Arial, sans-serif;
   
@@ -44,7 +44,7 @@ path:hover {
   background-color: white;
   border-style: solid;
   border-color: black;
-  box-shadow: 10px 10px 5px grey;
+  box-shadow: 10px 10px 5px rgb(214, 217, 245);
   z-index: -1;
 }
 #card-body{
@@ -81,7 +81,7 @@ path:hover {
   border: 1px solid black;
 }
 #pro3{
-  background-color: #365ea3 ;
+  background-color: #7EABFA ;
   color: black;
   border: 1px solid black;
 }
