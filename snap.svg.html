@@ -111,19 +111,26 @@
               apto.addEventListener('mouseover', myFunc, false);
             }
             function myFunc() {
-              for (var i = 0; i < name2.listaId.length; i++) {
-                if (this.id == name2.listaId[i].id) {
+              for (var i = 0; i < response.dataList.length; i++) {
+                if (this.id == response.dataList[i].id) {
                   $(function () {
                     $('[data-toggle="tooltip"]').tooltip()
                   });
-                  var id = document.getElementById(name2.listaId[i].id);
+                  var id = document.getElementById(response.dataList[i].CodLot);
                   console.log(id);
                   var eltitle = document.createElement("TITLE");
                   eltitle.setAttribute("id", "mititle")
                   id.append(eltitle);
                   var prox = document.getElementById("mititle");
                   prox.innerHTML = "info tooltips";
-                  document.getElementById("mycard1").innerHTML = "id: " + name2.listaId[i].id + " <br> estado: " + name2.listaId[i].estado;
+                  document.getElementById("mycard1").innerHTML = " " + response.dataList[i].CodLot 
+                  + " <br> " + response.dataList[i].EtqEst
+                  + " <br> " + response.dataList[i].EtqAre
+                  + " <br> " + response.dataList[i].EtqVlm
+                  + " <br> " + response.dataList[i].EtqFev
+                  + " <br> " + response.dataList[i].EtqVlb
+                  + " <br> " + response.dataList[i].EtqNcl
+                  + " <br> " + response.dataList[i].EtqClr;
                   //document.getElementById("mititle").innerHTML = this.id;
                 }
               }
