@@ -43,9 +43,9 @@
       </div>
     </div>
   </div>
- 
+
   <div class="container">
-    
+
     <div class="row">
       <div data-toggle="tooltip" title="Info apto" id="mycard1" class="card">
         <h6>INFORMACION APARTAMENTO</h6>
@@ -131,10 +131,10 @@
           if (pal.toLowerCase() == str.toLowerCase()) {
             var node = document.createElement("ol");
             var textnode = document.createTextNode(preguntas[indice]);
-            
+
             node.appendChild(textnode);
             document.getElementById("demo").appendChild(node);
-          } 
+          }
         }
       }
     }
@@ -184,14 +184,13 @@
                   });
                   var id = document.getElementById(response.dataList[i].CodLot);
                   //Coordenadas X/Y
-                  var xCoords = event.clientX+80;
+                  var xCoords = event.clientX + 80;
                   var yCoords = event.clientY;
-                  console.log(id);
-                  //var eltitle = document.createElement("TITLE");
-                  //eltitle.setAttribute("id", "mititle")
-                  //id.append(eltitle);
-                  //var prox = document.getElementById("mititle");
-                  //prox.innerHTML = "info tooltips";
+                  //Nueva posición de las coordenadas
+                  var lacaja = document.getElementById("mycard1");
+                  lacaja.style.left = xCoords + 'px';
+                  lacaja.style.top = yCoords + 'px';
+
                   document.getElementById("mycard1").innerHTML = " " + response.dataList[i].EtqEst
                     + " <br> " + response.dataList[i].EtqAre
                     + " <br> " + response.dataList[i].EtqVlm
@@ -201,7 +200,6 @@
                   // + " <br> " + response.dataList[i].EtqClr;
                   //document.getElementById("mititle").innerHTML = this.id;
 
-                  
                 }
               }
             }
