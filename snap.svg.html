@@ -31,6 +31,10 @@
 </head>
 
 <body>
+<input type="text" id="buscar-pal" onkeyup="autocompletado()" style="border: solid 2px">
+<div>
+      <ul id="demo"></ul>
+</div>
   <div class="container">
     <div class="row">
       <div data-toggle="tooltip" title="Info apto" id="mycard1" class="card">
@@ -75,11 +79,61 @@
   <!--plano svg-->
   
   <script>
+
+//Search
+function autocompletado () {
+            document.getElementById("demo").innerHTML = '';
+
+            var preguntas = [
+                "ActionScript",
+                "AppleScript",
+                "Asp",
+                "BASIC",
+                "C",
+                "C++",
+                "Clojure",
+                "COBOL",
+                "ColdFusion",
+                "Erlang",
+                "Fortran",
+                "Groovy",
+                "Haskell",
+                "Java",
+                "JavaScript",
+                "Lisp",
+                "Perl",
+                "PHP",
+                "Python",
+                "Ruby",
+                "Scala",
+                "Scheme"
+            ];
+
+            var pal = document.getElementById("buscar-pal").value;
+            var tam = pal.length;
+            for(indice in preguntas){
+                var nombre = preguntas[indice];
+                var str = nombre.substring(0,tam);
+                if(pal.length <= nombre.length && pal.length != 0 && nombre.length != 0){
+                    if(pal.toLowerCase() == str.toLowerCase()){
+                        var node = document.createElement("LI");
+                        var textnode = document.createTextNode(preguntas[indice]);
+                        node.appendChild(textnode);
+                        document.getElementById("demo").appendChild(node);
+                    } else {
+            alert('no')
+          }
+                }
+            }
+        }
+
+
+//SVG
     var state2 = false;
     var torre1 = true;
     var s = Snap("#svg");
     //Archivo de diseño del plano 
-    var name = "/LA FLORA 20-07-10 (1).svg";
+    var name = "/LOIRA 20-09-10.svg";
     var name3 = {}
     //archivo Json de la consulta por servicio Rest
     //Consumir dependencia axios, consumo web rest
