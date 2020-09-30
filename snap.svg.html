@@ -31,14 +31,21 @@
 </head>
 
 <body>
-  <div class="col-xs-12">
-    <input type="text" id="buscar-pal" onkeyup="autocompletado()" style="border: solid 2px">
-    <div class="center-block">
-          <ul id="demo"></ul>
-    </div>
-    
+  <div class="center-block">
+
+
   </div>
+  <div class="row">
+    <div class="col text-center">
+      <input type="text" id="buscar-pal" onkeyup="autocompletado()" style="border: solid 2px; z-index: -1;">
+      <div>
+        <ul id="demo"></ul>
+      </div>
+    </div>
+  </div>
+ 
   <div class="container">
+    
     <div class="row">
       <div data-toggle="tooltip" title="Info apto" id="mycard1" class="card">
         <h6>INFORMACION APARTAMENTO</h6>
@@ -73,65 +80,67 @@
       </div>
 
     </div>
-    <div >
+    <div>
       <object style="height: 100%; width: 100%;" id="svg">
         <!--<div id="tooltipL2013" data-toggle="tooltip" title="info apto" style="background-color: beige;" >apto2013</div>-->
       </object>
     </div>
   </div>
   <!--plano svg-->
-  
+
   <script>
 
-//Search
-function autocompletado () {
-            document.getElementById("demo").innerHTML = '';
+    //Search
+    function autocompletado() {
+      document.getElementById("demo").innerHTML = '';
 
-            var preguntas = [
-                "ActionScript",
-                "AppleScript",
-                "Asp",
-                "BASIC",
-                "C",
-                "C++",
-                "Clojure",
-                "COBOL",
-                "ColdFusion",
-                "Erlang",
-                "Fortran",
-                "Groovy",
-                "Haskell",
-                "Java",
-                "JavaScript",
-                "Lisp",
-                "Perl",
-                "PHP",
-                "Python",
-                "Ruby",
-                "Scala",
-                "Scheme"
-            ];
+      var preguntas = [
+        "ActionScript",
+        "AppleScript",
+        "Asp",
+        "BASIC",
+        "C",
+        "C++",
+        "Clojure",
+        "COBOL",
+        "ColdFusion",
+        "Erlang",
+        "Fortran",
+        "Groovy",
+        "Haskell",
+        "Java",
+        "JavaScript",
+        "Lisp",
+        "Perl",
+        "PHP",
+        "Python",
+        "Ruby",
+        "Scala",
+        "Scheme",
+        "Loira",
+        "La Flora",
+        "La Flora 2"
+      ];
 
-            var pal = document.getElementById("buscar-pal").value;
-            var tam = pal.length;
-            for(indice in preguntas){
-                var nombre = preguntas[indice];
-                var str = nombre.substring(0,tam);
-                if(pal.length <= nombre.length && pal.length != 0 && nombre.length != 0){
-                    if(pal.toLowerCase() == str.toLowerCase()){
-                        var node = document.createElement("LI");
-                        var textnode = document.createTextNode(preguntas[indice]);
-                        node.appendChild(textnode);
-                        document.getElementById("demo").appendChild(node);
-                    } else {
-            alert('no')
-          }
-                }
-            }
+      var pal = document.getElementById("buscar-pal").value;
+      var tam = pal.length;
+      for (indice in preguntas) {
+        var nombre = preguntas[indice];
+        var str = nombre.substring(0, tam);
+        if (pal.length <= nombre.length && pal.length != 0 && nombre.length != 0) {
+          if (pal.toLowerCase() == str.toLowerCase()) {
+            var node = document.createElement("ol");
+            var textnode = document.createTextNode(preguntas[indice]);
+            
+            node.appendChild(textnode);
+            document.getElementById("demo").appendChild(node);
+          } 
         }
+      }
+    }
 
 
-//SVG
+    //SVG
     var state2 = false;
     var torre1 = true;
     var s = Snap("#svg");
@@ -174,20 +183,25 @@ function autocompletado () {
                     $('[data-toggle="tooltip"]').tooltip()
                   });
                   var id = document.getElementById(response.dataList[i].CodLot);
+                  //Coordenadas X/Y
+                  var xCoords = event.clientX+80;
+                  var yCoords = event.clientY;
                   console.log(id);
-                  var eltitle = document.createElement("TITLE");
-                  eltitle.setAttribute("id", "mititle")
-                  id.append(eltitle);
-                  var prox = document.getElementById("mititle");
+                  //var eltitle = document.createElement("TITLE");
+                  //eltitle.setAttribute("id", "mititle")
+                  //id.append(eltitle);
+                  //var prox = document.getElementById("mititle");
                   prox.innerHTML = "info tooltips";
-                  document.getElementById("mycard1").innerHTML = " " + response.dataList[i].EtqEst 
-                  + " <br> " + response.dataList[i].EtqAre
-                  + " <br> " + response.dataList[i].EtqVlm
-                  + " <br> " + response.dataList[i].EtqFev
-                  + " <br> " + response.dataList[i].EtqVlb
-                  + " <br> " + response.dataList[i].EtqNcl;
-                 // + " <br> " + response.dataList[i].EtqClr;
+                  document.getElementById("mycard1").innerHTML = " " + response.dataList[i].EtqEst
+                    + " <br> " + response.dataList[i].EtqAre
+                    + " <br> " + response.dataList[i].EtqVlm
+                    + " <br> " + response.dataList[i].EtqFev
+                    + " <br> " + response.dataList[i].EtqVlb
+                    + " <br> " + response.dataList[i].EtqNcl;
+                  // + " <br> " + response.dataList[i].EtqClr;
                   //document.getElementById("mititle").innerHTML = this.id;
+
+                  
                 }
               }
             }
