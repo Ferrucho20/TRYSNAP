@@ -175,6 +175,7 @@
               //document.getElementById(name2.listaId[i].id).onmouseover = function() {mouseOver()};
               //document.getElementById(name2.listaId[i].id).onmouseout = function() {mouseOut()};
               apto.addEventListener('mouseover', myFunc, false);
+              apto.addEventListener('mouseout', myFunc2, false);
             }
             function myFunc() {
               for (var i = 0; i < response.dataList.length; i++) {
@@ -190,7 +191,7 @@
                   var lacaja = document.getElementById("mycard1");
                   lacaja.style.left = xCoords + 'px';
                   lacaja.style.top = yCoords + 'px';
-
+                  lacaja.style.visibility = "visible";
                   document.getElementById("mycard1").innerHTML = " " + response.dataList[i].EtqEst
                     + " <br> " + response.dataList[i].EtqAre
                     + " <br> " + response.dataList[i].EtqVlm
@@ -200,6 +201,14 @@
                   // + " <br> " + response.dataList[i].EtqClr;
                   //document.getElementById("mititle").innerHTML = this.id;
 
+                }
+              }
+            }
+            function myFunc2() {
+              for (var i = 0; i < name2.listaId.length; i++) {
+                if (this.id !== name2.listaId[i].id) {
+                  var lacaja = document.getElementById("mycard1");
+                  lacaja.style.visibility = "hidden";
                 }
               }
             }

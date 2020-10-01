@@ -31,7 +31,7 @@ path:hover {
   box-shadow: 10px 10px 5px rgb(214, 217, 245);
   padding-left: 15px;
   font-family: 'monospace', 'Arial Narrow', Arial, sans-serif;
-  
+  visibility: hidden;
 }
 #mycard{
   width: 130px;
