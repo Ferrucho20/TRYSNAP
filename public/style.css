@@ -16,7 +16,7 @@ path:hover {
 }
 #searchBox{
   position: absolute;
-  left: 100px;
+  left: 300px;
   z-index: 1;
 }
 
