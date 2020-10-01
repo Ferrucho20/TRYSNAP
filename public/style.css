@@ -12,6 +12,11 @@ path:hover {
 #svg10{
   width: 790px;
   height: 400px;
+  z-index: -1;
+}
+#searchBox{
+  position: absolute;
+  left: 100px;
   z-index: 1;
 }
 
