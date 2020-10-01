@@ -9,6 +9,12 @@
 path:hover {
   fill: #c5351c;
 }
+
+#demo{
+  background-color: #00244D;
+  position: relative;
+}
+
 #svg10{
   width: 790px;
   height: 400px;
