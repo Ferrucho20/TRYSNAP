@@ -92,28 +92,22 @@
     function autocompletado() {
       document.getElementById("demo").innerHTML = '';
 
+      var projetos = [
+        {
+          "id": "P123434",
+          "nombre": "Loira",
+          "link": "/loira"
+        },
+        {
+          "id": "P1234",
+          "nombre": "La Flora",
+          "link": "/"
+        }
+      ]
       var preguntas = [
         "ActionScript",
         "AppleScript",
         "Asp",
-        "BASIC",
-        "C",
-        "C++",
-        "Clojure",
-        "COBOL",
-        "ColdFusion",
-        "Erlang",
-        "Fortran",
-        "Groovy",
-        "Haskell",
-        "Java",
-        "JavaScript",
-        "Lisp",
-        "Perl",
-        "PHP",
-        "Python",
-        "Ruby",
-        "Scala",
         "Scheme",
         "Loira",
         "La Flora",
@@ -122,13 +116,13 @@
 
       var pal = document.getElementById("buscar-pal").value;
       var tam = pal.length;
-      for (indice in preguntas) {
-        var nombre = preguntas[indice];
-        var str = nombre.substring(0, tam);
-        if (pal.length <= nombre.length && pal.length != 0 && nombre.length != 0) {
+      for (indice in projetos) {
+        var projecto = projetos[indice];
+        var str = projecto.nombre.substring(0, tam);
+        if (pal.length <= projecto.nombre.length && pal.length != 0 && projecto.nombre.length != 0) {
           if (pal.toLowerCase() == str.toLowerCase()) {
             var node = document.createElement("ol");
-            var textnode = document.createTextNode(preguntas[indice]);
+            var textnode = document.createTextNode(projetos[indice]);
 
             node.appendChild(textnode);
             document.getElementById("demo").appendChild(node);
