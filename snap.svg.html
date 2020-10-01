@@ -112,7 +112,7 @@
         "Loira",
         "La Flora",
         "La Flora 2"
-      ];
+      ]
 
       var pal = document.getElementById("buscar-pal").value;
       var tam = pal.length;
@@ -121,12 +121,12 @@
         var str = projecto.nombre.substring(0, tam);
         if (pal.length <= projecto.nombre.length && pal.length != 0 && projecto.nombre.length != 0) {
           if (pal.toLowerCase() == str.toLowerCase()) {
-            var node = document.createElement("ol");
-            var textnode = document.createTextNode(projetos[indice].nombre);
+            var node = document.createElement("ol")
+            //var textnode = document.createTextNode(projetos[indice].nombre);
             var link = document.createElement("a")
             link.setAttribute("href",projetos[indice].nombre)
-            
-            node.appendChild(textnode);
+            link.innerHTML = projetos[indice].nombre
+            //node.appendChild(textnode);
             node.appendChild(link)
             document.getElementById("demo").appendChild(node);
           }
