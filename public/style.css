@@ -15,7 +15,12 @@ path:hover {
   position: relative;
 }
 
-.svg10{
+#svg10{
+  width: 790px;
+  height: 400px;
+  z-index: -1;
+}
+#svg8{
   width: 790px;
   height: 400px;
   z-index: -1;
