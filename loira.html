@@ -124,10 +124,10 @@
             //var textnode = document.createTextNode(projetos[indice].nombre);
             var link = document.createElement("a")
             link.setAttribute("href",projetos[indice].nombre)
-            link.innerHTML = projetos[indice].nombre
+            link.innerHTML = projetos[indice].link
             //node.appendChild(textnode);
             node.appendChild(link)
-            document.getElementById("demo").appendChild(node);
+            document.getElementById("demo").appendChild(node)
           }
         }
       }
