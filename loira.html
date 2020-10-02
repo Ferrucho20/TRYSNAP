@@ -230,13 +230,10 @@
     var name = "/LOIRA 20-09-10.svg";
     var proyectosJson = {}
     fetch("/project.json")
-      .then(response => response.json())
+      .then(response => response.text())
       .then(function (response) {
         // The JSON data will arrive here
         console.log("objeto Json: --> :" + response)
-        
-        var cosita = JSON.parse(response)
-        console.log("cosita Json: --> :" + cosita)
       })
       .catch(function (err) {
         // If an error occured, you will catch it here
