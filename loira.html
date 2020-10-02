@@ -233,7 +233,6 @@
       .then(response => response.json())
       .then(function (response) {
         // The JSON data will arrive here
-        console.log("Respuetsa JSON -->"+ response)
         proyectosJson = response
       })
       .catch(function (err) {
@@ -247,6 +246,11 @@
       s.append(data);
 
       console.log("projectos Json: --> :" + proyectosJson)
+      for (indice in proyectosJson) {
+        indice.json()
+          console.log("imprimir objeto" + indice)
+      }
+
 
       async function datos() {
         const respuesta = await fetch('/api/api/sqlserver/JDEVTAS/getPlano', {
