@@ -10,6 +10,11 @@ path:hover {
   fill: #c5351c;
 }
 
+#planos{
+  position: relative;
+  top: 40px;
+}
+
 #demo{
   background-color: #ffffff;
   position: relative;
