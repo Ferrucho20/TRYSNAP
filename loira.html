@@ -236,18 +236,20 @@
       //función para quitar las capas del Frente y la base de la Torre1 
       const handleButtonClickBaseTorre1Show = () => {
 
-        if (frenteTorre1.style.visibility === "hidden") {
+        frenteTorre1.style.visibility = "hidden"
+          vistaFrenteTorre1.style.visibility = "hidden"
+          BaseTorre1.style.visibility = "hidden"
+          vistaBaseTorre1.style.visibility = "hidden"
 
+        if (frenteTorre1.style.visibility === "hidden") {
+          console.log("entró")
           frenteTorre1.style.visibility = "visible"
           vistaFrenteTorre1.style.visibility = "visible"
           BaseTorre1.style.visibility = "visible"
           vistaBaseTorre1.style.visibility = "visible"
         } else {
 
-          frenteTorre1.style.visibility = "hidden"
-          vistaFrenteTorre1.style.visibility = "hidden"
-          BaseTorre1.style.visibility = "hidden"
-          vistaBaseTorre1.style.visibility = "hidden"
+          
         }
 
       };
