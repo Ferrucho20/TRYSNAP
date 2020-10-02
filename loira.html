@@ -229,15 +229,18 @@
     //Archivo de diseño del plano 
     var name = "/LOIRA 20-09-10.svg";
     var proyectosJson = {}
-    fetch("/project.json")
-      .then(response => response.text())
+    fetch('project.json')
       .then(function (response) {
-        // The JSON data will arrive here
-        console.log("objeto Json: --> :" + response)
+        return response.json();
+      })
+      .then(function (data) {
+        appendData(data);
       })
       .catch(function (err) {
-        // If an error occured, you will catch it here
+        console.log(err);
       });
+
+      console.log("datos: "+data)
     var name3 = {}
 
     //Carga del plano usando Snap
