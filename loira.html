@@ -236,10 +236,7 @@
       //función para quitar las capas del Frente y la base de la Torre1 
       const handleButtonClickBaseTorre1Show = () => {
 
-        frenteTorre1.style.visibility = "hidden"
-          vistaFrenteTorre1.style.visibility = "hidden"
-          BaseTorre1.style.visibility = "hidden"
-          vistaBaseTorre1.style.visibility = "hidden"
+
 
         if (frenteTorre1.style.visibility === "hidden") {
           console.log("entró")
@@ -248,14 +245,17 @@
           BaseTorre1.style.visibility = "visible"
           vistaBaseTorre1.style.visibility = "visible"
         } else {
+          frenteTorre1.style.visibility = "hidden"
+          vistaFrenteTorre1.style.visibility = "hidden"
+          BaseTorre1.style.visibility = "hidden"
+          vistaBaseTorre1.style.visibility = "hidden"
 
-          
         }
 
       };
 
       //Asignación del botón respecto a la base Torre 1
-      var buttonBaseBaseTorre1 = document.getElementById("L_ADM_TORRE_01_01_0");
+      var buttonBaseBaseTorre1 = document.getElementById("L_ADM_TORRE_01_01_1");
       buttonBaseBaseTorre1.onclick = handleButtonClickBaseTorre1Show;
 
       //Asignación del botón respecto a la base Torre 1
