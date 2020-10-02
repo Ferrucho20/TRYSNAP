@@ -10,6 +10,11 @@ path:hover {
   fill: #c5351c;
 }
 
+#demo{
+  position: absolute;
+  z-index: 1;
+}
+
 #planos{
   position: relative;
   top: 40px;
@@ -18,6 +23,7 @@ path:hover {
 #demo{
   background-color: #ffffff;
   position: relative;
+  width: 250px;
 }
 
 #svg10{
@@ -66,7 +72,7 @@ path:hover {
   border-style: solid;
   border-color: black;
   box-shadow: 10px 10px 5px rgb(214, 217, 245);
-  z-index: 1;
+  z-index: 0;
 }
 #card-body{
   top: 50px;
