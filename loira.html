@@ -235,16 +235,17 @@
       })
       .then(function (data) {
         mostrar(data);
+        function mostrar(data){
+      for (var i = 0; i < data.length; i++) {
+        console.log("datos: " + data.id )
+      }
+    }
       })
       .catch(function (err) {
         console.log(err);
       });
 
-    function mostrar(data){
-      for (var i = 0; i < data.length; i++) {
-        console.log("datos: " + data.id )
-      }
-    }
+    
     var name3 = {}
 
     //Carga del plano usando Snap
