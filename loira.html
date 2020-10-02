@@ -223,8 +223,8 @@
       }*/
 
       //Declaración de las capas del frente Torre1
-      var frenteTorre1 = document.getElementById("layer10");
-      var vistaFrenteTorre1 = document.getElementById("layer6");
+      var frenteTorre1 = document.getElementById("layer9");
+      var vistaFrenteTorre1 = document.getElementById("layer10");
 
       //función para remover las 2 capas del Frente Torre1
       const handleButtonClickFrenteTorre1Hide = () => {
@@ -256,8 +256,8 @@
       buttonFrenteTorre1.onclick = handleButtonClickFrenteTorre1Hide;
 
       //Declaración de las capas del frente Torre2
-      var frenteTorre2 = document.getElementById("layer3");
-      var vistaFrenteTorre2 = document.getElementById("layer4");
+      var frenteTorre2 = document.getElementById("layer5");
+      var vistaFrenteTorre2 = document.getElementById("layer6");
 
       //función para mostrar las 2 capas del Frente Torre2
       const handleButtonClickFrenteTorre2Show = () => {
@@ -290,6 +290,35 @@
       //Asignación del botón respecto al frente Torre 2
       var buttonFrenteTorre2 = document.getElementById("L_ADM_TORRE_02_1");
       buttonFrenteTorre2.onclick = handleButtonClickFrenteTorre2Hide;
+
+         //Declaración de las capas del frente Torre3
+      var frenteTorre3 = document.getElementById("layer3");
+      var vistaFrenteTorre3 = document.getElementById("layer4");
+
+      //función para mostrar las 2 capas del Frente Torre3
+      const handleButtonClickFrenteTorre3Show = () => {
+
+        frenteTorre3.style.visibility = "visible"
+        vistaFrenteTorre3.style.visibility = "visible"
+      };
+
+      //función para remover las 2 capas del Frente Torre2
+      const handleButtonClickFrenteTorre3Hide = () => {
+
+        frenteTorre3.style.visibility = "hidden"
+        vistaFrenteTorre3.style.visibility = "hidden"
+
+        //frenteTorre2.remove()
+        //vistaFrenteTorre2.remove()
+      };
+
+      //Asignación del botón respecto a la base Torre 2
+      var buttonBaseTorre3 = document.getElementById("L_ADM_TORRE_03_0");
+      buttonBaseTorre3.onclick = handleButtonClickFrenteTorre2Show;
+
+      //Asignación del botón respecto al frente Torre 2
+      var buttonFrenteTorre3 = document.getElementById("L_ADM_TORRE_03_1");
+      buttonFrenteTorre3.onclick = handleButtonClickFrenteTorre2Hide;
 
     });
   </script>
