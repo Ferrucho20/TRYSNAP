@@ -234,28 +234,30 @@
       };
 
       //función para quitar las capas del Frente y la base de la Torre1 
+      const handleButtonClickBaseTorre1Hide = () => {
+
+        frenteTorre1.style.visibility = "hidden"
+        vistaFrenteTorre1.style.visibility = "hidden"
+        BaseTorre1.style.visibility = "hidden"
+        vistaBaseTorre1.style.visibility = "hidden"
+      };
+
+      //función para quitar las capas del Frente y la base de la Torre1 
       const handleButtonClickBaseTorre1Show = () => {
 
-
-
-        if (frenteTorre1.style.visibility === "hidden") {
-          console.log("entró")
-          frenteTorre1.style.visibility = "visible"
-          vistaFrenteTorre1.style.visibility = "visible"
-          BaseTorre1.style.visibility = "visible"
-          vistaBaseTorre1.style.visibility = "visible"
-        } else {
-          frenteTorre1.style.visibility = "hidden"
-          vistaFrenteTorre1.style.visibility = "hidden"
-          BaseTorre1.style.visibility = "hidden"
-          vistaBaseTorre1.style.visibility = "hidden"
-
-        }
+        frenteTorre1.style.visibility = "visible"
+        vistaFrenteTorre1.style.visibility = "visible"
+        BaseTorre1.style.visibility = "visible"
+        vistaBaseTorre1.style.visibility = "visible"
 
       };
 
-      //Asignación del botón respecto a la base Torre 1
+      //Asignación del botón respecto a la Torre 1
       var buttonBaseBaseTorre1 = document.getElementById("L_ADM_TORRE_01_01_1");
+      buttonBaseBaseTorre1.onclick = handleButtonClickBaseTorre1Hide;
+
+      //Asignación del botón respecto a la Torre 1
+      var buttonBaseBaseTorre1 = document.getElementById("L_ADM_TORRE_01_01_0");
       buttonBaseBaseTorre1.onclick = handleButtonClickBaseTorre1Show;
 
       //Asignación del botón respecto a la base Torre 1
