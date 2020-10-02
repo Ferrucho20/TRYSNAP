@@ -201,7 +201,76 @@
     var fragment = Snap.load(name, (data) => {
       //Asignación de colores a LOIRA 20-09-10os apartamentos por estado 
       s.append(data);
-
+      var projetos = [
+        {
+          "id": "P123434",
+          "nombre": "Loira",
+          "link": "/loira",
+          "informacion": [
+            {
+              "consecutivo": "Boton1",
+              "idFrente": "L_ADM_TORRE_01_1", //botón frente para ocultar
+              "idBase": "L_ADM_TORRE_01_0", //botón base para mostrar
+              "showOrHide": [   //lista de <g> a ocultar o mostrar
+                "layer9",
+                "layer10"],
+            },
+            {
+              "consecutivo": "Boton2",
+              "idFrente": "L_ADM_TORRE_02_1",
+              "idBase": "L_ADM_TORRE_02_0",
+              "showOrHide": [
+                "layer5",
+                "layer6"
+              ]
+            },
+            {
+              "consecutivo": "Boton3",
+              "idFrente": "L_ADM_TORRE_03_1",
+              "idBase": "L_ADM_TORRE_03_0",
+              "showOrHide": [
+                "layer3",
+                "layer4"
+              ]
+            },
+            {
+              "consecutivo": "Boton4",
+              "idFrente": "L_ADM_TORRE_01_01_1", //botón frente para ocultar
+              "idBase": "L_ADM_TORRE_01_01_0", //botón base para mostrar
+              "showOrHide": [
+                "layer9",
+                "layer10",
+                "layer8",
+                "layer8"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "P1234",
+          "nombre": "La Flora",
+          "link": "/",
+          "informacion": [
+            {
+              "consecutivo": "Boton1",
+              "idFrente": "L_ADM_TORRE_01_1", //botón frente para ocultar
+              "idBase": "L_ADM_TORRE_01_0", //botón base para mostrar
+              "showOrHide": [   //lista de <g> a ocultar o mostrar
+                "layer5",
+                "layer6"],
+            },
+            {
+              "consecutivo": "Boton2",
+              "idFrente": "L_ADM_TORRE_02_1",
+              "idBase": "L_ADM_TORRE_02_0",
+              "showOrHide": [
+                "layer3",
+                "layer4"
+              ]
+            },
+          ]
+        }
+      ]
       console.log("projectos Json: --> :" + proyectosJson)
 
 
@@ -274,11 +343,11 @@
           for (var j = 0; j < projetos[i].informacion.length; j++) {
             //Asignación del botón respecto a la base Torre 2
             var buttonBaseTorre2 = document.getElementById(projetos[i].informacion[j].idBase);
-              buttonBaseTorre2.onclick = handleButtonClickFrenteTorre2Show;
+            buttonBaseTorre2.onclick = handleButtonClickFrenteTorre2Show;
 
-              //Asignación del botón respecto al frente Torre 2
-              var buttonFrenteTorre2 = document.getElementById(projetos[i].informacion[j].idFrente);
-              buttonFrenteTorre2.onclick = handleButtonClickFrenteTorre2Hide;
+            //Asignación del botón respecto al frente Torre 2
+            var buttonFrenteTorre2 = document.getElementById(projetos[i].informacion[j].idFrente);
+            buttonFrenteTorre2.onclick = handleButtonClickFrenteTorre2Hide;
 
             for (var k = 0; k < projetos[i].informacion[j].showOrHide.length; k++) {
               var frenteTorre2 = document.getElementById(projetos[i].informacion[j].showOrHide[k]);
@@ -292,14 +361,9 @@
               const handleButtonClickFrenteTorre2Hide = () => {
                 frenteTorre2.style.visibility = "hidden"
               };
-
-              
             }
-
           }
         }
-
-
       }
 
       /*
