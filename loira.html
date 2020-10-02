@@ -11,22 +11,7 @@
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-  <script>
-    fetch('/api/api/sqlserver/JDEVTAS/getPlano', {
-      method: 'GET',
-      mode: 'cors',
-      headers: {
-        'Content-Type': 'application/json',
-        'Accept': 'application/json'
-      },
-    })
-      .then(response => response.text())
-      .then(response => {
-      })
-      .catch(error => {
-        console.error('Error:', error);
-      });
-  </script>
+
 </head>
 
 <body>
@@ -91,11 +76,52 @@
     function autocompletado() {
       document.getElementById("demo").innerHTML = '';
 
+
+
       var projetos = [
         {
           "id": "P123434",
           "nombre": "Loira",
-          "link": "/loira"
+          "link": "/loira",
+          "informacion": [
+            {
+              "consecutivo": "Boton1",
+              "idFrente": "L_ADM_TORRE_01_1", //botón frente para ocultar
+              "idBase": "L_ADM_TORRE_01_0", //botón base para mostrar
+              "showOrHide": [   //lista de <g> a ocultar o mostrar
+                "layer9",
+                "layer10"],
+            },
+            {
+              "consecutivo": "Boton2",
+              "idFrente": "L_ADM_TORRE_01_1",
+              "idBase": "L_ADM_TORRE_01_0",
+              "showOrHide": [
+                "layer5",
+                "layer6"
+              ]
+            },
+            {
+              "consecutivo": "Boton3",
+              "idFrente": "L_ADM_TORRE_03_1",
+              "idBase": "L_ADM_TORRE_03_0",
+              "showOrHide": [
+                "layer3",
+                "layer4"
+              ]
+            },
+            {
+              "consecutivo": "Boton4",
+              "idFrente": "L_ADM_TORRE_01_01_1", //botón frente para ocultar
+              "idBase": "L_ADM_TORRE_01_01_0", //botón base para mostrar
+              "showOrHide": [
+                "layer9",
+                "layer10",
+                "layer8",
+                "layer8"
+              ]
+            }
+          ]
         },
         {
           "id": "P1234",
@@ -173,15 +199,7 @@
           "link": "/"
         }
       ]
-      var preguntas = [
-        "ActionScript",
-        "AppleScript",
-        "Asp",
-        "Scheme",
-        "Loira",
-        "La Flora",
-        "La Flora 2"
-      ]
+
 
       var pal = document.getElementById("buscar-pal").value;
       var tam = pal.length;
@@ -210,13 +228,15 @@
     var s = Snap("#svg");
     //Archivo de diseño del plano 
     var name = "/LOIRA 20-09-10.svg";
+    var proyectosJson = "/project.json";
     var name3 = {}
-    //archivo Json de la consulta por servicio Rest
-    //Consumir dependencia axios, consumo web rest
+
     //Carga del plano usando Snap
     var fragment = Snap.load(name, (data) => {
-      //Asignación de colores a los apartamentos por estado 
+      //Asignación de colores a LOIRA 20-09-10os apartamentos por estado 
       s.append(data);
+
+      console.log("projectos Json: --> :" + proyectosJson)
 
       async function datos() {
         const respuesta = await fetch('/api/api/sqlserver/JDEVTAS/getPlano', {
@@ -339,6 +359,8 @@
       buttonFrenteTorre1.onclick = handleButtonClickFrenteTorre1Hide;
 
       //Declaración de las capas del frente Torre2
+      var nombre = "frenteTorre" + [i] + [i]
+
       var frenteTorre2 = document.getElementById("layer5");
       var vistaFrenteTorre2 = document.getElementById("layer6");
 
