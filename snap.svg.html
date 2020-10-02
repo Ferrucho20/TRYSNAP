@@ -195,6 +195,7 @@
     //Archivo de diseño del plano 
     var name = "/LA FLORA 20-07-10.svg";
     var name3 = {}
+    var projectoID = "P123434"
     //archivo Json de la consulta por servicio Rest
     //Consumir dependencia axios, consumo web rest
     //Carga del plano usando Snap
@@ -202,10 +203,13 @@
       //Asignación de colores a los apartamentos por estado 
       s.append(data);
 
+      var dataPost = { CodPry: projectoID };
+
       async function datos() {
         const respuesta = await fetch('/api/api/sqlserver/JDEVTAS/getPlano', {
-          method: 'GET',
+          method: 'POST',
           mode: 'cors',
+          body: JSON.stringify(dataPost),
           headers: {
             'Content-Type': 'application/json',
             'Accept': 'application/json'
