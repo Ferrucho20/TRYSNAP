@@ -123,7 +123,7 @@
             var node = document.createElement("ol")
             //var textnode = document.createTextNode(projetos[indice].nombre);
             var link = document.createElement("a")
-            link.setAttribute("href",projetos[indice].link)
+            link.setAttribute("href", projetos[indice].link)
             link.innerHTML = projetos[indice].nombre
             //node.appendChild(textnode);
             node.appendChild(link)
@@ -216,24 +216,45 @@
       var frenteTorre1 = document.getElementById("layer9");
       var vistaFrenteTorre1 = document.getElementById("layer10");
 
+      //Declaración de las capas de la base de la Torre1
+      var BaseTorre1 = document.getElementById("layer7");
+      var vistaBaseTorre1 = document.getElementById("layer8");
+
       //función para remover las 2 capas del Frente Torre1
       const handleButtonClickFrenteTorre1Hide = () => {
 
         frenteTorre1.style.visibility = "hidden"
         vistaFrenteTorre1.style.visibility = "hidden"
-
-        torre1 = false;
       };
       //función para mostrar las 2 capas del Frente Torre1
       const handleButtonClickFrenteTorre1Show = () => {
 
         frenteTorre1.style.visibility = "visible"
         vistaFrenteTorre1.style.visibility = "visible"
-
-        //s.append(frenteTorre1)
-        //s.append(vistaFrenteTorre1)
-        torre1 = true
       };
+
+      //función para quitar las capas del Frente y la base de la Torre1 
+      const handleButtonClickBaseTorre1Show = () => {
+
+        if (frenteTorre1.style.visibility === "hidden") {
+
+          frenteTorre1.style.visibility = "visible"
+          vistaFrenteTorre1.style.visibility = "visible"
+          BaseTorre1.style.visibility = "visible"
+          vistaBaseTorre1.style.visibility = "visible"
+        } else {
+
+          frenteTorre1.style.visibility = "hidden"
+          vistaFrenteTorre1.style.visibility = "hidden"
+          BaseTorre1.style.visibility = "hidden"
+          vistaBaseTorre1.style.visibility = "hidden"
+        }
+
+      };
+
+      //Asignación del botón respecto a la base Torre 1
+      var buttonBaseBaseTorre1 = document.getElementById("L_ADM_TORRE_01_01_0");
+      buttonBaseBaseTorre1.onclick = handleButtonClickBaseTorre1Show;
 
       //Asignación del botón respecto a la base Torre 1
       var buttonBaseTorre1 = document.getElementById("L_ADM_TORRE_01_0");
@@ -258,7 +279,6 @@
 
         frenteTorre2.style.visibility = "hidden"
         vistaFrenteTorre2.style.visibility = "hidden"
-
       };
 
       //Asignación del botón respecto a la base Torre 2
@@ -269,7 +289,7 @@
       var buttonFrenteTorre2 = document.getElementById("L_ADM_TORRE_02_1");
       buttonFrenteTorre2.onclick = handleButtonClickFrenteTorre2Hide;
 
-         //Declaración de las capas del frente Torre3
+      //Declaración de las capas del frente Torre3
       var frenteTorre3 = document.getElementById("layer3");
       var vistaFrenteTorre3 = document.getElementById("layer4");
 
