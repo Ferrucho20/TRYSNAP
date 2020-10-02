@@ -179,6 +179,7 @@
     var name = "/LOIRA 20-09-10.svg";
     var projectoID = "P12334"
     var proyectosJson = {}
+    /*
     fetch('/project.json')
       .then(function (response) {
         return response.json();
@@ -189,12 +190,7 @@
       .catch(function (err) {
         console.log(err);
       });
-
-    function mostrar(data) {
-      for (var i = 0; i < data.length; i++) {
-        console.log("datos: " + data.id)
-      }
-    }
+*/
     var name3 = {}
 
     //Carga del plano usando Snap
@@ -271,13 +267,16 @@
           ]
         }
       ]
-      console.log("projectos Json: --> :" + proyectosJson)
 
+      //console.log("projectos Json: --> :" + proyectosJson)
+
+      var dataPost = { CodPry: projectoID };
 
       async function datos() {
         const respuesta = await fetch('/api/api/sqlserver/JDEVTAS/getPlano', {
-          method: 'GET',
+          method: 'POST',
           mode: 'cors',
+          body: JSON.stringify(dataPost),
           headers: {
             'Content-Type': 'application/json',
             'Accept': 'application/json'
@@ -337,36 +336,52 @@
       }
 
       datos()
+      /*
+      var listaBotonesFrente = []
+      var listaBotonesBase = []
+      var listaTorres = []
+      var handlerButtonClickShow = []
+      var handlerButtonClickHide = []
 
       for (var i = 0; i < projetos.length; i++) {
-        if (projectoID == projetos[i].id) {
+        if (projetos[i].id == 'P123434') {
+          var cont = 0;
+          console.log("encontró proyecto")
           for (var j = 0; j < projetos[i].informacion.length; j++) {
             //Asignación del botón respecto a la base Torre 2
-            var buttonBaseTorre2 = document.getElementById(projetos[i].informacion[j].idBase);
-            buttonBaseTorre2.onclick = handleButtonClickFrenteTorre2Show;
+            console.log("encontró informacion")
+
+            listaBotonesFrente[j] = document.getElementById(projetos[i].informacion[j].idBase);
+            listaBotonesFrente[j].onclick = handlerButtonClickShow[j];
 
             //Asignación del botón respecto al frente Torre 2
-            var buttonFrenteTorre2 = document.getElementById(projetos[i].informacion[j].idFrente);
-            buttonFrenteTorre2.onclick = handleButtonClickFrenteTorre2Hide;
+            listaBotonesBase[j] = document.getElementById(projetos[i].informacion[j].idFrente);
+            listaBotonesBase[j].onclick = handlerButtonClickHide[j];
 
             for (var k = 0; k < projetos[i].informacion[j].showOrHide.length; k++) {
-              var frenteTorre2 = document.getElementById(projetos[i].informacion[j].showOrHide[k]);
+              listaTorres[cont] = document.getElementById(projetos[i].informacion[j].showOrHide[k]);
+              cont++
+              console.log("encontró showOrHide  # "+cont)
+
               //var vistaFrenteTorre2 = document.getElementById("layer6");
 
               //función para mostrar 
-              const handleButtonClickFrenteTorre2Show = () => {
-                frenteTorre2.style.visibility = "visible"
+              handlerButtonClickShow[j] = () => {
+                listaTorres[cont].style.visibility = "visible"
               };
               //función para remover 
-              const handleButtonClickFrenteTorre2Hide = () => {
-                frenteTorre2.style.visibility = "hidden"
+              handlerButtonClickHide[j] = () => {
+                listaTorres[cont].style.visibility = "hidden"
               };
             }
           }
         }
       }
+      console.log("La más ple :"+listaBotonesFrente+listaBotonesBase+listaTorres+handlerButtonClickShow+handlerButtonClickHide)
 
-      /*
+       */
+      
+      
       //Declaración de las capas del frente Torre1
       var frenteTorre1 = document.getElementById("layer9");
       var vistaFrenteTorre1 = document.getElementById("layer10");
@@ -474,8 +489,7 @@
       //Asignación del botón respecto al frente Torre 3
       var buttonFrenteTorre3 = document.getElementById("L_ADM_TORRE_03_1");
       buttonFrenteTorre3.onclick = handleButtonClickFrenteTorre3Hide;
-      */
-
+      
     });
   </script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
