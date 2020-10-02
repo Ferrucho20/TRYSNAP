@@ -234,13 +234,17 @@
         return response.json();
       })
       .then(function (data) {
-        append(data);
+        mostrar(data);
       })
       .catch(function (err) {
         console.log(err);
       });
 
-      console.log("datos: "+data)
+    function mostrar(data){
+      for (var i = 0; i < data.length; i++) {
+        console.log("datos: " + data.id + data.nombre + data.link + data.informacion)
+      }
+    }
     var name3 = {}
 
     //Carga del plano usando Snap
