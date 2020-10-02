@@ -233,8 +233,8 @@
       .then(response => response.json())
       .then(function (response) {
         // The JSON data will arrive here
-        console.log("objeto Json: --> :" + response)
-        proyectosJson = response
+        console.log("objeto Json: --> :" + JSON.parse(response))
+        proyectosJson = JSON.parse(response)
       })
       .catch(function (err) {
         // If an error occured, you will catch it here
