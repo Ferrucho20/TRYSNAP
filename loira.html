@@ -94,8 +94,8 @@
             },
             {
               "consecutivo": "Boton2",
-              "idFrente": "L_ADM_TORRE_01_1",
-              "idBase": "L_ADM_TORRE_01_0",
+              "idFrente": "L_ADM_TORRE_02_1",
+              "idBase": "L_ADM_TORRE_02_0",
               "showOrHide": [
                 "layer5",
                 "layer6"
@@ -126,77 +126,26 @@
         {
           "id": "P1234",
           "nombre": "La Flora",
-          "link": "/"
-        },
-        {
-          "id": "P1234",
-          "nombre": "La Flora",
-          "link": "/"
-        },
-        {
-          "id": "P1234",
-          "nombre": "La Flora",
-          "link": "/"
-        },
-        {
-          "id": "P1234",
-          "nombre": "La Flora",
-          "link": "/"
-        },
-        {
-          "id": "P1234",
-          "nombre": "La Flora",
-          "link": "/"
-        },
-        {
-          "id": "P1234",
-          "nombre": "La Flora",
-          "link": "/"
-        },
-        {
-          "id": "P1234",
-          "nombre": "La Flora",
-          "link": "/"
-        },
-        {
-          "id": "P1234",
-          "nombre": "La Flora",
-          "link": "/"
-        },
-        {
-          "id": "P1234",
-          "nombre": "La Flora",
-          "link": "/"
-        },
-        {
-          "id": "P1234",
-          "nombre": "La Flora",
-          "link": "/"
-        },
-        {
-          "id": "P1234",
-          "nombre": "La Flora",
-          "link": "/"
-        },
-        {
-          "id": "P1234",
-          "nombre": "La Flora",
-          "link": "/"
-        },
-        {
-          "id": "P1234",
-          "nombre": "La Flora",
-          "link": "/"
-        },
-        {
-          "id": "P1234",
-          "nombre": "La Flora",
-          "link": "/"
-        },
-        {
-          "id": "P1234",
-          "nombre": "La Flora",
-          "link": "/"
+          "link": "/",
+          "informacion": [
+            {
+              "consecutivo": "Boton1",
+              "idFrente": "L_ADM_TORRE_01_1", //botón frente para ocultar
+              "idBase": "L_ADM_TORRE_01_0", //botón base para mostrar
+              "showOrHide": [   //lista de <g> a ocultar o mostrar
+                "layer5",
+                "layer6"],
+            },
+            {
+              "consecutivo": "Boton2",
+              "idFrente": "L_ADM_TORRE_02_1",
+              "idBase": "L_ADM_TORRE_02_0",
+              "showOrHide": [
+                "layer3",
+                "layer4"
+              ]
+            },
+          ]
         }
       ]
 
@@ -228,6 +177,7 @@
     var s = Snap("#svg");
     //Archivo de diseño del plano 
     var name = "/LOIRA 20-09-10.svg";
+    var projectoID = "P12334"
     var proyectosJson = {}
     fetch('/project.json')
       .then(function (response) {
@@ -235,17 +185,16 @@
       })
       .then(function (data) {
         mostrar(data);
-        function mostrar(data){
-      for (var i = 0; i < data.length; i++) {
-        console.log("datos: " + data.id )
-      }
-    }
       })
       .catch(function (err) {
         console.log(err);
       });
 
-    
+    function mostrar(data) {
+      for (var i = 0; i < data.length; i++) {
+        console.log("datos: " + data.id)
+      }
+    }
     var name3 = {}
 
     //Carga del plano usando Snap
@@ -320,6 +269,40 @@
 
       datos()
 
+      for (var i = 0; i < projetos.length; i++) {
+        if (projectoID == projectos[i].id) {
+          for (var j = 0; j < projectos[i].informacion.length; j++) {
+            //Asignación del botón respecto a la base Torre 2
+            var buttonBaseTorre2 = document.getElementById(projectos[i].informacion[j].idBase);
+              buttonBaseTorre2.onclick = handleButtonClickFrenteTorre2Show;
+
+              //Asignación del botón respecto al frente Torre 2
+              var buttonFrenteTorre2 = document.getElementById(projectos[i].informacion[j].idFrente);
+              buttonFrenteTorre2.onclick = handleButtonClickFrenteTorre2Hide;
+
+            for (var k = 0; k < projectos[i].informacion[j].showOrHide.length; k++) {
+              var frenteTorre2 = document.getElementById(projectos[i].informacion[j].showOrHide[k]);
+              //var vistaFrenteTorre2 = document.getElementById("layer6");
+
+              //función para mostrar 
+              const handleButtonClickFrenteTorre2Show = () => {
+                frenteTorre2.style.visibility = "visible"
+              };
+              //función para remover 
+              const handleButtonClickFrenteTorre2Hide = () => {
+                frenteTorre2.style.visibility = "hidden"
+              };
+
+              
+            }
+
+          }
+        }
+
+
+      }
+
+      /*
       //Declaración de las capas del frente Torre1
       var frenteTorre1 = document.getElementById("layer9");
       var vistaFrenteTorre1 = document.getElementById("layer10");
@@ -427,6 +410,7 @@
       //Asignación del botón respecto al frente Torre 3
       var buttonFrenteTorre3 = document.getElementById("L_ADM_TORRE_03_1");
       buttonFrenteTorre3.onclick = handleButtonClickFrenteTorre3Hide;
+      */
 
     });
   </script>
