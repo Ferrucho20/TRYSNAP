@@ -269,19 +269,19 @@
 
       datos()
 
-      for (var i = 0; i < projectos.length; i++) {
-        if (projectoID == projectos[i].id) {
-          for (var j = 0; j < projectos[i].informacion.length; j++) {
+      for (var i = 0; i < projetos.length; i++) {
+        if (projectoID == projetos[i].id) {
+          for (var j = 0; j < projetos[i].informacion.length; j++) {
             //Asignación del botón respecto a la base Torre 2
-            var buttonBaseTorre2 = document.getElementById(projectos[i].informacion[j].idBase);
+            var buttonBaseTorre2 = document.getElementById(projetos[i].informacion[j].idBase);
               buttonBaseTorre2.onclick = handleButtonClickFrenteTorre2Show;
 
               //Asignación del botón respecto al frente Torre 2
-              var buttonFrenteTorre2 = document.getElementById(projectos[i].informacion[j].idFrente);
+              var buttonFrenteTorre2 = document.getElementById(projetos[i].informacion[j].idFrente);
               buttonFrenteTorre2.onclick = handleButtonClickFrenteTorre2Hide;
 
-            for (var k = 0; k < projectos[i].informacion[j].showOrHide.length; k++) {
-              var frenteTorre2 = document.getElementById(projectos[i].informacion[j].showOrHide[k]);
+            for (var k = 0; k < projetos[i].informacion[j].showOrHide.length; k++) {
+              var frenteTorre2 = document.getElementById(projetos[i].informacion[j].showOrHide[k]);
               //var vistaFrenteTorre2 = document.getElementById("layer6");
 
               //función para mostrar 
