@@ -60,6 +60,7 @@
           <!--#00244D-->
         </div>
       </div>
+
     </div>
     <div>
       <object class="svg10" style="height: 100%; width: 100%;" id="svg">
@@ -71,121 +72,7 @@
 
   <script>
 
-    //Search
-    function autocompletado() {
-      document.getElementById("demo").innerHTML = '';
 
-      var projetos = [
-        {
-          "id": "P123434",
-          "nombre": "Loira",
-          "link": "/loira"
-        },
-        {
-          "id": "P1234",
-          "nombre": "La Flora",
-          "link": "/"
-        },
-        {
-          "id": "P1234",
-          "nombre": "La Flora",
-          "link": "/"
-        },
-        {
-          "id": "P1234",
-          "nombre": "La Flora",
-          "link": "/"
-        },
-        {
-          "id": "P1234",
-          "nombre": "La Flora",
-          "link": "/"
-        },
-        {
-          "id": "P1234",
-          "nombre": "La Flora",
-          "link": "/"
-        },
-        {
-          "id": "P1234",
-          "nombre": "La Flora",
-          "link": "/"
-        },
-        {
-          "id": "P1234",
-          "nombre": "La Flora",
-          "link": "/"
-        },
-        {
-          "id": "P1234",
-          "nombre": "La Flora",
-          "link": "/"
-        },
-        {
-          "id": "P1234",
-          "nombre": "La Flora",
-          "link": "/"
-        },
-        {
-          "id": "P1234",
-          "nombre": "La Flora",
-          "link": "/"
-        },
-        {
-          "id": "P1234",
-          "nombre": "La Flora",
-          "link": "/"
-        },
-        {
-          "id": "P1234",
-          "nombre": "La Flora",
-          "link": "/"
-        },
-        {
-          "id": "P1234",
-          "nombre": "La Flora",
-          "link": "/"
-        },
-        {
-          "id": "P1234",
-          "nombre": "La Flora",
-          "link": "/"
-        },
-        {
-          "id": "P1234",
-          "nombre": "La Flora",
-          "link": "/"
-        }
-      ]
-      var preguntas = [
-        "ActionScript",
-        "AppleScript",
-        "Asp",
-        "Scheme",
-        "Loira",
-        "La Flora",
-        "La Flora 2"
-      ]
-
-      var pal = document.getElementById("buscar-pal").value;
-      var tam = pal.length;
-      for (indice in projetos) {
-        var projecto = projetos[indice];
-        var str = projecto.nombre.substring(0, tam);
-        if (pal.length <= projecto.nombre.length && pal.length != 0 && projecto.nombre.length != 0) {
-          if (pal.toLowerCase() == str.toLowerCase()) {
-            var node = document.createElement("ol")
-            //var textnode = document.createTextNode(projetos[indice].nombre);
-            var link = document.createElement("a")
-            link.setAttribute("href",projetos[indice].link)
-            link.innerHTML = projetos[indice].nombre
-            //node.appendChild(textnode);
-            node.appendChild(link)
-            document.getElementById("demo").appendChild(node);
-          }
-        }
-      }
-    }
 
 
     //SVG
@@ -193,15 +80,30 @@
     var torre1 = true;
     var s = Snap("#svg");
     //Archivo de diseño del plano 
+    //NOMBRE PROYECTO SVG
     var name = "/LA FLORA 20-07-10.svg";
-    var name3 = {}
+    //ID PROYECTO
     var projectoID = "P134567"
-    //archivo Json de la consulta por servicio Rest
-    //Consumir dependencia axios, consumo web rest
+    var proyectosJson = {}
+    /*
+    fetch('/project.json')
+      .then(function (response) {
+        return response.json();
+      })
+      .then(function (data) {
+        mostrar(data);
+      })
+      .catch(function (err) {
+        console.log(err);
+      });
+*/
+    var name3 = {}
+
     //Carga del plano usando Snap
     var fragment = Snap.load(name, (data) => {
-      //Asignación de colores a los apartamentos por estado 
+      //Asignación de colores a LOIRA 20-09-10os apartamentos por estado 
       s.append(data);
+
 
       var dataPost = { CodPry: projectoID };
 
@@ -269,85 +171,78 @@
       }
 
       datos()
+      var frente = 'frenteTorre'
+      var base = 'baseTorre'
+      var handShow = 'handlerButtonClickShow'
+      var handHide = 'handlerButtonClickHide'
+      var torre = 'torre'
+      fetch('/project.json')
+        .then(response => response.json())
+        .then(data => {
+          for (var i = 0; i < data.length; i++) {
+            if (data[i].id == projectoID) {
+              var cont = 0;
+              for (var j = 0; j < data[i].informacion.length; j++) {
+                //Asignación del botón respecto a la base Torre 2
+                this[frente + j] = document.getElementById(data[i].informacion[j].idFrente);
+
+                //Asignación del botón respecto al frente Torre 2
+                this[base + j] = document.getElementById(data[i].informacion[j].idBase);
+
+                let listaShowHide = data[i].informacion[j].showOrHide
+                //función para mostrar 
+                this[handShow + j] = () => {
+                  for (item in listaShowHide) {
+                    let este = document.getElementById(listaShowHide[item]);
+                    este.style.visibility = "visible"
+
+                    cont++
+                  }
+                };
+                this[base + j].onclick = this[handShow + j];
+
+                //función para remover 
+                this[handHide + j] = () => {
+                  for (item in listaShowHide) {
+                    let este2 = document.getElementById(listaShowHide[item]);
+                    este2.style.visibility = "hidden"
+
+                    cont++
+                  }
+                };
+                this[frente + j].onclick = this[handHide + j];
+                cont++
+
+              }
+            }
+          }
+          //Search
+          function autocompletado() {
+            document.getElementById("demo").innerHTML = '';
+
+            var pal = document.getElementById("buscar-pal").value;
+            var tam = pal.length;
+            for (indice in data) {
+              var projecto = data[indice];
+              var str = projecto.nombre.substring(0, tam);
+              if (pal.length <= projecto.nombre.length && pal.length != 0 && projecto.nombre.length != 0) {
+                if (pal.toLowerCase() == str.toLowerCase()) {
+                  var node = document.createElement("ol")
+                  var link = document.createElement("a")
+                  link.setAttribute("href", data[indice].link)
+                  link.innerHTML = data[indice].nombre
+                  //node.appendChild(textnode);
+                  node.appendChild(link)
+                  document.getElementById("demo").appendChild(node)
+                }
+              }
+            }
+          }
+
+          console.log(data);
+        });
 
 
-      /*function mouseOver(){
-        for (var i = 0; i < name2.listaId.length; i++) {
-          if(this.id == name2.listaId[i].id){
-            var pru = document.createElement("button");
-            document.body.appendChild(pru);
-        } 
-      }
-      }*/
-
-      //Declaración de las capas del frente Torre1
-      var frenteTorre1 = document.getElementById("layer5");
-      var vistaFrenteTorre1 = document.getElementById("layer6");
-
-      //función para remover las 2 capas del Frente Torre1
-      const handleButtonClickFrenteTorre1Hide = () => {
-
-        frenteTorre1.style.visibility = "hidden"
-        vistaFrenteTorre1.style.visibility = "hidden"
-
-        //frenteTorre1.remove()
-        //vistaFrenteTorre1.remove()
-        torre1 = false;
-      };
-      //función para mostrar las 2 capas del Frente Torre1
-      const handleButtonClickFrenteTorre1Show = () => {
-
-        frenteTorre1.style.visibility = "visible"
-        vistaFrenteTorre1.style.visibility = "visible"
-
-        //s.append(frenteTorre1)
-        //s.append(vistaFrenteTorre1)
-        torre1 = true
-      };
-
-      //Asignación del botón respecto a la base Torre 1
-      var buttonBaseTorre1 = document.getElementById("L_ADM_TORRE_01_0");
-      buttonBaseTorre1.onclick = handleButtonClickFrenteTorre1Show;
-
-      //Asignación del botón respecto al frente Torre 1
-      var buttonFrenteTorre1 = document.getElementById("L_ADM_TORRE_01_1");
-      buttonFrenteTorre1.onclick = handleButtonClickFrenteTorre1Hide;
-
-      //Declaración de las capas del frente Torre2
-      var frenteTorre2 = document.getElementById("layer3");
-      var vistaFrenteTorre2 = document.getElementById("layer4");
-
-      //función para mostrar las 2 capas del Frente Torre2
-      const handleButtonClickFrenteTorre2Show = () => {
-
-        frenteTorre2.style.visibility = "visible"
-        vistaFrenteTorre2.style.visibility = "visible"
-        //s.append(frenteTorre2)
-        //s.append(vistaFrenteTorre2)
-        //validación de la superposición con el frente Torre1
-        //if (torre1) {
-
-        //  s.append(frenteTorre1)
-        //  s.append(vistaFrenteTorre1)
-        //}
-      };
-      //función para remover las 2 capas del Frente Torre2
-      const handleButtonClickFrenteTorre2Hide = () => {
-
-        frenteTorre2.style.visibility = "hidden"
-        vistaFrenteTorre2.style.visibility = "hidden"
-
-        //frenteTorre2.remove()
-        //vistaFrenteTorre2.remove()
-      };
-
-      //Asignación del botón respecto a la base Torre 2
-      var buttonBaseTorre2 = document.getElementById("L_ADM_TORRE_02_0");
-      buttonBaseTorre2.onclick = handleButtonClickFrenteTorre2Show;
-
-      //Asignación del botón respecto al frente Torre 2
-      var buttonFrenteTorre2 = document.getElementById("L_ADM_TORRE_02_1");
-      buttonFrenteTorre2.onclick = handleButtonClickFrenteTorre2Hide;
 
     });
   </script>
