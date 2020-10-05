@@ -263,12 +263,83 @@
       }
 
       datos()
-      /*
-      var listaBotonesFrente = []
-      var listaBotonesBase = []
-      var listaTorres = []
-      var handlerButtonClickShow = []
-      var handlerButtonClickHide = []
+
+      var projetos = [
+        {
+          "id": "P123434",
+          "nombre": "Loira",
+          "link": "/loira",
+          "informacion": [
+            {
+              "consecutivo": "Boton1",
+              "idFrente": "L_ADM_TORRE_01_1", //botón frente para ocultar
+              "idBase": "L_ADM_TORRE_01_0", //botón base para mostrar
+              "showOrHide": [   //lista de <g> a ocultar o mostrar
+                "layer9",
+                "layer10"],
+            },
+            {
+              "consecutivo": "Boton2",
+              "idFrente": "L_ADM_TORRE_02_1",
+              "idBase": "L_ADM_TORRE_02_0",
+              "showOrHide": [
+                "layer5",
+                "layer6"
+              ]
+            },
+            {
+              "consecutivo": "Boton3",
+              "idFrente": "L_ADM_TORRE_03_1",
+              "idBase": "L_ADM_TORRE_03_0",
+              "showOrHide": [
+                "layer3",
+                "layer4"
+              ]
+            },
+            {
+              "consecutivo": "Boton4",
+              "idFrente": "L_ADM_TORRE_01_01_1", //botón frente para ocultar
+              "idBase": "L_ADM_TORRE_01_01_0", //botón base para mostrar
+              "showOrHide": [
+                "layer9",
+                "layer10",
+                "layer8",
+                "layer8"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "P1234",
+          "nombre": "La Flora",
+          "link": "/",
+          "informacion": [
+            {
+              "consecutivo": "Boton1",
+              "idFrente": "L_ADM_TORRE_01_1", //botón frente para ocultar
+              "idBase": "L_ADM_TORRE_01_0", //botón base para mostrar
+              "showOrHide": [   //lista de <g> a ocultar o mostrar
+                "layer5",
+                "layer6"],
+            },
+            {
+              "consecutivo": "Boton2",
+              "idFrente": "L_ADM_TORRE_02_1",
+              "idBase": "L_ADM_TORRE_02_0",
+              "showOrHide": [
+                "layer3",
+                "layer4"
+              ]
+            },
+          ]
+        }
+      ]
+     
+      var frente = 'frenteTorre'
+      var base = 'baseTorre'
+      var handShow = 'handlerButtonClickShow'
+      var handHide = 'handlerButtonClickHide'
+      var torre = 'torre'
 
       for (var i = 0; i < projetos.length; i++) {
         if (projetos[i].id == 'P123434') {
@@ -277,146 +348,151 @@
           for (var j = 0; j < projetos[i].informacion.length; j++) {
             //Asignación del botón respecto a la base Torre 2
             console.log("encontró informacion")
-
-            listaBotonesFrente[j] = document.getElementById(projetos[i].informacion[j].idBase);
-            listaBotonesFrente[j].onclick = handlerButtonClickShow[j];
+            window[frente + j] = document.getElementById(projetos[i].informacion[j].idFrente);
 
             //Asignación del botón respecto al frente Torre 2
-            listaBotonesBase[j] = document.getElementById(projetos[i].informacion[j].idFrente);
-            listaBotonesBase[j].onclick = handlerButtonClickHide[j];
+            window[base + j] = document.getElementById(projetos[i].informacion[j].idBase);
 
             for (var k = 0; k < projetos[i].informacion[j].showOrHide.length; k++) {
-              listaTorres[cont] = document.getElementById(projetos[i].informacion[j].showOrHide[k]);
-              cont++
-              console.log("encontró showOrHide  # "+cont)
+              window[torre + cont] = document.getElementById(projetos[i].informacion[j].showOrHide[k]);
+              console.log("encontró showOrHide  # " + cont)
 
               //var vistaFrenteTorre2 = document.getElementById("layer6");
 
               //función para mostrar 
-              handlerButtonClickShow[j] = () => {
-                listaTorres[cont].style.visibility = "visible"
+              window[handShow+j] = () => {
+                window[torre+cont].style.visibility = "visible"
               };
+              window[base+j].onclick = window[handShow+j];
+
               //función para remover 
-              handlerButtonClickHide[j] = () => {
-                listaTorres[cont].style.visibility = "hidden"
+              window[handHide+j] = () => {
+                window[torre + cont].style.visibility = "hidden"
               };
+              window[frente+j].onclick = window[handHide+j];
+
+              console.log("frente = "+ window[frente + j] )
+              console.log("base = "+ window[base + j] )
+              console.log("torre = "+ window[torre + cont] )
+
+              cont++
+
             }
           }
         }
       }
-      console.log("La más ple :"+listaBotonesFrente+listaBotonesBase+listaTorres+handlerButtonClickShow+handlerButtonClickHide)
 
-       */
-      
-      
-      //Declaración de las capas del frente Torre1
-      var frenteTorre1 = document.getElementById("layer9");
-      var vistaFrenteTorre1 = document.getElementById("layer10");
+      /*
+     
+     
+     //Declaración de las capas del frente Torre1
+     var frenteTorre1 = document.getElementById("layer9");
+     var vistaFrenteTorre1 = document.getElementById("layer10");
 
-      //Declaración de las capas de la base de la Torre1
-      var BaseTorre1 = document.getElementById("layer7");
-      var vistaBaseTorre1 = document.getElementById("layer8");
+     //Declaración de las capas de la base de la Torre1
+     var BaseTorre1 = document.getElementById("layer7");
+     var vistaBaseTorre1 = document.getElementById("layer8");
 
-      //función para remover las 2 capas del Frente Torre1
-      const handleButtonClickFrenteTorre1Hide = () => {
+     //función para remover las 2 capas del Frente Torre1
+     const handleButtonClickFrenteTorre1Hide = () => {
 
-        frenteTorre1.style.visibility = "hidden"
-        vistaFrenteTorre1.style.visibility = "hidden"
-      };
-      //función para mostrar las 2 capas del Frente Torre1
-      const handleButtonClickFrenteTorre1Show = () => {
+       frenteTorre1.style.visibility = "hidden"
+       vistaFrenteTorre1.style.visibility = "hidden"
+     };
+     //función para mostrar las 2 capas del Frente Torre1
+     const handleButtonClickFrenteTorre1Show = () => {
 
-        frenteTorre1.style.visibility = "visible"
-        vistaFrenteTorre1.style.visibility = "visible"
-      };
+       frenteTorre1.style.visibility = "visible"
+       vistaFrenteTorre1.style.visibility = "visible"
+     };
 
-      //función para quitar las capas del Frente y la base de la Torre1 
-      const handleButtonClickBaseTorre1Hide = () => {
+     //función para quitar las capas del Frente y la base de la Torre1 
+     const handleButtonClickBaseTorre1Hide = () => {
 
-        frenteTorre1.style.visibility = "hidden"
-        vistaFrenteTorre1.style.visibility = "hidden"
-        BaseTorre1.style.visibility = "hidden"
-        vistaBaseTorre1.style.visibility = "hidden"
-      };
+       frenteTorre1.style.visibility = "hidden"
+       vistaFrenteTorre1.style.visibility = "hidden"
+       BaseTorre1.style.visibility = "hidden"
+       vistaBaseTorre1.style.visibility = "hidden"
+     };
 
-      //función para quitar las capas del Frente y la base de la Torre1 
-      const handleButtonClickBaseTorre1Show = () => {
+     //función para quitar las capas del Frente y la base de la Torre1 
+     const handleButtonClickBaseTorre1Show = () => {
 
-        frenteTorre1.style.visibility = "visible"
-        vistaFrenteTorre1.style.visibility = "visible"
-        BaseTorre1.style.visibility = "visible"
-        vistaBaseTorre1.style.visibility = "visible"
+       frenteTorre1.style.visibility = "visible"
+       vistaFrenteTorre1.style.visibility = "visible"
+       BaseTorre1.style.visibility = "visible"
+       vistaBaseTorre1.style.visibility = "visible"
 
-      };
+     };
 
-      //Asignación del botón respecto a la Torre 1
-      var buttonBaseBaseTorre1 = document.getElementById("L_ADM_TORRE_01_01_1");
-      buttonBaseBaseTorre1.onclick = handleButtonClickBaseTorre1Hide;
+     //Asignación del botón respecto a la Torre 1
+     var buttonBaseBaseTorre1 = document.getElementById("L_ADM_TORRE_01_01_1");
+     buttonBaseBaseTorre1.onclick = handleButtonClickBaseTorre1Hide;
 
-      //Asignación del botón respecto a la Torre 1
-      var buttonBaseBaseTorre1 = document.getElementById("L_ADM_TORRE_01_01_0");
-      buttonBaseBaseTorre1.onclick = handleButtonClickBaseTorre1Show;
+     //Asignación del botón respecto a la Torre 1
+     var buttonBaseBaseTorre1 = document.getElementById("L_ADM_TORRE_01_01_0");
+     buttonBaseBaseTorre1.onclick = handleButtonClickBaseTorre1Show;
 
-      //Asignación del botón respecto a la base Torre 1
-      var buttonBaseTorre1 = document.getElementById("L_ADM_TORRE_01_0");
-      buttonBaseTorre1.onclick = handleButtonClickFrenteTorre1Show;
+     //Asignación del botón respecto a la base Torre 1
+     var buttonBaseTorre1 = document.getElementById("L_ADM_TORRE_01_0");
+     buttonBaseTorre1.onclick = handleButtonClickFrenteTorre1Show;
 
-      //Asignación del botón respecto al frente Torre 1
-      var buttonFrenteTorre1 = document.getElementById("L_ADM_TORRE_01_1");
-      buttonFrenteTorre1.onclick = handleButtonClickFrenteTorre1Hide;
+     //Asignación del botón respecto al frente Torre 1
+     var buttonFrenteTorre1 = document.getElementById("L_ADM_TORRE_01_1");
+     buttonFrenteTorre1.onclick = handleButtonClickFrenteTorre1Hide;
 
-      //Declaración de las capas del frente Torre2
-      var frenteTorre2 = document.getElementById("layer5");
-      var vistaFrenteTorre2 = document.getElementById("layer6");
+     //Declaración de las capas del frente Torre2
+     var frenteTorre2 = document.getElementById("layer5");
+     var vistaFrenteTorre2 = document.getElementById("layer6");
 
-      //función para mostrar las 2 capas del Frente Torre2
-      const handleButtonClickFrenteTorre2Show = () => {
+     //función para mostrar las 2 capas del Frente Torre2
+     const handleButtonClickFrenteTorre2Show = () => {
 
-        frenteTorre2.style.visibility = "visible"
-        vistaFrenteTorre2.style.visibility = "visible"
-      };
-      //función para remover las 2 capas del Frente Torre2
-      const handleButtonClickFrenteTorre2Hide = () => {
+       frenteTorre2.style.visibility = "visible"
+       vistaFrenteTorre2.style.visibility = "visible"
+     };
+     //función para remover las 2 capas del Frente Torre2
+     const handleButtonClickFrenteTorre2Hide = () => {
 
-        frenteTorre2.style.visibility = "hidden"
-        vistaFrenteTorre2.style.visibility = "hidden"
-      };
+       frenteTorre2.style.visibility = "hidden"
+       vistaFrenteTorre2.style.visibility = "hidden"
+     };
 
-      //Asignación del botón respecto a la base Torre 2
-      var buttonBaseTorre2 = document.getElementById("L_ADM_TORRE_02_0");
-      buttonBaseTorre2.onclick = handleButtonClickFrenteTorre2Show;
+     //Asignación del botón respecto a la base Torre 2
+     var buttonBaseTorre2 = document.getElementById("L_ADM_TORRE_02_0");
+     buttonBaseTorre2.onclick = handleButtonClickFrenteTorre2Show;
 
-      //Asignación del botón respecto al frente Torre 2
-      var buttonFrenteTorre2 = document.getElementById("L_ADM_TORRE_02_1");
-      buttonFrenteTorre2.onclick = handleButtonClickFrenteTorre2Hide;
+     //Asignación del botón respecto al frente Torre 2
+     var buttonFrenteTorre2 = document.getElementById("L_ADM_TORRE_02_1");
+     buttonFrenteTorre2.onclick = handleButtonClickFrenteTorre2Hide;
 
-      //Declaración de las capas del frente Torre3
-      var frenteTorre3 = document.getElementById("layer3");
-      var vistaFrenteTorre3 = document.getElementById("layer4");
+     //Declaración de las capas del frente Torre3
+     var frenteTorre3 = document.getElementById("layer3");
+     var vistaFrenteTorre3 = document.getElementById("layer4");
 
-      //función para mostrar las 2 capas del Frente Torre3
-      const handleButtonClickFrenteTorre3Show = () => {
+     //función para mostrar las 2 capas del Frente Torre3
+     const handleButtonClickFrenteTorre3Show = () => {
 
-        frenteTorre3.style.visibility = "visible"
-        vistaFrenteTorre3.style.visibility = "visible"
-      };
+       frenteTorre3.style.visibility = "visible"
+       vistaFrenteTorre3.style.visibility = "visible"
+     };
 
-      //función para remover las 2 capas del Frente Torre2
-      const handleButtonClickFrenteTorre3Hide = () => {
+     //función para remover las 2 capas del Frente Torre2
+     const handleButtonClickFrenteTorre3Hide = () => {
 
-        frenteTorre3.style.visibility = "hidden"
-        vistaFrenteTorre3.style.visibility = "hidden"
+       frenteTorre3.style.visibility = "hidden"
+       vistaFrenteTorre3.style.visibility = "hidden"
 
-      };
+     };
 
-      //Asignación del botón respecto a la base Torre 3
-      var buttonBaseTorre3 = document.getElementById("L_ADM_TORRE_03_0");
-      buttonBaseTorre3.onclick = handleButtonClickFrenteTorre3Show;
+     //Asignación del botón respecto a la base Torre 3
+     var buttonBaseTorre3 = document.getElementById("L_ADM_TORRE_03_0");
+     buttonBaseTorre3.onclick = handleButtonClickFrenteTorre3Show;
 
-      //Asignación del botón respecto al frente Torre 3
-      var buttonFrenteTorre3 = document.getElementById("L_ADM_TORRE_03_1");
-      buttonFrenteTorre3.onclick = handleButtonClickFrenteTorre3Hide;
-      
+     //Asignación del botón respecto al frente Torre 3
+     var buttonFrenteTorre3 = document.getElementById("L_ADM_TORRE_03_1");
+     buttonFrenteTorre3.onclick = handleButtonClickFrenteTorre3Hide;
+     */
     });
   </script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
