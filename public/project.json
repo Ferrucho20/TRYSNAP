@@ -1,24 +1,24 @@
 [
-    {
-      "id": "P123434",
-      "nombre": "Loira",
-      "link": "/loira",
-      "informacion": [
+  {
+    "id": "P123434",
+    "nombre": "Loira",
+    "link": "/loira",
+    "informacion": [
       {
         "consecutivo": "Boton1",
         "idFrente": "L_ADM_TORRE_01_1", 
-        "idBase": "L_ADM_TORRE_01_0",
-        "showOrHide": [  
-          "layer9",
-          "layer10"]
+        "idBase": "L_ADM_TORRE_01_0", 
+        "showOrHide": [   
+          "layer10",
+          "layer9"]
       },
       {
         "consecutivo": "Boton2",
-        "idFrente": "L_ADM_TORRE_01_1",
-        "idBase": "L_ADM_TORRE_01_0",
+        "idFrente": "L_ADM_TORRE_02_1",
+        "idBase": "L_ADM_TORRE_02_0",
         "showOrHide": [
-          "layer5",
-          "layer6"
+          "layer6",
+          "layer5"
         ]
       },
       {
@@ -26,96 +26,45 @@
         "idFrente": "L_ADM_TORRE_03_1",
         "idBase": "L_ADM_TORRE_03_0",
         "showOrHide": [
-          "layer3",
-          "layer4"
+          "layer4",
+          "layer3"
         ]
       },
       {
         "consecutivo": "Boton4",
-        "idFrente": "L_ADM_TORRE_01_01_1", 
+        "idFrente": "L_ADM_TORRE_01_01_1",
         "idBase": "L_ADM_TORRE_01_01_0", 
         "showOrHide": [
           "layer9",
           "layer10",
           "layer8",
-          "layer8"
+          "layer7"
         ]
       }
     ]
-    },
-    {
-      "id": "P1234",
-      "nombre": "La Flora",
-      "link": "/"
-    },
-    {
-      "id": "P1234",
-      "nombre": "La Flora",
-      "link": "/"
-    },
-    {
-      "id": "P1234",
-      "nombre": "La Flora",
-      "link": "/"
-    },
-    {
-      "id": "P1234",
-      "nombre": "La Flora",
-      "link": "/"
-    },
-    {
-      "id": "P1234",
-      "nombre": "La Flora",
-      "link": "/"
-    },
-    {
-      "id": "P1234",
-      "nombre": "La Flora",
-      "link": "/"
-    },
-    {
-      "id": "P1234",
-      "nombre": "La Flora",
-      "link": "/"
-    },
-    {
-      "id": "P1234",
-      "nombre": "La Flora",
-      "link": "/"
-    },
-    {
-      "id": "P1234",
-      "nombre": "La Flora",
-      "link": "/"
-    },
-    {
-      "id": "P1234",
-      "nombre": "La Flora",
-      "link": "/"
-    },
-    {
-      "id": "P1234",
-      "nombre": "La Flora",
-      "link": "/"
-    },
-    {
-      "id": "P1234",
-      "nombre": "La Flora",
-      "link": "/"
-    },
-    {
-      "id": "P1234",
-      "nombre": "La Flora",
-      "link": "/"
-    },
-    {
-      "id": "P1234",
-      "nombre": "La Flora",
-      "link": "/"
-    },
-    {
-      "id": "P1234",
-      "nombre": "La Flora",
-      "link": "/"
-    }
-  ]
+  },
+  {
+    "id": "P1234",
+    "nombre": "La Flora",
+    "link": "/",
+    "informacion": [
+      {
+        "consecutivo": "Boton1",
+        "idFrente": "L_ADM_TORRE_01_1", 
+        "idBase": "L_ADM_TORRE_01_0", 
+        "showOrHide": [   
+          "layer5",
+          "layer6"]
+      },
+      {
+        "consecutivo": "Boton2",
+        "idFrente": "L_ADM_TORRE_02_1",
+        "idBase": "L_ADM_TORRE_02_0",
+        "showOrHide": [
+          "layer3",
+          "layer4"
+        ]
+      }
+    ]
+  }
+]
