@@ -348,35 +348,32 @@
           for (var j = 0; j < projetos[i].informacion.length; j++) {
             //Asignación del botón respecto a la base Torre 2
             console.log("encontró informacion")
-            window[frente + j] = document.getElementById(projetos[i].informacion[j].idFrente);
+            this[frente + j] = document.getElementById(projetos[i].informacion[j].idFrente);
 
             //Asignación del botón respecto al frente Torre 2
-            window[base + j] = document.getElementById(projetos[i].informacion[j].idBase);
+            this[base + j] = document.getElementById(projetos[i].informacion[j].idBase);
 
             for (var k = 0; k < projetos[i].informacion[j].showOrHide.length; k++) {
-              window[torre + cont] = document.getElementById(projetos[i].informacion[j].showOrHide[k]);
+              this[torre + cont] = document.getElementById(projetos[i].informacion[j].showOrHide[k]);
               console.log("encontró showOrHide  # " + cont)
-
-              //var vistaFrenteTorre2 = document.getElementById("layer6");
+              this[torre + cont].append
 
               //función para mostrar 
-              window[handShow+j] = () => {
-                window[torre+cont].style.visibility = "visible"
+              this[handShow+j] = () => {
+                this[torre+cont].style.visibility = "visible"
               };
-              window[base+j].onclick = window[handShow+j];
+              this[base+j].onclick = this[handShow+j];
 
               //función para remover 
-              window[handHide+j] = () => {
-                window[torre + cont].style.visibility = "hidden"
+              this[handHide+j] = () => {
+                this[torre + cont].style.visibility = "hidden"
               };
-              window[frente+j].onclick = window[handHide+j];
+              this[frente+j].onclick = this[handHide+j];
 
-              console.log("frente = "+ window[frente + j] )
-              console.log("base = "+ window[base + j] )
-              console.log("torre = "+ window[torre + cont] )
-
+              console.log("frente = "+ this[frente + j] )
+              console.log("base = "+ this[base + j] )
+              console.log("torre = "+ this[torre + cont] )
               cont++
-
             }
           }
         }
