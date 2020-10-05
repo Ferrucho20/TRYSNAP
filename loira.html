@@ -178,7 +178,7 @@
         .then(response => response.json())
         .then(data => {
           for (var i = 0; i < data.length; i++) {
-            if (data[i].id == 'P123434') {
+            if (data[i].id == projectoID) {
               var cont = 0;
               for (var j = 0; j < data[i].informacion.length; j++) {
                 //Asignación del botón respecto a la base Torre 2
@@ -209,7 +209,6 @@
                   }
                 };
                 this[frente + j].onclick = this[handHide + j];
-
                 cont++
 
               }
