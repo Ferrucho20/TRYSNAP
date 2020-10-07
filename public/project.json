@@ -9,16 +9,16 @@
         "idFrente": "L_ADM_TORRE_01_1", 
         "idBase": "L_ADM_TORRE_01_0", 
         "showOrHide": [   
-          "layer10",
-          "layer9"]
+          "layer8",
+          "layer7"]
       },
       {
         "consecutivo": "Boton2",
         "idFrente": "L_ADM_TORRE_02_1",
         "idBase": "L_ADM_TORRE_02_0",
         "showOrHide": [
-          "layer6",
-          "layer5"
+          "layer9",
+          "layer10"
         ]
       },
       {
@@ -26,8 +26,8 @@
         "idFrente": "L_ADM_TORRE_03_1",
         "idBase": "L_ADM_TORRE_03_0",
         "showOrHide": [
-          "layer4",
-          "layer3"
+          "layer6",
+          "layer5"
         ]
       },
       {
@@ -35,10 +35,8 @@
         "idFrente": "L_ADM_TORRE_01_01_1",
         "idBase": "L_ADM_TORRE_01_01_0", 
         "showOrHide": [
-          "layer9",
-          "layer10",
-          "layer8",
-          "layer7"
+          "layer4",
+          "layer3"
         ]
       }
     ]
@@ -63,6 +61,50 @@
         "showOrHide": [
           "layer3",
           "layer4"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P002848301000",
+    "nombre": "Saint Michel",
+    "link": "/SMichel",
+    "informacion": [
+      {
+        "consecutivo": "Boton1",
+        "idFrente": "L_ADM_TORRE_01_1", 
+        "idBase": "L_ADM_TORRE_01_0", 
+        "showOrHide": [   
+          "layer10",
+          "layer9"]
+      },
+      {
+        "consecutivo": "Boton2",
+        "idFrente": "L_ADM_TORRE_02_1",
+        "idBase": "L_ADM_TORRE_02_0",
+        "showOrHide": [
+          "layer6",
+          "layer5"
+        ]
+      },
+      {
+        "consecutivo": "Boton3",
+        "idFrente": "L_ADM_TORRE_03_1",
+        "idBase": "L_ADM_TORRE_03_0",
+        "showOrHide": [
+          "layer4",
+          "layer3"
+        ]
+      },
+      {
+        "consecutivo": "Boton4",
+        "idFrente": "L_ADM_TORRE_04_1",
+        "idBase": "L_ADM_TORRE_04_1", 
+        "showOrHide": [
+          "layer9",
+          "layer10",
+          "layer8",
+          "layer7"
         ]
       }
     ]
