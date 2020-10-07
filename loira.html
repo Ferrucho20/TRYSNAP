@@ -83,6 +83,7 @@
     var name = "/LOIRA 20-09-10.svg";
     var projectoID = "P134567"
     var proyectosJson = {}
+    var projectJson;
     /*
     fetch('/project.json')
       .then(function (response) {
@@ -96,6 +97,53 @@
       });
 */
     var name3 = {}
+
+
+    function getDatos() {
+        return new Promise((resolve, reject) => {
+
+          try {
+            
+          fetch('/project.json')
+          .then(response => response.json())
+          .then(data => projectJson = data)
+          .then(() => resolve(projectJson))
+          
+          } catch (error) {
+            reject(error)
+          }
+
+
+        }); 
+      }
+      
+      projectJson = getDatos()
+      console.log("datos cargados por fetch 2 --> " + projectJson)
+
+
+     //Search
+     function autocompletado() {
+        document.getElementById("demo").innerHTML = '';
+
+        var pal = document.getElementById("buscar-pal").value;
+        var tam = pal.length;
+        for (indice in projectJson) {
+          var projecto = projectJson[indice];
+          var str = projecto.nombre.substring(0, tam);
+          if (pal.length <= projecto.nombre.length && pal.length != 0 && projecto.nombre.length != 0) {
+            if (pal.toLowerCase() == str.toLowerCase()) {
+              var node = document.createElement("ol")
+              var link = document.createElement("a")
+              link.setAttribute("href", projectJson[indice].link)
+              link.innerHTML = projectJson[indice].nombre
+              //node.appendChild(textnode);
+              node.appendChild(link)
+              document.getElementById("demo").appendChild(node)
+            }
+          }
+        }
+      }
+
 
     //Carga del plano usando Snap
     var fragment = Snap.load(name, (data) => {
@@ -174,14 +222,11 @@
       var handShow = 'handlerButtonClickShow'
       var handHide = 'handlerButtonClickHide'
       var torre = 'torre'
-      var projectJson;
-      const datos44 = fetch('/project.json')
-        .then(response => response.json())
-        .then(data => projectJson = data)
+     
 
-        console.log("datos : "+ datos44)
-      
 
+
+1
       for (var i = 0; i < projectJson.length; i++) {
         if (projectJson[i].id == projectoID) {
           var cont = 0;
@@ -219,28 +264,7 @@
           }
         }
       }
-      //Search
-      function autocompletado() {
-        document.getElementById("demo").innerHTML = '';
-
-        var pal = document.getElementById("buscar-pal").value;
-        var tam = pal.length;
-        for (indice in projectJson) {
-          var projecto = projectJson[indice];
-          var str = projecto.nombre.substring(0, tam);
-          if (pal.length <= projecto.nombre.length && pal.length != 0 && projecto.nombre.length != 0) {
-            if (pal.toLowerCase() == str.toLowerCase()) {
-              var node = document.createElement("ol")
-              var link = document.createElement("a")
-              link.setAttribute("href", projectJson[indice].link)
-              link.innerHTML = projectJson[indice].nombre
-              //node.appendChild(textnode);
-              node.appendChild(link)
-              document.getElementById("demo").appendChild(node)
-            }
-          }
-        }
-      }
+     
 
 
     });
