@@ -18,6 +18,10 @@ app.get("/", function (req, res, next) {
   res.sendFile(path.join(__dirname + "/snap.svg.html"));
 });
 
+app.get("/SMichel", function (req, res, next) {
+  res.sendFile(path.join(__dirname + "/saintMichel.html"));
+});
+
 app.get("/loira", function (req, res, next) {
   res.sendFile(path.join(__dirname + "/loira.html"));
 });
