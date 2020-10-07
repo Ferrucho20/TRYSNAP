@@ -101,7 +101,7 @@
       {
         "consecutivo": "Boton4",
         "idFrente": "L_ADM_TORRE_04_1",
-        "idBase": "L_ADM_TORRE_04_1", 
+        "idBase": "L_ADM_TORRE_04_0", 
         "showOrHide": [
           "layer3",
           "layer4"
