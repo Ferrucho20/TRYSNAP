@@ -108,5 +108,110 @@
         ]
       }
     ]
+  },
+  {
+    "id": "005937451000",
+    "nombre": "Arrecife",
+    "link": "/Arrecife",
+    "informacion": [
+      {
+        "consecutivo": "Boton1",
+        "idFrente": "L_ADM_TORRE_17_1", 
+        "idBase": "L_ADM_TORRE_17_0", 
+        "showOrHide": [   
+          "layer31",
+          "layer30"]
+      },
+      {
+        "consecutivo": "Boton2",
+        "idFrente": "L_ADM_TORRE_18_1",
+        "idBase": "L_ADM_TORRE_18_0",
+        "showOrHide": [
+          "layer29",
+          "layer28"
+        ]
+      },
+      {
+        "consecutivo": "Boton3",
+        "idFrente": "L_ADM_TORRE_19_1",
+        "idBase": "L_ADM_TORRE_19_0",
+        "showOrHide": [
+          "layer27",
+          "layer26"
+        ]
+      },
+      {
+        "consecutivo": "Boton4",
+        "idFrente": "L_ADM_TORRE_20_1",
+        "idBase": "L_ADM_TORRE_20_0", 
+        "showOrHide": [
+          "layer25",
+          "layer24"
+        ]
+      },
+      {
+        "consecutivo": "Boton4",
+        "idFrente": "L_ADM_TORRE_2_1",
+        "idBase": "L_ADM_TORRE_21_0", 
+        "showOrHide": [
+          "layer23",
+          "layer22"
+        ]
+      },
+      {
+        "consecutivo": "Boton4",
+        "idFrente": "L_ADM_TORRE_22_1",
+        "idBase": "L_ADM_TORRE_22_0", 
+        "showOrHide": [
+          "layer21",
+          "layer20"
+        ]
+      },
+      {
+        "consecutivo": "Boton4",
+        "idFrente": "L_ADM_TORRE_20_21_22_1",
+        "idBase": "L_ADM_TORRE_20_21_22_0", 
+        "showOrHide": [
+          "layer6",
+          "layer8"
+        ]
+      },
+      {
+        "consecutivo": "Boton4",
+        "idFrente": "L_ADM_TORRE_23_1",
+        "idBase": "L_ADM_TORRE_23_0", 
+        "showOrHide": [
+          "layer12",
+          "layer13"
+        ]
+      },
+      {
+        "consecutivo": "Boton4",
+        "idFrente": "L_ADM_TORRE_24_1",
+        "idBase": "L_ADM_TORRE_24_0", 
+        "showOrHide": [
+          "layer10",
+          "layer11"
+        ]
+      },
+      {
+        "consecutivo": "Boton4",
+        "idFrente": "L_ADM_TORRE_23_24_1",
+        "idBase": "L_ADM_TORRE_23_24_0", 
+        "showOrHide": [
+          "layer2",
+          "layer14"
+        ]
+      },
+      {
+        "consecutivo": "Boton4",
+        "idFrente": "L_ADM_TORRE_25_1",
+        "idBase": "L_ADM_TORRE_25_0", 
+        "showOrHide": [
+          "layer4",
+          "layer5"
+        ]
+      },
+    ]
   }
 ]

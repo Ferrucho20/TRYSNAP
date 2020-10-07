@@ -22,6 +22,10 @@ app.get("/SMichel", function (req, res, next) {
   res.sendFile(path.join(__dirname + "/saintMichel.html"));
 });
 
+app.get("/Arrecife", function (req, res, next) {
+  res.sendFile(path.join(__dirname + "/arrecife.html"));
+});
+
 app.get("/loira", function (req, res, next) {
   res.sendFile(path.join(__dirname + "/loira.html"));
 });

@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+  <meta content="utf-8" http-equiv="encoding" />
+  <link rel="stylesheet" type="text/css" href="/style.css" />
+  <title>snap.svg</title>
+  <script src="/snap.svg.js"></script>
+
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <div class="center-block">
+
+
+  </div>
+  <div id="searchbox" class="col text-left">
+    <input type="text" id="buscar-pal" onkeyup="autocompletado()" style="border: solid 2px; z-index: -1;">
+    <div>
+      <ul id="demo"></ul>
+    </div>
+  </div>
+
+  <div class="container" id="planos">
+
+    <div class="row">
+      <div data-toggle="tooltip" title="Info apto" id="mycard1" class="card">
+        <h6>INFORMACION APARTAMENTO</h6>
+      </div>
+      <!-- tarjeta de convenciones-->
+      <div data-toggle="tooltip" title="Convención colores" id="mycard" class="card">
+        <div class="card-body" id="card-body">
+          <p id="elpopover"> <small>por lanzar</small> <span id="pro" class="badge badge-primary">
+              <div></div>
+            </span></p>
+          <p id="elpopover"> <small>en sala</small> <span id="pro1" class="badge badge-secondary">
+              <div></div>
+            </span></p>
+          <!--#1AED0C-->
+          <p id="elpopover"> <small>opcionado</small> <span id="pro2" class="badge badge-success">
+              <div></div>
+            </span></p>
+          <!--#F9F511-->
+          <p id="elpopover"> <small>vendido</small> <span id="pro3" class="badge badge-danger">
+              <div></div>
+            </span></p>
+          <!--#7EABFA-->
+          <p id="elpopover"><small>v mes actual</small> <span id="pro4" class="badge badge-warning">
+              <div></div>
+            </span></p>
+          <!--#A0C0F8-->
+          <p id="elpopover"> <small>Escriturado</small> <span id="pro5" class="badge badge-info">
+              <div></div>
+            </span></p>
+          <!--#00244D-->
+        </div>
+      </div>
+
+    </div>
+    <div>
+      <object class="svg10" style="height: 100%; width: 100%;" id="svg">
+        <!--<div id="tooltipL2013" data-toggle="tooltip" title="info apto" style="background-color: beige;" >apto2013</div>-->
+      </object>
+    </div>
+  </div>
+  <!--plano svg-->
+
+  <script>
+
+
+
+
+    //SVG
+    var state2 = false;
+    var torre1 = true;
+    var s = Snap("#svg");
+    //Archivo de diseño del plano 
+    var name = "/ARRECIFE 2 20-08-18 marcado.svg";
+    var projectoID = "005937451000"
+    var proyectosJson = {}
+    var projectJson;
+    /*
+    fetch('/project.json')
+      .then(function (response) {
+        return response.json();
+      })
+      .then(function (data) {
+        mostrar(data);
+      })
+      .catch(function (err) {
+        console.log(err);
+      });
+*/
+    var name3 = {}
+
+
+    function getDatos() {
+        return new Promise((resolve, reject) => {
+
+          try {
+            
+          fetch('/project.json')
+          .then(response => response.json())
+          .then(data => projectJson = data)
+          .then(() => resolve(projectJson))
+          
+          } catch (error) {
+            reject(error)
+          }
+
+
+        }); 
+      }
+      
+      projectJson = getDatos()
+      console.log("datos cargados por fetch 2 --> " + projectJson)
+
+
+     //Search
+     function autocompletado() {
+        document.getElementById("demo").innerHTML = '';
+
+        var pal = document.getElementById("buscar-pal").value;
+        var tam = pal.length;
+        for (indice in projectJson) {
+          var projecto = projectJson[indice];
+          var str = projecto.nombre.substring(0, tam);
+          if (pal.length <= projecto.nombre.length && pal.length != 0 && projecto.nombre.length != 0) {
+            if (pal.toLowerCase() == str.toLowerCase()) {
+              var node = document.createElement("ol")
+              var link = document.createElement("a")
+              link.setAttribute("href", projectJson[indice].link)
+              link.innerHTML = projectJson[indice].nombre
+              //node.appendChild(textnode);
+              node.appendChild(link)
+              document.getElementById("demo").appendChild(node)
+            }
+          }
+        }
+      }
+
+
+    //Carga del plano usando Snap
+    var fragment = Snap.load(name, (data) => {
+      //Asignación de colores a LOIRA 20-09-10os apartamentos por estado 
+      s.append(data);
+
+
+      var dataPost = { CodPry: projectoID };
+
+      async function datos() {
+        const respuesta = await fetch('/api/api/sqlserver/JDEVTAS/getPlano', {
+          method: 'POST',
+          mode: 'cors',
+          body: JSON.stringify(dataPost),
+          headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json'
+          },
+        })
+          .then(response => response.json())
+          .then(response => {
+            name3 = JSON.stringify(response)
+            for (var i = 0; i < response.dataList.length; i++) {
+              var apto = document.getElementById(response.dataList[i].CodLot);
+              apto.style.fill = response.dataList[i].EtqClr;
+              apto.style.opacity = "0.7";
+              //document.getElementById(name2.listaId[i].id).onmouseover = function() {mouseOver()};
+              //document.getElementById(name2.listaId[i].id).onmouseout = function() {mouseOut()};
+              apto.addEventListener('mouseover', myFunc, false);
+              apto.addEventListener('mouseout', myFunc2, false);
+            }
+            function myFunc() {
+              for (var i = 0; i < response.dataList.length; i++) {
+                if (this.id == response.dataList[i].CodLot) {
+                  $(function () {
+                    $('[data-toggle="tooltip"]').tooltip()
+                  });
+                  var id = document.getElementById(response.dataList[i].CodLot);
+                  //Coordenadas X/Y
+                  var xCoords = event.clientX + 40;
+                  var yCoords = event.clientY;
+                  //Nueva posición de las coordenadas
+                  var lacaja = document.getElementById("mycard1");
+                  lacaja.style.left = xCoords + 'px';
+                  lacaja.style.top = yCoords + 'px';
+                  lacaja.style.visibility = "visible";
+                  document.getElementById("mycard1").innerHTML = " " + response.dataList[i].EtqEst
+                    + " <br> " + response.dataList[i].EtqAre
+                    + " <br> " + response.dataList[i].EtqVlm
+                    + " <br> " + response.dataList[i].EtqFev
+                    + " <br> " + response.dataList[i].EtqVlb
+                    + " <br> " + response.dataList[i].EtqNcl;
+                  // + " <br> " + response.dataList[i].EtqClr;
+                  //document.getElementById("mititle").innerHTML = this.id;
+
+                }
+              }
+            }
+            function myFunc2() {
+              for (var i = 0; i < response.dataList.length; i++) {
+                if (this.id !== response.dataList[i].CodLot) {
+                  var lacaja = document.getElementById("mycard1");
+                  lacaja.style.visibility = "hidden";
+                }
+              }
+            }
+          })
+          .catch(error => {
+            console.error('Error:', error);
+          });
+      }
+
+      datos()
+      var frente = 'frenteTorre'
+      var base = 'baseTorre'
+      var handShow = 'handlerButtonClickShow'
+      var handHide = 'handlerButtonClickHide'
+      var torre = 'torre'
+     
+
+
+
+1
+      for (var i = 0; i < projectJson.length; i++) {
+        if (projectJson[i].id == projectoID) {
+          var cont = 0;
+          for (var j = 0; j < projectJson[i].informacion.length; j++) {
+            //Asignación del botón respecto a la base Torre 2
+            this[frente + j] = document.getElementById(projectJson[i].informacion[j].idFrente);
+
+            //Asignación del botón respecto al frente Torre 2
+            this[base + j] = document.getElementById(projectJson[i].informacion[j].idBase);
+
+            let listaShowHide = projectJson[i].informacion[j].showOrHide
+            //función para mostrar 
+            this[handShow + j] = () => {
+              for (item in listaShowHide) {
+                let este = document.getElementById(listaShowHide[item]);
+                este.style.visibility = "visible"
+
+                cont++
+              }
+            };
+            this[base + j].onclick = this[handShow + j];
+
+            //función para remover 
+            this[handHide + j] = () => {
+              for (item in listaShowHide) {
+                let este2 = document.getElementById(listaShowHide[item]);
+                este2.style.visibility = "hidden"
+
+                cont++
+              }
+            };
+            this[frente + j].onclick = this[handHide + j];
+            cont++
+
+          }
+        }
+      }
+     
+
+
+    });
+  </script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <!--<svg></svg> -->
+</body>
+
+</html>
