@@ -173,7 +173,13 @@
         "idBase": "L_ADM_TORRE_20_21_22_0", 
         "showOrHide": [
           "layer6",
-          "layer8"
+          "layer8",
+          "layer25",
+          "layer24",
+          "layer23",
+          "layer22",
+          "layer21",
+          "layer20"
         ]
       },
       {
@@ -200,7 +206,11 @@
         "idBase": "L_ADM_TORRE_23_24_0", 
         "showOrHide": [
           "layer2",
-          "layer14"
+          "layer14",
+          "layer12",
+          "layer13",
+          "layer10",
+          "layer11"
         ]
       },
       {
