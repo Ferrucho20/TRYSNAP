@@ -77,8 +77,10 @@
     var torre1 = true;
     var s = Snap("#svg");
     //Archivo de diseño del plano 
-    var name = "/LA FLORA 20-07-10.svg";
-    var projectoID = "P134567"
+    //var name = "/LA FLORA 20-07-10.svg";
+    //var projectoID = "P134567"
+    var name
+    var projectoID
     var proyectosJson = {}
     var projectJson;
     /*
@@ -97,49 +99,62 @@
 
 
     function getDatos() {
-        return new Promise((resolve, reject) => {
+      return new Promise((resolve, reject) => {
 
-          try {
-            
+        try {
+
           fetch('/project.json')
-          .then(response => response.json())
-          .then(data => projectJson = data)
-          .then(() => resolve(projectJson))
-          
-          } catch (error) {
-            reject(error)
-          }
+            .then(response => response.json())
+            .then(data => projectJson = data)
+            .then(() => resolve(projectJson))
+
+        } catch (error) {
+          reject(error)
+        }
 
 
-        }); 
-      }
-      
-      projectJson = getDatos()
-      console.log("datos cargados por fetch 2 --> " + projectJson)
+      });
+    }
+
+    projectJson = getDatos()
 
 
-     //Search
-     function autocompletado() {
-        document.getElementById("demo").innerHTML = '';
+    //Search
+    function autocompletado() {
+      document.getElementById("demo").innerHTML = '';
+      var ruta = "ruta"
+      var pal = document.getElementById("buscar-pal").value;
+      var tam = pal.length;
+      for (indice in projectJson) {
+        var projecto = projectJson[indice];
+        var str = projecto.nombre.substring(0, tam);
+        if (pal.length <= projecto.nombre.length && pal.length != 0 && projecto.nombre.length != 0) {
+          if (pal.toLowerCase() == str.toLowerCase()) {
+            var este = projectJson[indice]
+            var node = document.createElement("ol")
+            var link = document.createElement("a")
+            //              link.setAttribute("href", projectJson[indice].link)
+            link.setAttribute("href", "/")
+            link.innerHTML = projectJson[indice].nombre
+            console.log("dato : ------>" + projecto.id)
+            this[ruta + indice] = () => {
+              for (indice2 in projectJson) {
+                if (este == projectJson[indice2]) {
+                  name = projectJson[indice2].svg
+                  projectoID = projectJson[indice2].id
+                  console.log("dato click: ------>" + projectJson[indice].id)
+                }
+              }
+            };
+            link.onclick = this[ruta + indice];
 
-        var pal = document.getElementById("buscar-pal").value;
-        var tam = pal.length;
-        for (indice in projectJson) {
-          var projecto = projectJson[indice];
-          var str = projecto.nombre.substring(0, tam);
-          if (pal.length <= projecto.nombre.length && pal.length != 0 && projecto.nombre.length != 0) {
-            if (pal.toLowerCase() == str.toLowerCase()) {
-              var node = document.createElement("ol")
-              var link = document.createElement("a")
-              link.setAttribute("href", projectJson[indice].link)
-              link.innerHTML = projectJson[indice].nombre
-              //node.appendChild(textnode);
-              node.appendChild(link)
-              document.getElementById("demo").appendChild(node)
-            }
+            //node.appendChild(textnode);
+            node.appendChild(link)
+            document.getElementById("demo").appendChild(node)
           }
         }
       }
+    }
 
 
     //Carga del plano usando Snap
@@ -219,11 +234,11 @@
       var handShow = 'handlerButtonClickShow'
       var handHide = 'handlerButtonClickHide'
       var torre = 'torre'
-     
 
 
 
-1
+
+      1
       for (var i = 0; i < projectJson.length; i++) {
         if (projectJson[i].id == projectoID) {
           var cont = 0;
@@ -261,7 +276,7 @@
           }
         }
       }
-     
+
 
 
     });
