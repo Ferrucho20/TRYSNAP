@@ -27,13 +27,14 @@ path:hover {
 }
 
 #svg10{
-  width: 790px;
-  height: 400px;
+  width: 1185px;
+  height: 698px;
   z-index: -1;
 }
+/*medidas estandar*/
 #svg8{
-  width: 790px;
-  height: 400px;
+  width: 1185px;
+  height: 698px;
   z-index: -1;
 }
 #searchbox{ 
@@ -64,7 +65,7 @@ path:hover {
   width: 130px;
   height: 260px;
   position: absolute;
-  left: 2%;
+  left: 20px;
   top: 10%;
   padding-top: 0%;
   padding-bottom: 1%;
@@ -88,7 +89,8 @@ path:hover {
 }
 
 .tooltip {
-	background-color: black;
+  background-color: black;
+  
 }
 
 #pro{
