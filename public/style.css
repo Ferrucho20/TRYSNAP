@@ -29,13 +29,7 @@ path:hover {
 #svgMarval{
   width: 1185px;
   height: 698px;
-  z-index: -1;
-}
-/*medidas estandar*/
-#svg8{
-  width: 1185px;
-  height: 698px;
-  z-index: -1;
+  z-index: 1;
 }
 #searchbox{ 
   position: absolute;

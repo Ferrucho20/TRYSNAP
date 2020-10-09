@@ -59,7 +59,7 @@
 
 
     </div>
-    <div>
+    <div id="contenido">
       <object style="height: 100%; width: 100%;" id="svg">
         <!--<div id="tooltipL2013" data-toggle="tooltip" title="info apto" style="background-color: beige;" >apto2013</div>-->
       </object>
@@ -69,40 +69,24 @@
 
   <script>
 
-
-
-
     //SVG
     var state2 = false;
     var torre1 = true;
-    var s = Snap("#svg");
     //Archivo de diseño del plano 
-    //var name = "/LA FLORA 20-07-10.svg";
-    //var projectoID = "P134567"
-    var name
-    var projectoID
+    var name = "/LA FLORA 20-07-10.svg";
+    var projectoID = "P134567"
+    s = Snap("#svg")
+    drawIt()
+
+
     var proyectosJson = {}
     var projectJson;
-    /*
-    fetch('/project.json')
-      .then(function (response) {
-        return response.json();
-      })
-      .then(function (data) {
-        mostrar(data);
-      })
-      .catch(function (err) {
-        console.log(err);
-      });
-*/
     var name3 = {}
-
 
     function getDatos() {
       return new Promise((resolve, reject) => {
 
         try {
-
           fetch('/project.json')
             .then(response => response.json())
             .then(data => projectJson = data)
@@ -118,7 +102,6 @@
 
     projectJson = getDatos()
 
-
     //Search
     function autocompletado() {
       document.getElementById("demo").innerHTML = '';
@@ -130,156 +113,162 @@
         var str = projecto.nombre.substring(0, tam);
         if (pal.length <= projecto.nombre.length && pal.length != 0 && projecto.nombre.length != 0) {
           if (pal.toLowerCase() == str.toLowerCase()) {
-            var este = projectJson[indice]
+            
             var node = document.createElement("ol")
+             
             var link = document.createElement("a")
-            //              link.setAttribute("href", projectJson[indice].link)
-            link.setAttribute("href", "/")
+            link.setAttribute("id",projectJson[indice].id)
             link.innerHTML = projectJson[indice].nombre
-            console.log("dato : ------>" + projecto.id)
-            this[ruta + indice] = () => {
+            node.appendChild(link)
+            document.getElementById("demo").appendChild(node)
+            var handler = () => {
+              console.log("indice" + link.id)
+
               for (indice2 in projectJson) {
-                if (este == projectJson[indice2]) {
+                if (link.id === projectJson[indice2].id) {
+                  killIt()
                   name = projectJson[indice2].svg
                   projectoID = projectJson[indice2].id
-                  console.log("dato click: ------>" + projectJson[indice].id)
+                  console.log("id to show : "+projectJson[indice2].id)
+                  drawIt()
                 }
               }
             };
-            link.onclick = this[ruta + indice];
+            link.onclick = handler;
 
-            //node.appendChild(textnode);
-            node.appendChild(link)
-            document.getElementById("demo").appendChild(node)
+
           }
         }
       }
     }
+    var toRemove
+    function drawIt() {
+      s = Snap("#svg");
+      //Carga del plano usando Snap
+      var fragment = Snap.load(name, (data) => {
+        //Asignación de colores a LOIRA 20-09-10os apartamentos por estado 
+        s.append(data)
 
-
-    //Carga del plano usando Snap
-    var fragment = Snap.load(name, (data) => {
-      //Asignación de colores a LOIRA 20-09-10os apartamentos por estado 
-      s.append(data);
-
-
-      var dataPost = { CodPry: projectoID };
-
-      async function datos() {
-        const respuesta = await fetch('/api/api/sqlserver/JDEVTAS/getPlano', {
-          method: 'POST',
-          mode: 'cors',
-          body: JSON.stringify(dataPost),
-          headers: {
-            'Content-Type': 'application/json',
-            'Accept': 'application/json'
-          },
-        })
-          .then(response => response.json())
-          .then(response => {
-            name3 = JSON.stringify(response)
-            for (var i = 0; i < response.dataList.length; i++) {
-              var apto = document.getElementById(response.dataList[i].CodLot);
-              apto.style.fill = response.dataList[i].EtqClr;
-              apto.style.opacity = "0.7";
-              //document.getElementById(name2.listaId[i].id).onmouseover = function() {mouseOver()};
-              //document.getElementById(name2.listaId[i].id).onmouseout = function() {mouseOut()};
-              apto.addEventListener('mouseover', myFunc, false);
-              apto.addEventListener('mouseout', myFunc2, false);
-            }
-            function myFunc() {
-              for (var i = 0; i < response.dataList.length; i++) {
-                if (this.id == response.dataList[i].CodLot) {
-                  $(function () {
-                    $('[data-toggle="tooltip"]').tooltip()
-                  });
-                  var id = document.getElementById(response.dataList[i].CodLot);
-                  //Coordenadas X/Y
-                  var xCoords = event.clientX + 40;
-                  var yCoords = event.clientY;
-                  //Nueva posición de las coordenadas
-                  var lacaja = document.getElementById("mycard1");
-                  lacaja.style.left = xCoords + 'px';
-                  lacaja.style.top = yCoords + 'px';
-                  lacaja.style.visibility = "visible";
-                  document.getElementById("mycard1").innerHTML = " " + response.dataList[i].EtqEst
-                    + " <br> " + response.dataList[i].EtqAre
-                    + " <br> " + response.dataList[i].EtqVlm
-                    + " <br> " + response.dataList[i].EtqFev
-                    + " <br> " + response.dataList[i].EtqVlb
-                    + " <br> " + response.dataList[i].EtqNcl;
-                  // + " <br> " + response.dataList[i].EtqClr;
-                  //document.getElementById("mititle").innerHTML = this.id;
-
-                }
-              }
-            }
-            function myFunc2() {
-              for (var i = 0; i < response.dataList.length; i++) {
-                if (this.id !== response.dataList[i].CodLot) {
-                  var lacaja = document.getElementById("mycard1");
-                  lacaja.style.visibility = "hidden";
-                }
-              }
-            }
+        var dataPost = { CodPry: projectoID };
+        async function datos() {
+          const respuesta = await fetch('/api/api/sqlserver/JDEVTAS/getPlano', {
+            method: 'POST',
+            mode: 'cors',
+            body: JSON.stringify(dataPost),
+            headers: {
+              'Content-Type': 'application/json',
+              'Accept': 'application/json'
+            },
           })
-          .catch(error => {
-            console.error('Error:', error);
-          });
-      }
-
-      datos()
-      var frente = 'frenteTorre'
-      var base = 'baseTorre'
-      var handShow = 'handlerButtonClickShow'
-      var handHide = 'handlerButtonClickHide'
-      var torre = 'torre'
-
-
-
-
-      1
-      for (var i = 0; i < projectJson.length; i++) {
-        if (projectJson[i].id == projectoID) {
-          var cont = 0;
-          for (var j = 0; j < projectJson[i].informacion.length; j++) {
-            //Asignación del botón respecto a la base Torre 2
-            this[frente + j] = document.getElementById(projectJson[i].informacion[j].idFrente);
-
-            //Asignación del botón respecto al frente Torre 2
-            this[base + j] = document.getElementById(projectJson[i].informacion[j].idBase);
-
-            let listaShowHide = projectJson[i].informacion[j].showOrHide
-            //función para mostrar 
-            this[handShow + j] = () => {
-              for (item in listaShowHide) {
-                let este = document.getElementById(listaShowHide[item]);
-                este.style.visibility = "visible"
-
-                cont++
+            .then(response => response.json())
+            .then(response => {
+              name3 = JSON.stringify(response)
+              for (var i = 0; i < response.dataList.length; i++) {
+                var apto = document.getElementById(response.dataList[i].CodLot);
+                apto.style.fill = response.dataList[i].EtqClr;
+                apto.style.opacity = "0.7";
+                //document.getElementById(name2.listaId[i].id).onmouseover = function() {mouseOver()};
+                //document.getElementById(name2.listaId[i].id).onmouseout = function() {mouseOut()};
+                apto.addEventListener('mouseover', myFunc, false);
+                apto.addEventListener('mouseout', myFunc2, false);
               }
-            };
-            this[base + j].onclick = this[handShow + j];
+              function myFunc() {
+                for (var i = 0; i < response.dataList.length; i++) {
+                  if (this.id == response.dataList[i].CodLot) {
+                    $(function () {
+                      $('[data-toggle="tooltip"]').tooltip()
+                    });
+                    var id = document.getElementById(response.dataList[i].CodLot);
+                    //Coordenadas X/Y
+                    var xCoords = event.clientX + 40;
+                    var yCoords = event.clientY;
+                    //Nueva posición de las coordenadas
+                    var lacaja = document.getElementById("mycard1");
+                    lacaja.style.left = xCoords + 'px';
+                    lacaja.style.top = yCoords + 'px';
+                    lacaja.style.visibility = "visible";
+                    document.getElementById("mycard1").innerHTML = " " + response.dataList[i].EtqEst
+                      + " <br> " + response.dataList[i].EtqAre
+                      + " <br> " + response.dataList[i].EtqVlm
+                      + " <br> " + response.dataList[i].EtqFev
+                      + " <br> " + response.dataList[i].EtqVlb
+                      + " <br> " + response.dataList[i].EtqNcl;
+                    // + " <br> " + response.dataList[i].EtqClr;
+                    //document.getElementById("mititle").innerHTML = this.id;
 
-            //función para remover 
-            this[handHide + j] = () => {
-              for (item in listaShowHide) {
-                let este2 = document.getElementById(listaShowHide[item]);
-                este2.style.visibility = "hidden"
-
-                cont++
+                  }
+                }
               }
-            };
-            this[frente + j].onclick = this[handHide + j];
-            cont++
+              function myFunc2() {
+                for (var i = 0; i < response.dataList.length; i++) {
+                  if (this.id !== response.dataList[i].CodLot) {
+                    var lacaja = document.getElementById("mycard1");
+                    lacaja.style.visibility = "hidden";
+                  }
+                }
+              }
+            })
+            .catch(error => {
+              console.error('Error:', error);
+            });
+        }
 
+        datos()
+        var frente = 'frenteTorre'
+        var base = 'baseTorre'
+        var handShow = 'handlerButtonClickShow'
+        var handHide = 'handlerButtonClickHide'
+        var torre = 'torre'
+
+        for (var i = 0; i < projectJson.length; i++) {
+          if (projectJson[i].id == projectoID) {
+            for (var j = 0; j < projectJson[i].informacion.length; j++) {
+              //Asignación del botón respecto a la base Torre 2
+
+              this[frente + j] = document.getElementById(projectJson[i].informacion[j].idFrente);
+
+              //Asignación del botón respecto al frente Torre 2
+              this[base + j] = document.getElementById(projectJson[i].informacion[j].idBase);
+
+              let listaShowHide = projectJson[i].informacion[j].showOrHide
+              //función para mostrar 
+              this[handShow + j] = () => {
+                for (item in listaShowHide) {
+                  let este = document.getElementById(listaShowHide[item]);
+
+                  este.style.visibility = "visible"
+                }
+              };
+              this[base + j].onclick = this[handShow + j];
+
+              //función para remover 
+              this[handHide + j] = () => {
+                for (item in listaShowHide) {
+                  let este2 = document.getElementById(listaShowHide[item]);
+                  este2.style.visibility = "hidden"
+
+                }
+              };
+              this[frente + j].onclick = this[handHide + j];
+
+            }
           }
         }
-      }
+      });
+    }
 
+    function killIt() {
+      var elem = document.getElementById('svg');
+      var obj1 = document.createElement('object');
+      obj1.setAttribute("id", "svg");
+      obj1.setAttribute("style", "height: 100%; width: 100%;");
 
+      var element = document.getElementById("contenido");
+      element.appendChild(obj1);
+      elem.remove(elem);
+      return false;
 
-    });
+    }
   </script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
