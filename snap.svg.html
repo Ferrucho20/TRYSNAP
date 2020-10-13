@@ -74,14 +74,13 @@
     var torre1 = true;
     //Archivo de diseño del plano 
     var name = "/LA FLORA 20-07-10.svg";
-    var projectoID = "P134567"
+    var projectoID = "002079201000"
     s = Snap("#svg")
     drawIt()
 
 
     var proyectosJson = {}
     var projectJson;
-    var name3 = {}
 
     function getDatos() {
       return new Promise((resolve, reject) => {
@@ -176,7 +175,6 @@
           })
             .then(response => response.json())
             .then(response => {
-              name3 = JSON.stringify(response)
               for (var i = 0; i < response.dataList.length; i++) {
                 var apto = document.getElementById(response.dataList[i].CodLot);
                 console.log("apartamento " + i + " --> apto.CodLot = " +response.dataList[i].CodLot)
