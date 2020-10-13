@@ -45,7 +45,7 @@
   <div id="searchbox" class="col text-left">
     <input type="text" id="buscar-pal" onkeyup="autocompletado()" style="border: solid 2px; z-index: -1;">
     <div>
-      <ul id="demo"></ul>
+      <ol id="demo"></ol>
     </div>
   </div>
 
@@ -113,35 +113,49 @@
         var str = projecto.nombre.substring(0, tam);
         if (pal.length <= projecto.nombre.length && pal.length != 0 && projecto.nombre.length != 0) {
           if (pal.toLowerCase() == str.toLowerCase()) {
-            
+
             var node = document.createElement("ol")
-             
             var link = document.createElement("a")
-            link.setAttribute("id",projectJson[indice].id)
+            link.setAttribute("id", projectJson[indice].id)
             link.innerHTML = projectJson[indice].nombre
             node.appendChild(link)
             document.getElementById("demo").appendChild(node)
-            var handler = () => {
-              console.log("indice" + link.id)
-
-              for (indice2 in projectJson) {
-                if (link.id === projectJson[indice2].id) {
-                  killIt()
-                  name = projectJson[indice2].svg
-                  projectoID = projectJson[indice2].id
-                  console.log("id to show : "+projectJson[indice2].id)
-                  drawIt()
-                }
-              }
-            };
-            link.onclick = handler;
-
-
           }
         }
       }
+      fullLinks()
     }
-    var toRemove
+
+    function fullLinks() {
+      var lista = document.getElementById("demo")
+      var lista2 = lista.getElementsByTagName("ol")
+      var arr = [...lista2];
+      console.log("lisrtasfdsdf + "+ arr)
+      for (var p = 0; p < arr.length; p++) {
+        var tempr = arr[p]
+        var cosaA = tempr.getElementsByTagName("a")[0].id
+        
+
+        console.log("variable ol : "+ cosaA)
+        var linkstable = document.getElementById(cosaA)
+        var handler = () => {
+          projectoID = cosaA
+          for (indice2 in projectJson) {
+            console.log("for : --> "+ projectJson[indice])
+            if (cosaA == projectJson[indice2].id) {
+              killIt()
+              name = projectJson[indice2].svg
+              
+              console.log("id to show : " + name  + projectoID)
+              drawIt()
+              
+            }
+          }
+        };
+        linkstable.onclick = handler;
+      }
+    }
+
     function drawIt() {
       s = Snap("#svg");
       //Carga del plano usando Snap
