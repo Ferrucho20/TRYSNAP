@@ -25,8 +25,53 @@
     ]
   },
   {
-    "id": "P1345678",
-    "nombre": "Loira",
+    "id": "002848251000",
+    "nombre": "Loira E1 Ciudad La Salle",
+    "link": "/loira",
+    "svg": "LOIRA 20-09-10.svg",
+    "informacion": [
+      {
+        "consecutivo": "Boton1",
+        "idFrente": "L_ADM_TORRE_01_1", 
+        "idBase": "L_ADM_TORRE_01_0", 
+        "showOrHide": [   
+          "layer9",
+          "layer10"]
+      },
+      {
+        "consecutivo": "Boton2",
+        "idFrente": "L_ADM_TORRE_02_1",
+        "idBase": "L_ADM_TORRE_02_0",
+        "showOrHide": [
+          "layer5",
+          "layer6"
+        ]
+      },
+      {
+        "consecutivo": "Boton3",
+        "idFrente": "L_ADM_TORRE_03_1",
+        "idBase": "L_ADM_TORRE_03_0",
+        "showOrHide": [
+          "layer3",
+          "layer4"
+        ]
+      },
+      {
+        "consecutivo": "Boton4",
+        "idFrente": "L_ADM_TORRE_01_01_1",
+        "idBase": "L_ADM_TORRE_01_01_0", 
+        "showOrHide": [
+          "layer9",
+          "layer10",
+          "layer8",
+          "layer7"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "002848252000",
+    "nombre": "Loira E1 Ciudad La Salle",
     "link": "/loira",
     "svg": "LOIRA 20-09-10.svg",
     "informacion": [
