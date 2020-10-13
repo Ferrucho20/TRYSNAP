@@ -134,26 +134,26 @@
       for (var p = 0; p < arr.length; p++) {
         var tempr = arr[p]
         var cosaA = tempr.getElementsByTagName("a")[0].id
-        
+        console.log("variable ol : "+ cosaA)        
+        createHandler(cosaA)
+      }
+    }
 
-        console.log("variable ol : "+ cosaA)
-        var linkstable = document.getElementById(cosaA)
-        var handler = () => {
+    function createHandler(cosaA){
+      this[cosaA] = document.getElementById(cosaA)
+      this['handler'+cosaA] = () => {
           projectoID = cosaA
           for (indice2 in projectJson) {
             console.log("for : --> "+ projectJson[indice])
             if (cosaA == projectJson[indice2].id) {
+              name = projectJson[indice2].svg             
               killIt()
-              name = projectJson[indice2].svg
-              
               console.log("id to show : " + name  + projectoID)
               drawIt()
-              
             }
           }
         };
-        linkstable.onclick = handler;
-      }
+        this[cosaA].onclick = this['handler'+cosaA];
     }
 
     function drawIt() {
