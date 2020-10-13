@@ -13,17 +13,14 @@ path:hover {
 #demo{
   position: absolute;
   z-index: 1;
+  background-color: #ffffff;
+  position: relative;
+  width: 400px;
 }
 
 #planos{
   position: relative;
   top: 40px;
-}
-
-#demo{
-  background-color: #ffffff;
-  position: relative;
-  width: 250px;
 }
 
 #svgMarval{
