@@ -506,6 +506,137 @@
         ]
       }
     ]
+  },
+  {
+    "id": "023986101000",
+    "nombre": "FRESNO",
+    "svg": "FRESNO marcado  20-08-18.svg",
+    "informacion":[
+      {
+        "consecutivo": "Boton1",
+        "idFrente": "L_ADM_TORRE_07_1",
+        "idBase": "L_ADM_TORRE_07_0",
+        "showOrHide":[
+          "layer22",
+          "layer23"
+        ]
+      },
+      {
+        "consecutivo": "Boton2",
+        "idFrente": "L_ADM_TORRE_08_1",
+        "idBase": "L_ADM_TORRE_08_0",
+        "showOrHide":[
+          "layer24",
+          "layer27"
+        ]
+      },
+      {
+        "consecutivo": "Boton3",
+        "idFrente": "L_ADM_TORRE_09_1",
+        "idBase": "L_ADM_TORRE_09_0",
+        "showOrHide":[
+          "layer25",
+          "layer26"
+        ]
+      },
+      {
+        "consecutivo": "Boton4",
+        "idFrente": "L_ADM_TORRE_12_1",
+        "idBase": "L_ADM_TORRE_12_0",
+        "showOrHide":[
+          "layer16",
+          "layer17"
+        ]
+      },
+      {
+        "consecutivo": "Boton5",
+        "idFrente": "L_ADM_TORRE_11_1",
+        "idBase": "L_ADM_TORRE_11_0",
+        "showOrHide":[
+          "layer18",
+          "layer19"
+        ]
+      },
+      {
+        "consecutivo": "Boton5",
+        "idFrente": "L_ADM_TORRE_10_1",
+        "idBase": "L_ADM_TORRE_10_0",
+        "showOrHide":[
+          "layer20",
+          "layer21"
+        ]
+      },
+      {
+        "consecutivo": "Boton6",
+        "idFrente": "L_ADM_TORRE_06_1",
+        "idBase": "L_ADM_TORRE_06_0",
+        "showOrHide":[
+          "layer12",
+          "layer13"
+        ]
+      },
+      {
+        "consecutivo": "Boton7",
+        "idFrente": "L_ADM_TORRE_05_1",
+        "idBase": "L_ADM_TORRE_05_0",
+        "showOrHide":[
+          "layer14",
+          "layer15"
+        ]
+      },
+      {
+        "consecutivo": "Boton8",
+        "idFrente": "L_ADM_TORRE_03_04_1",
+        "idBase": "L_ADM_TORRE_03_04_0",
+        "showOrHide":[
+          "layer39",
+          "layer40"
+        ]
+      },
+      {
+        "consecutivo": "Boton9",
+        "idFrente": "L_ADM_TORRE_01_02_1",
+        "idBase": "L_ADM_TORRE_01_02_0",
+        "showOrHide":[
+          "layer37",
+          "layer38"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "002848101000",
+    "nombre": "MONTPELLIER",
+    "svg": "MONTPELLIER marcado.svg",
+    "informacion":[
+      {
+        "consecutivo": "Boton1",
+        "idFrente": "L_ADM_TORRE_03_1",
+        "idBase": "L_ADM_TORRE_03_0",
+        "showOrHide":[
+          "layer7",
+          "layer8"
+        ]
+      },
+      {
+        "consecutivo": "Boton2",
+        "idFrente": "L_ADM_TORRE_02_1",
+        "idBase": "L_ADM_TORRE_02_0",
+        "showOrHide":[
+          "layer5",
+          "layer6"
+        ]
+      },
+      {
+        "consecutivo": "Boton3",
+        "idFrente": "L_ADM_TORRE_01_1",
+        "idBase": "L_ADM_TORRE_01_0",
+        "showOrHide":[
+          "layer3",
+          "layer4"
+        ]
+      }
+    ]
   }
   
 ]
