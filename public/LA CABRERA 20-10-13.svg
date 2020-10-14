@@ -60,22 +60,7 @@
      id="layer1"
      style="display:inline"
      sodipodi:insensitive="true">
-    <ellipse
-       style="opacity:0.2;fill:#008080;fill-opacity:1;stroke:#000000;stroke-width:0.07595415;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="L_TORRE_ADM_03_04_05_06_07_0"
-       cx="60.027344"
-       cy="15.292254"
-       rx="1.8375697"
-       ry="1.2257209"
-       inkscape:label="#path4873" />
-    <ellipse
-       style="display:inline;opacity:0.2;fill:#008080;fill-opacity:1;stroke:#000000;stroke-width:0.07437202;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="L_TORRE_ADM_08_09_10_11_12_13_14_0"
-       cx="57.108662"
-       cy="20.096096"
-       rx="1.7970197"
-       ry="1.2017074"
-       inkscape:label="#path4873" />
+    
     <image
        y="0"
        x="0"
@@ -13839,6 +13824,22 @@ gg==
        preserveAspectRatio="none"
        height="40.047333"
        width="73.152" />
+       <ellipse
+       style="opacity:0.2;fill:#008080;fill-opacity:1;stroke:#000000;stroke-width:0.07595415;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="L_TORRE_ADM_03_04_05_06_07_0"
+       cx="60.027344"
+       cy="15.292254"
+       rx="1.8375697"
+       ry="1.2257209"
+       inkscape:label="#path4873" />
+    <ellipse
+       style="display:inline;opacity:0.2;fill:#008080;fill-opacity:1;stroke:#000000;stroke-width:0.07437202;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="L_TORRE_ADM_08_09_10_11_12_13_14_0"
+       cx="57.108662"
+       cy="20.096096"
+       rx="1.7970197"
+       ry="1.2017074"
+       inkscape:label="#path4873" />
   </g>
   <g
      inkscape:groupmode="layer"
