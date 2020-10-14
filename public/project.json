@@ -2,7 +2,6 @@
   {
     "id": "002079201000",
     "nombre": "LA FLORA ALSACIA RESERVADO",
-    "link": "/",
     "svg": "LA FLORA 20-07-10.svg",
     "informacion": [
       {
@@ -27,7 +26,6 @@
   {
     "id": "002848251000",
     "nombre": "Loira E1 Ciudad La Salle",
-    "link": "/loira",
     "svg": "LOIRA 20-09-10.svg",
     "informacion": [
       {
@@ -70,9 +68,87 @@
     ]
   },
   {
+    "id": "002079201000",
+    "nombre": "LA FLORA ALSACIA RESERVADO",
+    "svg": "LA FLORA 20-07-10.svg",
+    "informacion": [
+      {
+        "consecutivo": "Boton1",
+        "idFrente": "L_ADM_TORRE_01_1", 
+        "idBase": "L_ADM_TORRE_01_0", 
+        "showOrHide": [   
+          "layer5",
+          "layer6"]
+      },
+      {
+        "consecutivo": "Boton2",
+        "idFrente": "L_ADM_TORRE_02_1",
+        "idBase": "L_ADM_TORRE_02_0",
+        "showOrHide": [
+          "layer3",
+          "layer4"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "002080501000",
+    "nombre": "LA CABRERA",
+    "svg": "LA CABRERA 20-10-13.svg",
+    "informacion": [
+      {
+        "consecutivo": "Boton1",
+        "idFrente": "L_ADM_TORRE_01_02_1", 
+        "idBase": "L_ADM_TORRE_01_02_0", 
+        "showOrHide": [   
+          "layer3",
+          "layer4"]
+      },
+      {
+        "consecutivo": "Boton2",
+        "idFrente": "L_ADM_TORRE_03_04_05_06_07_1",
+        "idBase": "L_ADM_TORRE_03_04_05_06_07_0",
+        "showOrHide": [
+          "layer7",
+          "layer8"
+        ]
+      },
+      {
+        "consecutivo": "Boton3",
+        "idFrente": "L_TORRE_ADM_03_04_05_06_07_1",
+        "idBase": "L_TORRE_ADM_03_04_05_06_07_0",
+        "showOrHide": [
+          "layer5",
+          "layer6",
+          "layer7",
+          "layer8"
+        ]
+      },
+      {
+        "consecutivo": "Boton3",
+        "idFrente": "L_ADM_TORRE_03_1",
+        "idBase": "L_ADM_TORRE_03_0",
+        "showOrHide": [
+          "layer3",
+          "layer4"
+        ]
+      },
+      {
+        "consecutivo": "Boton4",
+        "idFrente": "L_ADM_TORRE_01_01_1",
+        "idBase": "L_ADM_TORRE_01_01_0", 
+        "showOrHide": [
+          "layer9",
+          "layer10",
+          "layer8",
+          "layer7"
+        ]
+      }
+    ]
+  },
+  {
     "id": "002848252000",
     "nombre": "Loira E2 Ciudad La Salle",
-    "link": "/loira",
     "svg": "LOIRA 20-09-10.svg",
     "informacion": [
       {
@@ -117,7 +193,6 @@
   {
     "id": "005937451000",
     "nombre": "PUERTA DORADA ARRECIFE E1",
-    "link": "/Arrecife",
     "svg": "ARRECIFE 2 20-08-18 marcado.svg",
     "informacion": [
       {
@@ -233,7 +308,6 @@
   {
     "id": "005937452000",
     "nombre": "PUERTA DORADA ARRECIFE E2",
-    "link": "/Arrecife",
     "svg": "ARRECIFE 2 20-08-18 marcado.svg",
     "informacion": [
       {
@@ -349,7 +423,6 @@
   {
     "id": "002848301000",
     "nombre": "Saint Michel",
-    "link": "/SMichel",
     "svg": "SAINT MICHEL 20-10-06.svg",
     "informacion": [
       {
