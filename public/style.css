@@ -60,6 +60,7 @@ path:hover {
   padding-left: 15px;
   font-family: 'monospace', 'Arial Narrow', Arial, sans-serif;
   visibility: hidden;
+  z-index: 1;
 }
 /*#mycard{
   width: 200px;
