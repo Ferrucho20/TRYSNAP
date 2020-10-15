@@ -51,11 +51,13 @@ path:hover {
 }
 #mycard1{
 
+  position: fixed;
   width:300px;
   height: 200px;
-
+  left: 70%;
+  top: 100px;
   box-shadow: 4px 4px 4px rgb(214, 217, 245);
-  
+  padding-left: 15px;
   font-family: 'monospace', 'Arial Narrow', Arial, sans-serif;
   visibility: hidden;
 }
