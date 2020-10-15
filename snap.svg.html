@@ -15,44 +15,58 @@
 </head>
 
 <body>
-  <div class="container-fluid" id="planos">
+  <div data-toggle="tooltip" title="Convención colores" id="mycard" class="card">
+    <div class="card-body" id="card-body">
+      <p id="elpopover"> <small>por lanzar</small> <span id="pro" class="badge badge-primary">
+          <div></div>
+        </span></p>
+      <p id="elpopover"> <small>en sala</small> <span id="pro1" class="badge badge-secondary">
+          <div></div>
+        </span></p>
+      <!--#1AED0C-->
+      <p id="elpopover"> <small>opcionado</small> <span id="pro2" class="badge badge-success">
+          <div></div>
+        </span></p>
+      <!--#F9F511-->
+      <p id="elpopover"> <small>vendido</small> <span id="pro3" class="badge badge-danger">
+          <div></div>
+        </span></p>
+      <!--#7EABFA-->
+      <p id="elpopover"><small>v mes actual</small> <span id="pro4" class="badge badge-warning">
+          <div></div>
+        </span></p>
+      <!--#A0C0F8-->
+      <p id="elpopover"> <small>Escriturado</small> <span id="pro5" class="badge badge-info">
+          <div></div>
+        </span></p>
+      <!--#00244D-->
+    </div>
+  </div>
+  <div id="searchbox" class="col text-left">
+    <input type="text" id="buscar-pal" onkeyup="autocompletado()" style="border: solid 2px; z-index: -1;">
+    <div>
+      <ol id="demo"></ol>
+    </div>
+  </div>
+
+  <div class="container" id="planos">
+
     <div class="row">
-      <div class="col-5" id="searchbox" >
-        <input type="text" id="buscar-pal" onkeyup="autocompletado()" style="border: solid 2px; z-index: -1;" placeholder="Buscar proyectos">
-            <ol id="demo"></ol>
-      </div>
-      <div class="col-6" id="titulo_proy" >
-        <h3 id="elnombre">NOMBRE PROYECTO</h3> 
-      </div>
-      <div class="col" data-toggle="tooltip" title="Info apto" id="mycard1" >
+      <div data-toggle="tooltip" title="Info apto" id="mycard1" class="card">
         <h6>INFORMACION APARTAMENTO</h6>
       </div>
+      <!-- tarjeta de convenciones-->
+
+
     </div>
-    <div class="row">
-        <div class="col-3" id="card-body">
-          <div id="interno">
-            <p id="elpopover"> <small>por lanzar</small> <span id="pro" class="badge badge-primary">
-              </span></p>
-            <p id="elpopover"> <small>en sala</small> <span id="pro1" class="badge badge-secondary">
-              </span></p>
-            <p id="elpopover"> <small>opcionado</small> <span id="pro2" class="badge badge-success">           
-              </span></p>
-            <p id="elpopover"> <small>vendido</small> <span id="pro3" class="badge badge-danger">           
-              </span></p>
-            <p id="elpopover"><small>v mes actual</small> <span id="pro4" class="badge badge-warning">                 
-              </span></p>
-            <p id="elpopover"> <small>Escriturado</small> <span id="pro5" class="badge badge-info">
-              </span></p>
-          </div>
-        </div>
-        <div class="col-9" id="contenido">
-          <object style="height: 100%; width: 100%;" id="svg">
-            <!--<div id="tooltipL2013" data-toggle="tooltip" title="info apto" style="background-color: beige;" >apto2013</div>-->
-          </object>
-      </div>
-    
+    <div id="contenido">
+      <object style="height: 100%; width: 100%;" id="svg">
+        <!--<div id="tooltipL2013" data-toggle="tooltip" title="info apto" style="background-color: beige;" >apto2013</div>-->
+      </object>
+    </div>
   </div>
-</div>
+  <!--plano svg-->
+
   <script>
 
     //SVG
@@ -131,8 +145,7 @@
           for (indice2 in projectJson) {
             console.log("for : --> "+ projectJson[indice])
             if (cosaA == projectJson[indice2].id) {
-              name = projectJson[indice2].svg      
-              document.getElementById("elnombre").innerHTML=projectJson[indice2].nombre;       
+              name = projectJson[indice2].svg             
               killIt()
               console.log("id to show : " + name  + projectoID)
               drawIt()
