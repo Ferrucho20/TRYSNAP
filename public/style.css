@@ -50,7 +50,7 @@ path:hover {
   font-family: 'monospace', 'Arial Narrow', Arial, sans-serif;
 }
 #mycard1{
-
+  background-color: #ffffff;
   position: fixed;
   width:300px;
   height: 200px;
