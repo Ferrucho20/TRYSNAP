@@ -182,7 +182,7 @@
                     });
                     var id = document.getElementById(response.dataList[i].CodLot);
                     //Coordenadas X/Y
-                    var xCoords = event.clientX + 5;
+                    var xCoords = event.clientX + 40;
                     var yCoords = event.clientY;
                     console.log("posX:"+xCoords+"posY:"+yCoords);
                     //Nueva posición de las coordenadas
@@ -249,7 +249,6 @@
                 for (item in listaShowHide) {
                   let este2 = document.getElementById(listaShowHide[item]);
                   este2.style.visibility = "hidden"
-
                 }
               };
               this[frente + j].onclick = this[handHide + j];
