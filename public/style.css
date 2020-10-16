@@ -68,6 +68,7 @@ path:hover {
   
   width:300px;
   height: 200px;
+  background-color: #ffffff;
   box-shadow: 4px 4px 4px rgb(214, 217, 245);
   padding-left: 15px;
   font-family: 'monospace', 'Arial Narrow', Arial, sans-serif;
