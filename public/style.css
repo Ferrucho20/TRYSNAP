@@ -27,22 +27,22 @@ path:hover {
   height: 698px;
   z-index: -1;
 }
-#headrow{
+/*#headrow{
   border: 2px solid #ce1d1d;
-}
+}*/
 #searchbox{ 
   z-index: 1;
-  border: 2px solid #4CAF50;
+  /*border: 2px solid #4CAF50;*/
   height: 300px;
 }
  #titulo_proy{
-  border: 2px solid #4CAF50;
+  /*border: 2px solid #4CAF50;*/
   height: 300px;
  }
 
- #contenido{
+ /*#contenido{
   border: 2px solid #4934a5;
- }
+ }*/
 
 #plano{
   position: absolute;
@@ -57,11 +57,11 @@ path:hover {
 
 #searchbox{ 
   z-index: 1;
-  border: 2px solid #4CAF50;
+ /*border: 2px solid #4CAF50;*/
   height: 150px;
 }
  #titulo_proy{
-  border: 2px solid #4CAF50;
+  /*border: 2px solid #4CAF50;*/
   height: 150px;
   text-align: center;
  }
@@ -94,7 +94,7 @@ path:hover {
 }
 #interno{
   width: 200px;
-  border: 2px solid #070707;
+  /*border: 2px solid #070707;*/
   margin: auto auto auto auto;
 }
 
