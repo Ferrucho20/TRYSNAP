@@ -138,10 +138,19 @@
               killIt()
               console.log("id to show : " + name  + projectoID)
               drawIt()
+              document.getElementById("buscar-pal").value="";
+              cleanList();
             }
           }
         };
         this[cosaA].onclick = this['handler'+cosaA];
+    }
+
+    function cleanList(){
+      let borra = document.getElementById("demo");
+      while (borra.hasChildNodes()) {
+      borra.removeChild(borra.lastChild);
+}
     }
 
     function drawIt() {
