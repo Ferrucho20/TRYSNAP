@@ -17,42 +17,43 @@
 <body>
   <div class="container" id="planos">
     <div class="row" id="headrow">
-      <div class="col-3" id="searchbox" >
-        <input type="text" id="buscar-pal" onkeyup="autocompletado()" style="border: solid 2px; z-index: -1;" placeholder="Buscar proyectos">
-            <ol id="demo"></ol>
+      <div class="col-3" id="searchbox">
+        <input type="text" id="buscar-pal" onkeyup="autocompletado()" style="border: solid 2px; z-index: -1;"
+          placeholder="Buscar proyectos">
+        <ol id="demo"></ol>
       </div>
-      <div class="col-6" id="titulo_proy" >
-        <h3 id="elnombre"></h3> 
+      <div class="col-6" id="titulo_proy">
+        <h3 id="elnombre"></h3>
       </div>
-      <div class="col-3" data-toggle="tooltip" title="Info apto" id="mycard1" >
+      <div class="col-3" data-toggle="tooltip" title="Info apto" id="mycard1">
         <h6>INFORMACION APARTAMENTO</h6>
       </div>
     </div>
     <div class="row">
-        <div class="col-3" id="card-body">
-          <div id="interno">
-            <p id="elpopover"> <small>por lanzar</small> <span id="pro" class="badge badge-primary">
-              </span></p>
-            <p id="elpopover"> <small>en sala</small> <span id="pro1" class="badge badge-secondary">
-              </span></p>
-            <p id="elpopover"> <small>opcionado</small> <span id="pro2" class="badge badge-success">           
-              </span></p>
-            <p id="elpopover"> <small>vendido</small> <span id="pro3" class="badge badge-danger">           
-              </span></p>
-            <p id="elpopover"><small>v mes actual</small> <span id="pro4" class="badge badge-warning">                 
-              </span></p>
-            <p id="elpopover"> <small>Escriturado</small> <span id="pro5" class="badge badge-info">
-              </span></p>
-          </div>
+      <div class="col-3" id="card-body">
+        <div id="interno">
+          <p id="elpopover"> <small>por lanzar</small> <span id="pro" class="badge badge-primary">
+            </span></p>
+          <p id="elpopover"> <small>en sala</small> <span id="pro1" class="badge badge-secondary">
+            </span></p>
+          <p id="elpopover"> <small>opcionado</small> <span id="pro2" class="badge badge-success">
+            </span></p>
+          <p id="elpopover"> <small>vendido</small> <span id="pro3" class="badge badge-danger">
+            </span></p>
+          <p id="elpopover"><small>v mes actual</small> <span id="pro4" class="badge badge-warning">
+            </span></p>
+          <p id="elpopover"> <small>Escriturado</small> <span id="pro5" class="badge badge-info">
+            </span></p>
         </div>
-        <div class="col-9" id="contenido">
-          <object style="height: 100%; width: 100%;" id="svg">
-            <img src="marval.jpg" alt="z" width="500" height="333" style="opacity: 0.5; right: 100px;">
-          </object>
       </div>
-    
+      <div class="col-9" id="contenido">
+        <object style="height: 100%; width: 100%;" id="svg">
+          <img src="marval.jpg" alt="z" width="500" height="333" style="opacity: 0.5; right: 100px;">
+        </object>
+      </div>
+
+    </div>
   </div>
-</div>
   <!--plano svg-->
 
   <script>
@@ -117,40 +118,40 @@
       var lista = document.getElementById("demo")
       var lista2 = lista.getElementsByTagName("ol")
       var arr = [...lista2];
-      console.log("lisrtasfdsdf + "+ arr)
+      console.log("lisrtasfdsdf + " + arr)
       for (var p = 0; p < arr.length; p++) {
         var tempr = arr[p]
         var cosaA = tempr.getElementsByTagName("a")[0].id
-        console.log("variable ol : "+ cosaA)        
+        console.log("variable ol : " + cosaA)
         createHandler(cosaA)
       }
     }
 
-    function createHandler(cosaA){
+    function createHandler(cosaA) {
       this[cosaA] = document.getElementById(cosaA)
-      this['handler'+cosaA] = () => {
-          projectoID = cosaA
-          for (indice2 in projectJson) {
-            console.log("for : --> "+ projectJson[indice])
-            if (cosaA == projectJson[indice2].id) {
-              name = projectJson[indice2].svg   
-              document.getElementById("elnombre").innerHTML=projectJson[indice2].nombre;          
-              killIt()
-              console.log("id to show : " + name  + projectoID)
-              drawIt()
-              document.getElementById("buscar-pal").value="";
-              cleanList();
-            }
+      this['handler' + cosaA] = () => {
+        projectoID = cosaA
+        for (indice2 in projectJson) {
+          console.log("for : --> " + projectJson[indice])
+          if (cosaA == projectJson[indice2].id) {
+            name = projectJson[indice2].svg
+            document.getElementById("elnombre").innerHTML = projectJson[indice2].nombre;
+            killIt()
+            console.log("id to show : " + name + projectoID)
+            drawIt()
+            document.getElementById("buscar-pal").value = "";
+            cleanList();
           }
-        };
-        this[cosaA].onclick = this['handler'+cosaA];
+        }
+      };
+      this[cosaA].onclick = this['handler' + cosaA];
     }
 
-    function cleanList(){
+    function cleanList() {
       let borra = document.getElementById("demo");
       while (borra.hasChildNodes()) {
-      borra.removeChild(borra.lastChild);
-}
+        borra.removeChild(borra.lastChild);
+      }
     }
 
     function drawIt() {
@@ -175,7 +176,7 @@
             .then(response => {
               for (var i = 0; i < response.dataList.length; i++) {
                 var apto = document.getElementById(response.dataList[i].CodLot);
-                console.log("apartamento " + i + " --> apto.CodLot = " +response.dataList[i].CodLot)
+                console.log("apartamento " + i + " --> apto.CodLot = " + response.dataList[i].CodLot)
                 apto.style.fill = response.dataList[i].EtqClr;
                 apto.style.opacity = "0.7";
                 //document.getElementById(name2.listaId[i].id).onmouseover = function() {mouseOver()};
@@ -193,7 +194,7 @@
                     //Coordenadas X/Y
                     var xCoords = event.clientX + 40;
                     var yCoords = event.clientY;
-                    console.log("posX:"+xCoords+"posY:"+yCoords);
+                    console.log("posX:" + xCoords + "posY:" + yCoords);
                     //Nueva posición de las coordenadas
                     var lacaja = document.getElementById("mycard1");
                     lacaja.style.left = xCoords + 'px';
