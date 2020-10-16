@@ -58,11 +58,12 @@ path:hover {
 #searchbox{ 
   z-index: 1;
   border: 2px solid #4CAF50;
-  height: 200px;
+  height: 150px;
 }
  #titulo_proy{
   border: 2px solid #4CAF50;
-  height: 200px;
+  height: 150px;
+  text-align: center;
  }
 #mycard1{
   position: fixed;
