@@ -68,30 +68,6 @@
     ]
   },
   {
-    "id": "002079201000",
-    "nombre": "LA FLORA ALSACIA RESERVADO",
-    "svg": "LA FLORA 20-07-10.svg",
-    "informacion": [
-      {
-        "consecutivo": "Boton1",
-        "idFrente": "L_ADM_TORRE_01_1", 
-        "idBase": "L_ADM_TORRE_01_0", 
-        "showOrHide": [   
-          "layer5",
-          "layer6"]
-      },
-      {
-        "consecutivo": "Boton2",
-        "idFrente": "L_ADM_TORRE_02_1",
-        "idBase": "L_ADM_TORRE_02_0",
-        "showOrHide": [
-          "layer3",
-          "layer4"
-        ]
-      }
-    ]
-  },
-  {
     "id": "002080501000",
     "nombre": "LA CABRERA",
     "svg": "LA CABRERA 20-10-15.svg",

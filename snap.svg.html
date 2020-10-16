@@ -15,7 +15,7 @@
 </head>
 
 <body>
-  <div class="container-fluid" id="planos">
+  <div class="container" id="planos">
     <div class="row" id="headrow">
       <div class="col-3" id="searchbox" >
         <input type="text" id="buscar-pal" onkeyup="autocompletado()" style="border: solid 2px; z-index: -1;" placeholder="Buscar proyectos">
@@ -61,10 +61,10 @@
     var state2 = false;
     var torre1 = true;
     //Archivo de diseño del plano 
-    var name = "/LA FLORA 20-07-10.svg";
-    var projectoID = "002079201000"
+    var name = "";
+    var projectoID = ""
     s = Snap("#svg")
-    drawIt()
+    //drawIt()
 
 
     var proyectosJson = {}
