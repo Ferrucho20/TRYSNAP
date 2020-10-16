@@ -58,11 +58,11 @@ path:hover {
 #searchbox{ 
   z-index: 1;
  /*border: 2px solid #4CAF50;*/
-  height: 150px;
+  height: 100px;
 }
  #titulo_proy{
   /*border: 2px solid #4CAF50;*/
-  height: 150px;
+  height: 100px;
   text-align: center;
  }
 #mycard1{
@@ -89,8 +89,8 @@ path:hover {
   top: 20px;
   height: 250px;
   text-align: center;
-  /*border: 2px solid #070707;*/
-  /*box-shadow: 10px 10px 5px rgb(174, 180, 241);*/
+  border: 1px solid #070707;
+  box-shadow: 10px 10px 5px rgb(174, 180, 241);
 }
 #interno{
   width: 200px;
