@@ -168,6 +168,106 @@
     ]
   },
   {
+    "id": "002080501000",
+    "nombre": "LA CABRERA",
+    "svg": "LA CABRERA 20-10-15.svg",
+    "informacion": [
+      {
+        "consecutivo": "Boton1",
+        "idFrente": "L_ADM_TORRE_01_02_1", 
+        "idBase": "L_ADM_TORRE_01_02_0", 
+        "showOrHide": [   
+          "layer3",
+          "layer4"]
+      },
+      {
+        "consecutivo": "Boton2",
+        "idFrente": "L_ADM_TORRE_03_04_05_06_07_1",
+        "idBase": "L_ADM_TORRE_03_04_05_06_07_0",
+        "showOrHide": [
+          "layer7",
+          "layer8"
+        ]
+      },
+      {
+        "consecutivo": "Boton3",
+        "idFrente": "L_TORRE_ADM_03_04_05_06_07_1",
+        "idBase": "L_TORRE_ADM_03_04_05_06_07_0",
+        "showOrHide": [
+          "layer5",
+          "layer6",
+          "layer7",
+          "layer8"
+        ]
+      },
+      {
+        "consecutivo": "Boton4",
+        "idFrente": "L_ADM_TORRE_08_09_10_11_12_13_14_1",
+        "idBase": "L_ADM_TORRE_08_09_10_11_12_13_14_0",
+        "showOrHide": [
+          "layer11",
+          "layer12"
+        ]
+      },
+      {
+        "consecutivo": "Boton5",
+        "idFrente": "L_TORRE_ADM_08_09_10_11_12_13_14_1",
+        "idBase": "L_TORRE_ADM_08_09_10_11_12_13_14_0",
+        "showOrHide": [
+          "layer9",
+          "layer10",
+          "layer11",
+          "layer12"
+        ]
+      },
+      {
+        "consecutivo": "Boton6",
+        "idFrente": "L_ADM_TORRE_15_16_17_18_19_20_1",
+        "idBase": "L_ADM_TORRE_15_16_17_18_19_20_0", 
+        "showOrHide": [
+          "layer13",
+          "layer14"
+        ]
+      },
+      {
+        "consecutivo": "Boton7",
+        "idFrente": "L_ADM_TORRE_21_22_23_24_1",
+        "idBase": "L_ADM_TORRE_21_22_23_24_0", 
+        "showOrHide": [
+          "layer15",
+          "layer16"
+        ]
+      },
+      {
+        "consecutivo": "Boton8",
+        "idFrente": "L_ADM_TORRE_25_26_27_28_1",
+        "idBase": "L_ADM_TORRE_25_26_27_28_0", 
+        "showOrHide": [
+          "layer17",
+          "layer18"
+        ]
+      },
+      {
+        "consecutivo": "Boton9",
+        "idFrente": "L_ADM_TORRE_29_30_31_32_33_34_1",
+        "idBase": "L_ADM_TORRE_29_30_31_32_33_34_0", 
+        "showOrHide": [
+          "layer19",
+          "layer20"
+        ]
+      },
+      {
+        "consecutivo": "Boton10",
+        "idFrente": "L_ADM_TORRE_35_36_37_1",
+        "idBase": "L_ADM_TORRE_35_36_37_0", 
+        "showOrHide": [
+          "layer21",
+          "layer22"
+        ]
+      }
+    ]
+  },
+  {
     "id": "002848252000",
     "nombre": "Loira E2 Ciudad La Salle",
     "svg": "LOIRA 20-09-10.svg",
