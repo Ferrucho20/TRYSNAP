@@ -11,10 +11,9 @@ path:hover {
 }
 
 #demo{
-  position: absolute;
-  z-index: 1;
+  padding-left: 0%;
   background-color: #ffffff;
-  position: relative;
+  text-align: left;
   width: 400px;
 }
 
@@ -28,11 +27,22 @@ path:hover {
   height: 698px;
   z-index: -1;
 }
-#searchbox{ 
-  position: absolute;
-  left: 20px;
-  z-index: 1;
+#headrow{
+  border: 2px solid #ce1d1d;
 }
+#searchbox{ 
+  z-index: 1;
+  border: 2px solid #4CAF50;
+  height: 300px;
+}
+ #titulo_proy{
+  border: 2px solid #4CAF50;
+  height: 300px;
+ }
+
+ #contenido{
+  border: 2px solid #4934a5;
+ }
 
 #plano{
   position: absolute;
@@ -41,35 +51,47 @@ path:hover {
   left: 10px;
   top: 40px;
 }
+#elnombre{
+  font-family: 'monospace', 'Arial Narrow', Arial, sans-serif;
+}
+
+#searchbox{ 
+  z-index: 1;
+  border: 2px solid #4CAF50;
+  height: 200px;
+}
+ #titulo_proy{
+  border: 2px solid #4CAF50;
+  height: 200px;
+ }
 #mycard1{
-  /*position: fixed;*/
+  
   width:300px;
   height: 200px;
-  /*left: 70%;
-  top: 100px;*/
   box-shadow: 4px 4px 4px rgb(214, 217, 245);
   padding-left: 15px;
   font-family: 'monospace', 'Arial Narrow', Arial, sans-serif;
   visibility: hidden;
   z-index: 1;
-} 
-#mycard{
-  width: 130px;
-  height: 260px;
-  position: absolute;
-  left: 20px;
-  top: 10%;
-  padding-top: 0%;
-  padding-bottom: 1%;
-  background-color: white;
-  border-style: solid;
-  border-color: black;
-  box-shadow: 10px 10px 5px rgb(214, 217, 245);
-  z-index: 1;
 }
+/*#mycard{
+  width: 200px;
+  height: 300px;
+  border: 2px solid #070707;
+  background-color: white;
+  box-shadow: 10px 10px 5px rgb(174, 180, 241);
+}*/
 #card-body{
-  top: 50px;
+  top: 20px;
+  height: 250px;
   text-align: center;
+  /*border: 2px solid #070707;*/
+  /*box-shadow: 10px 10px 5px rgb(174, 180, 241);*/
+}
+#interno{
+  width: 200px;
+  border: 2px solid #070707;
+  margin: auto auto auto auto;
 }
 
 #elpopover{
@@ -116,11 +138,5 @@ path:hover {
   color: white;
   border: 1px solid black;
 }
-#tooltipL2013{
-  left: auto;
-  top: 300px;
-  right: auto;
-  bottom: auto;
-  right: 98px;
-  z-index: -1;
-}
+
+
