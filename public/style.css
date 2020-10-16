@@ -1,3 +1,7 @@
+.container{
+  right: 150px;
+  /*justify-content: left;*/
+}
 #id {
   background-image: url("TERRACOTA\ 20-07-16\ -\ marcado_NEW.svg");
 }
