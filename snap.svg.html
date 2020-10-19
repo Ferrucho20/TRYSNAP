@@ -196,20 +196,15 @@
                     var yCoords = event.clientY;
                     //Nueva posición de las coordenadas
                     var lacaja = document.getElementById("mycard1");
-                    if ( xCoords < 950) {
+                    if (xCoords < 950) {
                       xCoords = xCoords + 40;
-                      yCoords = yCoords;
                       lacaja.style.left = xCoords + "px";
-                      lacaja.style.top =  yCoords + "px";
-                      lacaja.style.visibility = "visible";
                     } else {
                       xCoords = xCoords - 340;
-                      yCoords = yCoords;
                       lacaja.style.left = xCoords + "px";
-                      lacaja.style.right = yCoords + "px";
-                      lacaja.style.visibility = "visible";
                     }
-                    
+                    lacaja.style.top = yCoords + "px";
+                    lacaja.style.visibility = "visible";
                     document.getElementById("mycard1").innerHTML = " " + response.dataList[i].EtqEst
                       + " <br> " + response.dataList[i].EtqAre
                       + " <br> " + response.dataList[i].EtqVlm
