@@ -95,12 +95,12 @@ path:hover {
   box-shadow: 10px 10px 5px rgb(174, 180, 241);
 }*/
 #card-body{
-  
+  left: 100%;
   top: 20px;
   height: 250px;
   text-align: center;
   border: 1px solid #070707;
-  /*box-shadow: 10px 10px 5px rgb(174, 180, 241);*/
+  box-shadow: 10px 10px 5px rgb(174, 180, 241);
 }
 #interno{
   width: 100px;
