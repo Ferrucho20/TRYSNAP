@@ -192,14 +192,24 @@
                     });
                     var id = document.getElementById(response.dataList[i].CodLot);
                     //Coordenadas X/Y
-                    var xCoords = event.clientX + 40;
+                    var xCoords = event.clientX;
                     var yCoords = event.clientY;
-                    console.log("posX:" + xCoords + "posY:" + yCoords);
                     //Nueva posición de las coordenadas
                     var lacaja = document.getElementById("mycard1");
-                    lacaja.style.left = xCoords + 'px';
-                    lacaja.style.top = yCoords + 'px';
-                    lacaja.style.visibility = "visible";
+                    if ( xCoords < 950) {
+                      xCoords = xCoords + 40;
+                      yCoords = yCoords;
+                      lacaja.style.left = xCoords + "px";
+                      lacaja.style.top =  yCoords + "px";
+                      lacaja.style.visibility = "visible";
+                    } else {
+                      xCoords = xCoords - 40;
+                      yCoords = yCoords;
+                      lacaja.style.left = xCoords + "px";
+                      lacaja.style.right = yCoords + "px";
+                      lacaja.style.visibility = "visible";
+                    }
+                    
                     document.getElementById("mycard1").innerHTML = " " + response.dataList[i].EtqEst
                       + " <br> " + response.dataList[i].EtqAre
                       + " <br> " + response.dataList[i].EtqVlm
