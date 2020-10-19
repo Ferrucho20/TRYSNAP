@@ -22,6 +22,7 @@ path:hover {
 }
 
 #planos{
+  width: 1800px;
   position: relative;
   top: 40px;
 }
