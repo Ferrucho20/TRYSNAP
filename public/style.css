@@ -95,7 +95,7 @@ path:hover {
   box-shadow: 10px 10px 5px rgb(174, 180, 241);
 }*/
 #card-body{
-  left: 100%;
+  left: auto;
   top: 20px;
   height: 250px;
   text-align: center;
