@@ -33,12 +33,12 @@ path:hover {
   z-index: -1;
 }
 
-#bodyrow{
+/*#bodyrow{
   border: 2px solid #ce1d1d;
-}
-#headrow{
+}*/
+/*#headrow{
   border: 2px solid #ce1d1d;
-}
+}*/
 #searchbox{ 
   z-index: 1;
   /*border: 2px solid #4CAF50;*/
@@ -49,9 +49,9 @@ path:hover {
   height: 300px;
  }
 
- #contenido{
+ /*#contenido{
   border: 2px solid #4934a5;
- }
+ }*/
 
 #plano{
   position: absolute;
@@ -99,7 +99,7 @@ path:hover {
   top: 20px;
   height: 250px;
   text-align: center;
-  border: 1px solid #070707;
+  /*border: 1px solid #070707;*/
   box-shadow: 10px 10px 5px rgb(174, 180, 241);
 }
 #interno{
