@@ -83,7 +83,7 @@
   {
     "id": "002080501000",
     "nombre": "LA CABRERA E1",
-    "svg": "LA CABRERA 20-10-15.svg",
+    "svg": "LA CABRERA 20-10-15 (1) (1).svg",
     "informacion": [
       {
         "consecutivo": "Boton1",
@@ -150,7 +150,7 @@
   {
     "id": "002080502000",
     "nombre": "LA CABRERA E2",
-    "svg": "LA CABRERA 20-10-15.svg",
+    "svg": "LA CABRERA 20-10-15 (1) (1).svg",
     "informacion": [
       {
         "consecutivo": "Boton1",
@@ -217,7 +217,7 @@
   {
     "id": "002080503000",
     "nombre": "LA CABRERA E3",
-    "svg": "LA CABRERA 20-10-15.svg",
+    "svg": "LA CABRERA 20-10-15 (1) (1).svg",
     "informacion": [
       {
         "consecutivo": "Boton1",
@@ -887,6 +887,288 @@
         "idFrente": "L_ADM_TORRE_21_22_23_24_1",
         "idBase": "L_ADM_TORRE_21_22_23_24_0",
         "showOrHide": ["layer9", "layer10", "layer11", "layer12"]
+      }
+    ]
+  },
+  {
+    "id": "005523101000",
+    "nombre": "FLORENCIA E1",
+    "svg": "FLORENCIA MARCADO 20-02-14.svg",
+    "informacion":[
+      {
+        "consecutivo": "Boton1",
+        "idFrente": "L_ADM_TORRE_01_1",
+        "idBase": "L_ADM_TORRE_01_0",
+        "showOrHide":[
+          "layer18",
+          "layer19"
+        ]
+      },
+      {
+        "consecutivo": "Boton2",
+        "idFrente": "L_ADM_TORRE_02_1",
+        "idBase": "L_ADM_TORRE_02_0",
+        "showOrHide":[
+          "layer16",
+          "layer17"
+        ]
+      },
+      {
+        "consecutivo": "Boton3",
+        "idFrente": "L_ADM_TORRE_03_1",
+        "idBase": "L_ADM_TORRE_03_0",
+        "showOrHide":[
+          "layer13",
+          "layer14"
+        ]
+      },
+      {
+        "consecutivo": "Boton4",
+        "idFrente": "L_ADM_TORRE_04_1",
+        "idBase": "L_ADM_TORRE_04_0",
+        "showOrHide":[
+          "layer10",
+          "layer11"
+        ]
+      },
+      {
+        "consecutivo": "Boton5",
+        "idFrente": "L_ADM_TORRE_05_1",
+        "idBase": "L_ADM_TORRE_05_0",
+        "showOrHide":[
+          "layer8",
+          "layer9"
+        ]
+      },
+      {
+        "consecutivo": "Boton6",
+        "idFrente": "L_ADM_TORRE_06_1",
+        "idBase": "L_ADM_TORRE_06_0",
+        "showOrHide":[
+          "layer6",
+          "layer7"
+        ]
+      },
+      {
+        "consecutivo": "Boton7",
+        "idFrente": "L_ADM_TORRE_07_1",
+        "idBase": "L_ADM_TORRE_07_0",
+        "showOrHide":[
+          "layer5",
+          "layer20"
+        ]
+      },
+      {
+        "consecutivo": "Boton8",
+        "idFrente": "L_ADM_TORRE_08_1",
+        "idBase": "L_ADM_TORRE_08_0",
+        "showOrHide":[
+          "layer3",
+          "layer4"
+        ]
+      },
+      {
+        "consecutivo": "Boton9",
+        "idFrente": "L_ADM_TORRE_01_02_03_1",
+        "idBase": "L_ADM_TORRE_01_02_03_0",
+        "showOrHide":[
+          "layer15",
+          "layer18",
+          "layer19",
+          "layer16",
+          "layer17",
+          "layer13",
+          "layer14",
+          "layer12"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "005523102000",
+    "nombre": "FLORENCIA E2",
+    "svg": "FLORENCIA MARCADO 20-02-14.svg",
+    "informacion":[
+      {
+        "consecutivo": "Boton1",
+        "idFrente": "L_ADM_TORRE_01_1",
+        "idBase": "L_ADM_TORRE_01_0",
+        "showOrHide":[
+          "layer18",
+          "layer19"
+        ]
+      },
+      {
+        "consecutivo": "Boton2",
+        "idFrente": "L_ADM_TORRE_02_1",
+        "idBase": "L_ADM_TORRE_02_0",
+        "showOrHide":[
+          "layer16",
+          "layer17"
+        ]
+      },
+      {
+        "consecutivo": "Boton3",
+        "idFrente": "L_ADM_TORRE_03_1",
+        "idBase": "L_ADM_TORRE_03_0",
+        "showOrHide":[
+          "layer13",
+          "layer14"
+        ]
+      },
+      {
+        "consecutivo": "Boton4",
+        "idFrente": "L_ADM_TORRE_04_1",
+        "idBase": "L_ADM_TORRE_04_0",
+        "showOrHide":[
+          "layer10",
+          "layer11"
+        ]
+      },
+      {
+        "consecutivo": "Boton5",
+        "idFrente": "L_ADM_TORRE_05_1",
+        "idBase": "L_ADM_TORRE_05_0",
+        "showOrHide":[
+          "layer8",
+          "layer9"
+        ]
+      },
+      {
+        "consecutivo": "Boton6",
+        "idFrente": "L_ADM_TORRE_06_1",
+        "idBase": "L_ADM_TORRE_06_0",
+        "showOrHide":[
+          "layer6",
+          "layer7"
+        ]
+      },
+      {
+        "consecutivo": "Boton7",
+        "idFrente": "L_ADM_TORRE_07_1",
+        "idBase": "L_ADM_TORRE_07_0",
+        "showOrHide":[
+          "layer5",
+          "layer20"
+        ]
+      },
+      {
+        "consecutivo": "Boton8",
+        "idFrente": "L_ADM_TORRE_08_1",
+        "idBase": "L_ADM_TORRE_08_0",
+        "showOrHide":[
+          "layer3",
+          "layer4"
+        ]
+      },
+      {
+        "consecutivo": "Boton9",
+        "idFrente": "L_ADM_TORRE_01_02_03_1",
+        "idBase": "L_ADM_TORRE_01_02_03_0",
+        "showOrHide":[
+          "layer15",
+          "layer18",
+          "layer19",
+          "layer16",
+          "layer17",
+          "layer13",
+          "layer14",
+          "layer12"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "005523103000",
+    "nombre": "FLORENCIA E3",
+    "svg": "FLORENCIA MARCADO 20-02-14.svg",
+    "informacion":[
+      {
+        "consecutivo": "Boton1",
+        "idFrente": "L_ADM_TORRE_01_1",
+        "idBase": "L_ADM_TORRE_01_0",
+        "showOrHide":[
+          "layer18",
+          "layer19"
+        ]
+      },
+      {
+        "consecutivo": "Boton2",
+        "idFrente": "L_ADM_TORRE_02_1",
+        "idBase": "L_ADM_TORRE_02_0",
+        "showOrHide":[
+          "layer16",
+          "layer17"
+        ]
+      },
+      {
+        "consecutivo": "Boton3",
+        "idFrente": "L_ADM_TORRE_03_1",
+        "idBase": "L_ADM_TORRE_03_0",
+        "showOrHide":[
+          "layer13",
+          "layer14"
+        ]
+      },
+      {
+        "consecutivo": "Boton4",
+        "idFrente": "L_ADM_TORRE_04_1",
+        "idBase": "L_ADM_TORRE_04_0",
+        "showOrHide":[
+          "layer10",
+          "layer11"
+        ]
+      },
+      {
+        "consecutivo": "Boton5",
+        "idFrente": "L_ADM_TORRE_05_1",
+        "idBase": "L_ADM_TORRE_05_0",
+        "showOrHide":[
+          "layer8",
+          "layer9"
+        ]
+      },
+      {
+        "consecutivo": "Boton6",
+        "idFrente": "L_ADM_TORRE_06_1",
+        "idBase": "L_ADM_TORRE_06_0",
+        "showOrHide":[
+          "layer6",
+          "layer7"
+        ]
+      },
+      {
+        "consecutivo": "Boton7",
+        "idFrente": "L_ADM_TORRE_07_1",
+        "idBase": "L_ADM_TORRE_07_0",
+        "showOrHide":[
+          "layer5",
+          "layer20"
+        ]
+      },
+      {
+        "consecutivo": "Boton8",
+        "idFrente": "L_ADM_TORRE_08_1",
+        "idBase": "L_ADM_TORRE_08_0",
+        "showOrHide":[
+          "layer3",
+          "layer4"
+        ]
+      },
+      {
+        "consecutivo": "Boton9",
+        "idFrente": "L_ADM_TORRE_01_02_03_1",
+        "idBase": "L_ADM_TORRE_01_02_03_0",
+        "showOrHide":[
+          "layer15",
+          "layer18",
+          "layer19",
+          "layer16",
+          "layer17",
+          "layer13",
+          "layer14",
+          "layer12"
+        ]
       }
     ]
   }
