@@ -778,60 +778,42 @@
     "id": "005523201000",
     "nombre": "DIMARO",
     "svg": "DIMARO MARCADO 20-10-16.svg",
-    "informacion":[
+    "informacion": [
       {
         "consecutivo": "Boton1",
         "idFrente": "L_ADM_TORRE_01_1",
         "idBase": "L_ADM_TORRE_01_0",
-        "showOrHide":[
-          "layer9",
-          "layer10"
-        ]
+        "showOrHide": ["layer9", "layer10"]
       },
       {
         "consecutivo": "Boton2",
         "idFrente": "L_ADM_TORRE_02_1",
         "idBase": "L_ADM_TORRE_02_0",
-        "showOrHide":[
-          "layer3",
-          "layer4"
-        ]
+        "showOrHide": ["layer3", "layer4"]
       },
       {
         "consecutivo": "Boton3",
         "idFrente": "L_ADM_TORRE_03_1",
         "idBase": "L_ADM_TORRE_03_0",
-        "showOrHide":[
-          "layer11",
-          "layer12" 
-        ]
+        "showOrHide": ["layer11", "layer12"]
       },
       {
         "consecutivo": "Boton4",
         "idFrente": "L_ADM_TORRE_04_1",
         "idBase": "L_ADM_TORRE_04_0",
-        "showOrHide":[
-          "layer5",
-          "layer6"
-        ]
+        "showOrHide": ["layer5", "layer6"]
       },
       {
         "consecutivo": "Boton5",
         "idFrente": "L_ADM_TORRE_05_1",
         "idBase": "L_ADM_TORRE_05_0",
-        "showOrHide":[
-          "layer13",
-          "layer14"
-        ]
+        "showOrHide": ["layer13", "layer14"]
       },
       {
         "consecutivo": "Boton6",
         "idFrente": "L_ADM_TORRE_06_1",
         "idBase": "L_ADM_TORRE_06_0",
-        "showOrHide":[
-          "layer7",
-          "layer8"
-        ]
+        "showOrHide": ["layer7", "layer8"]
       }
     ]
   },
@@ -840,7 +822,71 @@
     "nombre": "NUKAK",
     "svg": "NUKAK Marcado 20-02-05.svg",
     "informacion": [
-
+      {
+        "idFrente": "L_ADM_TORRE_01_1",
+        "idBase": "L_ADM_TORRE_01_0",
+        "showOrHide": ["layer27", "layer28"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_05_1",
+        "idBase": "L_ADM_TORRE_05_0",
+        "showOrHide": ["layer22", "layer23"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_09_1",
+        "idBase": "L_ADM_TORRE_09_0",
+        "showOrHide": ["layer19", "layer20"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_13_1",
+        "idBase": "L_ADM_TORRE_13_0",
+        "showOrHide": ["layer17", "layer18"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_017_1",
+        "idBase": "L_ADM_TORRE_17_0",
+        "showOrHide": ["layer15", "layer16"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_21_1",
+        "idBase": "L_ADM_TORRE_21_0",
+        "showOrHide": ["layer11", "layer12"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_25_1",
+        "idBase": "L_ADM_TORRE_25_0",
+        "showOrHide": ["layer7", "layer8"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_29_1",
+        "idBase": "L_ADM_TORRE_29_0",
+        "showOrHide": ["layer5", "layer6"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_31_1",
+        "idBase": "L_ADM_TORRE_31_0",
+        "showOrHide": ["layer3", "layer4"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_01_02_03_04_1",
+        "idBase": "L_ADM_TORRE_01_02_03_04_0",
+        "showOrHide": ["layer25", "layer26", "layer27", "layer28"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_05_06_07_08_1",
+        "idBase": "L_ADM_TORRE_05_06_07_08_0",
+        "showOrHide": ["layer21", "layer22", "layer23", "layer24"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_17_18_19_20_1",
+        "idBase": "L_ADM_TORRE_17_18_19_20_0",
+        "showOrHide": ["layer13", "layer14", "layer15", "layer16"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_21_22_23_24_1",
+        "idBase": "L_ADM_TORRE_21_22_23_24_0",
+        "showOrHide": ["layer9", "layer10", "layer11", "layer12"]
+      }
     ]
   }
 ]
