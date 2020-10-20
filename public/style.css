@@ -100,13 +100,14 @@ path:hover {
   height: 250px;
   text-align: center;
   /*border: 1px solid #070707;*/
-  box-shadow: 10px 10px 5px rgb(174, 180, 241);
+  
 }
 #interno{
   left: 100%;
   width: 100px;
   border: 1px solid #070707;
   margin-left: 70px;
+  box-shadow: 10px 10px 5px rgb(205, 209, 250);
 }
 
 #elpopover{
