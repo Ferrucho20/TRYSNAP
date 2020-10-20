@@ -106,7 +106,7 @@ path:hover {
   left: 100%;
   width: 100px;
   border: 1px solid #070707;
-  margin: auto auto auto auto;
+  margin-left: 70px;
 }
 
 #elpopover{
