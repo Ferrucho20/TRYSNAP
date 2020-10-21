@@ -285,7 +285,7 @@
   {
     "id": "005937451000",
     "nombre": "PUERTA DORADA ARRECIFE E1",
-    "svg": "ARRECIFE 2 20-08-18 marcado.svg",
+    "svg": "ARRECIFE 1 19-09-05 marcado v1.svg",
     "informacion": [
       {
         "consecutivo": "Boton1",
@@ -1561,91 +1561,66 @@
     "id": "005937501000",
     "nombre": "Puerta Dorada el Lago E1",
     "svg": "Puerta Dorada El Lago marcado v2.svg",
-    "informacion":[
+    "informacion": [
       {
         "consecutivo": "Boton1",
         "idFrente": "L_ADM_TORRE_01_1",
         "idBase": "L_ADM_TORRE_01_0",
-        "showOrHide":[
-          "layer2"
-        ]
+        "showOrHide": ["layer2"]
       },
       {
         "consecutivo": "Boton2",
         "idFrente": "L_ADM_TORRE_02_1",
         "idBase": "L_ADM_TORRE_02_0",
-        "showOrHide":[
-          "layer3"
-        ]
+        "showOrHide": ["layer3"]
       },
       {
         "consecutivo": "Boton3",
         "idFrente": "L_ADM_TORRE_03_1",
         "idBase": "L_ADM_TORRE_03_0",
-        "showOrHide":[
-          "layer5"
-        ]
+        "showOrHide": ["layer5"]
       },
       {
         "consecutivo": "Boton4",
         "idFrente": "L_ADM_TORRE_04_1",
         "idBase": "L_ADM_TORRE_04_0",
-        "showOrHide":[
-          "layer6"
-        ]
+        "showOrHide": ["layer6"]
       },
       {
         "consecutivo": "Boton5",
         "idFrente": "L_ADM_TORRE_05_1",
         "idBase": "L_ADM_TORRE_05_0",
-        "showOrHide":[
-          "layer7"
-        ]
+        "showOrHide": ["layer7"]
       },
       {
         "consecutivo": "Boton6",
         "idFrente": "L_ADM_TORRE_06_1",
         "idBase": "L_ADM_TORRE_06_0",
-        "showOrHide":[
-          "layer9"
-        ]
+        "showOrHide": ["layer9"]
       },
       {
         "consecutivo": "Boton7",
         "idFrente": "L_ADM_TORRE_07_1",
         "idBase": "L_ADM_TORRE_07_0",
-        "showOrHide":[
-          "layer10"
-        ]
+        "showOrHide": ["layer10"]
       },
       {
         "consecutivo": "Boton8",
         "idFrente": "L_ADM_TORRE_08_1",
         "idBase": "L_ADM_TORRE_08_0",
-        "showOrHide":[
-          "layer11"
-        ]
+        "showOrHide": ["layer11"]
       },
       {
         "consecutivo": "Boton9",
         "idFrente": "L_ADM_TORRE_01_02_1",
         "idBase": "L_ADM_TORRE_01_02_0",
-        "showOrHide":[
-          "layer4",
-          "layer2",
-          "layer3"
-        ]
+        "showOrHide": ["layer4", "layer2", "layer3"]
       },
       {
         "consecutivo": "Boton10",
         "idFrente": "L_ADM_TORRE_03_05_1",
         "idBase": "L_ADM_TORRE_03_05_0",
-        "showOrHide":[
-          "layer8",
-          "layer5",
-          "layer6",
-          "layer7"
-        ]
+        "showOrHide": ["layer8", "layer5", "layer6", "layer7"]
       }
     ]
   },
@@ -1653,91 +1628,66 @@
     "id": "005937502000",
     "nombre": "Puerta Dorada el Lago E2",
     "svg": "Puerta Dorada El Lago marcado v2.svg",
-    "informacion":[
+    "informacion": [
       {
         "consecutivo": "Boton1",
         "idFrente": "L_ADM_TORRE_01_1",
         "idBase": "L_ADM_TORRE_01_0",
-        "showOrHide":[
-          "layer2"
-        ]
+        "showOrHide": ["layer2"]
       },
       {
         "consecutivo": "Boton2",
         "idFrente": "L_ADM_TORRE_02_1",
         "idBase": "L_ADM_TORRE_02_0",
-        "showOrHide":[
-          "layer3"
-        ]
+        "showOrHide": ["layer3"]
       },
       {
         "consecutivo": "Boton3",
         "idFrente": "L_ADM_TORRE_03_1",
         "idBase": "L_ADM_TORRE_03_0",
-        "showOrHide":[
-          "layer5"
-        ]
+        "showOrHide": ["layer5"]
       },
       {
         "consecutivo": "Boton4",
         "idFrente": "L_ADM_TORRE_04_1",
         "idBase": "L_ADM_TORRE_04_0",
-        "showOrHide":[
-          "layer6"
-        ]
+        "showOrHide": ["layer6"]
       },
       {
         "consecutivo": "Boton5",
         "idFrente": "L_ADM_TORRE_05_1",
         "idBase": "L_ADM_TORRE_05_0",
-        "showOrHide":[
-          "layer7"
-        ]
+        "showOrHide": ["layer7"]
       },
       {
         "consecutivo": "Boton6",
         "idFrente": "L_ADM_TORRE_06_1",
         "idBase": "L_ADM_TORRE_06_0",
-        "showOrHide":[
-          "layer9"
-        ]
+        "showOrHide": ["layer9"]
       },
       {
         "consecutivo": "Boton7",
         "idFrente": "L_ADM_TORRE_07_1",
         "idBase": "L_ADM_TORRE_07_0",
-        "showOrHide":[
-          "layer10"
-        ]
+        "showOrHide": ["layer10"]
       },
       {
         "consecutivo": "Boton8",
         "idFrente": "L_ADM_TORRE_08_1",
         "idBase": "L_ADM_TORRE_08_0",
-        "showOrHide":[
-          "layer11"
-        ]
+        "showOrHide": ["layer11"]
       },
       {
         "consecutivo": "Boton9",
         "idFrente": "L_ADM_TORRE_01_02_1",
         "idBase": "L_ADM_TORRE_01_02_0",
-        "showOrHide":[
-          "layer4",
-          "layer2",
-          "layer3"
-        ]
+        "showOrHide": ["layer4", "layer2", "layer3"]
       },
       {
         "consecutivo": "Boton10",
         "idFrente": "L_ADM_TORRE_03_05_1",
         "idBase": "L_ADM_TORRE_03_05_0",
-        "showOrHide":[
-          "layer8",
-          "layer5",
-          "layer6",
-          "layer7"
-        ]
+        "showOrHide": ["layer8", "layer5", "layer6", "layer7"]
       }
     ]
   },
