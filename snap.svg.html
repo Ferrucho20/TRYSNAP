@@ -151,7 +151,7 @@
         var lista2 = lista.getElementsByTagName("ol");
         var arr = [...lista2];
         if (arr.length > 22){
-          document.getElementById("demo").setAttribute("style","height:500px;");
+          document.getElementById("demo").setAttribute("style","height:500px; overflow-y:scroll;");
         } else {
           document.getElementById("demo").setAttribute("style","height:auto;");
         }
@@ -187,6 +187,7 @@
         while (borra.hasChildNodes()) {
           borra.removeChild(borra.lastChild);
         }
+        borra.setAttribute("style","overflow-y:auto;");
       }
 
       function drawIt() {
