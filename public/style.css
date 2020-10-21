@@ -107,6 +107,7 @@ path:hover {
   width: 100px;
   /*border: 1px solid #c8d4f7;*/
   /*margin: auto auto auto auto;*/
+  border-radius: 10%;
   padding-left: 10px;
   margin-left: 70px;
   box-shadow: 5px 5px 20px rgb(174, 180, 241);
