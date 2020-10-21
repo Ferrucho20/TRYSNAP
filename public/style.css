@@ -14,11 +14,15 @@ path:hover {
   fill: #c5351c;
 }
 
-#demo{
-  padding-left: 0%;
-  background-color: #ffffff;
-  text-align: left;
+
+#demo {
+  /*overflow:hidden;*/
+  visibility: hidden;
+  height:400px;
   width: 400px;
+  /*overflow-y:scroll;*/
+  overflow-y:scroll;
+  /*-webkit-overflow-scrolling: touch;*/
 }
 
 #planos{

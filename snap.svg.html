@@ -23,6 +23,7 @@
             type="text"
             id="buscar-pal"
             onkeyup="autocompletado()"
+            onclick="autocompletado1()"
             style="border: solid 2px; z-index: -1"
             placeholder="Buscar proyectos"
           />
@@ -107,11 +108,23 @@
       projectJson = getDatos();
 
       //Search
+      function autocompletado1(){
+        cleanList()
+        for (indice in projectJson) {
+          var projecto = projectJson[indice];
+          var node = document.createElement("ol");
+              var link = document.createElement("a");
+              link.setAttribute("id", projectJson[indice].id);
+              link.innerHTML = projectJson[indice].nombre;
+              node.appendChild(link);
+              document.getElementById("demo").appendChild(node);
+        }
+        fullLinks();
+      }
       function autocompletado() {
-        document.getElementById("demo").innerHTML = "";
-        var ruta = "ruta";
         var pal = document.getElementById("buscar-pal").value;
         var tam = pal.length;
+        cleanList();
         for (indice in projectJson) {
           var projecto = projectJson[indice];
           var str = projecto.nombre.substring(0, tam);
@@ -137,11 +150,17 @@
         var lista = document.getElementById("demo");
         var lista2 = lista.getElementsByTagName("ol");
         var arr = [...lista2];
+        if (arr.length > 22){
+          document.getElementById("demo").setAttribute("style","height:500px;");
+        } else {
+          document.getElementById("demo").setAttribute("style","height:auto;");
+        }
         for (var p = 0; p < arr.length; p++) {
           var tempr = arr[p];
           var cosaA = tempr.getElementsByTagName("a")[0].id;
           createHandler(cosaA);
         }
+        document.getElementById("demo").style.visibility="visible";
       }
 
       function createHandler(cosaA) {
