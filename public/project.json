@@ -1455,5 +1455,139 @@
         ]
       }
     ]
+  },
+  {
+    "id": "005517101000",
+    "nombre": "Napoli",
+    "svg": "Napoli MARCADO.svg",
+    "informacion":[
+      {
+        "consecutivo": "Boton1",
+        "idFrente": "L_ADM_TORRE_01_1",
+        "idBase": "L_ADM_TORRE_01_0",
+        "showOrHide":[
+          "layer2",
+          "layer16"
+        ]
+      },
+      {
+        "consecutivo": "Boton2",
+        "idFrente": "L_ADM_TORRE_02_1",
+        "idBase": "L_ADM_TORRE_02_0",
+        "showOrHide":[
+          "layer3",
+          "layer17"
+        ]
+      },
+      {
+        "consecutivo": "Boton3",
+        "idFrente": "L_ADM_TORRE_03_1",
+        "idBase": "L_ADM_TORRE_03_0",
+        "showOrHide":[
+          "layer5",
+          "layer19"
+        ]
+      },
+      {
+        "consecutivo": "Boton4",
+        "idFrente": "L_ADM_TORRE_04_1",
+        "idBase": "L_ADM_TORRE_04_0",
+        "showOrHide":[
+          "layer6",
+          "layer20"
+        ]
+      },
+      {
+        "consecutivo": "Boton5",
+        "idFrente": "L_ADM_TORRE_05_1",
+        "idBase": "L_ADM_TORRE_05_0",
+        "showOrHide":[
+          "layer8",
+          "layer22"
+        ]
+      },
+      {
+        "consecutivo": "Boton6",
+        "idFrente": "L_ADM_TORRE_06_1",
+        "idBase": "L_ADM_TORRE_06_0",
+        "showOrHide":[
+          "layer9",
+          "layer23"
+        ]
+      },
+      {
+        "consecutivo": "Boton7",
+        "idFrente": "L_ADM_TORRE_07_1",
+        "idBase": "L_ADM_TORRE_07_0",
+        "showOrHide":[
+          "layer10",
+          "layer24"
+        ]
+      },
+      {
+        "consecutivo": "Boton8",
+        "idFrente": "L_ADM_TORRE_08_1",
+        "idBase": "L_ADM_TORRE_08_0",
+        "showOrHide":[
+          "layer11",
+          "layer25"
+        ]
+      },
+      {
+        "consecutivo": "Boton9",
+        "idFrente": "L_ADM_TORRE_09_1",
+        "idBase": "L_ADM_TORRE_09_0",
+        "showOrHide":[
+          "layer12",
+          "layer26"
+        ]
+      },
+      {
+        "consecutivo": "Boton10",
+        "idFrente": "L_ADM_TORRE_10_1",
+        "idBase": "L_ADM_TORRE_10_0",
+        "showOrHide":[
+          "layer13",
+          "layer27"
+        ]
+      },
+      {
+        "consecutivo": "Boton11",
+        "idFrente": "L_ADM_TORRE_11_1",
+        "idBase": "L_ADM_TORRE_11_0",
+        "showOrHide":[
+          "layer14",
+          "layer28"
+        ]
+      },
+      {
+        "consecutivo": "Boton12",
+        "idFrente": "L_ADM_TORRE_01_02_1",
+        "idBase": "L_ADM_TORRE_01_02_0",
+        "showOrHide":[
+          "layer2",
+          "layer16",
+          "layer3",
+          "layer17",
+          "layer4",
+          "layer18"
+          
+        ]
+      },
+      {
+        "consecutivo": "Boton13",
+        "idFrente": "L_ADM_TORRE_03_04_1",
+        "idBase": "L_ADM_TORRE_03_04_0",
+        "showOrHide":[
+          "layer5",
+          "layer19",
+          "layer6",
+          "layer20",
+          "layer7",
+          "layer21"
+        ]
+      }
+    
+    ]
   }
 ]
