@@ -854,7 +854,100 @@
   },
   {
     "id": "024874101000",
-    "nombre": "SALAMANCA",
+    "nombre": "CIUDAD DEL PARQUE SALAMANCA E1",
+    "svg": "SALAMANCA marcado 20-10-15.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_01_1",
+        "idBase": "L_ADM_TORRE_01_0",
+        "showOrHide": ["layer3", "layer4"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_02_1",
+        "idBase": "L_ADM_TORRE_02_0",
+        "showOrHide": ["layer5", "layer6"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_03_1",
+        "idBase": "L_ADM_TORRE_03_0",
+        "showOrHide": ["layer7", "layer8"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_04_1",
+        "idBase": "L_ADM_TORRE_04_0",
+        "showOrHide": ["layer9", "layer10"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_05_1",
+        "idBase": "L_ADM_TORRE_05_0",
+        "showOrHide": ["layer21", "layer22"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_06_1",
+        "idBase": "L_ADM_TORRE_06_0",
+        "showOrHide": ["layer19", "layer20"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_07_1",
+        "idBase": "L_ADM_TORRE_07_0",
+        "showOrHide": ["layer29", "layer30"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_08_1",
+        "idBase": "L_ADM_TORRE_08_0",
+        "showOrHide": ["layer27", "layer28"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_09_1",
+        "idBase": "L_ADM_TORRE_09_0",
+        "showOrHide": ["layer25", "layer26"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_10_1",
+        "idBase": "L_ADM_TORRE_10_0",
+        "showOrHide": ["layer15", "layer16"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_11_1",
+        "idBase": "L_ADM_TORRE_11_0",
+        "showOrHide": ["layer13", "layer14"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_12_1",
+        "idBase": "L_ADM_TORRE_12_0",
+        "showOrHide": ["layer11", "layer12"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_05_06_1",
+        "idBase": "L_ADM_TORRE_05_06_0",
+        "showOrHide": [
+          "layer21",
+          "layer22",
+          "layer19",
+          "layer20",
+          "layer17",
+          "layer18"
+        ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_07_08_09_1",
+        "idBase": "L_ADM_TORRE_07_08_09_0",
+        "showOrHide": [
+          "layer29",
+          "layer30",
+          "layer27",
+          "layer28",
+          "layer25",
+          "layer26",
+          "layer23",
+          "layer24"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "024874102000",
+    "nombre": "CIUDAD DEL PARQUE SALAMANCA E2",
     "svg": "SALAMANCA marcado 20-10-15.svg",
     "informacion": [
       {
