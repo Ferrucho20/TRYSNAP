@@ -2217,5 +2217,38 @@
         "showOrHide": ["layer5", "layer10"]
       }
     ]
+  },
+  {
+    "id": "001084201000",
+    "nombre": "CITY CENTER",
+    "svg": "CITY CENTER marcado 19-10-02.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_01_1",
+        "idBase": "L_ADM_TORRE_01_0",
+        "showOrHide": ["layer6", "layer7"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_02_1",
+        "idBase": "L_ADM_TORRE_02_0",
+        "showOrHide": ["layer9", "layer8"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_01_0_1",
+        "idBase": "L_ADM_TORRE_01_0_0",
+        "showOrHide": [
+          "layer6",
+          "layer7",
+          "layer9",
+          "layer8",
+          "layer2",
+          "layer3",
+          "layer4",
+          "layer5",
+          "layer10",
+          "layer11"
+        ]
+      }
+    ]
   }
 ]
