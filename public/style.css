@@ -109,11 +109,12 @@ path:hover {
   /*margin: auto auto auto auto;*/
   padding-left: 10px;
   margin-left: 70px;
-  box-shadow: 10px 10px 5px rgb(174, 180, 241);
+  box-shadow: 5px 5px 20px rgb(174, 180, 241);
 }
 
 #elpopover{
   text-align: left;
+  margin: 0rem;
 }
 
 #line{
