@@ -105,13 +105,15 @@ path:hover {
 #interno{
   left: 100%;
   width: 100px;
-  border: 1px solid #070707;
+  border: 1px solid #c8d4f7;
+  /*margin: auto auto auto auto;*/
+  padding-left: 10px;
   margin-left: 70px;
-  box-shadow: 10px 10px 5px rgb(205, 209, 250);
+  box-shadow: 10px 10px 5px rgb(174, 180, 241);
 }
 
 #elpopover{
-  text-align: center;
+  text-align: left;
 }
 
 #line{

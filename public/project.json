@@ -1171,5 +1171,238 @@
         ]
       }
     ]
+  },
+  {
+    "id": "024749601000",
+    "nombre": "KATIOS",
+    "svg": "KATIOS marcado 20-02-04.svg",
+    "informacion":[
+      {
+        "consecutivo": "Boton1",
+        "idFrente": "L_ADM_TORRE_01_1",
+        "idBase": "L_ADM_TORRE_01_0",
+        "showOrHide":[
+          "layer3",
+          "layer4"
+        ]
+      },
+      {
+        "consecutivo": "Boton2",
+        "idFrente": "L_ADM_TORRE_02_1",
+        "idBase": "L_ADM_TORRE_02_0",
+        "showOrHide":[
+          "layer5",
+          "layer6"
+        ]
+      },
+      {
+        "consecutivo": "Boton3",
+        "idFrente": "L_ADM_TORRE_03_1",
+        "idBase": "L_ADM_TORRE_03_0",
+        "showOrHide":[
+          "layer7",
+          "layer8"
+        ]
+      },
+      {
+        "consecutivo": "Boton4",
+        "idFrente": "L_ADM_TORRE_04_1",
+        "idBase": "L_ADM_TORRE_04_0",
+        "showOrHide":[
+          "layer9",
+          "layer11"
+        ]
+      },
+      {
+        "consecutivo": "Boton5",
+        "idFrente": "L_ADM_TORRE_05_1",
+        "idBase": "L_ADM_TORRE_05_0",
+        "showOrHide":[
+          "layer10",
+          "layer12"
+        ]
+      },
+      {
+        "consecutivo": "Boton6",
+        "idFrente": "L_ADM_TORRE_06_1",
+        "idBase": "L_ADM_TORRE_06_0",
+        "showOrHide":[
+          "layer13",
+          "layer14"
+        ]
+      },
+      {
+        "consecutivo": "Boton7",
+        "idFrente": "L_ADM_TORRE_07_1",
+        "idBase": "L_ADM_TORRE_07_0",
+        "showOrHide":[
+          "layer15",
+          "layer16"
+        ]
+      },
+      {
+        "consecutivo": "Boton8",
+        "idFrente": "L_ADM_TORRE_08_1",
+        "idBase": "L_ADM_TORRE_08_0",
+        "showOrHide":[
+          "layer17",
+          "layer18"
+        ]
+      },
+      {
+        "consecutivo": "Boton9",
+        "idFrente": "L_ADM_TORRE_09_1",
+        "idBase": "L_ADM_TORRE_09_0",
+        "showOrHide":[
+          "layer19",
+          "layer20"
+        ]
+      },
+      {
+        "consecutivo": "Boton10",
+        "idFrente": "L_ADM_TORRE_10_1",
+        "idBase": "L_ADM_TORRE_10_0",
+        "showOrHide":[
+          "layer21",
+          "layer22"
+        ]
+      },
+      {
+        "consecutivo": "Boton11",
+        "idFrente": "L_ADM_TORRE_11_1",
+        "idBase": "L_ADM_TORRE_11_0",
+        "showOrHide":[
+          "layer23",
+          "layer24"
+        ]
+      },
+      {
+        "consecutivo": "Boton12",
+        "idFrente": "L_ADM_TORRE_12_1",
+        "idBase": "L_ADM_TORRE_12_0",
+        "showOrHide":[
+          "layer25",
+          "layer26"
+        ]
+      },
+      {
+        "consecutivo": "Boton13",
+        "idFrente": "L_ADM_TORRE_13_1",
+        "idBase": "L_ADM_TORRE_13_0",
+        "showOrHide":[
+          "layer27",
+          "layer28"
+        ]
+      },
+      {
+        "consecutivo": "Boton14",
+        "idFrente": "L_ADM_TORRE_14_1",
+        "idBase": "L_ADM_TORRE_14_0",
+        "showOrHide":[
+          "layer29",
+          "layer30"
+        ]
+      },
+      {
+        "consecutivo": "Boton15",
+        "idFrente": "L_ADM_TORRE_15_1",
+        "idBase": "L_ADM_TORRE_15_0",
+        "showOrHide":[
+          "layer31",
+          "layer32"
+        ]
+      },
+      {
+        "consecutivo": "Boton16",
+        "idFrente": "L_ADM_TORRE_16_1",
+        "idBase": "L_ADM_TORRE_16_0",
+        "showOrHide":[
+          "layer33",
+          "layer34"
+        ]
+      },
+      {
+        "consecutivo": "Boton17",
+        "idFrente": "L_ADM_TORRE_17_1",
+        "idBase": "L_ADM_TORRE_17_0",
+        "showOrHide":[
+          "layer35",
+          "layer37"
+        ]
+      },
+      {
+        "consecutivo": "Boton18",
+        "idFrente": "L_ADM_TORRE_18_1",
+        "idBase": "L_ADM_TORRE_18_0",
+        "showOrHide":[
+          "layer36",
+          "layer38"
+        ]
+      },
+      {
+        "consecutivo": "Boton19",
+        "idFrente": "L_ADM_TORRE_19_1",
+        "idBase": "L_ADM_TORRE_19_0",
+        "showOrHide":[
+          "layer39",
+          "layer40"
+        ]
+      },
+      {
+        "consecutivo": "Boton20",
+        "idFrente": "L_ADM_TORRE_20_1",
+        "idBase": "L_ADM_TORRE_20_0",
+        "showOrHide":[
+          "layer41",
+          "layer42"
+        ]
+      },
+      {
+        "consecutivo": "Boton21",
+        "idFrente": "L_ADM_TORRE_21_1",
+        "idBase": "L_ADM_TORRE_21_0",
+        "showOrHide":[
+          "layer43",
+          "layer44"
+        ]
+      },
+      {
+        "consecutivo": "Boton22",
+        "idFrente": "L_ADM_TORRE_22_1",
+        "idBase": "L_ADM_TORRE_22_0",
+        "showOrHide":[
+          "layer45",
+          "layer46"
+        ]
+      },
+      {
+        "consecutivo": "Boton23",
+        "idFrente": "L_ADM_TORRE_17_18_1",
+        "idBase": "L_ADM_TORRE_17_18_0",
+        "showOrHide":[
+          "layer35",
+          "layer37",
+          "layer36",
+          "layer38",
+          "layer47",
+          "layer48"
+        ]
+      },
+      {
+        "consecutivo": "Boton24",
+        "idFrente": "L_ADM_TORRE_15_16_1",
+        "idBase": "L_ADM_TORRE_15_16_0",
+        "showOrHide":[
+          "layer50",
+          "layer49",
+          "layer31",
+          "layer32",
+          "layer33",
+          "layer34"
+
+        ]
+      }
+
+    ]
   }
 ]
