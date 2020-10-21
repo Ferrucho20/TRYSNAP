@@ -894,84 +894,60 @@
     "id": "005523101000",
     "nombre": "FLORENCIA E1",
     "svg": "FLORENCIA MARCADO 20-02-14.svg",
-    "informacion":[
+    "informacion": [
       {
         "consecutivo": "Boton1",
         "idFrente": "L_ADM_TORRE_01_1",
         "idBase": "L_ADM_TORRE_01_0",
-        "showOrHide":[
-          "layer18",
-          "layer19"
-        ]
+        "showOrHide": ["layer18", "layer19"]
       },
       {
         "consecutivo": "Boton2",
         "idFrente": "L_ADM_TORRE_02_1",
         "idBase": "L_ADM_TORRE_02_0",
-        "showOrHide":[
-          "layer16",
-          "layer17"
-        ]
+        "showOrHide": ["layer16", "layer17"]
       },
       {
         "consecutivo": "Boton3",
         "idFrente": "L_ADM_TORRE_03_1",
         "idBase": "L_ADM_TORRE_03_0",
-        "showOrHide":[
-          "layer13",
-          "layer14"
-        ]
+        "showOrHide": ["layer13", "layer14"]
       },
       {
         "consecutivo": "Boton4",
         "idFrente": "L_ADM_TORRE_04_1",
         "idBase": "L_ADM_TORRE_04_0",
-        "showOrHide":[
-          "layer10",
-          "layer11"
-        ]
+        "showOrHide": ["layer10", "layer11"]
       },
       {
         "consecutivo": "Boton5",
         "idFrente": "L_ADM_TORRE_05_1",
         "idBase": "L_ADM_TORRE_05_0",
-        "showOrHide":[
-          "layer8",
-          "layer9"
-        ]
+        "showOrHide": ["layer8", "layer9"]
       },
       {
         "consecutivo": "Boton6",
         "idFrente": "L_ADM_TORRE_06_1",
         "idBase": "L_ADM_TORRE_06_0",
-        "showOrHide":[
-          "layer6",
-          "layer7"
-        ]
+        "showOrHide": ["layer6", "layer7"]
       },
       {
         "consecutivo": "Boton7",
         "idFrente": "L_ADM_TORRE_07_1",
         "idBase": "L_ADM_TORRE_07_0",
-        "showOrHide":[
-          "layer5",
-          "layer20"
-        ]
+        "showOrHide": ["layer5", "layer20"]
       },
       {
         "consecutivo": "Boton8",
         "idFrente": "L_ADM_TORRE_08_1",
         "idBase": "L_ADM_TORRE_08_0",
-        "showOrHide":[
-          "layer3",
-          "layer4"
-        ]
+        "showOrHide": ["layer3", "layer4"]
       },
       {
         "consecutivo": "Boton9",
         "idFrente": "L_ADM_TORRE_01_02_03_1",
         "idBase": "L_ADM_TORRE_01_02_03_0",
-        "showOrHide":[
+        "showOrHide": [
           "layer15",
           "layer18",
           "layer19",
@@ -988,84 +964,60 @@
     "id": "005523102000",
     "nombre": "FLORENCIA E2",
     "svg": "FLORENCIA MARCADO 20-02-14.svg",
-    "informacion":[
+    "informacion": [
       {
         "consecutivo": "Boton1",
         "idFrente": "L_ADM_TORRE_01_1",
         "idBase": "L_ADM_TORRE_01_0",
-        "showOrHide":[
-          "layer18",
-          "layer19"
-        ]
+        "showOrHide": ["layer18", "layer19"]
       },
       {
         "consecutivo": "Boton2",
         "idFrente": "L_ADM_TORRE_02_1",
         "idBase": "L_ADM_TORRE_02_0",
-        "showOrHide":[
-          "layer16",
-          "layer17"
-        ]
+        "showOrHide": ["layer16", "layer17"]
       },
       {
         "consecutivo": "Boton3",
         "idFrente": "L_ADM_TORRE_03_1",
         "idBase": "L_ADM_TORRE_03_0",
-        "showOrHide":[
-          "layer13",
-          "layer14"
-        ]
+        "showOrHide": ["layer13", "layer14"]
       },
       {
         "consecutivo": "Boton4",
         "idFrente": "L_ADM_TORRE_04_1",
         "idBase": "L_ADM_TORRE_04_0",
-        "showOrHide":[
-          "layer10",
-          "layer11"
-        ]
+        "showOrHide": ["layer10", "layer11"]
       },
       {
         "consecutivo": "Boton5",
         "idFrente": "L_ADM_TORRE_05_1",
         "idBase": "L_ADM_TORRE_05_0",
-        "showOrHide":[
-          "layer8",
-          "layer9"
-        ]
+        "showOrHide": ["layer8", "layer9"]
       },
       {
         "consecutivo": "Boton6",
         "idFrente": "L_ADM_TORRE_06_1",
         "idBase": "L_ADM_TORRE_06_0",
-        "showOrHide":[
-          "layer6",
-          "layer7"
-        ]
+        "showOrHide": ["layer6", "layer7"]
       },
       {
         "consecutivo": "Boton7",
         "idFrente": "L_ADM_TORRE_07_1",
         "idBase": "L_ADM_TORRE_07_0",
-        "showOrHide":[
-          "layer5",
-          "layer20"
-        ]
+        "showOrHide": ["layer5", "layer20"]
       },
       {
         "consecutivo": "Boton8",
         "idFrente": "L_ADM_TORRE_08_1",
         "idBase": "L_ADM_TORRE_08_0",
-        "showOrHide":[
-          "layer3",
-          "layer4"
-        ]
+        "showOrHide": ["layer3", "layer4"]
       },
       {
         "consecutivo": "Boton9",
         "idFrente": "L_ADM_TORRE_01_02_03_1",
         "idBase": "L_ADM_TORRE_01_02_03_0",
-        "showOrHide":[
+        "showOrHide": [
           "layer15",
           "layer18",
           "layer19",
@@ -1082,84 +1034,60 @@
     "id": "005523103000",
     "nombre": "FLORENCIA E3",
     "svg": "FLORENCIA MARCADO 20-02-14.svg",
-    "informacion":[
+    "informacion": [
       {
         "consecutivo": "Boton1",
         "idFrente": "L_ADM_TORRE_01_1",
         "idBase": "L_ADM_TORRE_01_0",
-        "showOrHide":[
-          "layer18",
-          "layer19"
-        ]
+        "showOrHide": ["layer18", "layer19"]
       },
       {
         "consecutivo": "Boton2",
         "idFrente": "L_ADM_TORRE_02_1",
         "idBase": "L_ADM_TORRE_02_0",
-        "showOrHide":[
-          "layer16",
-          "layer17"
-        ]
+        "showOrHide": ["layer16", "layer17"]
       },
       {
         "consecutivo": "Boton3",
         "idFrente": "L_ADM_TORRE_03_1",
         "idBase": "L_ADM_TORRE_03_0",
-        "showOrHide":[
-          "layer13",
-          "layer14"
-        ]
+        "showOrHide": ["layer13", "layer14"]
       },
       {
         "consecutivo": "Boton4",
         "idFrente": "L_ADM_TORRE_04_1",
         "idBase": "L_ADM_TORRE_04_0",
-        "showOrHide":[
-          "layer10",
-          "layer11"
-        ]
+        "showOrHide": ["layer10", "layer11"]
       },
       {
         "consecutivo": "Boton5",
         "idFrente": "L_ADM_TORRE_05_1",
         "idBase": "L_ADM_TORRE_05_0",
-        "showOrHide":[
-          "layer8",
-          "layer9"
-        ]
+        "showOrHide": ["layer8", "layer9"]
       },
       {
         "consecutivo": "Boton6",
         "idFrente": "L_ADM_TORRE_06_1",
         "idBase": "L_ADM_TORRE_06_0",
-        "showOrHide":[
-          "layer6",
-          "layer7"
-        ]
+        "showOrHide": ["layer6", "layer7"]
       },
       {
         "consecutivo": "Boton7",
         "idFrente": "L_ADM_TORRE_07_1",
         "idBase": "L_ADM_TORRE_07_0",
-        "showOrHide":[
-          "layer5",
-          "layer20"
-        ]
+        "showOrHide": ["layer5", "layer20"]
       },
       {
         "consecutivo": "Boton8",
         "idFrente": "L_ADM_TORRE_08_1",
         "idBase": "L_ADM_TORRE_08_0",
-        "showOrHide":[
-          "layer3",
-          "layer4"
-        ]
+        "showOrHide": ["layer3", "layer4"]
       },
       {
         "consecutivo": "Boton9",
         "idFrente": "L_ADM_TORRE_01_02_03_1",
         "idBase": "L_ADM_TORRE_01_02_03_0",
-        "showOrHide":[
+        "showOrHide": [
           "layer15",
           "layer18",
           "layer19",
@@ -1176,210 +1104,144 @@
     "id": "024749601000",
     "nombre": "KATIOS",
     "svg": "KATIOS marcado 20-02-04.svg",
-    "informacion":[
+    "informacion": [
       {
         "consecutivo": "Boton1",
         "idFrente": "L_ADM_TORRE_01_1",
         "idBase": "L_ADM_TORRE_01_0",
-        "showOrHide":[
-          "layer3",
-          "layer4"
-        ]
+        "showOrHide": ["layer3", "layer4"]
       },
       {
         "consecutivo": "Boton2",
         "idFrente": "L_ADM_TORRE_02_1",
         "idBase": "L_ADM_TORRE_02_0",
-        "showOrHide":[
-          "layer5",
-          "layer6"
-        ]
+        "showOrHide": ["layer5", "layer6"]
       },
       {
         "consecutivo": "Boton3",
         "idFrente": "L_ADM_TORRE_03_1",
         "idBase": "L_ADM_TORRE_03_0",
-        "showOrHide":[
-          "layer7",
-          "layer8"
-        ]
+        "showOrHide": ["layer7", "layer8"]
       },
       {
         "consecutivo": "Boton4",
         "idFrente": "L_ADM_TORRE_04_1",
         "idBase": "L_ADM_TORRE_04_0",
-        "showOrHide":[
-          "layer9",
-          "layer11"
-        ]
+        "showOrHide": ["layer9", "layer11"]
       },
       {
         "consecutivo": "Boton5",
         "idFrente": "L_ADM_TORRE_05_1",
         "idBase": "L_ADM_TORRE_05_0",
-        "showOrHide":[
-          "layer10",
-          "layer12"
-        ]
+        "showOrHide": ["layer10", "layer12"]
       },
       {
         "consecutivo": "Boton6",
         "idFrente": "L_ADM_TORRE_06_1",
         "idBase": "L_ADM_TORRE_06_0",
-        "showOrHide":[
-          "layer13",
-          "layer14"
-        ]
+        "showOrHide": ["layer13", "layer14"]
       },
       {
         "consecutivo": "Boton7",
         "idFrente": "L_ADM_TORRE_07_1",
         "idBase": "L_ADM_TORRE_07_0",
-        "showOrHide":[
-          "layer15",
-          "layer16"
-        ]
+        "showOrHide": ["layer15", "layer16"]
       },
       {
         "consecutivo": "Boton8",
         "idFrente": "L_ADM_TORRE_08_1",
         "idBase": "L_ADM_TORRE_08_0",
-        "showOrHide":[
-          "layer17",
-          "layer18"
-        ]
+        "showOrHide": ["layer17", "layer18"]
       },
       {
         "consecutivo": "Boton9",
         "idFrente": "L_ADM_TORRE_09_1",
         "idBase": "L_ADM_TORRE_09_0",
-        "showOrHide":[
-          "layer19",
-          "layer20"
-        ]
+        "showOrHide": ["layer19", "layer20"]
       },
       {
         "consecutivo": "Boton10",
         "idFrente": "L_ADM_TORRE_10_1",
         "idBase": "L_ADM_TORRE_10_0",
-        "showOrHide":[
-          "layer21",
-          "layer22"
-        ]
+        "showOrHide": ["layer21", "layer22"]
       },
       {
         "consecutivo": "Boton11",
         "idFrente": "L_ADM_TORRE_11_1",
         "idBase": "L_ADM_TORRE_11_0",
-        "showOrHide":[
-          "layer23",
-          "layer24"
-        ]
+        "showOrHide": ["layer23", "layer24"]
       },
       {
         "consecutivo": "Boton12",
         "idFrente": "L_ADM_TORRE_12_1",
         "idBase": "L_ADM_TORRE_12_0",
-        "showOrHide":[
-          "layer25",
-          "layer26"
-        ]
+        "showOrHide": ["layer25", "layer26"]
       },
       {
         "consecutivo": "Boton13",
         "idFrente": "L_ADM_TORRE_13_1",
         "idBase": "L_ADM_TORRE_13_0",
-        "showOrHide":[
-          "layer27",
-          "layer28"
-        ]
+        "showOrHide": ["layer27", "layer28"]
       },
       {
         "consecutivo": "Boton14",
         "idFrente": "L_ADM_TORRE_14_1",
         "idBase": "L_ADM_TORRE_14_0",
-        "showOrHide":[
-          "layer29",
-          "layer30"
-        ]
+        "showOrHide": ["layer29", "layer30"]
       },
       {
         "consecutivo": "Boton15",
         "idFrente": "L_ADM_TORRE_15_1",
         "idBase": "L_ADM_TORRE_15_0",
-        "showOrHide":[
-          "layer31",
-          "layer32"
-        ]
+        "showOrHide": ["layer31", "layer32"]
       },
       {
         "consecutivo": "Boton16",
         "idFrente": "L_ADM_TORRE_16_1",
         "idBase": "L_ADM_TORRE_16_0",
-        "showOrHide":[
-          "layer33",
-          "layer34"
-        ]
+        "showOrHide": ["layer33", "layer34"]
       },
       {
         "consecutivo": "Boton17",
         "idFrente": "L_ADM_TORRE_17_1",
         "idBase": "L_ADM_TORRE_17_0",
-        "showOrHide":[
-          "layer35",
-          "layer37"
-        ]
+        "showOrHide": ["layer35", "layer37"]
       },
       {
         "consecutivo": "Boton18",
         "idFrente": "L_ADM_TORRE_18_1",
         "idBase": "L_ADM_TORRE_18_0",
-        "showOrHide":[
-          "layer36",
-          "layer38"
-        ]
+        "showOrHide": ["layer36", "layer38"]
       },
       {
         "consecutivo": "Boton19",
         "idFrente": "L_ADM_TORRE_19_1",
         "idBase": "L_ADM_TORRE_19_0",
-        "showOrHide":[
-          "layer39",
-          "layer40"
-        ]
+        "showOrHide": ["layer39", "layer40"]
       },
       {
         "consecutivo": "Boton20",
         "idFrente": "L_ADM_TORRE_20_1",
         "idBase": "L_ADM_TORRE_20_0",
-        "showOrHide":[
-          "layer41",
-          "layer42"
-        ]
+        "showOrHide": ["layer41", "layer42"]
       },
       {
         "consecutivo": "Boton21",
         "idFrente": "L_ADM_TORRE_21_1",
         "idBase": "L_ADM_TORRE_21_0",
-        "showOrHide":[
-          "layer43",
-          "layer44"
-        ]
+        "showOrHide": ["layer43", "layer44"]
       },
       {
         "consecutivo": "Boton22",
         "idFrente": "L_ADM_TORRE_22_1",
         "idBase": "L_ADM_TORRE_22_0",
-        "showOrHide":[
-          "layer45",
-          "layer46"
-        ]
+        "showOrHide": ["layer45", "layer46"]
       },
       {
         "consecutivo": "Boton23",
         "idFrente": "L_ADM_TORRE_17_18_1",
         "idBase": "L_ADM_TORRE_17_18_0",
-        "showOrHide":[
+        "showOrHide": [
           "layer35",
           "layer37",
           "layer36",
@@ -1392,17 +1254,206 @@
         "consecutivo": "Boton24",
         "idFrente": "L_ADM_TORRE_15_16_1",
         "idBase": "L_ADM_TORRE_15_16_0",
-        "showOrHide":[
+        "showOrHide": [
           "layer50",
           "layer49",
           "layer31",
           "layer32",
           "layer33",
           "layer34"
-
         ]
       }
-
+    ]
+  },
+  {
+    "id": "014747101000",
+    "nombre": "MILAN",
+    "svg": "Milan MARCADO v1.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_01_1",
+        "idBase": "L_ADM_TORRE_01_0",
+        "showOrHide": ["layer2", "layer7"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_02_1",
+        "idBase": "L_ADM_TORRE_02_0",
+        "showOrHide": ["layer3", "layer7"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_03_1",
+        "idBase": "L_ADM_TORRE_03_0",
+        "showOrHide": ["layer4", "layer9"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_04_1",
+        "idBase": "L_ADM_TORRE_04_0",
+        "showOrHide": ["layer5", "layer10"]
+      }
+    ]
+  },
+  {
+    "id": "005516101000",
+    "nombre": "LA PLAZUELA",
+    "svg": "LA PLAZUELA 20-08-12.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_01_1",
+        "idBase": "L_ADM_TORRE_01_0",
+        "showOrHide": ["layer19", "layer20"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_02_1",
+        "idBase": "L_ADM_TORRE_02_0",
+        "showOrHide": ["layer17", "layer18"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_03_1",
+        "idBase": "L_ADM_TORRE_03_0",
+        "showOrHide": ["layer15", "layer16"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_04_1",
+        "idBase": "L_ADM_TORRE_04_0",
+        "showOrHide": ["layer7", "layer8"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_05_1",
+        "idBase": "L_ADM_TORRE_05_0",
+        "showOrHide": ["layer5", "layer6"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_06_1",
+        "idBase": "L_ADM_TORRE_06_0",
+        "showOrHide": ["layer3", "layer4"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_01_02_1",
+        "idBase": "L_ADM_TORRE_01_02_0",
+        "showOrHide": [
+          "layer19",
+          "layer20",
+          "layer17",
+          "layer18",
+          "layer21",
+          "layer22"
+        ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_03_03_1",
+        "idBase": "L_ADM_TORRE_03_03_0",
+        "showOrHide": ["layer15", "layer16", "layer10", "layer9"]
+      }
+    ]
+  },
+  {
+    "id": "012496151000",
+    "nombre": "EL COUNTRY - MASAI",
+    "svg": "MASAI 19-09-03 marcado.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_01_1",
+        "idBase": "L_ADM_TORRE_01_0",
+        "showOrHide": ["layer3", "layer4"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_02_1",
+        "idBase": "L_ADM_TORRE_02_0",
+        "showOrHide": ["layer5", "layer7"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_03_1",
+        "idBase": "L_ADM_TORRE_03_0",
+        "showOrHide": ["layer8", "layer9"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_04_1",
+        "idBase": "L_ADM_TORRE_04_0",
+        "showOrHide": ["layer10", "layer11"]
+      }
+    ]
+  },
+  {
+    "id": "002498201000",
+    "nombre": "ZAJARI",
+    "svg": "Zajari 19-07-17 MARCADO v1.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_01_1",
+        "idBase": "L_ADM_TORRE_01_0",
+        "showOrHide": ["layer2", "layer6"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_02_1",
+        "idBase": "L_ADM_TORRE_02_0",
+        "showOrHide": ["layer3", "layer7"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_03_1",
+        "idBase": "L_ADM_TORRE_03_0",
+        "showOrHide": ["layer4", "layer8"]
+      }
+    ]
+  },
+  {
+    "id": "002510101000",
+    "nombre": "PASEO DE SEVILLA",
+    "svg": "09 PASEO DE SEVILLA marSVG 18-08-08 v2.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_1_1",
+        "idBase": "L_ADM_TORRE_1_0",
+        "showOrHide": ["layer3", "layer12"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_2_1",
+        "idBase": "L_ADM_TORRE_2_0",
+        "showOrHide": ["layer4", "layer13"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_3_1",
+        "idBase": "L_ADM_TORRE_3_0",
+        "showOrHide": ["layer5", "layer14"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_4_1",
+        "idBase": "L_ADM_TORRE_4_0",
+        "showOrHide": ["layer6", "layer15"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_5_1",
+        "idBase": "L_ADM_TORRE_5_0",
+        "showOrHide": ["layer7", "layer16"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_6_1",
+        "idBase": "L_ADM_TORRE_6_0",
+        "showOrHide": ["layer8", "layer17"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_7_1",
+        "idBase": "L_ADM_TORRE_7_0",
+        "showOrHide": ["layer9", "layer18"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_8_1",
+        "idBase": "L_ADM_TORRE_8_0",
+        "showOrHide": ["layer10", "layer19"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_1_4_1",
+        "idBase": "L_ADM_TORRE_1_4_0",
+        "showOrHide": [
+          "layer3",
+          "layer12",
+          "layer4",
+          "layer13",
+          "layer5",
+          "layer14",
+          "layer6",
+          "layer15"
+        ]
+      }
     ]
   }
 ]
