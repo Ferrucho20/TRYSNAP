@@ -18,7 +18,7 @@
   },
   {
     "id": "002848251000",
-    "nombre": "Loira E1 Ciudad La Salle",
+    "nombre": "LOIRA E1 CIUDAD LA SALLE",
     "svg": "LOIRA 20-09-10.svg",
     "informacion": [
       {
@@ -45,7 +45,7 @@
   },
   {
     "id": "002848252000",
-    "nombre": "Loira E2 Ciudad La Salle",
+    "nombre": "LOIRA E2 CIUDAD LA SALLE",
     "svg": "LOIRA 20-09-10.svg",
     "informacion": [
       {
@@ -490,7 +490,7 @@
   },
   {
     "id": "002848301000",
-    "nombre": "Saint Michel",
+    "nombre": "SAINT MICHEL CIUDAD LA SALLE",
     "svg": "SAINT MICHEL 20-10-06.svg",
     "informacion": [
       {
@@ -517,7 +517,121 @@
   },
   {
     "id": "023986101000",
-    "nombre": "FRESNO",
+    "nombre": "FRESNO F-1",
+    "svg": "FRESNO marcado  20-08-18.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_07_1",
+        "idBase": "L_ADM_TORRE_07_0",
+        "showOrHide": ["layer22", "layer23"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_08_1",
+        "idBase": "L_ADM_TORRE_08_0",
+        "showOrHide": ["layer24", "layer27"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_09_1",
+        "idBase": "L_ADM_TORRE_09_0",
+        "showOrHide": ["layer25", "layer26"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_12_1",
+        "idBase": "L_ADM_TORRE_12_0",
+        "showOrHide": ["layer16", "layer17"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_11_1",
+        "idBase": "L_ADM_TORRE_11_0",
+        "showOrHide": ["layer18", "layer19"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_10_1",
+        "idBase": "L_ADM_TORRE_10_0",
+        "showOrHide": ["layer20", "layer21"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_06_1",
+        "idBase": "L_ADM_TORRE_06_0",
+        "showOrHide": ["layer12", "layer13"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_05_1",
+        "idBase": "L_ADM_TORRE_05_0",
+        "showOrHide": ["layer14", "layer15"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_03_04_1",
+        "idBase": "L_ADM_TORRE_03_04_0",
+        "showOrHide": ["layer39", "layer40"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_01_02_1",
+        "idBase": "L_ADM_TORRE_01_02_0",
+        "showOrHide": ["layer37", "layer38"]
+      }
+    ]
+  },
+  {
+    "id": "023986201000",
+    "nombre": "FRESNO F-2",
+    "svg": "FRESNO marcado  20-08-18.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_07_1",
+        "idBase": "L_ADM_TORRE_07_0",
+        "showOrHide": ["layer22", "layer23"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_08_1",
+        "idBase": "L_ADM_TORRE_08_0",
+        "showOrHide": ["layer24", "layer27"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_09_1",
+        "idBase": "L_ADM_TORRE_09_0",
+        "showOrHide": ["layer25", "layer26"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_12_1",
+        "idBase": "L_ADM_TORRE_12_0",
+        "showOrHide": ["layer16", "layer17"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_11_1",
+        "idBase": "L_ADM_TORRE_11_0",
+        "showOrHide": ["layer18", "layer19"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_10_1",
+        "idBase": "L_ADM_TORRE_10_0",
+        "showOrHide": ["layer20", "layer21"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_06_1",
+        "idBase": "L_ADM_TORRE_06_0",
+        "showOrHide": ["layer12", "layer13"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_05_1",
+        "idBase": "L_ADM_TORRE_05_0",
+        "showOrHide": ["layer14", "layer15"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_03_04_1",
+        "idBase": "L_ADM_TORRE_03_04_0",
+        "showOrHide": ["layer39", "layer40"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_01_02_1",
+        "idBase": "L_ADM_TORRE_01_02_0",
+        "showOrHide": ["layer37", "layer38"]
+      }
+    ]
+  },
+  {
+    "id": "023986301000",
+    "nombre": "FRESNO F-3",
     "svg": "FRESNO marcado  20-08-18.svg",
     "informacion": [
       {
