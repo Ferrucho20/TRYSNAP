@@ -2746,6 +2746,23 @@
     ]
   },
   {
+    "id": "012503201000",
+    "nombre": "BELLFORT",
+    "svg": "BELLFORT MARCADO 18-03-01.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_1_1",
+        "idBase": "L_ADM_TORRE_1_0",
+        "showOrHide": ["layer2"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_2_1",
+        "idBase": "L_ADM_TORRE_2_0",
+        "showOrHide": ["layer3"]
+      }
+    ]
+  },
+  {
     "id": "001039401000",
     "nombre": "GERMANIA",
     "svg": "Germania - Marcado.SVG",
@@ -2782,24 +2799,25 @@
       }
     ]
   },
-  { 
-    "id": "012503201000",
-    "nombre": "BELLFORT",
-    "svg": "BELLFORT MARCADO 18-03-01.svg",
+  {
+    "id": "001039501000",
+    "nombre": "HISPANIA",
+    "svg": "hispania_Base.svg",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_1_1",
         "idBase": "L_ADM_TORRE_1_0",
-        "showOrHide": [
-          "layer2"
-          ]
+        "showOrHide": ["layer5", "layer6"]
       },
       {
         "idFrente": "L_ADM_TORRE_2_1",
         "idBase": "L_ADM_TORRE_2_0",
-        "showOrHide": [
-          "layer3"
-        ]
+        "showOrHide": ["layer7", "layer8"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_2_1",
+        "idBase": "L_ADM_TORRE_2_0",
+        "showOrHide": ["layer9", "layer10"]
       }
     ]
   }
