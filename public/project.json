@@ -3019,5 +3019,87 @@
         ]
       }
     ]
+  },
+  {
+    "id": "010499101000",
+    "nombre": "BODEGA SAN JORGE",
+    "svg": "San Jorge.svg",
+    "informacion": []
+  },
+  {
+    "id": "011004941000",
+    "nombre": "PORTAL DE LA LOMA",
+    "svg": "portal de la loma.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_1_1",
+        "idBase": "L_ADM_TORRE_1_0",
+        "showOrHide": ["layer5", "layer24"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_2_1",
+        "idBase": "L_ADM_TORRE_2_0",
+        "showOrHide": ["layer23", "layer6"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_3_1",
+        "idBase": "L_ADM_TORRE_3_0",
+        "showOrHide": ["layer7", "layer21"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_4_1",
+        "idBase": "L_ADM_TORRE_4_0",
+        "showOrHide": ["layer8", "layer20"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_5_1",
+        "idBase": "L_ADM_TORRE_5_0",
+        "showOrHide": ["layer9", "layer19"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_6_1",
+        "idBase": "L_ADM_TORRE_6_0",
+        "showOrHide": ["layer18", "layer10"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_7_1",
+        "idBase": "L_ADM_TORRE_7_0",
+        "showOrHide": ["layer11", "layer17"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_8_1",
+        "idBase": "L_ADM_TORRE_8_0",
+        "showOrHide": ["layer12", "layer16"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_1_2_1",
+        "idBase": "L_ADM_TORRE_1_2_0",
+        "showOrHide": [
+          "layer2",
+          "layer25",
+          "layer23",
+          "layer6",
+          "layer5",
+          "layer24"
+        ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_3_1_1",
+        "idBase": "L_ADM_TORRE_3_1_0",
+        "showOrHide": ["layer3", "layer22", "layer7", "layer21"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_5_6_1",
+        "idBase": "L_ADM_TORRE_5_6_0",
+        "showOrHide": [
+          "layer4",
+          "layer26",
+          "layer18",
+          "layer10",
+          "layer9",
+          "layer19"
+        ]
+      }
+    ]
   }
 ]
