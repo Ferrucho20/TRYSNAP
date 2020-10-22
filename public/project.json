@@ -2936,8 +2936,8 @@
         "showOrHide": ["layer11", "layer23"]
       },
       {
-        "idFrente": "L_ADM_TORRE_21_1",
-        "idBase": "L_ADM_TORRE_21_0",
+        "idFrente": "L_ADM_TORRE_22_1",
+        "idBase": "L_ADM_TORRE_22_0",
         "showOrHide": ["layer12", "layer24"]
       }
     ]
