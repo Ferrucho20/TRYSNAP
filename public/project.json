@@ -2816,8 +2816,148 @@
       },
       {
         "idFrente": "L_ADM_TORRE_3_1",
-        "idBase": "L_ADM_TORRE_3_0",
+        "idBase": "L_ADM_TORRE_3  _0",
         "showOrHide": ["layer5", "layer6"]
+      }
+    ]
+  },
+  {
+    "id": "001963101000",
+    "nombre": "RESERVA DE LA INMACULADA E1",
+    "svg": "Reserva Inmaculada F1 - Marcado.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_12_1",
+        "idBase": "L_ADM_TORRE_12_0",
+        "showOrHide": ["layer2", "layer14"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_13_1",
+        "idBase": "L_ADM_TORRE_13_0",
+        "showOrHide": ["layer3", "layer15"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_14_1",
+        "idBase": "L_ADM_TORRE_14_0",
+        "showOrHide": ["layer4", "layer16"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_15_1",
+        "idBase": "L_ADM_TORRE_15_0",
+        "showOrHide": ["layer5", "layer17"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_16_1",
+        "idBase": "L_ADM_TORRE_16_0",
+        "showOrHide": ["layer6", "layer18"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_17_1",
+        "idBase": "L_ADM_TORRE_17_0",
+        "showOrHide": ["layer7", "layer19"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_18_1",
+        "idBase": "L_ADM_TORRE_18_0",
+        "showOrHide": ["layer8", "layer20"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_19_1",
+        "idBase": "L_ADM_TORRE_19_0",
+        "showOrHide": ["layer9", "layer21"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_20_1",
+        "idBase": "L_ADM_TORRE_20_0",
+        "showOrHide": ["layer10", "layer22"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_21_1",
+        "idBase": "L_ADM_TORRE_21_0",
+        "showOrHide": ["layer11", "layer23"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_21_1",
+        "idBase": "L_ADM_TORRE_21_0",
+        "showOrHide": ["layer12", "layer24"]
+      }
+    ]
+  },
+  {
+    "id": "001964101000",
+    "nombre": "RESERVA DE LA INMACULADA E2",
+    "svg": "Reserva Inmaculada F2 - Marcado.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_1_1",
+        "idBase": "L_ADM_TORRE_1_0",
+        "showOrHide": ["layer2", "layer15"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_2_1",
+        "idBase": "L_ADM_TORRE_2_0",
+        "showOrHide": ["layer3", "layer16"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_3_1",
+        "idBase": "L_ADM_TORRE_3_0",
+        "showOrHide": ["layer4", "layer17"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_4_1",
+        "idBase": "L_ADM_TORRE_4_0",
+        "showOrHide": ["layer6", "layer19"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_5_1",
+        "idBase": "L_ADM_TORRE_5_0",
+        "showOrHide": ["layer7", "layer20"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_6_1",
+        "idBase": "L_ADM_TORRE_6_0",
+        "showOrHide": ["layer8", "layer21"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_7_1",
+        "idBase": "L_ADM_TORRE_7_0",
+        "showOrHide": ["layer9", "layer22"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_8_1",
+        "idBase": "L_ADM_TORRE_8_0",
+        "showOrHide": ["layer10", "layer23"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_9_1",
+        "idBase": "L_ADM_TORRE_9_0",
+        "showOrHide": ["layer11", "layer24"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_10_1",
+        "idBase": "L_ADM_TORRE_10_0",
+        "showOrHide": ["layer12", "layer25"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_11_1",
+        "idBase": "L_ADM_TORRE_11_0",
+        "showOrHide": ["layer13", "layer26"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_8_11_1",
+        "idBase": "L_ADM_TORRE_8_11_0",
+        "showOrHide": [
+          "layer9",
+          "layer22",
+          "layer8",
+          "layer21",
+          "layer7",
+          "layer20",
+          "layer6",
+          "layer19",
+          "layer5",
+          "layer18"
+        ]
       }
     ]
   }
