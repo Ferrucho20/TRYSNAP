@@ -20,6 +20,8 @@ path:hover {
   visibility: hidden;
   height:400px;
   width: 400px;
+  background-color: #ffffff;
+  text-align: left;
   /*overflow-y:scroll;*/
   /*overflow-y:scroll;*/
   /*-webkit-overflow-scrolling: touch;*/
