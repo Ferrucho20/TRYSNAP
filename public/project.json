@@ -2890,5 +2890,52 @@
         ]
       }
     ]
+  },
+  { 
+    "id": "010477201000", 
+    "nombre": "LOS CEDROS",
+    "svg": "Los_Cedros MARCADO.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_1_1",
+        "idBase": "L_ADM_TORRE_1_0",
+        "showOrHide": [
+          "layer2",
+          "layer8"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_2_1",
+        "idBase": "L_ADM_TORRE_2_0",
+        "showOrHide": [
+          "layer3",
+          "layer9"
+        ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_3_1",
+        "idBase": "L_ADM_TORRE_3_0",
+        "showOrHide": [
+          "layer4",
+          "layer10"
+        ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_4_1",
+        "idBase": "L_ADM_TORRE_4_0",
+        "showOrHide": [
+          "layer5",
+          "layer11"
+        ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_5_1",
+        "idBase": "L_ADM_TORRE_5_0",
+        "showOrHide": [
+          "layer6",
+          "layer12"
+        ]
+      }
+    ]
   }
 ]
