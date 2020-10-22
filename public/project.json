@@ -2249,5 +2249,247 @@
         ]
       }
     ]
+  },
+  {  
+    "id": "014507231000",
+    "nombre": "BRISAS DEL JARDIN E1",
+    "svg": "Brisas del Jardin-Marcado.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_1_1",
+        "idBase": "L_ADM_TORRE_1_0",
+        "showOrHide": [
+          "layer2",
+          "layer16"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_2_1",
+        "idBase": "L_ADM_TORRE_2_0",
+        "showOrHide": [
+           "layer3"
+          ,"layer17"
+        ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_3_1",
+        "idBase": "L_ADM_TORRE_3_0",
+        "showOrHide": [
+          "layer4",
+          "layer18"
+        ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_4_1",
+        "idBase": "L_ADM_TORRE_4_0",
+        "showOrHide": [
+          "layer5",
+          "layer19"
+        ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_5_1",
+        "idBase": "L_ADM_TORRE_5_0",
+        "showOrHide": [
+          "layer6",
+          "layer20"
+        ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_6_1",
+        "idBase": "L_ADM_TORRE_6_0",
+        "showOrHide": [
+          "layer7",
+          "layer21"
+        ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_7_1",
+        "idBase": "L_ADM_TORRE_7_0",
+        "showOrHide": [
+          "layer8",
+          "layer22"
+        ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_8_1",
+        "idBase": "L_ADM_TORRE_8_0",
+        "showOrHide": [
+          "layer9",
+          "layer23"
+        ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_9_1",
+        "idBase": "L_ADM_TORRE_9_0",
+        "showOrHide": [
+          "layer10",
+          "layer24"
+        ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_10_1",
+        "idBase": "L_ADM_TORRE_10_0",
+        "showOrHide": [
+          "layer11",
+          "layer25"
+        ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_5_7_1",
+        "idBase": "L_ADM_TORRE_5_7_0",
+        "showOrHide": [
+          "layer6",
+          "layer20",
+          "layer8",
+          "layer22",
+          "layer13",
+          "layer27",
+          "layer7",
+          "layer21"
+        ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_4_4_1",
+        "idBase": "L_ADM_TORRE_4_4_0",
+        "showOrHide": [
+          "layer5",
+          "layer19",
+          "layer26",
+          "layer12"
+        ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_10_10_1",
+        "idBase": "L_ADM_TORRE_10_10_0",
+        "showOrHide": [
+          "layer14",
+          "layer28",
+          "layer11",
+          "layer25"
+        ]
+      }
+    ]
+  },
+  {  
+    "id": "014507232000",
+    "nombre": "BRISAS DEL JARDIN E2",
+    "svg": "Brisas del Jardin-Marcado.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_1_1",
+        "idBase": "L_ADM_TORRE_1_0",
+        "showOrHide": [
+          "layer2",
+          "layer16"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_2_1",
+        "idBase": "L_ADM_TORRE_2_0",
+        "showOrHide": [
+           "layer3"
+          ,"layer17"
+        ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_3_1",
+        "idBase": "L_ADM_TORRE_3_0",
+        "showOrHide": [
+          "layer4",
+          "layer18"
+        ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_4_1",
+        "idBase": "L_ADM_TORRE_4_0",
+        "showOrHide": [
+          "layer5",
+          "layer19"
+        ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_5_1",
+        "idBase": "L_ADM_TORRE_5_0",
+        "showOrHide": [
+          "layer6",
+          "layer20"
+        ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_6_1",
+        "idBase": "L_ADM_TORRE_6_0",
+        "showOrHide": [
+          "layer7",
+          "layer21"
+        ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_7_1",
+        "idBase": "L_ADM_TORRE_7_0",
+        "showOrHide": [
+          "layer8",
+          "layer22"
+        ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_8_1",
+        "idBase": "L_ADM_TORRE_8_0",
+        "showOrHide": [
+          "layer9",
+          "layer23"
+        ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_9_1",
+        "idBase": "L_ADM_TORRE_9_0",
+        "showOrHide": [
+          "layer10",
+          "layer24"
+        ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_10_1",
+        "idBase": "L_ADM_TORRE_10_0",
+        "showOrHide": [
+          "layer11",
+          "layer25"
+        ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_5_7_1",
+        "idBase": "L_ADM_TORRE_5_7_0",
+        "showOrHide": [
+          "layer6",
+          "layer20",
+          "layer8",
+          "layer22",
+          "layer13",
+          "layer27",
+          "layer7",
+          "layer21"
+        ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_4_4_1",
+        "idBase": "L_ADM_TORRE_4_4_0",
+        "showOrHide": [
+          "layer5",
+          "layer19",
+          "layer26",
+          "layer12"
+        ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_10_10_1",
+        "idBase": "L_ADM_TORRE_10_10_0",
+        "showOrHide": [
+          "layer14",
+          "layer28",
+          "layer11",
+          "layer25"
+        ]
+      }
+    ]
   }
 ]
