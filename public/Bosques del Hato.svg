@@ -3431,7 +3431,12 @@
          x="376"
          y="211.5" />
     </g>
-    
+    <path
+       style="opacity:0.02999998;fill:#00ffff;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 353.40427,262.93616 2.34043,-3.82979 7.87234,-2.55319 6.17021,-0.6383 7.65958,2.76596 1.27659,4.25532 0,3.82979 -4.46808,4.46808 c 0,0 -4.89362,1.2766 -5.74468,1.48936 -0.85107,0.21277 -10.42554,-0.63829 -10.42554,-0.63829 l -3.40425,-2.97873 -2.55319,-3.82979 z"
+       id="L_ADM_TORRE_11_0"
+       inkscape:connector-curvature="0"
+       inkscape:label="#path3622" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -3745,18 +3750,7 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccccscccc"
        inkscape:label="#path3618" />
-       <path
-       style="opacity:0.02999998;fill:#00ffff;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 353.40427,262.93616 2.34043,-3.82979 7.87234,-2.55319 6.17021,-0.6383 7.65958,2.76596 1.27659,4.25532 0,3.82979 -4.46808,4.46808 c 0,0 -4.89362,1.2766 -5.74468,1.48936 -0.85107,0.21277 -10.42554,-0.63829 -10.42554,-0.63829 l -3.40425,-2.97873 -2.55319,-3.82979 z"
-       id="L_ADM_TORRE_11_0"
-       inkscape:connector-curvature="0"
-       inkscape:label="#path3622" />
-    <path
-       style="opacity:0.02999998;fill:#00ffff;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
-       d="m 352.12768,263.99999 2.55319,-4.04255 4.68085,-2.12766 c 0,0 5.95745,-1.70213 7.65958,-1.70213 1.70212,0 7.23404,0.6383 7.23404,0.6383 l 5.31915,4.25532 c 0,0 -0.42553,4.89361 -0.85107,5.74468 -0.42553,0.85106 -6.38298,5.74468 -7.4468,5.74468 -1.06383,0 -12.12767,0.6383 -12.12767,0.6383 0,0 -4.04255,-2.34043 -5.10638,-3.19149 -1.06383,-0.85107 -1.91489,-5.95745 -1.91489,-5.95745 z"
-       id="L_ADM_TORRE_11_1"
-       inkscape:connector-curvature="0"
-       inkscape:label="#path3637" />
+    
     <path
        style="opacity:0.02999998;fill:#00ff00;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
        d="M 459.25,402.25 466,397 l 7,-2 12.75,-1.25 10,1.75 8.75,5 6.5,7 2.5,9.75 -2.5,9.75 -7.5,8.5 -9.5,4.5 -9.75,2 -13.25,-1.25 -8.5,-4.75 -5.75,-6 -3,-5.75 -0.5,-8.5 1.25,-7.75 z"
@@ -4162,5 +4156,11 @@
        id="LTORRE_11_1"
        inkscape:connector-curvature="0"
        inkscape:label="#path3639" />
+       <path
+       style="opacity:0.02999998;fill:#00ffff;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+       d="m 352.12768,263.99999 2.55319,-4.04255 4.68085,-2.12766 c 0,0 5.95745,-1.70213 7.65958,-1.70213 1.70212,0 7.23404,0.6383 7.23404,0.6383 l 5.31915,4.25532 c 0,0 -0.42553,4.89361 -0.85107,5.74468 -0.42553,0.85106 -6.38298,5.74468 -7.4468,5.74468 -1.06383,0 -12.12767,0.6383 -12.12767,0.6383 0,0 -4.04255,-2.34043 -5.10638,-3.19149 -1.06383,-0.85107 -1.91489,-5.95745 -1.91489,-5.95745 z"
+       id="L_ADM_TORRE_11_1"
+       inkscape:connector-curvature="0"
+       inkscape:label="#path3637" />
   </g>
 </svg>
