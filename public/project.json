@@ -2822,6 +2822,28 @@
     ]
   },
   {
+    "id": "001498101000",
+    "nombre": "PUERTA MAYOR",
+    "svg": "Puerta Mayor.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_1_1",
+        "idBase": "L_ADM_TORRE_1_0",
+        "showOrHide": ["layer2", "layer7"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_2_1",
+        "idBase": "L_ADM_TORRE_2_0",
+        "showOrHide": ["layer3", "layer6"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_3_1",
+        "idBase": "L_ADM_TORRE_3_0",
+        "showOrHide": ["layer4", "layer8"]
+      }
+    ]
+  },
+  {
     "id": "010477101000",
     "nombre": "LOS ROBLES",
     "svg": "Los_Robles.svg",
