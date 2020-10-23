@@ -3715,5 +3715,111 @@
         "showOrHide": ["layer4", "layer8"]
       }
     ]
+  },
+  {
+    "id": "011020101000",
+    "nombre": "SENDERO DE MIRAFLORES F1",
+    "svg": "Sendero de Miraflores F1.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_3_1",
+        "idBase": "L_ADM_TORRE_3_0",
+        "showOrHide": ["layer2", "layer11"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_4_1",
+        "idBase": "L_ADM_TORRE_4_0",
+        "showOrHide": ["layer3", "layer12"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_5_1",
+        "idBase": "L_ADM_TORRE_5_0",
+        "showOrHide": ["layer4", "layer13"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_6_1",
+        "idBase": "L_ADM_TORRE_6_0",
+        "showOrHide": ["layer5", "layer14"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_12_1",
+        "idBase": "L_ADM_TORRE_12_0",
+        "showOrHide": ["layer6", "layer15"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_13_1",
+        "idBase": "L_ADM_TORRE_13_0",
+        "showOrHide": ["layer9", "layer18"]
+      }
+    ]
+  },
+  {
+    "id": "011020102000",
+    "nombre": "SENDERO DE MIRAFLORES F2",
+    "svg": "Sendero de Miraflores F2.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_7_1",
+        "idBase": "L_ADM_TORRE_7_0",
+        "showOrHide": ["layer2", "layer9"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_8_1",
+        "idBase": "L_ADM_TORRE_8_0",
+        "showOrHide": ["layer3", "layer10"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_9_1",
+        "idBase": "L_ADM_TORRE_9_0",
+        "showOrHide": ["layer4", "layer11"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_10_1",
+        "idBase": "L_ADM_TORRE_10_0",
+        "showOrHide": ["layer6", "layer13"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_11_1",
+        "idBase": "L_ADM_TORRE_11_0",
+        "showOrHide": ["layer7", "layer14"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_10_11_1",
+        "idBase": "L_ADM_TORRE_10_11_0",
+        "showOrHide": ["layer7", "layer14", "layer6", "layer13", "layer12"]
+      }
+    ]
+  },
+  {
+    "id": "011020103000",
+    "nombre": "SENDERO DE MIRAFLORES F3",
+    "svg": "Sendero de Miraflores F3.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_1_1",
+        "idBase": "L_ADM_TORRE_1_0",
+        "showOrHide": ["layer2", "layer8"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_2_1",
+        "idBase": "L_ADM_TORRE_2_0",
+        "showOrHide": ["layer3", "layer9"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_14_1",
+        "idBase": "L_ADM_TORRE_14_0",
+        "showOrHide": ["layer5", "layer11"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_15_1",
+        "idBase": "L_ADM_TORRE_15_0",
+        "showOrHide": ["layer6", "layer12"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_14_15_1",
+        "idBase": "L_ADM_TORRE_14_15_0",
+        "showOrHide": ["layer4", "layer10"]
+      }
+    ]
   }
 ]
