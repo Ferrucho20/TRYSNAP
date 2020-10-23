@@ -3744,12 +3744,26 @@
       {
         "idFrente": "L_ADM_TORRE_12_1",
         "idBase": "L_ADM_TORRE_12_0",
-        "showOrHide": ["layer8", "layer17"]
+        "showOrHide": ["layer6", "layer15"]
       },
       {
         "idFrente": "L_ADM_TORRE_13_1",
         "idBase": "L_ADM_TORRE_13_0",
         "showOrHide": ["layer9", "layer18"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_12_13_1",
+        "idBase": "L_ADM_TORRE_12_13_0",
+        "showOrHide": [
+          "layer9",
+          "layer18",
+          "layer8",
+          "layer17",
+          "layer7",
+          "layer16",
+          "layer6",
+          "layer15"
+        ]
       }
     ]
   },
