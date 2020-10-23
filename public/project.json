@@ -3259,89 +3259,7 @@
   },
   {
     "id": "011004961000",
-    "nombre": "BOULEVAR DEL PUENTE E1",
-    "svg": "Bulevar del Puente MARCADO v2.svg",
-    "informacion": [
-      {
-        "idFrente": "L_ADM_TORRE_01_1",
-        "idBase": "L_ADM_TORRE_01_0",
-        "showOrHide": ["layer2"]
-      },
-      {
-        "idFrente": "L_ADM_TORRE_02_1",
-        "idBase": "L_ADM_TORRE_02_0",
-        "showOrHide": ["layer3"]
-      },
-      {
-        "idFrente": "L_ADM_TORRE_03_1",
-        "idBase": "L_ADM_TORRE_03_0",
-        "showOrHide": ["layer4"]
-      },
-      {
-        "idFrente": "L_ADM_TORRE_04_1",
-        "idBase": "L_ADM_TORRE_04_0",
-        "showOrHide": ["layer5"]
-      },
-      {
-        "idFrente": "L_ADM_TORRE_05_1",
-        "idBase": "L_ADM_TORRE_05_0",
-        "showOrHide": ["layer7"]
-      },
-      {
-        "idFrente": "L_ADM_TORRE_06_1",
-        "idBase": "L_ADM_TORRE_06_0",
-        "showOrHide": ["layer10"]
-      },
-      {
-        "idFrente": "L_ADM_TORRE_07_1",
-        "idBase": "L_ADM_TORRE_07_0",
-        "showOrHide": ["layer13"]
-      },
-      {
-        "idFrente": "L_ADM_TORRE_08_1",
-        "idBase": "L_ADM_TORRE_08_0",
-        "showOrHide": ["layer8"]
-      },
-      {
-        "idFrente": "L_ADM_TORRE_09_1",
-        "idBase": "L_ADM_TORRE_09_0",
-        "showOrHide": ["layer11"]
-      },
-      {
-        "idFrente": "L_ADM_TORRE_10_1",
-        "idBase": "L_ADM_TORRE_10_0",
-        "showOrHide": ["layer14"]
-      },
-      {
-        "idFrente": "L_ADM_TORRE_11_1",
-        "idBase": "L_ADM_TORRE_11_0",
-        "showOrHide": ["layer16"]
-      },
-      {
-        "idFrente": "L_ADM_TORRE_11_11_1",
-        "idBase": "L_ADM_TORRE_11_11_0",
-        "showOrHide": ["layer15", "layer16"]
-      },
-      {
-        "idFrente": "L_ADM_TORRE_07_10_1",
-        "idBase": "L_ADM_TORRE_07_10_0",
-        "showOrHide": ["layer12", "layer14", "layer13"]
-      },
-      {
-        "idFrente": "L_ADM_TORRE_06_09_1",
-        "idBase": "L_ADM_TORRE_06_09_0",
-        "showOrHide": ["layer9", "layer10", "layer11"]
-      },
-      {
-        "idFrente": "L_ADM_TORRE_05_08_1",
-        "idBase": "L_ADM_TORRE_05_08_0",
-        "showOrHide": ["layer6", "layer7", "layer8"]
-      }
-    ]
-  },
-  {
-    "id": "011004962000",
-    "nombre": "BOULEVAR DEL PUENTE E2",
+    "nombre": "BULEVAR DEL PUENTE E1",
     "svg": "Bulevar del Puente MARCADO v2.svg",
     "informacion": [
       {
@@ -3423,7 +3341,7 @@
   },
   {
     "id": "011004963000",
-    "nombre": "BOULEVAR DEL PUENTE E3",
+    "nombre": "BOULEVAR DEL PUENTE E2",
     "svg": "Bulevar del Puente MARCADO v2.svg",
     "informacion": [
       {
@@ -3505,7 +3423,7 @@
   },
   {
     "id": "011004964000",
-    "nombre": "BOULEVAR DEL PUENTE E4",
+    "nombre": "BOULEVAR DEL PUENTE E3",
     "svg": "Bulevar del Puente MARCADO v2.svg",
     "informacion": [
       {
@@ -3587,7 +3505,7 @@
   },
   {
     "id": "011004965000",
-    "nombre": "BOULEVAR DEL PUENTE E5",
+    "nombre": "BOULEVAR DEL PUENTE E4",
     "svg": "Bulevar del Puente MARCADO v2.svg",
     "informacion": [
       {
@@ -3669,8 +3587,90 @@
   },
   {
     "id": "011004966000",
-    "nombre": "BOULEVAR DEL PUENTE E6",
+    "nombre": "BOULEVAR DEL PUENTE E5",
     "svg": "Bulevar del Puente MARCADO v2.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_01_1",
+        "idBase": "L_ADM_TORRE_01_0",
+        "showOrHide": ["layer2"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_02_1",
+        "idBase": "L_ADM_TORRE_02_0",
+        "showOrHide": ["layer3"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_03_1",
+        "idBase": "L_ADM_TORRE_03_0",
+        "showOrHide": ["layer4"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_04_1",
+        "idBase": "L_ADM_TORRE_04_0",
+        "showOrHide": ["layer5"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_05_1",
+        "idBase": "L_ADM_TORRE_05_0",
+        "showOrHide": ["layer7"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_06_1",
+        "idBase": "L_ADM_TORRE_06_0",
+        "showOrHide": ["layer10"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_07_1",
+        "idBase": "L_ADM_TORRE_07_0",
+        "showOrHide": ["layer13"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_08_1",
+        "idBase": "L_ADM_TORRE_08_0",
+        "showOrHide": ["layer8"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_09_1",
+        "idBase": "L_ADM_TORRE_09_0",
+        "showOrHide": ["layer11"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_10_1",
+        "idBase": "L_ADM_TORRE_10_0",
+        "showOrHide": ["layer14"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_11_1",
+        "idBase": "L_ADM_TORRE_11_0",
+        "showOrHide": ["layer16"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_11_11_1",
+        "idBase": "L_ADM_TORRE_11_11_0",
+        "showOrHide": ["layer15", "layer16"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_07_10_1",
+        "idBase": "L_ADM_TORRE_07_10_0",
+        "showOrHide": ["layer12", "layer14", "layer13"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_06_09_1",
+        "idBase": "L_ADM_TORRE_06_09_0",
+        "showOrHide": ["layer9", "layer10", "layer11"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_05_08_1",
+        "idBase": "L_ADM_TORRE_05_08_0",
+        "showOrHide": ["layer6", "layer7", "layer8"]
+      }
+    ]
+  },
+  {
+    "id": "011",
+    "nombre": "BO6",
+    "svg": "B.svg",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
