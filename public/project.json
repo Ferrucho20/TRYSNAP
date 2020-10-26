@@ -4271,5 +4271,701 @@
         ]
       }
     ]
+  },
+  { 
+    "id": "011616101000", 
+    "nombre": "TERRAZAS DE MIRAFLORES E1",
+    "svg": "TERRAZAS DE MIRAFLORES MARCADO.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_1_1",
+        "idBase": "L_ADM_TORRE_1_0",
+        "showOrHide": [
+          "layer2",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_2_1",
+        "idBase": "L_ADM_TORRE_2_0",
+        "showOrHide": [
+          "layer3",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_3_1",
+        "idBase": "L_ADM_TORRE_3_0",
+        "showOrHide": [
+          "layer4",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_4_1",
+        "idBase": "L_ADM_TORRE_4_0",
+        "showOrHide": [
+          "layer6",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_5_1",
+        "idBase": "L_ADM_TORRE_5_0",
+        "showOrHide": [
+          "layer8",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_6_1",
+        "idBase": "L_ADM_TORRE_6_0",
+        "showOrHide": [
+          "layer10",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_7_1",
+        "idBase": "L_ADM_TORRE_7_0",
+        "showOrHide": [
+          "layer12",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_8_1",
+        "idBase": "L_ADM_TORRE_8_0",
+        "showOrHide": [
+          "layer14",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_9_1",
+        "idBase": "L_ADM_TORRE_9_0",
+        "showOrHide": [
+          "layer29",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_10_1",
+        "idBase": "L_ADM_TORRE_10_0",
+        "showOrHide": [
+          "layer27",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_11_1",
+        "idBase": "L_ADM_TORRE_11_0",
+        "showOrHide": [
+          "layer23",
+          "layer"
+          ]
+      },      {
+        "idFrente": "L_ADM_TORRE_12_1",
+        "idBase": "L_ADM_TORRE_12_0",
+        "showOrHide": [
+          "layer24",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_13_1",
+        "idBase": "L_ADM_TORRE_13_0",
+        "showOrHide": [
+          "layer25",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_14_1",
+        "idBase": "L_ADM_TORRE_14_0",
+        "showOrHide": [
+          "layer17",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_15_1",
+        "idBase": "L_ADM_TORRE_15_0",
+        "showOrHide": [
+          "layer18",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_16_1",
+        "idBase": "L_ADM_TORRE_16_0",
+        "showOrHide": [
+          "layer19",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_17_1",
+        "idBase": "L_ADM_TORRE_17_0",
+        "showOrHide": [
+          "layer20",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_1_5_1",
+        "idBase": "L_ADM_TORRE_1_5_0",
+        "showOrHide": [
+          "layer2",
+          "layer3",
+          "layer4",
+          "layer6",
+          "layer8",
+          "layer5",
+          "layer7"
+
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_6_10_1",
+        "idBase": "L_ADM_TORRE_6_10_0",
+        "showOrHide": [
+          "layer10",
+          "layer12",
+          "layer14",
+          "layer29",
+          "layer27",
+          "layer11",
+          "layer13",
+          "layer9",
+          "layer28",
+          "layer26"
+
+          ]
+      }
+
+    ]
+  },
+  { 
+    "id": "011616102000", 
+    "nombre": "TERRAZAS DE MIRAFLORES E2",
+    "svg": "TERRAZAS DE MIRAFLORES MARCADO.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_1_1",
+        "idBase": "L_ADM_TORRE_1_0",
+        "showOrHide": [
+          "layer2",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_2_1",
+        "idBase": "L_ADM_TORRE_2_0",
+        "showOrHide": [
+          "layer3",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_3_1",
+        "idBase": "L_ADM_TORRE_3_0",
+        "showOrHide": [
+          "layer4",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_4_1",
+        "idBase": "L_ADM_TORRE_4_0",
+        "showOrHide": [
+          "layer6",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_5_1",
+        "idBase": "L_ADM_TORRE_5_0",
+        "showOrHide": [
+          "layer8",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_6_1",
+        "idBase": "L_ADM_TORRE_6_0",
+        "showOrHide": [
+          "layer10",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_7_1",
+        "idBase": "L_ADM_TORRE_7_0",
+        "showOrHide": [
+          "layer12",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_8_1",
+        "idBase": "L_ADM_TORRE_8_0",
+        "showOrHide": [
+          "layer14",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_9_1",
+        "idBase": "L_ADM_TORRE_9_0",
+        "showOrHide": [
+          "layer29",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_10_1",
+        "idBase": "L_ADM_TORRE_10_0",
+        "showOrHide": [
+          "layer27",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_11_1",
+        "idBase": "L_ADM_TORRE_11_0",
+        "showOrHide": [
+          "layer23",
+          "layer"
+          ]
+      },      {
+        "idFrente": "L_ADM_TORRE_12_1",
+        "idBase": "L_ADM_TORRE_12_0",
+        "showOrHide": [
+          "layer24",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_13_1",
+        "idBase": "L_ADM_TORRE_13_0",
+        "showOrHide": [
+          "layer25",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_14_1",
+        "idBase": "L_ADM_TORRE_14_0",
+        "showOrHide": [
+          "layer17",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_15_1",
+        "idBase": "L_ADM_TORRE_15_0",
+        "showOrHide": [
+          "layer18",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_16_1",
+        "idBase": "L_ADM_TORRE_16_0",
+        "showOrHide": [
+          "layer19",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_17_1",
+        "idBase": "L_ADM_TORRE_17_0",
+        "showOrHide": [
+          "layer20",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_1_5_1",
+        "idBase": "L_ADM_TORRE_1_5_0",
+        "showOrHide": [
+          "layer2",
+          "layer3",
+          "layer4",
+          "layer6",
+          "layer8",
+          "layer5",
+          "layer7"
+
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_6_10_1",
+        "idBase": "L_ADM_TORRE_6_10_0",
+        "showOrHide": [
+          "layer10",
+          "layer12",
+          "layer14",
+          "layer29",
+          "layer27",
+          "layer11",
+          "layer13",
+          "layer9",
+          "layer28",
+          "layer26"
+
+          ]
+      }
+
+    ]
+  },
+  { 
+    "id": "011616103000", 
+    "nombre": "TERRAZAS DE MIRAFLORES E3",
+    "svg": "TERRAZAS DE MIRAFLORES MARCADO.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_1_1",
+        "idBase": "L_ADM_TORRE_1_0",
+        "showOrHide": [
+          "layer2",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_2_1",
+        "idBase": "L_ADM_TORRE_2_0",
+        "showOrHide": [
+          "layer3",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_3_1",
+        "idBase": "L_ADM_TORRE_3_0",
+        "showOrHide": [
+          "layer4",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_4_1",
+        "idBase": "L_ADM_TORRE_4_0",
+        "showOrHide": [
+          "layer6",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_5_1",
+        "idBase": "L_ADM_TORRE_5_0",
+        "showOrHide": [
+          "layer8",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_6_1",
+        "idBase": "L_ADM_TORRE_6_0",
+        "showOrHide": [
+          "layer10",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_7_1",
+        "idBase": "L_ADM_TORRE_7_0",
+        "showOrHide": [
+          "layer12",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_8_1",
+        "idBase": "L_ADM_TORRE_8_0",
+        "showOrHide": [
+          "layer14",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_9_1",
+        "idBase": "L_ADM_TORRE_9_0",
+        "showOrHide": [
+          "layer29",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_10_1",
+        "idBase": "L_ADM_TORRE_10_0",
+        "showOrHide": [
+          "layer27",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_11_1",
+        "idBase": "L_ADM_TORRE_11_0",
+        "showOrHide": [
+          "layer23",
+          "layer"
+          ]
+      },      {
+        "idFrente": "L_ADM_TORRE_12_1",
+        "idBase": "L_ADM_TORRE_12_0",
+        "showOrHide": [
+          "layer24",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_13_1",
+        "idBase": "L_ADM_TORRE_13_0",
+        "showOrHide": [
+          "layer25",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_14_1",
+        "idBase": "L_ADM_TORRE_14_0",
+        "showOrHide": [
+          "layer17",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_15_1",
+        "idBase": "L_ADM_TORRE_15_0",
+        "showOrHide": [
+          "layer18",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_16_1",
+        "idBase": "L_ADM_TORRE_16_0",
+        "showOrHide": [
+          "layer19",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_17_1",
+        "idBase": "L_ADM_TORRE_17_0",
+        "showOrHide": [
+          "layer20",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_1_5_1",
+        "idBase": "L_ADM_TORRE_1_5_0",
+        "showOrHide": [
+          "layer2",
+          "layer3",
+          "layer4",
+          "layer6",
+          "layer8",
+          "layer5",
+          "layer7"
+
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_6_10_1",
+        "idBase": "L_ADM_TORRE_6_10_0",
+        "showOrHide": [
+          "layer10",
+          "layer12",
+          "layer14",
+          "layer29",
+          "layer27",
+          "layer11",
+          "layer13",
+          "layer9",
+          "layer28",
+          "layer26"
+
+          ]
+      }
+
+    ]
+  },
+  { 
+    "id": "011616104000", 
+    "nombre": "TERRAZAS DE MIRAFLORES E4",
+    "svg": "TERRAZAS DE MIRAFLORES MARCADO.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_1_1",
+        "idBase": "L_ADM_TORRE_1_0",
+        "showOrHide": [
+          "layer2",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_2_1",
+        "idBase": "L_ADM_TORRE_2_0",
+        "showOrHide": [
+          "layer3",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_3_1",
+        "idBase": "L_ADM_TORRE_3_0",
+        "showOrHide": [
+          "layer4",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_4_1",
+        "idBase": "L_ADM_TORRE_4_0",
+        "showOrHide": [
+          "layer6",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_5_1",
+        "idBase": "L_ADM_TORRE_5_0",
+        "showOrHide": [
+          "layer8",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_6_1",
+        "idBase": "L_ADM_TORRE_6_0",
+        "showOrHide": [
+          "layer10",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_7_1",
+        "idBase": "L_ADM_TORRE_7_0",
+        "showOrHide": [
+          "layer12",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_8_1",
+        "idBase": "L_ADM_TORRE_8_0",
+        "showOrHide": [
+          "layer14",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_9_1",
+        "idBase": "L_ADM_TORRE_9_0",
+        "showOrHide": [
+          "layer29",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_10_1",
+        "idBase": "L_ADM_TORRE_10_0",
+        "showOrHide": [
+          "layer27",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_11_1",
+        "idBase": "L_ADM_TORRE_11_0",
+        "showOrHide": [
+          "layer23",
+          "layer"
+          ]
+      },      {
+        "idFrente": "L_ADM_TORRE_12_1",
+        "idBase": "L_ADM_TORRE_12_0",
+        "showOrHide": [
+          "layer24",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_13_1",
+        "idBase": "L_ADM_TORRE_13_0",
+        "showOrHide": [
+          "layer25",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_14_1",
+        "idBase": "L_ADM_TORRE_14_0",
+        "showOrHide": [
+          "layer17",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_15_1",
+        "idBase": "L_ADM_TORRE_15_0",
+        "showOrHide": [
+          "layer18",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_16_1",
+        "idBase": "L_ADM_TORRE_16_0",
+        "showOrHide": [
+          "layer19",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_17_1",
+        "idBase": "L_ADM_TORRE_17_0",
+        "showOrHide": [
+          "layer20",
+          "layer"
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_1_5_1",
+        "idBase": "L_ADM_TORRE_1_5_0",
+        "showOrHide": [
+          "layer2",
+          "layer3",
+          "layer4",
+          "layer6",
+          "layer8",
+          "layer5",
+          "layer7"
+
+          ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_6_10_1",
+        "idBase": "L_ADM_TORRE_6_10_0",
+        "showOrHide": [
+          "layer10",
+          "layer12",
+          "layer14",
+          "layer29",
+          "layer27",
+          "layer11",
+          "layer13",
+          "layer9",
+          "layer28",
+          "layer26"
+
+          ]
+      }
+
+    ]
   }
 ]
