@@ -4809,7 +4809,7 @@
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_3_1",
-        "idBase": "L_ADM_TORRE_3_0",
+        "idBase": "L_ADM_TORRE_3_0_",
         "showOrHide": ["layer2", "layer4"]
       }
     ]
