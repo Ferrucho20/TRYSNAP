@@ -4851,7 +4851,7 @@
     ]
   },
   {
-    "id": "011617101000", 
+    "id": "011617101000",
     "nombre": "MIRAFLORES DEL VALLE E1",
     "svg": "Miraflores del Valle 19-07-19 v2.svg",
     "informacion": [
@@ -4918,7 +4918,7 @@
     ]
   },
   {
-    "id": "011617102000", 
+    "id": "011617102000",
     "nombre": "MIRAFLORES DEL VALLE E2",
     "svg": "Miraflores del Valle 19-07-19 v2.svg",
     "informacion": [
@@ -4985,7 +4985,7 @@
     ]
   },
   {
-    "id": "011617103000", 
+    "id": "011617103000",
     "nombre": "MIRAFLORES DEL VALLE E3",
     "svg": "Miraflores del Valle 19-07-19 v2.svg",
     "informacion": [
@@ -5052,7 +5052,7 @@
     ]
   },
   {
-    "id": "011617104000", 
+    "id": "011617104000",
     "nombre": "MIRAFLORES DEL VALLE E4",
     "svg": "Miraflores del Valle 19-07-19 v2.svg",
     "informacion": [
@@ -5115,6 +5115,23 @@
         "idFrente": "L_ADM_TORRE_12_1",
         "idBase": "L_ADM_TORRE_12_0",
         "showOrHide": ["layer13"]
+      }
+    ]
+  },
+  {
+    "id": "012496201000",
+    "nombre": "COUNTRY LIVING",
+    "svg": "COUNTRY LIVING 19-09-03 marcado v1.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_01_1",
+        "idBase": "L_ADM_TORRE_01_0",
+        "showOrHide": ["layer3", "layer4"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_02_1",
+        "idBase": "L_ADM_TORRE_02_0",
+        "showOrHide": ["layer5", "layer6"]
       }
     ]
   }
