@@ -4175,8 +4175,8 @@
         "showOrHide": ["layer3", "layer4"]
       },
       {
-        "idFrente": "L_ADM_TORRE_03_04_01",
-        "idBase": "L_ADM_TORRE_03_04_00",
+        "idFrente": "L_ADM_TORRE_03_04_1",
+        "idBase": "L_ADM_TORRE_03_04_0",
         "showOrHide": ["layer7", "layer8"]
       }
     ]
@@ -4217,8 +4217,8 @@
         "showOrHide": ["layer3", "layer4"]
       },
       {
-        "idFrente": "L_ADM_TORRE_03_04_01",
-        "idBase": "L_ADM_TORRE_03_04_00",
+        "idFrente": "L_ADM_TORRE_03_04_1",
+        "idBase": "L_ADM_TORRE_03_04_0",
         "showOrHide": ["layer7", "layer8"]
       }
     ]
@@ -4259,8 +4259,8 @@
         "showOrHide": ["layer3", "layer4"]
       },
       {
-        "idFrente": "L_ADM_TORRE_03_04_01",
-        "idBase": "L_ADM_TORRE_03_04_00",
+        "idFrente": "L_ADM_TORRE_03_04_1",
+        "idBase": "L_ADM_TORRE_03_04_0",
         "showOrHide": ["layer7", "layer8"]
       }
     ]
