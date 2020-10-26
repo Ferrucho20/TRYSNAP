@@ -4112,44 +4112,156 @@
     "svg": "Huerta del Hato marcado.svg",
     "informacion": []
   },
-  { 
-    "id": "011495251000", 
+  {
+    "id": "011495251000",
     "nombre": "SABANA DEL HATO",
     "svg": "Sabana del Hato MARCADO.svg",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
         "idBase": "L_ADM_TORRE_01_0",
-        "showOrHide": [
-          "layer2",
-          "layer7"
-          ]
+        "showOrHide": ["layer2", "layer7"]
       },
       {
         "idFrente": "L_ADM_TORRE_02_1",
         "idBase": "L_ADM_TORRE_02_0",
-        "showOrHide": [
-          "layer4",
-          "layer9"
-        ]
+        "showOrHide": ["layer4", "layer9"]
       },
       {
         "idFrente": "L_ADM_TORRE_03_1",
         "idBase": "L_ADM_TORRE_03_0",
-        "showOrHide": [
-          "layer5",
-          "layer10"
-        ]
+        "showOrHide": ["layer5", "layer10"]
       },
       {
         "idFrente": "L_ADM_TORRE_02_00_01",
         "idBase": "L_ADM_TORRE_02_00_00",
-        "showOrHide": [
-          "layer3",
-          "layer8",
-          "layer4",
-          "layer9"
-        ]
+        "showOrHide": ["layer3", "layer8", "layer4", "layer9"]
+      }
+    ]
+  },
+  {
+    "id": "011520101000",
+    "nombre": "TERRACOTA E1 CIUDAD TIERRABUENA",
+    "svg": "TERRACOTA 20-07-16 - marcado.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_01_1",
+        "idBase": "L_ADM_TORRE_01_0",
+        "showOrHide": ["layer13", "layer14"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_02_1",
+        "idBase": "L_ADM_TORRE_02_0",
+        "showOrHide": ["layer15", "layer16"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_03_1",
+        "idBase": "L_ADM_TORRE_03_0",
+        "showOrHide": ["layer11", "layer12"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_04_1",
+        "idBase": "L_ADM_TORRE_04_0",
+        "showOrHide": ["layer9", "layer10"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_05_1",
+        "idBase": "L_ADM_TORRE_05_0",
+        "showOrHide": ["layer5", "layer6"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_06_1",
+        "idBase": "L_ADM_TORRE_06_0",
+        "showOrHide": ["layer3", "layer4"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_03_04_01",
+        "idBase": "L_ADM_TORRE_03_04_00",
+        "showOrHide": ["layer7", "layer8"]
+      }
+    ]
+  },
+  {
+    "id": "011520102000",
+    "nombre": "TERRACOTA E2 CIUDAD TIERRABUENA",
+    "svg": "TERRACOTA 20-07-16 - marcado.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_01_1",
+        "idBase": "L_ADM_TORRE_01_0",
+        "showOrHide": ["layer13", "layer14"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_02_1",
+        "idBase": "L_ADM_TORRE_02_0",
+        "showOrHide": ["layer15", "layer16"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_03_1",
+        "idBase": "L_ADM_TORRE_03_0",
+        "showOrHide": ["layer11", "layer12"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_04_1",
+        "idBase": "L_ADM_TORRE_04_0",
+        "showOrHide": ["layer9", "layer10"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_05_1",
+        "idBase": "L_ADM_TORRE_05_0",
+        "showOrHide": ["layer5", "layer6"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_06_1",
+        "idBase": "L_ADM_TORRE_06_0",
+        "showOrHide": ["layer3", "layer4"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_03_04_01",
+        "idBase": "L_ADM_TORRE_03_04_00",
+        "showOrHide": ["layer7", "layer8"]
+      }
+    ]
+  },
+  {
+    "id": "011520103000",
+    "nombre": "TERRACOTA E3 CIUDAD TIERRABUENA",
+    "svg": "TERRACOTA 20-07-16 - marcado.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_01_1",
+        "idBase": "L_ADM_TORRE_01_0",
+        "showOrHide": ["layer13", "layer14"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_02_1",
+        "idBase": "L_ADM_TORRE_02_0",
+        "showOrHide": ["layer15", "layer16"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_03_1",
+        "idBase": "L_ADM_TORRE_03_0",
+        "showOrHide": ["layer11", "layer12"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_04_1",
+        "idBase": "L_ADM_TORRE_04_0",
+        "showOrHide": ["layer9", "layer10"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_05_1",
+        "idBase": "L_ADM_TORRE_05_0",
+        "showOrHide": ["layer5", "layer6"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_06_1",
+        "idBase": "L_ADM_TORRE_06_0",
+        "showOrHide": ["layer3", "layer4"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_03_04_01",
+        "idBase": "L_ADM_TORRE_03_04_00",
+        "showOrHide": ["layer7", "layer8"]
       }
     ]
   }
