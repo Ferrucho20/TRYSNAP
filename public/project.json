@@ -4063,58 +4063,40 @@
       }
     ]
   },
-  { 
-    "id": "011495131000", 
+  {
+    "id": "011495131000",
     "nombre": "SERRANIA DEL HATO",
     "svg": "Serrania_del_Hato.svg",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_1_1",
         "idBase": "L_ADM_TORRE_1_0",
-        "showOrHide": [
-          "layer14",
-          "layer3"
-          ]
+        "showOrHide": ["layer14", "layer3"]
       },
       {
         "idFrente": "L_ADM_TORRE_2_1",
         "idBase": "L_ADM_TORRE_2_0",
-        "showOrHide": [
-          "layer4",
-          "layer13"
-        ]
+        "showOrHide": ["layer4", "layer13"]
       },
       {
         "idFrente": "L_ADM_TORRE_3_1",
         "idBase": "L_ADM_TORRE_3_0",
-        "showOrHide": [
-          "layer5",
-          "layer11"
-        ]
+        "showOrHide": ["layer5", "layer11"]
       },
       {
         "idFrente": "L_ADM_TORRE_4_1",
         "idBase": "L_ADM_TORRE_4_0",
-        "showOrHide": [
-          "layer6",
-          "layer10"
-        ]
+        "showOrHide": ["layer6", "layer10"]
       },
       {
         "idFrente": "L_ADM_TORRE_5_1",
         "idBase": "L_ADM_TORRE_5_0",
-        "showOrHide": [
-          "layer7",
-          "layer15"
-        ]
+        "showOrHide": ["layer7", "layer15"]
       },
       {
         "idFrente": "L_ADM_TORRE_6_1",
         "idBase": "L_ADM_TORRE_6_0",
-        "showOrHide": [
-          "layer8",
-          "layer16"
-        ]
+        "showOrHide": ["layer8", "layer16"]
       },
       {
         "idFrente": "L_ADM_TORRE_1_2_1",
