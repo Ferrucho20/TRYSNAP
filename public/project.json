@@ -5348,5 +5348,11 @@
         "showOrHide": ["layer2", "layer7", "layer3", "layer8"]
       }
     ]
+  },
+  {
+    "id": "011004912000", 
+    "nombre": "PASEO DEL PUENTE",
+    "svg": "PaseodelPuente.svg",
+    "informacion": []
   }
 ]
