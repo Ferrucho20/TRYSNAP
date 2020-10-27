@@ -5332,19 +5332,16 @@
         "idBase": "L_ADM_TORRE_1_0",
         "showOrHide": ["layer3", "layer8"]
       },
-
       {
         "idFrente": "L_ADM_TORRE_2_1",
         "idBase": "L_ADM_TORRE_2_0",
         "showOrHide": ["layer9", "layer4"]
       },
-
       {
         "idFrente": "L_ADM_TORRE_3_1",
         "idBase": "L_ADM_TORRE_3_0",
         "showOrHide": ["layer5", "layer10"]
       },
-
       {
         "idFrente": "L_ADM_TORRE_0_2_1",
         "idBase": "L_ADM_TORRE_0_2_0",
