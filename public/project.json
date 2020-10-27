@@ -5656,5 +5656,22 @@
         "showOrHide": ["layer3", "layer6"]
       }
     ]
+  },
+  {
+    "id": "002079501000", 
+    "nombre": "LA TERRA ALSACIA RESERVADO",
+    "svg": "La Terra Alsacia Reservado MARCADO v1.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_01_1",
+        "idBase": "L_ADM_TORRE_01_0",
+        "showOrHide": ["layer2", "layer5"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_02_1",
+        "idBase": "L_ADM_TORRE_02_0",
+        "showOrHide": ["layer3", "layer6"]
+      }
+    ]
   }
 ]
