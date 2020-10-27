@@ -5255,5 +5255,72 @@
         ]
       }
     ]
+  },
+  {
+    "id": "011008102000", 
+    "nombre": "MIRAFLORES F-2",
+    "svg": "MIraflores F2.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_15_1",
+        "idBase": "L_ADM_TORRE_15_0",
+        "showOrHide": ["layer2", "layer15"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_16_1",
+        "idBase": "L_ADM_TORRE_16_0",
+        "showOrHide": ["layer3", "layer16"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_17_1",
+        "idBase": "L_ADM_TORRE_17_0",
+        "showOrHide": ["layer4", "layer17"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_18_1",
+        "idBase": "L_ADM_TORRE_18_0",
+        "showOrHide": ["layer5", "layer21"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_19_1",
+        "idBase": "L_ADM_TORRE_19_0",
+        "showOrHide": ["layer6", "layer20"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_20_1",
+        "idBase": "L_ADM_TORRE_20_0",
+        "showOrHide": ["layer19", "layer8"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_21_1",
+        "idBase": "L_ADM_TORRE_21_0",
+        "showOrHide": ["layer7", "layer18"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_36_1",
+        "idBase": "L_ADM_TORRE_36_0",
+        "showOrHide": ["layer9", "layer26"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_37_1",
+        "idBase": "L_ADM_TORRE_37_0",
+        "showOrHide": ["layer13", "layer25"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_38_1",
+        "idBase": "L_ADM_TORRE_38_0",
+        "showOrHide": ["layer12", "layer24"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_39_1",
+        "idBase": "L_ADM_TORRE_39_0",
+        "showOrHide": ["layer23", "layer11"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_40_1",
+        "idBase": "L_ADM_TORRE_40_0",
+        "showOrHide": ["layer22", "layer10"]
+      }
+    ]
   }
 ]
