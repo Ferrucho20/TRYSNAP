@@ -5826,5 +5826,72 @@
         "showOrHide": ["layer8", "layer16"]
       }
     ]
+  },
+  {
+    "id": "002431601000", 
+    "nombre": "BURGOS CASTILLA RESERVADO",
+    "svg": "Burgos - Marcado v2.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_1_1",
+        "idBase": "L_ADM_TORRE_1_0",
+        "showOrHide": ["layer2", "layer15"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_2_1",
+        "idBase": "L_ADM_TORRE_2_0",
+        "showOrHide": ["layer3", "layer16"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_3_1",
+        "idBase": "L_ADM_TORRE_3_0",
+        "showOrHide": ["layer4", "layer17"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_4_1",
+        "idBase": "L_ADM_TORRE_4_0",
+        "showOrHide": ["layer6", "layer19"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_5_1",
+        "idBase": "L_ADM_TORRE_5_0",
+        "showOrHide": ["layer7", "layer20"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_6_1",
+        "idBase": "L_ADM_TORRE_6_0",
+        "showOrHide": ["layer8", "layer21"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_7_1",
+        "idBase": "L_ADM_TORRE_7_0",
+        "showOrHide": ["layer23", "layer10"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_8_1",
+        "idBase": "L_ADM_TORRE_8_0",
+        "showOrHide": ["layer11", "layer24"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_9_1",
+        "idBase": "L_ADM_TORRE_9_0",
+        "showOrHide": ["layer12", "layer25"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_10_1",
+        "idBase": "L_ADM_TORRE_10_0",
+        "showOrHide": ["layer26", "layer13"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_4_6_1",
+        "idBase": "L_ADM_TORRE_4_6_0",
+        "showOrHide": ["layer22","layer9","layer6", "layer19","layer7", "layer20","layer8", "layer21"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_1_3_1",
+        "idBase": "L_ADM_TORRE_1_3_0",
+        "showOrHide": ["layer18","layer5","layer2", "layer15","layer3", "layer16","layer4", "layer17"]
+      }
+    ]
   }
 ]
