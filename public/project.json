@@ -5256,6 +5256,89 @@
     ]
   },
   {
+    "id": "011008101000",
+    "nombre": "MIRAFLORES F-1",
+    "svg": "MIraflores F1.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_28_1",
+        "idBase": "L_ADM_TORRE_28_0",
+        "showOrHide": ["layer12", "layer17"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_29_1",
+        "idBase": "L_ADM_TORRE_29_0",
+        "showOrHide": ["layer13", "layer18"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_30_1",
+        "idBase": "L_ADM_TORRE_30_0",
+        "showOrHide": ["layer14", "layer19"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_31_1",
+        "idBase": "L_ADM_TORRE_31_0",
+        "showOrHide": ["layer15", "layer20"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_32_1",
+        "idBase": "L_ADM_TORRE_32_0",
+        "showOrHide": ["layer8", "layer23"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_33_1",
+        "idBase": "L_ADM_TORRE_33_0",
+        "showOrHide": ["layer9", "layer24"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_34_1",
+        "idBase": "L_ADM_TORRE_34_0",
+        "showOrHide": ["layer10", "layer25"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_35_1",
+        "idBase": "L_ADM_TORRE_35_0",
+        "showOrHide": ["layer11", "layer26"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_41_1",
+        "idBase": "L_ADM_TORRE_41_0",
+        "showOrHide": ["layer3", "layer29"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_42_1",
+        "idBase": "L_ADM_TORRE_42_0",
+        "showOrHide": ["layer4", "layer28"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_43_1",
+        "idBase": "L_ADM_TORRE_43_0",
+        "showOrHide": ["layer5", "layer27"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_44_1",
+        "idBase": "L_ADM_TORRE_44_0",
+        "showOrHide": ["layer6", "layer21"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_32_35_1",
+        "idBase": "L_ADM_TORRE_32_35_0",
+        "showOrHide": [
+          "layer8",
+          "layer23",
+          "layer9",
+          "layer24",
+          "layer10",
+          "layer25",
+          "layer11",
+          "layer26",
+          "layer7",
+          "layer22"
+        ]
+      }
+    ]
+  },
+  {
     "id": "011008102000",
     "nombre": "MIRAFLORES F-2",
     "svg": "MIraflores F2.svg",
@@ -5350,7 +5433,7 @@
     ]
   },
   {
-    "id": "011004912000", 
+    "id": "011004912000",
     "nombre": "PASEO DEL PUENTE",
     "svg": "PaseodelPuente.svg",
     "informacion": []
