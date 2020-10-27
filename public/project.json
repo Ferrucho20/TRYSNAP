@@ -5498,7 +5498,7 @@
     ]
   },
   {
-    "id": "011004922000", 
+    "id": "011004922000",
     "nombre": "PASEO REAL 2 F-2",
     "svg": "Paseo Real 2 F2.svg",
     "informacion": [
@@ -5555,22 +5555,41 @@
       {
         "idFrente": "L_ADM_TORRE_F_1-3_1",
         "idBase": "L_ADM_TORRE_F_1-3_0",
-        "showOrHide": ["layer15","layer29"]
+        "showOrHide": ["layer15", "layer29"]
       },
       {
         "idFrente": "L_ADM_TORRE_13-15_1",
         "idBase": "L_ADM_TORRE_13-15_0",
-        "showOrHide": ["layer2","layer16","layer4", "layer25","layer26", "layer5","layer6", "layer27"]
+        "showOrHide": [
+          "layer2",
+          "layer16",
+          "layer4",
+          "layer25",
+          "layer26",
+          "layer5",
+          "layer6",
+          "layer27"
+        ]
       },
       {
         "idFrente": "L_ADM_TORRE_16-18_1",
         "idBase": "L_ADM_TORRE_16-18_0",
-        "showOrHide": ["layer17","layer3","layer7", "layer24","layer8", "layer23","layer9", "layer22","layer3"]
+        "showOrHide": [
+          "layer17",
+          "layer3",
+          "layer7",
+          "layer24",
+          "layer8",
+          "layer23",
+          "layer9",
+          "layer22",
+          "layer3"
+        ]
       }
     ]
   },
   {
-    "id": "011004923000", 
+    "id": "011004923000",
     "nombre": "PASEO REAL 2 F-3",
     "svg": "Paseo Real 2 F3.svg",
     "informacion": [
@@ -5618,6 +5637,23 @@
         "idFrente": "L_ADM_TORRE_12_1",
         "idBase": "L_ADM_TORRE_12_0",
         "showOrHide": ["layer2", "layer12"]
+      }
+    ]
+  },
+  {
+    "id": "002079401000",
+    "nombre": "LA RIBERA ALSACIA RESERVADO",
+    "svg": "La Ribera Alsacia Reservado - Marcado v1.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_1_1",
+        "idBase": "L_ADM_TORRE_1_0",
+        "showOrHide": ["layer2", "layer5"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_2_1",
+        "idBase": "L_ADM_TORRE_2_0",
+        "showOrHide": ["layer3", "layer6"]
       }
     ]
   }
