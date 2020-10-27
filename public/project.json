@@ -5323,125 +5323,32 @@
     ]
   },
   {
-    "id": " ",
-    "nombre": "PROVENZA IMPERIAL",
-    "svg": "provenza_imperial v1.svg",
+    "id": "002022601000",
+    "nombre": "PROVENZA PRESTIGE",
+    "svg": "Provenza Prestige - Marcado.svg",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_1_1",
         "idBase": "L_ADM_TORRE_1_0",
-        "showOrHide": ["layer7", "layer14"]
+        "showOrHide": ["layer3", "layer8"]
       },
 
       {
         "idFrente": "L_ADM_TORRE_2_1",
         "idBase": "L_ADM_TORRE_2_0",
-        "showOrHide": ["layer9", "layer16"]
+        "showOrHide": ["layer9", "layer4"]
       },
 
       {
         "idFrente": "L_ADM_TORRE_3_1",
         "idBase": "L_ADM_TORRE_3_0",
-        "showOrHide": ["layer3", "layer10"]
+        "showOrHide": ["layer5", "layer10"]
       },
 
       {
-        "idFrente": "L_ADM_TORRE_4_1",
-        "idBase": "L_ADM_TORRE_4_0",
-        "showOrHide": ["layer4", "layer12"]
-      },
-
-      {
-        "idFrente": "L_ADM_TORRE_5_1",
-        "idBase": "L_ADM_TORRE_5_0",
-        "showOrHide": ["layer5", "layer13"]
-      },
-
-      {
-        "idFrente": "L_ADM_TORRE_1-2_1",
-        "idBase": "L_ADM_TORRE_1-2_0",
-        "showOrHide": [
-          "layer6",
-          "layer11",
-          "layer8",
-          "layer15",
-          "layer7",
-          "layer14",
-          "layer9",
-          "layer16"
-        ]
-      }
-    ]
-  },
-  {
-    "id": "011008101000", 
-    "nombre": "MIRAFLORES F-1",
-    "svg": "MIraflores F1.svg",
-    "informacion": [
-      {
-        "idFrente": "L_ADM_TORRE_28_1",
-        "idBase": "L_ADM_TORRE_28_0",
-        "showOrHide": ["layer12", "layer17"]
-      },
-      {
-        "idFrente": "L_ADM_TORRE_29_1",
-        "idBase": "L_ADM_TORRE_29_0",
-        "showOrHide": ["layer13", "layer18"]
-      },
-      {
-        "idFrente": "L_ADM_TORRE_30_1",
-        "idBase": "L_ADM_TORRE_30_0",
-        "showOrHide": ["layer14", "layer19"]
-      },
-      {
-        "idFrente": "L_ADM_TORRE_31_1",
-        "idBase": "L_ADM_TORRE_31_0",
-        "showOrHide": ["layer15", "layer20"]
-      },
-      {
-        "idFrente": "L_ADM_TORRE_32_1",
-        "idBase": "L_ADM_TORRE_32_0",
-        "showOrHide": ["layer8", "layer23"]
-      },
-      {
-        "idFrente": "L_ADM_TORRE_33_1",
-        "idBase": "L_ADM_TORRE_33_0",
-        "showOrHide": ["layer9", "layer24"]
-      },
-      {
-        "idFrente": "L_ADM_TORRE_34_1",
-        "idBase": "L_ADM_TORRE_34_0",
-        "showOrHide": ["layer10", "layer25"]
-      },
-      {
-        "idFrente": "L_ADM_TORRE_35_1",
-        "idBase": "L_ADM_TORRE_35_0",
-        "showOrHide": ["layer11", "layer26"]
-      },
-      {
-        "idFrente": "L_ADM_TORRE_41_1",
-        "idBase": "L_ADM_TORRE_41_0",
-        "showOrHide": ["layer3", "layer29"]
-      },
-      {
-        "idFrente": "L_ADM_TORRE_42_1",
-        "idBase": "L_ADM_TORRE_42_0",
-        "showOrHide": ["layer4", "layer28"]
-      },
-      {
-        "idFrente": "L_ADM_TORRE_43_1",
-        "idBase": "L_ADM_TORRE_43_0",
-        "showOrHide": ["layer5", "layer27"]
-      },
-      {
-        "idFrente": "L_ADM_TORRE_44_1",
-        "idBase": "L_ADM_TORRE_44_0",
-        "showOrHide": ["layer6", "layer21"]
-      },
-      {
-        "idFrente": "L_ADM_TORRE_32_35_1",
-        "idBase": "L_ADM_TORRE_32_35_0",
-        "showOrHide": ["layer8", "layer23","layer9", "layer24","layer10", "layer25","layer11", "layer26","layer7","layer22"]
+        "idFrente": "L_ADM_TORRE_0_2_1",
+        "idBase": "L_ADM_TORRE_0_2_0",
+        "showOrHide": ["layer2", "layer7", "layer3", "layer8"]
       }
     ]
   }
