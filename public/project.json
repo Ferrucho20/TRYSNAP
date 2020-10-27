@@ -5893,5 +5893,57 @@
         "showOrHide": ["layer18","layer5","layer2", "layer15","layer3", "layer16","layer4", "layer17"]
       }
     ]
+  },
+  {
+    "id": "002433301000", 
+    "nombre": "ALCAZAR CASTILLA RESERVADO",
+    "svg": "Alcazar.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_1_1",
+        "idBase": "L_ADM_TORRE_1_0",
+        "showOrHide": ["layer10", "layer20"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_2_1",
+        "idBase": "L_ADM_TORRE_2_0",
+        "showOrHide": ["layer14", "layer21"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_3_1",
+        "idBase": "L_ADM_TORRE_3_0",
+        "showOrHide": ["layer13", "layer3"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_4_1",
+        "idBase": "L_ADM_TORRE_4_0",
+        "showOrHide": ["layer4", "layer12"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_5_1",
+        "idBase": "L_ADM_TORRE_5_0",
+        "showOrHide": ["layer15", "layer5"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_6_1",
+        "idBase": "L_ADM_TORRE_6_0",
+        "showOrHide": ["layer16", "layer6"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_7_1",
+        "idBase": "L_ADM_TORRE_7_0",
+        "showOrHide": ["layer8", "layer18"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_7_7_1",
+        "idBase": "L_ADM_TORRE_7_7_0",
+        "showOrHide": ["layer8","layer18","layer7","layer17"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_1_1_1",
+        "idBase": "L_ADM_TORRE_1_1_0",
+        "showOrHide": ["layer9","layer19","layer10", "layer20"]
+      }
+    ]
   }
 ]
