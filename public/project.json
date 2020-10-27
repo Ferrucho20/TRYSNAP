@@ -5225,7 +5225,7 @@
       {
         "idFrente": "L_ADM_TORRE_3_1",
         "idBase": "L_ADM_TORRE_3_0",
-        "showOrHide": ["layer3", "layer19"]
+        "showOrHide": ["layer3", "layer10"]
       },
 
       {
@@ -5257,7 +5257,7 @@
     ]
   },
   {
-    "id": "011008102000", 
+    "id": "011008102000",
     "nombre": "MIRAFLORES F-2",
     "svg": "MIraflores F2.svg",
     "informacion": [
