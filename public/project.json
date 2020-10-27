@@ -5354,5 +5354,47 @@
     "nombre": "PASEO DEL PUENTE",
     "svg": "PaseodelPuente.svg",
     "informacion": []
+  },
+  {
+    "id": "011004921000", 
+    "nombre": "PASEO REAL 2 F-1",
+    "svg": "Paseo Real 2 F1.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_1_1",
+        "idBase": "L_ADM_TORRE_1_0",
+        "showOrHide": ["layer3", "layer10"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_2_1",
+        "idBase": "L_ADM_TORRE_2_0",
+        "showOrHide": ["layer4", "layer11"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_3_1",
+        "idBase": "L_ADM_TORRE_3_0",
+        "showOrHide": ["layer5", "layer12"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_23_1",
+        "idBase": "L_ADM_TORRE_23_0",
+        "showOrHide": ["layer8", "layer15"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_24_1",
+        "idBase": "L_ADM_TORRE_24_0",
+        "showOrHide": ["layer7", "layer14"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_25_1",
+        "idBase": "L_ADM_TORRE_25_0",
+        "showOrHide": ["layer6", "layer13"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_F_2_3_1",
+        "idBase": "L_ADM_TORRE_F_2_3_0",
+        "showOrHide": ["layer9","layer16"]
+      }
+    ]
   }
 ]
