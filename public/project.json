@@ -5496,5 +5496,77 @@
         "showOrHide": ["layer3", "layer6"]
       }
     ]
+  },
+  {
+    "id": "011004922000", 
+    "nombre": "PASEO REAL 2 F-2",
+    "svg": "Paseo Real 2 F2.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_13_1",
+        "idBase": "L_ADM_TORRE_13_0",
+        "showOrHide": ["layer4", "layer25"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_14_1",
+        "idBase": "L_ADM_TORRE_14_0",
+        "showOrHide": ["layer26", "layer5"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_15_1",
+        "idBase": "L_ADM_TORRE_15_0",
+        "showOrHide": ["layer6", "layer27"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_16_1",
+        "idBase": "L_ADM_TORRE_16_0",
+        "showOrHide": ["layer7", "layer24"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_17_1",
+        "idBase": "L_ADM_TORRE_17_0",
+        "showOrHide": ["layer8", "layer23"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_18_1",
+        "idBase": "L_ADM_TORRE_18_0",
+        "showOrHide": ["layer9", "layer22"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_19_1",
+        "idBase": "L_ADM_TORRE_19_0",
+        "showOrHide": ["layer10", "layer18"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_20_1",
+        "idBase": "L_ADM_TORRE_20_0",
+        "showOrHide": ["layer11", "layer19"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_21_1",
+        "idBase": "L_ADM_TORRE_21_0",
+        "showOrHide": ["layer12", "layer20"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_22_1",
+        "idBase": "L_ADM_TORRE_22_0",
+        "showOrHide": ["layer13", "layer21"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_F_1-3_1",
+        "idBase": "L_ADM_TORRE_F_1-3_0",
+        "showOrHide": ["layer15","layer29"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_13-15_1",
+        "idBase": "L_ADM_TORRE_13-15_0",
+        "showOrHide": ["layer2","layer16","layer4", "layer25","layer26", "layer5","layer6", "layer27"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_16-18_1",
+        "idBase": "L_ADM_TORRE_16-18_0",
+        "showOrHide": ["layer17","layer3","layer7", "layer24","layer8", "layer23","layer9", "layer22","layer3"]
+      }
+    ]
   }
 ]
