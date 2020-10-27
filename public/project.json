@@ -5439,7 +5439,7 @@
     "informacion": []
   },
   {
-    "id": "011004921000", 
+    "id": "011004921000",
     "nombre": "PASEO REAL 2 F-1",
     "svg": "Paseo Real 2 F1.svg",
     "informacion": [
@@ -5476,7 +5476,24 @@
       {
         "idFrente": "L_ADM_TORRE_F_2_3_1",
         "idBase": "L_ADM_TORRE_F_2_3_0",
-        "showOrHide": ["layer9","layer16"]
+        "showOrHide": ["layer9", "layer16"]
+      }
+    ]
+  },
+  {
+    "id": "002079301000",
+    "nombre": "LA RIOJA ALSACIA RESERVADO",
+    "svg": "La Rioja Alsacia Reservado-1 MARCADO v2.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_1_1",
+        "idBase": "L_ADM_TORRE_1_0",
+        "showOrHide": ["layer2", "layer5"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_2_1",
+        "idBase": "L_ADM_TORRE_2_0",
+        "showOrHide": ["layer3", "layer6"]
       }
     ]
   }
