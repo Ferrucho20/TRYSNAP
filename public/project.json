@@ -5701,7 +5701,7 @@
       },
       {
         "idFrente": "L_ADM_TORRE_05_01",
-        "idBase": "L_ADM_TORRE_05_00",
+        "idBase": "L_ADM_TORRE_05_0",
         "showOrHide": ["layer6", "layer13"]
       },
       {
@@ -5738,7 +5738,7 @@
       },
       {
         "idFrente": "L_ADM_TORRE_05_01",
-        "idBase": "L_ADM_TORRE_05_00",
+        "idBase": "L_ADM_TORRE_05_0",
         "showOrHide": ["layer6", "layer13"]
       },
       {
@@ -5775,7 +5775,7 @@
       },
       {
         "idFrente": "L_ADM_TORRE_05_01",
-        "idBase": "L_ADM_TORRE_05_00",
+        "idBase": "L_ADM_TORRE_05_0",
         "showOrHide": ["layer6", "layer13"]
       },
       {
