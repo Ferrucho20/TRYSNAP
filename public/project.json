@@ -5828,7 +5828,7 @@
     ]
   },
   {
-    "id": "002431601000", 
+    "id": "002431601000",
     "nombre": "BURGOS CASTILLA RESERVADO",
     "svg": "Burgos - Marcado v2.svg",
     "informacion": [
@@ -5885,17 +5885,35 @@
       {
         "idFrente": "L_ADM_TORRE_4_6_1",
         "idBase": "L_ADM_TORRE_4_6_0",
-        "showOrHide": ["layer22","layer9","layer6", "layer19","layer7", "layer20","layer8", "layer21"]
+        "showOrHide": [
+          "layer22",
+          "layer9",
+          "layer6",
+          "layer19",
+          "layer7",
+          "layer20",
+          "layer8",
+          "layer21"
+        ]
       },
       {
         "idFrente": "L_ADM_TORRE_1_3_1",
         "idBase": "L_ADM_TORRE_1_3_0",
-        "showOrHide": ["layer18","layer5","layer2", "layer15","layer3", "layer16","layer4", "layer17"]
+        "showOrHide": [
+          "layer18",
+          "layer5",
+          "layer2",
+          "layer15",
+          "layer3",
+          "layer16",
+          "layer4",
+          "layer17"
+        ]
       }
     ]
   },
   {
-    "id": "002433301000", 
+    "id": "002433301000",
     "nombre": "ALCAZAR CASTILLA RESERVADO",
     "svg": "Alcazar.svg",
     "informacion": [
@@ -5937,17 +5955,17 @@
       {
         "idFrente": "L_ADM_TORRE_7_7_1",
         "idBase": "L_ADM_TORRE_7_7_0",
-        "showOrHide": ["layer8","layer18","layer7","layer17"]
+        "showOrHide": ["layer8", "layer18", "layer7", "layer17"]
       },
       {
         "idFrente": "L_ADM_TORRE_1_1_1",
         "idBase": "L_ADM_TORRE_1_1_0",
-        "showOrHide": ["layer9","layer19","layer10", "layer20"]
+        "showOrHide": ["layer9", "layer19", "layer10", "layer20"]
       }
     ]
   },
   {
-    "id": "002433401000", 
+    "id": "002433401000",
     "nombre": "TOLEDO CASTILLA RESERVADO",
     "svg": "Toledo.svg",
     "informacion": [
@@ -5984,12 +6002,21 @@
       {
         "idFrente": "L_ADM_TORRE_1_3_1",
         "idBase": "L_ADM_TORRE_1_3_0",
-        "showOrHide": ["layer10","layer2","layer11", "layer3","layer12", "layer4","layer5", "layer13"]
+        "showOrHide": [
+          "layer10",
+          "layer2",
+          "layer11",
+          "layer3",
+          "layer12",
+          "layer4",
+          "layer5",
+          "layer13"
+        ]
       }
     ]
   },
   {
-    "id": "002433501000", 
+    "id": "002433501000",
     "nombre": "SALAMANCA CASTILLA RESERVADO",
     "svg": "Salamanca.svg",
     "informacion": [
@@ -6031,12 +6058,24 @@
       {
         "idFrente": "L_ADM_TORRE_1_4_1",
         "idBase": "L_ADM_TORRE_1_4_0",
-        "showOrHide": ["layer18","layer2", "layer6","layer3", "layer11","layer4", "layer12","layer5", "layer13","layer6", "layer14"]
+        "showOrHide": [
+          "layer18",
+          "layer2",
+          "layer6",
+          "layer3",
+          "layer11",
+          "layer4",
+          "layer12",
+          "layer5",
+          "layer13",
+          "layer6",
+          "layer14"
+        ]
       }
     ]
   },
   {
-    "id": "002433701000", 
+    "id": "002433701000",
     "nombre": "MALAGA CASTILLA RESERVADO",
     "svg": "malaga v2.svg",
     "informacion": [
@@ -6083,12 +6122,68 @@
       {
         "idFrente": "L_ADM_TORRE_1_2_1",
         "idBase": "L_ADM_TORRE_1_2_0",
-        "showOrHide": ["layer2","layer20","layer22", "layer3","layer4", "layer21"]
+        "showOrHide": [
+          "layer2",
+          "layer20",
+          "layer22",
+          "layer3",
+          "layer4",
+          "layer21"
+        ]
       },
       {
         "idFrente": "L_ADM_TORRE_3_4_1",
         "idBase": "L_ADM_TORRE_3_4_0",
-        "showOrHide": ["layer5", "layer6", "layer18", "layer7", "layer19","layer17"]
+        "showOrHide": [
+          "layer5",
+          "layer6",
+          "layer18",
+          "layer7",
+          "layer19",
+          "layer17"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "002459101000",
+    "nombre": "ALTOS DE ARANJUEZ",
+    "svg": "Reserva_Aranjuez.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_1_1",
+        "idBase": "L_ADM_TORRE_1_0",
+        "showOrHide": ["layer10", "layer2"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_2_1",
+        "idBase": "L_ADM_TORRE_2_0",
+        "showOrHide": ["layer11", "layer3"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_3_1",
+        "idBase": "L_ADM_TORRE_3_0",
+        "showOrHide": ["layer4", "layer12"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_4_1",
+        "idBase": "L_ADM_TORRE_4_0",
+        "showOrHide": ["layer5", "layer13"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_5_1",
+        "idBase": "L_ADM_TORRE_5_0",
+        "showOrHide": ["layer6", "layer14"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_6_1",
+        "idBase": "L_ADM_TORRE_6_0",
+        "showOrHide": ["layer7", "layer16"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_7_1",
+        "idBase": "L_ADM_TORRE_7_0",
+        "showOrHide": ["layer8", "layer15"]
       }
     ]
   }
