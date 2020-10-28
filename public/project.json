@@ -6434,6 +6434,24 @@
     ]
   },
   {
+    "id": "002470301000", 
+    "nombre": "RESERVA DE LA SIERRA E-3(NO SVG)",
+    "svg": "",
+    "informacion": []
+  },
+  {
+    "id": "002470201000", 
+    "nombre": "RESERVA DE LA SIERRA E-2(NO SVG)",
+    "svg": "",
+    "informacion": []
+  },
+  {
+    "id": "002470101000", 
+    "nombre": "RESERVA DE LA SIERRA E-1(NO SVG)",
+    "svg": "",
+    "informacion": []
+  },
+  {
     "id": "002737101000",
     "nombre": "BAVIERA",
     "svg": "Baviera MARCADO.svg",
