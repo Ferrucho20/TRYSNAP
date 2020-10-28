@@ -6034,5 +6034,62 @@
         "showOrHide": ["layer18","layer2", "layer6","layer3", "layer11","layer4", "layer12","layer5", "layer13","layer6", "layer14"]
       }
     ]
+  },
+  {
+    "id": "002433701000", 
+    "nombre": "MALAGA CASTILLA RESERVADO",
+    "svg": "malaga v2.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_1_1",
+        "idBase": "L_ADM_TORRE_1_0",
+        "showOrHide": ["layer22", "layer3"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_2_1",
+        "idBase": "L_ADM_TORRE_2_0",
+        "showOrHide": ["layer4", "layer21"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_3_1",
+        "idBase": "L_ADM_TORRE_3_0",
+        "showOrHide": ["layer6", "layer18"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_4_1",
+        "idBase": "L_ADM_TORRE_4_0",
+        "showOrHide": ["layer7", "layer19"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_5_1",
+        "idBase": "L_ADM_TORRE_5_0",
+        "showOrHide": ["layer8", "layer13"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_6_1",
+        "idBase": "L_ADM_TORRE_6_0",
+        "showOrHide": ["layer9", "layer14"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_7_1",
+        "idBase": "L_ADM_TORRE_7_0",
+        "showOrHide": ["layer10", "layer16"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_8_1",
+        "idBase": "L_ADM_TORRE_8_0",
+        "showOrHide": ["layer11", "layer15"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_1_2_1",
+        "idBase": "L_ADM_TORRE_1_2_0",
+        "showOrHide": ["layer2","layer20","layer22", "layer3","layer4", "layer21"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_3_4_1",
+        "idBase": "L_ADM_TORRE_3_4_0",
+        "showOrHide": ["layer5", "layer6", "layer18", "layer7", "layer19","layer17"]
+      }
+    ]
   }
 ]
