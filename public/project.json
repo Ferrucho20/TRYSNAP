@@ -6381,7 +6381,7 @@
     ]
   },
   {
-    "id": "002470701000", 
+    "id": "002470701000",
     "nombre": "RESERVA DE LA SIERRA E-7",
     "svg": "Reserva de la Sierra T9 MARCADO.SVG",
     "informacion": [
@@ -6393,7 +6393,7 @@
     ]
   },
   {
-    "id": "002470501000", 
+    "id": "002470501000",
     "nombre": "RESERVA DE LA SIERRA E-5",
     "svg": "reservadelasierra_T7.svg",
     "informacion": [
@@ -6405,7 +6405,7 @@
     ]
   },
   {
-    "id": "002470601000", 
+    "id": "002470601000",
     "nombre": "RESERVA DE LA SIERRA E-6",
     "svg": "Reserva_de_la_Sierra T6.svg",
     "informacion": [
@@ -6417,7 +6417,7 @@
     ]
   },
   {
-    "id": "002470401000", 
+    "id": "002470401000",
     "nombre": "RESERVA DE LA SIERRA E-4",
     "svg": "reservadelasierra_T5.svg",
     "informacion": [
@@ -6425,6 +6425,23 @@
         "idFrente": "L_ADM_TORRE_5_1",
         "idBase": "L_ADM_TORRE_5_0",
         "showOrHide": ["layer2", "layer7"]
+      }
+    ]
+  },
+  {
+    "id": "002737101000",
+    "nombre": "BAVIERA",
+    "svg": "Baviera MARCADO.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_1_1",
+        "idBase": "L_ADM_TORRE_1_0",
+        "showOrHide": ["layer2", "layer5"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_2_1",
+        "idBase": "L_ADM_TORRE_2_0",
+        "showOrHide": ["layer3", "layer6"]
       }
     ]
   }
