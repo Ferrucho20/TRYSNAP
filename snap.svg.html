@@ -19,15 +19,14 @@
     <div class="container" id="planos">
       <div class="row" id="headrow">
         <div class="col-3" id="searchbox">
-            <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true"
-              aria-expanded="false">Sucursal</button>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">Bucaramanga</a>
-              <a class="dropdown-item" href="#">Bogotá</a>
-              <a class="dropdown-item" href="#">Barranquilla</a>
-              <a class="dropdown-item" href="#">Cali</a>
-              <a class="dropdown-item" href="#">Cartagena</a>
-            </div>
+          <button id="elbutton" class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown"  >Sucursal</button>
+          <div class="dropdown-menu">
+            <button id="sucu1" class="dropdown-item" onclick="escribe1()">Bucaramanga</button>
+            <button id="sucu2" class="dropdown-item" onclick="escribe2()">Bogotá</button>
+            <button id="sucu3" class="dropdown-item" onclick="escribe3()">Barranquilla</button>
+            <button id="sucu4" class="dropdown-item" onclick="escribe4()">Cali</button>
+            <button id="sucu5" class="dropdown-item" onclick="escribe5()">Cartagena</button>
+          </div>
           <input
             type="text"
             id="buscar-pal"
@@ -116,6 +115,27 @@
 
       projectJson = getDatos();
 
+      function escribe1(){
+        var sucu = document.getElementById("sucu1").innerText;
+        var dropdown = document.getElementById("elbutton").innerHTML= sucu;
+        
+      }
+      function escribe2(){
+        var sucu = document.getElementById("sucu2").innerText;
+        var dropdown = document.getElementById("elbutton").innerHTML= sucu;
+      }
+      function escribe3(){
+        var sucu = document.getElementById("sucu3").innerText;
+        var dropdown = document.getElementById("elbutton").innerHTML= sucu;
+      }
+      function escribe4(){
+        var sucu = document.getElementById("sucu4").innerText;
+        var dropdown = document.getElementById("elbutton").innerHTML= sucu;
+      }
+      function escribe5(){
+        var sucu = document.getElementById("sucu5").innerText;
+        var dropdown = document.getElementById("elbutton").innerHTML= sucu;
+      }
       //Search
       function autocompletado1(){
         cleanList()
