@@ -5987,5 +5987,52 @@
         "showOrHide": ["layer10","layer2","layer11", "layer3","layer12", "layer4","layer5", "layer13"]
       }
     ]
+  },
+  {
+    "id": "002433501000", 
+    "nombre": "SALAMANCA CASTILLA RESERVADO",
+    "svg": "Salamanca.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_1_1",
+        "idBase": "L_ADM_TORRE_1_0",
+        "showOrHide": ["layer3", "layer11"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_2_1",
+        "idBase": "L_ADM_TORRE_2_0",
+        "showOrHide": ["layer4", "layer12"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_3_1",
+        "idBase": "L_ADM_TORRE_3_0",
+        "showOrHide": ["layer5", "layer13"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_4_1",
+        "idBase": "L_ADM_TORRE_4_0",
+        "showOrHide": ["layer6", "layer14"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_5_1",
+        "idBase": "L_ADM_TORRE_5_0",
+        "showOrHide": ["layer7", "layer15"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_6_1",
+        "idBase": "L_ADM_TORRE_6_0",
+        "showOrHide": ["layer8", "layer16"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_7_1",
+        "idBase": "L_ADM_TORRE_7_0",
+        "showOrHide": ["layer17", "layer9"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_1_4_1",
+        "idBase": "L_ADM_TORRE_1_4_0",
+        "showOrHide": ["layer18","layer2", "layer6","layer3", "layer11","layer4", "layer12","layer5", "layer13","layer6", "layer14"]
+      }
+    ]
   }
 ]
