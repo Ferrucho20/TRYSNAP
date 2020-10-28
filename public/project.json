@@ -6672,5 +6672,11 @@
         "showOrHide": ["layer7", "layer8", "layer9", "layer10"]
       }
     ]
+  },
+  {
+    "id": "021071106000",
+    "nombre": "CASAS HACIENDA SAN RAFAEL F-2",
+    "svg": "casas_hacienda_san_rafael.svg",
+    "informacion": []
   }
 ]
