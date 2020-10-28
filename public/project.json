@@ -6429,13 +6429,30 @@
       {
         "idFrente": "L_ADM_TORRE_6_1",
         "idBase": "L_ADM_TORRE_6_0",
-        "showOrHide": ["layer3","layer10"]
+        "showOrHide": ["layer3", "layer10"]
       }
     ]
   },
   {
     "id": "002737101000",
     "nombre": "BAVIERA",
+    "svg": "Baviera MARCADO.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_1_1",
+        "idBase": "L_ADM_TORRE_1_0",
+        "showOrHide": ["layer2", "layer5"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_2_1",
+        "idBase": "L_ADM_TORRE_2_0",
+        "showOrHide": ["layer3", "layer6"]
+      }
+    ]
+  },
+  {
+    "id": "002741101000",
+    "nombre": "SENDEROS DE CAMPO VERDE",
     "svg": "Baviera MARCADO.svg",
     "informacion": [
       {
