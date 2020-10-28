@@ -6618,5 +6618,59 @@
         "showOrHide": ["layer7", "layer14"]
       }
     ]
+  },
+  {
+    "id": "002848151000",
+    "nombre": "LYON CIUDAD LA SALLE",
+    "svg": "LYON 19-10-23 marcado.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_01_1",
+        "idBase": "L_ADM_TORRE_01_0",
+        "showOrHide": ["layer9", "layer10"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_02_1",
+        "idBase": "L_ADM_TORRE_02_0",
+        "showOrHide": ["layer5", "layer6"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_03_1",
+        "idBase": "L_ADM_TORRE_03_0",
+        "showOrHide": ["layer3", "layer4"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_00_01_1",
+        "idBase": "L_ADM_TORRE_00_01_0",
+        "showOrHide": ["layer7", "layer8", "layer9", "layer10"]
+      }
+    ]
+  },
+  {
+    "id": "002848201000",
+    "nombre": "LYON 2 CIUDAD LA SALLE",
+    "svg": "LYON 19-10-23 marcado.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_01_1",
+        "idBase": "L_ADM_TORRE_01_0",
+        "showOrHide": ["layer9", "layer10"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_02_1",
+        "idBase": "L_ADM_TORRE_02_0",
+        "showOrHide": ["layer5", "layer6"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_03_1",
+        "idBase": "L_ADM_TORRE_03_0",
+        "showOrHide": ["layer3", "layer4"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_00_01_1",
+        "idBase": "L_ADM_TORRE_00_01_0",
+        "showOrHide": ["layer7", "layer8", "layer9", "layer10"]
+      }
+    ]
   }
 ]
