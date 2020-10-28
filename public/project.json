@@ -6186,5 +6186,22 @@
         "showOrHide": ["layer8", "layer15"]
       }
     ]
+  },
+  {
+    "id": "002498101000",
+    "nombre": "IZOLA",
+    "svg": "Izola MARCADO.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_1_1",
+        "idBase": "L_ADM_TORRE_1_0",
+        "showOrHide": ["layer2", "layer5"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_2_1",
+        "idBase": "L_ADM_TORRE_2_0",
+        "showOrHide": ["layer6", "layer3"]
+      }
+    ]
   }
 ]
