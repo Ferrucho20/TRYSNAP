@@ -6379,5 +6379,53 @@
         "showOrHide": ["layer20", "layer40"]
       }
     ]
+  },
+  {
+    "id": "002470701000", 
+    "nombre": "RESERVA DE LA SIERRA E-7",
+    "svg": "Reserva de la Sierra T9 MARCADO.SVG",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_9_1",
+        "idBase": "L_ADM_TORRE_9_0",
+        "showOrHide": ["layer2", "layer4"]
+      }
+    ]
+  },
+  {
+    "id": "002470501000", 
+    "nombre": "RESERVA DE LA SIERRA E-5",
+    "svg": "reservadelasierra_T7.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_7_1",
+        "idBase": "L_ADM_TORRE_7_0",
+        "showOrHide": ["layer9", "layer5"]
+      }
+    ]
+  },
+  {
+    "id": "002470601000", 
+    "nombre": "RESERVA DE LA SIERRA E-6",
+    "svg": "Reserva_de_la_Sierra T6.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_6_1",
+        "idBase": "L_ADM_TORRE_6_0",
+        "showOrHide": ["layer2", "layer3"]
+      }
+    ]
+  },
+  {
+    "id": "002470401000", 
+    "nombre": "RESERVA DE LA SIERRA E-4",
+    "svg": "reservadelasierra_T5.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_5_1",
+        "idBase": "L_ADM_TORRE_5_0",
+        "showOrHide": ["layer2", "layer7"]
+      }
+    ]
   }
 ]
