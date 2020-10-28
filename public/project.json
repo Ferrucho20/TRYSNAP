@@ -6203,5 +6203,52 @@
         "showOrHide": ["layer6", "layer3"]
       }
     ]
+  },
+  {
+    "id": "002508101000",
+    "nombre": "CASTELLON DE LOS CONDES",
+    "svg": "Castellon de los condes MARCADO.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_1_1",
+        "idBase": "L_ADM_TORRE_1_0",
+        "showOrHide": ["layer2", "layer11"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_2_1",
+        "idBase": "L_ADM_TORRE_2_0",
+        "showOrHide": ["layer3", "layer12"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_3_1",
+        "idBase": "L_ADM_TORRE_3_0",
+        "showOrHide": ["layer4", "layer13"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_4_1",
+        "idBase": "L_ADM_TORRE_4_0",
+        "showOrHide": ["layer5", "layer14"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_5_1",
+        "idBase": "L_ADM_TORRE_5_0",
+        "showOrHide": ["layer6", "layer15"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_6_1",
+        "idBase": "L_ADM_TORRE_6_0",
+        "showOrHide": ["layer7", "layer16"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_7_1",
+        "idBase": "L_ADM_TORRE_7_0",
+        "showOrHide": ["layer17", "layer8"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_8_1",
+        "idBase": "L_ADM_TORRE_8_0",
+        "showOrHide": ["layer18", "layer9"]
+      }
+    ]
   }
 ]
