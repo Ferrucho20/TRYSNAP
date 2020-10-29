@@ -8641,5 +8641,188 @@
         ]
       }
     ]
+  },
+  {
+    "id": "005727201000",
+    "nombre": "FIRENZE E1",
+    "svg": "Firenze MARCADO 20-08-03.SVG",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_01_1",
+        "idBase": "L_ADM_TORRE_01_0",
+        "showOrHide": ["layer2", "layer12"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_02_1",
+        "idBase": "L_ADM_TORRE_02_0",
+        "showOrHide": ["layer3", "layer13"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_03_1",
+        "idBase": "L_ADM_TORRE_03_0",
+        "showOrHide": ["layer14", "layer4"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_04_1",
+        "idBase": "L_ADM_TORRE_04_0",
+        "showOrHide": ["layer15", "layer5"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_05_1",
+        "idBase": "L_ADM_TORRE_05_0",
+        "showOrHide": ["layer16", "layer6"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_06_1",
+        "idBase": "L_ADM_TORRE_06_0",
+        "showOrHide": ["layer8", "layer18"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_07_1",
+        "idBase": "L_ADM_TORRE_07_0",
+        "showOrHide": ["layer19", "layer9"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_08_1",
+        "idBase": "L_ADM_TORRE_08_0",
+        "showOrHide": ["layer10", "layer20"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_06_07_08_1",
+        "idBase": "L_ADM_TORRE_06_07_08_0",
+        "showOrHide": [
+          "layer7",
+          "layer17",
+          "layer10",
+          "layer20",
+          "layer19",
+          "layer9",
+          "layer8",
+          "layer18"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "005727202000",
+    "nombre": "FIRENZE E2",
+    "svg": "Firenze MARCADO 20-08-03.SVG",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_01_1",
+        "idBase": "L_ADM_TORRE_01_0",
+        "showOrHide": ["layer2", "layer12"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_02_1",
+        "idBase": "L_ADM_TORRE_02_0",
+        "showOrHide": ["layer3", "layer13"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_03_1",
+        "idBase": "L_ADM_TORRE_03_0",
+        "showOrHide": ["layer14", "layer4"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_04_1",
+        "idBase": "L_ADM_TORRE_04_0",
+        "showOrHide": ["layer15", "layer5"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_05_1",
+        "idBase": "L_ADM_TORRE_05_0",
+        "showOrHide": ["layer16", "layer6"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_06_1",
+        "idBase": "L_ADM_TORRE_06_0",
+        "showOrHide": ["layer8", "layer18"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_07_1",
+        "idBase": "L_ADM_TORRE_07_0",
+        "showOrHide": ["layer19", "layer9"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_08_1",
+        "idBase": "L_ADM_TORRE_08_0",
+        "showOrHide": ["layer10", "layer20"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_06_07_08_1",
+        "idBase": "L_ADM_TORRE_06_07_08_0",
+        "showOrHide": [
+          "layer7",
+          "layer17",
+          "layer10",
+          "layer20",
+          "layer19",
+          "layer9",
+          "layer8",
+          "layer18"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "005727203000",
+    "nombre": "FIRENZE E3",
+    "svg": "Firenze MARCADO 20-08-03.SVG",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_01_1",
+        "idBase": "L_ADM_TORRE_01_0",
+        "showOrHide": ["layer2", "layer12"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_02_1",
+        "idBase": "L_ADM_TORRE_02_0",
+        "showOrHide": ["layer3", "layer13"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_03_1",
+        "idBase": "L_ADM_TORRE_03_0",
+        "showOrHide": ["layer14", "layer4"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_04_1",
+        "idBase": "L_ADM_TORRE_04_0",
+        "showOrHide": ["layer15", "layer5"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_05_1",
+        "idBase": "L_ADM_TORRE_05_0",
+        "showOrHide": ["layer16", "layer6"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_06_1",
+        "idBase": "L_ADM_TORRE_06_0",
+        "showOrHide": ["layer8", "layer18"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_07_1",
+        "idBase": "L_ADM_TORRE_07_0",
+        "showOrHide": ["layer19", "layer9"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_08_1",
+        "idBase": "L_ADM_TORRE_08_0",
+        "showOrHide": ["layer10", "layer20"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_06_07_08_1",
+        "idBase": "L_ADM_TORRE_06_07_08_0",
+        "showOrHide": [
+          "layer7",
+          "layer17",
+          "layer10",
+          "layer20",
+          "layer19",
+          "layer9",
+          "layer8",
+          "layer18"
+        ]
+      }
+    ]
   }
 ]
