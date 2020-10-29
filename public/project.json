@@ -7596,7 +7596,7 @@
         "showOrHide": ["layer19", "layer47"]
       },
       {
-        "idFrente": "L_ADM_TORRE_19_1",
+        "idFrente": "L_ADM_TORRE_12_1-3",
         "idBase": "L_ADM_TORRE_19_0",
         "showOrHide": ["layer20", "layer48"]
       },
@@ -7927,7 +7927,7 @@
     ]
   },
   {
-    "id": "023089102000", 
+    "id": "023089102000",
     "nombre": "CALA F-2",
     "svg": "Cala F2 MARCADO.svg",
     "informacion": [
@@ -7964,7 +7964,7 @@
     ]
   },
   {
-    "id": "023089103000", 
+    "id": "023089103000",
     "nombre": "CALA F-3",
     "svg": "Cala F3 MARCADO.svg",
     "informacion": [
@@ -7991,7 +7991,7 @@
     ]
   },
   {
-    "id": "023089104000", 
+    "id": "023089104000",
     "nombre": "CALA F-4",
     "svg": "Cala F4 MARCADO.svg",
     "informacion": [
