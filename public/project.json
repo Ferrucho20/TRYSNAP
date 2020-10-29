@@ -7340,7 +7340,7 @@
       {
         "idFrente": "L_ADM_TORRE_01_04_1",
         "idBase": "L_ADM_TORRE_01_04_0",
-        "showOrHide": ["layer", "layer"]
+        "showOrHide": []
       }
     ]
   },
@@ -7418,7 +7418,7 @@
       {
         "idFrente": "L_ADM_TORRE_01_04_1",
         "idBase": "L_ADM_TORRE_01_04_0",
-        "showOrHide": ["layer", "layer"]
+        "showOrHide": []
       }
     ]
   },
@@ -7496,7 +7496,7 @@
       {
         "idFrente": "L_ADM_TORRE_01_04_1",
         "idBase": "L_ADM_TORRE_01_04_0",
-        "showOrHide": ["layer", "layer"]
+        "showOrHide": []
       }
     ]
   },
@@ -8062,7 +8062,7 @@
     ]
   },
   {
-    "id": "023984201000", 
+    "id": "023984201000",
     "nombre": "LILO F-2",
     "svg": "Lilo F2 MARCADO v2.svg",
     "informacion": [
@@ -8094,7 +8094,7 @@
     ]
   },
   {
-    "id": "023984301000", 
+    "id": "023984301000",
     "nombre": "LILO F-3",
     "svg": "Lilo F3 MARCADO v2.svg",
     "informacion": [
@@ -8119,5 +8119,11 @@
         "showOrHide": ["layer5", "layer10"]
       }
     ]
+  },
+  {
+    "id": "031955301000",
+    "nombre": "PEÑAZUL LA VILLA",
+    "svg": "Peñazul La Villa - marcado.svg",
+    "informacion": []
   }
 ]
