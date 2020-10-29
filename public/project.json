@@ -6678,5 +6678,66 @@
     "nombre": "CASAS HACIENDA SAN RAFAEL F-2",
     "svg": "casas_hacienda_san_rafael.svg",
     "informacion": []
+  },
+  {
+    "id": "021076101000",
+    "nombre": "SAN SIMÓN - LA QUINTA",
+    "svg": "San Simon La Quinta 17-02-06 MARCADO v2.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_1_1",
+        "idBase": "L_ADM_TORRE_1_0",
+        "showOrHide": ["layer2", "layer12"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_2_1",
+        "idBase": "L_ADM_TORRE_2_0",
+        "showOrHide": ["layer3", "layer13"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_3_1",
+        "idBase": "L_ADM_TORRE_3_0",
+        "showOrHide": ["layer5", "layer15"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_4_1",
+        "idBase": "L_ADM_TORRE_4_0",
+        "showOrHide": ["layer6", "layer16"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_5_1",
+        "idBase": "L_ADM_TORRE_5_0",
+        "showOrHide": ["layer7", "layer17"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_6_1",
+        "idBase": "L_ADM_TORRE_6_0",
+        "showOrHide": ["layer8", "layer18"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_7_1",
+        "idBase": "L_ADM_TORRE_7_0",
+        "showOrHide": ["layer9", "layer19"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_8_1",
+        "idBase": "L_ADM_TORRE_8_0",
+        "showOrHide": ["layer10", "layer20"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_3_5_1",
+        "idBase": "L_ADM_TORRE_3_5_0",
+        "showOrHide": [
+          "layer14",
+          "layer4",
+          "layer7",
+          "layer17",
+          "layer5",
+          "layer15",
+          "layer6",
+          "layer16"
+        ]
+      }
+    ]
   }
 ]
