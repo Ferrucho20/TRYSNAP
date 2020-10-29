@@ -6993,8 +6993,8 @@
         ]
       },
       {
-        "idFrente": "L_ADM_TORRE_15_16_0",
-        "idBase": "L_ADM_TORRE_15_16_1",
+        "idFrente": "L_ADM_TORRE_15_16_1",
+        "idBase": "L_ADM_TORRE_15_16_0",
         "showOrHide": [
           "layer23",
           "layer24",
@@ -7116,8 +7116,8 @@
         ]
       },
       {
-        "idFrente": "L_ADM_TORRE_15_16_0",
-        "idBase": "L_ADM_TORRE_15_16_1",
+        "idFrente": "L_ADM_TORRE_15_16_1",
+        "idBase": "L_ADM_TORRE_15_16_0",
         "showOrHide": [
           "layer23",
           "layer25",
@@ -7239,8 +7239,8 @@
         ]
       },
       {
-        "idFrente": "L_ADM_TORRE_15_16_0",
-        "idBase": "L_ADM_TORRE_15_16_1",
+        "idFrente": "L_ADM_TORRE_15_16_1",
+        "idBase": "L_ADM_TORRE_15_16_0",
         "showOrHide": [
           "layer23",
           "layer24",
