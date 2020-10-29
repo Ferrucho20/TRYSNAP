@@ -7925,5 +7925,81 @@
         "showOrHide": ["layer28", "layer56"]
       }
     ]
+  },
+  {
+    "id": "023089102000", 
+    "nombre": "CALA F-2",
+    "svg": "Cala F2 MARCADO.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_7_1",
+        "idBase": "L_ADM_TORRE_7_0",
+        "showOrHide": ["layer2", "layer9"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_8_1",
+        "idBase": "L_ADM_TORRE_8_0",
+        "showOrHide": ["layer3", "layer10"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_9_1",
+        "idBase": "L_ADM_TORRE_9_0",
+        "showOrHide": ["layer4", "layer11"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_10_1",
+        "idBase": "L_ADM_TORRE_10_0",
+        "showOrHide": ["layer5", "layer12"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_22_1",
+        "idBase": "L_ADM_TORRE_22_0",
+        "showOrHide": ["layer6", "layer13"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_23_1",
+        "idBase": "L_ADM_TORRE_23_0",
+        "showOrHide": ["layer7", "layer14"]
+      }
+    ]
+  },
+  {
+    "id": "023089103000", 
+    "nombre": "CALA F-3",
+    "svg": "Cala F3 MARCADO.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_11_1",
+        "idBase": "L_ADM_TORRE_11_0",
+        "showOrHide": ["layer2", "layer7"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_12_1",
+        "idBase": "L_ADM_TORRE_12_0",
+        "showOrHide": ["layer3", "layer8"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_13_1",
+        "idBase": "L_ADM_TORRE_13_0",
+        "showOrHide": ["layer4", "layer9"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_14_1",
+        "idBase": "L_ADM_TORRE_14_0",
+        "showOrHide": ["layer5", "layer10"]
+      }
+    ]
+  },
+  {
+    "id": "023089104000", 
+    "nombre": "CALA F-4",
+    "svg": "Cala F4 MARCADO.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_21_1",
+        "idBase": "L_ADM_TORRE_21_0",
+        "showOrHide": ["layer2", "layer4"]
+      }
+    ]
   }
 ]
