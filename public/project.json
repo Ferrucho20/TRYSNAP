@@ -8167,16 +8167,10 @@
     "id": "031955601000",
     "nombre": "PEÑAZUL LA CAMPIÑA",
     "svg": "Peñazul La Campiña 19-08-21 MARCADO v1.svg",
-    "informacion": [
-      {
-        "idFrente": "L_ADM_TORRE_0001_0130_0",
-        "idBase": "L_ADM_TORRE_0001_0130_1",
-        "showOrHide": ["layer2", "layer4"]
-      }
-    ]
+    "informacion": []
   },
   {
-    "id": "031955401000", 
+    "id": "031955401000",
     "nombre": "PEÑAZUL LA ALDEA",
     "svg": "Peñazul La Aldea Marcado.svg",
     "informacion": [
@@ -8228,7 +8222,16 @@
       {
         "idFrente": "L_ADM_TORRE_1_3_1",
         "idBase": "L_ADM_TORRE_1_3_0",
-        "showOrHide": ["layer8","layer19","layer9", "layer20","layer10", "layer21","layer11", "layer22"]
+        "showOrHide": [
+          "layer8",
+          "layer19",
+          "layer9",
+          "layer20",
+          "layer10",
+          "layer21",
+          "layer11",
+          "layer22"
+        ]
       }
     ]
   }
