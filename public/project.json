@@ -8526,7 +8526,7 @@
     ]
   },
   {
-    "id": "005505101000", 
+    "id": "005505101000",
     "nombre": "BOLONIA",
     "svg": "BOLONIA MARCADO v2.svg",
     "informacion": [
@@ -8548,7 +8548,29 @@
       {
         "idFrente": "L_ADM_TORRE_1_1_1",
         "idBase": "L_ADM_TORRE_1_1_0",
-        "showOrHide": ["layer2","layer7","layer3", "layer8"]
+        "showOrHide": ["layer2", "layer7", "layer3", "layer8"]
+      }
+    ]
+  },
+  {
+    "id": "005510201000",
+    "nombre": "PIAMONTE",
+    "svg": "Piamonte MARCADO v1.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_1_1",
+        "idBase": "L_ADM_TORRE_1_0",
+        "showOrHide": ["layer3", "layer7"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_2_1",
+        "idBase": "L_ADM_TORRE_2_0",
+        "showOrHide": ["layer4", "layer8"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_1_1_1",
+        "idBase": "L_ADM_TORRE_1_1_0",
+        "showOrHide": ["layer2", "layer6", "layer3", "layer7"]
       }
     ]
   }
