@@ -8243,7 +8243,7 @@
   },
   {
     "id": "005474101000",
-    "nombre": "TOSCANA",
+    "nombre": "TOZCANA",
     "svg": "tozcana.svg",
     "informacion": [
       {
@@ -8279,12 +8279,19 @@
       {
         "idFrente": "L_ADM_TORRE_7_1",
         "idBase": "L_ADM_TORRE_7_0",
-        "showOrHide": ["layer5", "layer14"]
+        "showOrHide": [
+          "layer5",
+          "layer14",
+          "layer6",
+          "layer15",
+          "layer4",
+          "layer18"
+        ]
       },
       {
         "idFrente": "L_ADM_TORRE_8_1",
         "idBase": "L_ADM_TORRE_8_0",
-        "showOrHide": ["layer6", "layer15"]
+        "showOrHide": ["layer4", "layer18"]
       }
     ]
   }
