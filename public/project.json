@@ -7738,7 +7738,7 @@
         "showOrHide": ["layer19", "layer47"]
       },
       {
-        "idFrente": "L_ADM_TORRE_19_1",
+        "idFrente": "L_ADM_TORRE_12_1-3",
         "idBase": "L_ADM_TORRE_19_0",
         "showOrHide": ["layer20", "layer48"]
       },
@@ -7880,7 +7880,7 @@
         "showOrHide": ["layer19", "layer47"]
       },
       {
-        "idFrente": "L_ADM_TORRE_19_1",
+        "idFrente": "L_ADM_TORRE_12_1-3",
         "idBase": "L_ADM_TORRE_19_0",
         "showOrHide": ["layer20", "layer48"]
       },
