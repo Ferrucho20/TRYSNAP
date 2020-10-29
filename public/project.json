@@ -8423,6 +8423,16 @@
         "idFrente": "L_ADM_TORRE_8_1",
         "idBase": "L_ADM_TORRE_8_0",
         "showOrHide": ["layer9", "layer16"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_9_1",
+        "idBase": "L_ADM_TORRE_9_0",
+        "showOrHide": ["layer9", "layer16"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_4_5_6_1",
+        "idBase": "L_ADM_TORRE_4_5_6_0",
+        "showOrHide": ["layer9", "layer16"]
       }
     ]
   }
