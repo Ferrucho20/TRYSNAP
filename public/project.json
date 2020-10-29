@@ -8341,5 +8341,42 @@
         "showOrHide": ["layer9", "layer16"]
       }
     ]
+  },
+  {
+    "id": "005465301000", 
+    "nombre": "TORRES DE LA MACARENA E-3",
+    "svg": "Torres_MacarenaE3.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_25_26_1",
+        "idBase": "L_ADM_TORRE_25_26_0",
+        "showOrHide": ["layer13", "layer32"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_27_28_1",
+        "idBase": "L_ADM_TORRE_27_28_0",
+        "showOrHide": ["layer14", "layer33"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_29_30_1",
+        "idBase": "L_ADM_TORRE_29_30_0",
+        "showOrHide": ["layer34", "layer15"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_31_1",
+        "idBase": "L_ADM_TORRE_31_0",
+        "showOrHide": ["layer35", "layer16"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_32_33_1",
+        "idBase": "L_ADM_TORRE_32_33_0",
+        "showOrHide": ["layer17", "layer37"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_34_35_1",
+        "idBase": "L_ADM_TORRE_34_35_0",
+        "showOrHide": ["layer18", "layer36"]
+      }
+    ]
   }
 ]
