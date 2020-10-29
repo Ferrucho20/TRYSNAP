@@ -8162,5 +8162,17 @@
         "showOrHide": ["layer7", "layer14"]
       }
     ]
+  },
+  {
+    "id": "031955601000",
+    "nombre": "PEÑAZUL LA CAMPIÑA",
+    "svg": "Peñazul La Campiña 19-08-21 MARCADO v1.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_0001_0130_0",
+        "idBase": "L_ADM_TORRE_0001_0130_1",
+        "showOrHide": ["layer2", "layer4"]
+      }
+    ]
   }
 ]
