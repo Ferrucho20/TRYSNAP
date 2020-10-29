@@ -8575,7 +8575,7 @@
     ]
   },
   {
-    "id": "005509102000", 
+    "id": "005509102000",
     "nombre": "PALMETTO TOWERS",
     "svg": "Palmetto.svg",
     "informacion": [
@@ -8588,6 +8588,57 @@
         "idFrente": "L_ADM_TORRE_2_1",
         "idBase": "L_ADM_TORRE_2_0",
         "showOrHide": ["layer3", "layer6"]
+      }
+    ]
+  },
+  {
+    "id": "005514101000",
+    "nombre": "SIENA",
+    "svg": "Siena MARCADO.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_1_1",
+        "idBase": "L_ADM_TORRE_1_0",
+        "showOrHide": ["layer2", "layer10"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_2_1",
+        "idBase": "L_ADM_TORRE_2_0",
+        "showOrHide": ["layer3", "layer11"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_3_1",
+        "idBase": "L_ADM_TORRE_3_0",
+        "showOrHide": ["layer12", "layer4"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_4_1",
+        "idBase": "L_ADM_TORRE_4_0",
+        "showOrHide": ["layer14", "layer6"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_5_1",
+        "idBase": "L_ADM_TORRE_5_0",
+        "showOrHide": ["layer15", "layer7"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_6_1",
+        "idBase": "L_ADM_TORRE_6_0",
+        "showOrHide": ["layer8", "layer16"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_4_6_1",
+        "idBase": "L_ADM_TORRE_4_6_0",
+        "showOrHide": [
+          "layer5",
+          "layer13",
+          "layer8",
+          "layer16",
+          "layer15",
+          "layer7",
+          "layer14",
+          "layer6"
+        ]
       }
     ]
   }
