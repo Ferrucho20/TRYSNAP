@@ -2719,7 +2719,7 @@
     ]
   },
   {
-    "id": "005932101000",
+    "id": "005932102000",
     "nombre": "VALLARTA",
     "svg": "Vallarta MARCADO.SVG",
     "informacion": [
@@ -8826,7 +8826,7 @@
     ]
   },
   {
-    "id": "005513101000", 
+    "id": "005513101000",
     "nombre": "TORINO",
     "svg": "TORINO_MARCADO v1.SVG",
     "informacion": [
@@ -8878,12 +8878,26 @@
       {
         "idFrente": "L_ADM_TORRE_1_2_1",
         "idBase": "L_ADM_TORRE_1_2_0",
-        "showOrHide": ["layer14","layer2","layer3", "layer15","layer4", "layer16"]
+        "showOrHide": [
+          "layer14",
+          "layer2",
+          "layer3",
+          "layer15",
+          "layer4",
+          "layer16"
+        ]
       },
       {
         "idFrente": "L_ADM_TORRE_5_6_1",
         "idBase": "L_ADM_TORRE_5_6_0",
-        "showOrHide": ["layer19","layer7","layer8", "layer20","layer9", "layer21"]
+        "showOrHide": [
+          "layer19",
+          "layer7",
+          "layer8",
+          "layer20",
+          "layer9",
+          "layer21"
+        ]
       }
     ]
   }
