@@ -8343,7 +8343,7 @@
     ]
   },
   {
-    "id": "005465301000", 
+    "id": "005465301000",
     "nombre": "TORRES DE LA MACARENA E-3",
     "svg": "Torres_MacarenaE3.svg",
     "informacion": [
@@ -8376,6 +8376,53 @@
         "idFrente": "L_ADM_TORRE_34_35_1",
         "idBase": "L_ADM_TORRE_34_35_0",
         "showOrHide": ["layer18", "layer36"]
+      }
+    ]
+  },
+  {
+    "id": "005494101000",
+    "nombre": "ALTOS DEL PARQUE",
+    "svg": "altos_del_parque.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_1_1",
+        "idBase": "L_ADM_TORRE_1_0",
+        "showOrHide": ["layer12", "layer4"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_2_1",
+        "idBase": "L_ADM_TORRE_2_0",
+        "showOrHide": ["layer3", "layer18"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_3_1",
+        "idBase": "L_ADM_TORRE_3_0",
+        "showOrHide": ["layer2", "layer11"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_4_1",
+        "idBase": "L_ADM_TORRE_4_0",
+        "showOrHide": ["layer13", "layer5"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_5_1",
+        "idBase": "L_ADM_TORRE_5_0",
+        "showOrHide": ["layer14", "layer6"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_6_1",
+        "idBase": "L_ADM_TORRE_6_0",
+        "showOrHide": ["layer7", "layer15"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_7_1",
+        "idBase": "L_ADM_TORRE_7_0",
+        "showOrHide": ["layer8", "layer17"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_8_1",
+        "idBase": "L_ADM_TORRE_8_0",
+        "showOrHide": ["layer9", "layer16"]
       }
     ]
   }
