@@ -6616,6 +6616,18 @@
         "idFrente": "L_ADM_TORRE_5_1",
         "idBase": "L_ADM_TORRE_5_0",
         "showOrHide": ["layer7", "layer14"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_1_2_1",
+        "idBase": "L_ADM_TORRE_1_2_0",
+        "showOrHide": [
+          "layer2",
+          "layer9",
+          "layer3",
+          "layer10",
+          "layer4",
+          "layer11"
+        ]
       }
     ]
   },
@@ -7255,7 +7267,7 @@
     ]
   },
   {
-    "id": "021072501000", 
+    "id": "021072501000",
     "nombre": "BOSQUES SAN RAFAEL F1",
     "svg": "Bosques San Rafael - Marcado.svg",
     "informacion": [
@@ -7267,7 +7279,7 @@
       {
         "idFrente": "L_ADM_TORRE_02_1",
         "idBase": "L_ADM_TORRE_02_0",
-        "showOrHide": ["layer3","layer16"]
+        "showOrHide": ["layer3", "layer16"]
       },
       {
         "idFrente": "L_ADM_TORRE_03_1",
@@ -7277,7 +7289,7 @@
       {
         "idFrente": "L_ADM_TORRE_04_1",
         "idBase": "L_ADM_TORRE_04_0",
-        "showOrHide": ["layer5","layer18"]
+        "showOrHide": ["layer5", "layer18"]
       },
       {
         "idFrente": "L_ADM_TORRE_05_1",
@@ -7287,7 +7299,7 @@
       {
         "idFrente": "L_ADM_TORRE_06_1",
         "idBase": "L_ADM_TORRE_06_0",
-        "showOrHide": ["layer9","layer22"]
+        "showOrHide": ["layer9", "layer22"]
       },
       {
         "idFrente": "L_ADM_TORRE_07_1",
@@ -7297,7 +7309,7 @@
       {
         "idFrente": "L_ADM_TORRE_08_1",
         "idBase": "L_ADM_TORRE_08_0",
-        "showOrHide": ["layer11","layer24"]
+        "showOrHide": ["layer11", "layer24"]
       },
       {
         "idFrente": "L_ADM_TORRE_09_1",
@@ -7307,22 +7319,33 @@
       {
         "idFrente": "L_ADM_TORRE_10_1",
         "idBase": "L_ADM_TORRE_10_0",
-        "showOrHide": ["layer13","layer26"]
+        "showOrHide": ["layer13", "layer26"]
       },
       {
         "idFrente": "L_ADM_TORRE_05_0_1",
         "idBase": "L_ADM_TORRE_05_0_0",
-        "showOrHide": ["layer19","layer6","layer7", "layer20","layer11","layer24","layer12", "layer25","layer13","layer26"]
+        "showOrHide": [
+          "layer19",
+          "layer6",
+          "layer7",
+          "layer20",
+          "layer11",
+          "layer24",
+          "layer12",
+          "layer25",
+          "layer13",
+          "layer26"
+        ]
       },
       {
         "idFrente": "L_ADM_TORRE_01_04_1",
         "idBase": "L_ADM_TORRE_01_04_0",
-        "showOrHide": ["layer","layer"]
+        "showOrHide": ["layer", "layer"]
       }
     ]
   },
   {
-    "id": "021072502000", 
+    "id": "021072502000",
     "nombre": "BOSQUES SAN RAFAEL F2",
     "svg": "Bosques San Rafael - Marcado.svg",
     "informacion": [
@@ -7334,7 +7357,7 @@
       {
         "idFrente": "L_ADM_TORRE_02_1",
         "idBase": "L_ADM_TORRE_02_0",
-        "showOrHide": ["layer3","layer16"]
+        "showOrHide": ["layer3", "layer16"]
       },
       {
         "idFrente": "L_ADM_TORRE_03_1",
@@ -7344,7 +7367,7 @@
       {
         "idFrente": "L_ADM_TORRE_04_1",
         "idBase": "L_ADM_TORRE_04_0",
-        "showOrHide": ["layer5","layer18"]
+        "showOrHide": ["layer5", "layer18"]
       },
       {
         "idFrente": "L_ADM_TORRE_05_1",
@@ -7354,7 +7377,7 @@
       {
         "idFrente": "L_ADM_TORRE_06_1",
         "idBase": "L_ADM_TORRE_06_0",
-        "showOrHide": ["layer9","layer22"]
+        "showOrHide": ["layer9", "layer22"]
       },
       {
         "idFrente": "L_ADM_TORRE_07_1",
@@ -7364,7 +7387,7 @@
       {
         "idFrente": "L_ADM_TORRE_08_1",
         "idBase": "L_ADM_TORRE_08_0",
-        "showOrHide": ["layer11","layer24"]
+        "showOrHide": ["layer11", "layer24"]
       },
       {
         "idFrente": "L_ADM_TORRE_09_1",
@@ -7374,22 +7397,33 @@
       {
         "idFrente": "L_ADM_TORRE_10_1",
         "idBase": "L_ADM_TORRE_10_0",
-        "showOrHide": ["layer13","layer26"]
+        "showOrHide": ["layer13", "layer26"]
       },
       {
         "idFrente": "L_ADM_TORRE_05_0_1",
         "idBase": "L_ADM_TORRE_05_0_0",
-        "showOrHide": ["layer19","layer6","layer7", "layer20","layer11","layer24","layer12", "layer25","layer13","layer26"]
+        "showOrHide": [
+          "layer19",
+          "layer6",
+          "layer7",
+          "layer20",
+          "layer11",
+          "layer24",
+          "layer12",
+          "layer25",
+          "layer13",
+          "layer26"
+        ]
       },
       {
         "idFrente": "L_ADM_TORRE_01_04_1",
         "idBase": "L_ADM_TORRE_01_04_0",
-        "showOrHide": ["layer","layer"]
+        "showOrHide": ["layer", "layer"]
       }
     ]
   },
   {
-    "id": "021072503000", 
+    "id": "021072503000",
     "nombre": "BOSQUES SAN RAFAEL F3",
     "svg": "Bosques San Rafael - Marcado.svg",
     "informacion": [
@@ -7401,7 +7435,7 @@
       {
         "idFrente": "L_ADM_TORRE_02_1",
         "idBase": "L_ADM_TORRE_02_0",
-        "showOrHide": ["layer3","layer16"]
+        "showOrHide": ["layer3", "layer16"]
       },
       {
         "idFrente": "L_ADM_TORRE_03_1",
@@ -7411,7 +7445,7 @@
       {
         "idFrente": "L_ADM_TORRE_04_1",
         "idBase": "L_ADM_TORRE_04_0",
-        "showOrHide": ["layer5","layer18"]
+        "showOrHide": ["layer5", "layer18"]
       },
       {
         "idFrente": "L_ADM_TORRE_05_1",
@@ -7421,7 +7455,7 @@
       {
         "idFrente": "L_ADM_TORRE_06_1",
         "idBase": "L_ADM_TORRE_06_0",
-        "showOrHide": ["layer9","layer22"]
+        "showOrHide": ["layer9", "layer22"]
       },
       {
         "idFrente": "L_ADM_TORRE_07_1",
@@ -7431,7 +7465,7 @@
       {
         "idFrente": "L_ADM_TORRE_08_1",
         "idBase": "L_ADM_TORRE_08_0",
-        "showOrHide": ["layer11","layer24"]
+        "showOrHide": ["layer11", "layer24"]
       },
       {
         "idFrente": "L_ADM_TORRE_09_1",
@@ -7441,17 +7475,28 @@
       {
         "idFrente": "L_ADM_TORRE_10_1",
         "idBase": "L_ADM_TORRE_10_0",
-        "showOrHide": ["layer13","layer26"]
+        "showOrHide": ["layer13", "layer26"]
       },
       {
         "idFrente": "L_ADM_TORRE_05_0_1",
         "idBase": "L_ADM_TORRE_05_0_0",
-        "showOrHide": ["layer19","layer6","layer7", "layer20","layer11","layer24","layer12", "layer25","layer13","layer26"]
+        "showOrHide": [
+          "layer19",
+          "layer6",
+          "layer7",
+          "layer20",
+          "layer11",
+          "layer24",
+          "layer12",
+          "layer25",
+          "layer13",
+          "layer26"
+        ]
       },
       {
         "idFrente": "L_ADM_TORRE_01_04_1",
         "idBase": "L_ADM_TORRE_01_04_0",
-        "showOrHide": ["layer","layer"]
+        "showOrHide": ["layer", "layer"]
       }
     ]
   }
