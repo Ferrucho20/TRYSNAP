@@ -8387,57 +8387,66 @@
       {
         "idFrente": "L_ADM_TORRE_1_1",
         "idBase": "L_ADM_TORRE_1_0",
-        "showOrHide": ["layer12", "layer4"]
+        "showOrHide": ["layer13", "layer4"]
       },
       {
         "idFrente": "L_ADM_TORRE_2_1",
         "idBase": "L_ADM_TORRE_2_0",
-        "showOrHide": ["layer3", "layer18"]
+        "showOrHide": ["layer3", "layer14"]
       },
       {
         "idFrente": "L_ADM_TORRE_3_1",
         "idBase": "L_ADM_TORRE_3_0",
-        "showOrHide": ["layer2", "layer11"]
+        "showOrHide": ["layer2", "layer15"]
       },
       {
         "idFrente": "L_ADM_TORRE_4_1",
         "idBase": "L_ADM_TORRE_4_0",
-        "showOrHide": ["layer13", "layer5"]
+        "showOrHide": ["layer11", "layer17"]
       },
       {
         "idFrente": "L_ADM_TORRE_5_1",
         "idBase": "L_ADM_TORRE_5_0",
-        "showOrHide": ["layer14", "layer6"]
+        "showOrHide": ["layer10", "layer18"]
       },
       {
         "idFrente": "L_ADM_TORRE_6_1",
         "idBase": "L_ADM_TORRE_6_0",
-        "showOrHide": ["layer7", "layer15"]
+        "showOrHide": ["layer9", "layer19"]
       },
       {
         "idFrente": "L_ADM_TORRE_7_1",
         "idBase": "L_ADM_TORRE_7_0",
-        "showOrHide": ["layer8", "layer17"]
+        "showOrHide": ["layer5", "layer20"]
       },
       {
         "idFrente": "L_ADM_TORRE_8_1",
         "idBase": "L_ADM_TORRE_8_0",
-        "showOrHide": ["layer9", "layer16"]
+        "showOrHide": ["layer21", "layer6"]
       },
       {
         "idFrente": "L_ADM_TORRE_9_1",
         "idBase": "L_ADM_TORRE_9_0",
-        "showOrHide": ["layer9", "layer16"]
+        "showOrHide": ["layer7", "layer22"]
       },
       {
         "idFrente": "L_ADM_TORRE_4_5_6_1",
         "idBase": "L_ADM_TORRE_4_5_6_0",
-        "showOrHide": ["layer9", "layer16"]
+        "showOrHide": [
+          "layer24",
+          "layer16",
+          "layer9",
+          "layer19",
+          "layer10",
+          "layer18",
+          "layer11",
+          "layer17"
+        ]
       }
     ]
   },
   {
-    "id": "005495101000", 
+    "id": "005495101000",
     "nombre": "IBIZA",
     "svg": "Ibiza.svg",
     "informacion": [
@@ -8459,7 +8468,7 @@
       {
         "idFrente": "L_ADM_TORRE_1_1_1",
         "idBase": "L_ADM_TORRE_1_1_0",
-        "showOrHide": ["layer4","layer9","layer5", "layer10"]
+        "showOrHide": ["layer4", "layer9", "layer5", "layer10"]
       }
     ]
   }
