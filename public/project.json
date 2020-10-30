@@ -9240,7 +9240,7 @@
     ]
   },
   {
-    "id": "005937301000", 
+    "id": "005937301000",
     "nombre": "PUERTA DORADA CORALINA F-1",
     "svg": "Puerta Dorada Coralina F1 MARCADO.svg",
     "informacion": [
@@ -9272,7 +9272,7 @@
     ]
   },
   {
-    "id": "005937302000", 
+    "id": "005937302000",
     "nombre": "PUERTA DORADA CORALINA F-2",
     "svg": "Puerta Dorada Coralina F2 MARCADO.svg",
     "informacion": [
@@ -9299,8 +9299,21 @@
       {
         "idFrente": "L_ADM_TORRE_1_2_1",
         "idBase": "L_ADM_TORRE_1_2_0",
-        "showOrHide": ["layer21","layer15","layer19", "layer13","layer14", "layer20"]
+        "showOrHide": [
+          "layer21",
+          "layer15",
+          "layer19",
+          "layer13",
+          "layer14",
+          "layer20"
+        ]
       }
     ]
+  },
+  {
+    "id": "024749111000",
+    "nombre": "CIUDAD DEL PARQUE QUIMBAYA ",
+    "svg": "22 CIUDAD DEL PARQUE QUIMBAYA marcado.svg",
+    "informacion": []
   }
 ]
