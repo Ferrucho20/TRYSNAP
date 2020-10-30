@@ -9359,5 +9359,17 @@
     "nombre": "CIUDAD DEL PARQUE QUIMBAYA ",
     "svg": "22 CIUDAD DEL PARQUE QUIMBAYA marcado.svg",
     "informacion": []
+  },
+  {
+    "id": "024748103000", 
+    "nombre": "RESERVA DE LOS ALMENDROS E-3",
+    "svg": "Reserva de los Almendros F3.svg",
+    "informacion": []
+  },
+  {
+    "id": "024748104000", 
+    "nombre": "RESERVA DE LOS ALMENDROS E-4",
+    "svg": "Reserva de Almendros F4 MARCADO.svg",
+    "informacion": []
   }
 ]
