@@ -9577,7 +9577,7 @@
     ]
   },
   {
-    "id": "024760101000", 
+    "id": "024760101000",
     "nombre": "PORTAL DE LOS MANANTIALES E1-F1",
     "svg": "PORTAL DE LOS MANANTIALES E1F1.svg",
     "informacion": [
@@ -9644,17 +9644,81 @@
       {
         "idFrente": "L_ADM_TORRE_1_5_1",
         "idBase": "L_ADM_TORRE_1_5_0",
-        "showOrHide": ["layer13","layer29","layer16", "layer32","layer31", "layer15","layer14", "layer30"]
+        "showOrHide": [
+          "layer13",
+          "layer29",
+          "layer16",
+          "layer32",
+          "layer31",
+          "layer15",
+          "layer14",
+          "layer30"
+        ]
       },
       {
         "idFrente": "L_ADM_TORRE_6_10_1",
         "idBase": "L_ADM_TORRE_6_10_0",
-        "showOrHide": ["layer9","layer25","layer12", "layer28","layer11", "layer27","layer10", "layer26"]
+        "showOrHide": [
+          "layer9",
+          "layer25",
+          "layer12",
+          "layer28",
+          "layer11",
+          "layer27",
+          "layer10",
+          "layer26"
+        ]
       },
       {
         "idFrente": "L_ADM_TORRE_11_15_1",
         "idBase": "L_ADM_TORRE_11_15_0",
-        "showOrHide": ["layer5","layer21","layer6", "layer22","layer8", "layer24","layer7", "layer23"]
+        "showOrHide": [
+          "layer5",
+          "layer21",
+          "layer6",
+          "layer22",
+          "layer8",
+          "layer24",
+          "layer7",
+          "layer23"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "007826101000",
+    "nombre": "SAN GABRIEL",
+    "svg": "San Gabriel.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_1_1",
+        "idBase": "L_ADM_TORRE_1_0",
+        "showOrHide": ["layer2", "layer9"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_2_1",
+        "idBase": "L_ADM_TORRE_2_0",
+        "showOrHide": ["layer3", "layer10"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_3_1",
+        "idBase": "L_ADM_TORRE_3_0",
+        "showOrHide": ["layer5", "layer12"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_4_1",
+        "idBase": "L_ADM_TORRE_4_0",
+        "showOrHide": ["layer13", "layer6"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_5_1",
+        "idBase": "L_ADM_TORRE_5_0",
+        "showOrHide": ["layer14", "layer7"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_3_1_1",
+        "idBase": "L_ADM_TORRE_3_1_1",
+        "showOrHide": ["layer4", "layer11", "layer5", "layer12"]
       }
     ]
   }
