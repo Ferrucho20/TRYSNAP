@@ -9371,5 +9371,17 @@
     "nombre": "RESERVA DE LOS ALMENDROS E-4",
     "svg": "Reserva de Almendros F4 MARCADO.svg",
     "informacion": []
+  },
+  {
+    "id": "024748102000", 
+    "nombre": "RESERVA DE LOS ALMENDROS E-2",
+    "svg": "Reserva de los Almendros F3.svg",
+    "informacion": []
+  },
+  {
+    "id": "024748101000", 
+    "nombre": "RESERVA DE LOS ALMENDROS E-1",
+    "svg": "Reserva de los Almendros F3.svg",
+    "informacion": []
   }
 ]
