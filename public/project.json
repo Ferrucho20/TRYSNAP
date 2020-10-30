@@ -9926,7 +9926,7 @@
       {
         "idFrente": "L_ADM_TORRE_2_1_1",
         "idBase": "L_ADM_TORRE_2_1_0",
-        "showOrHide": ["layer5", "layer6"]
+        "showOrHide": ["layer5", "layer6", "layer3", "layer13"]
       }
     ]
   }
