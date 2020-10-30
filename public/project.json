@@ -9575,5 +9575,87 @@
         "showOrHide": ["layer12", "layer24"]
       }
     ]
+  },
+  {
+    "id": "024760101000", 
+    "nombre": "PORTAL DE LOS MANANTIALES E1-F1",
+    "svg": "PORTAL DE LOS MANANTIALES E1F1.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_1_2_1",
+        "idBase": "L_ADM_TORRE_1_2_0",
+        "showOrHide": ["layer16", "layer32"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_3_4_1",
+        "idBase": "L_ADM_TORRE_3_4_0",
+        "showOrHide": ["layer31", "layer15"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_5_1",
+        "idBase": "L_ADM_TORRE_5_0",
+        "showOrHide": ["layer14", "layer30"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_6_1",
+        "idBase": "L_ADM_TORRE_6_0",
+        "showOrHide": ["layer12", "layer28"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_7_8_1",
+        "idBase": "L_ADM_TORRE_7_8_0",
+        "showOrHide": ["layer11", "layer27"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_9_10_1",
+        "idBase": "L_ADM_TORRE_9_10_0",
+        "showOrHide": ["layer10", "layer26"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_15_1",
+        "idBase": "L_ADM_TORRE_15_0",
+        "showOrHide": ["layer6", "layer22"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_13_14_1",
+        "idBase": "L_ADM_TORRE_13_14_0",
+        "showOrHide": ["layer7", "layer23"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_11_12_1",
+        "idBase": "L_ADM_TORRE_11_12_0",
+        "showOrHide": ["layer8", "layer24"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_16_1",
+        "idBase": "L_ADM_TORRE_16_0",
+        "showOrHide": ["layer4", "layer20"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_17_18_1",
+        "idBase": "L_ADM_TORRE_17_18_0",
+        "showOrHide": ["layer19", "layer3"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_19_20_1",
+        "idBase": "L_ADM_TORRE_19_20_0",
+        "showOrHide": ["layer2", "layer17"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_1_5_1",
+        "idBase": "L_ADM_TORRE_1_5_0",
+        "showOrHide": ["layer13","layer29","layer16", "layer32","layer31", "layer15","layer14", "layer30"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_6_10_1",
+        "idBase": "L_ADM_TORRE_6_10_0",
+        "showOrHide": ["layer9","layer25","layer12", "layer28","layer11", "layer27","layer10", "layer26"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_11_15_1",
+        "idBase": "L_ADM_TORRE_11_15_0",
+        "showOrHide": ["layer5","layer21","layer6", "layer22","layer8", "layer24","layer7", "layer23"]
+      }
+    ]
   }
 ]
