@@ -9721,5 +9721,159 @@
         "showOrHide": ["layer4", "layer11", "layer5", "layer12"]
       }
     ]
+  },
+  {
+    "id": "024873201000", 
+    "nombre": "LOS MANANTIALES TULIPAN E-1",
+    "svg": "Tulipan_marcado.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_01_1",
+        "idBase": "L_ADM_TORRE_01_0",
+        "showOrHide": ["layer2", "layer17"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_02_1",
+        "idBase": "L_ADM_TORRE_02_0",
+        "showOrHide": ["layer3", "layer18"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_03_1",
+        "idBase": "L_ADM_TORRE_03_0",
+        "showOrHide": ["layer4", "layer19"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_04_1",
+        "idBase": "L_ADM_TORRE_04_0",
+        "showOrHide": ["layer5", "layer20"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_05_1",
+        "idBase": "L_ADM_TORRE_05_0",
+        "showOrHide": ["layer6", "layer21"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_06_1",
+        "idBase": "L_ADM_TORRE_06_0",
+        "showOrHide": ["layer7","layer22"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_07_1",
+        "idBase": "L_ADM_TORRE_07_0",
+        "showOrHide": ["layer8", "layer23"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_08_1",
+        "idBase": "L_ADM_TORRE_08_0",
+        "showOrHide": ["layer9", "layer24"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_09_1",
+        "idBase": "L_ADM_TORRE_09_0",
+        "showOrHide": ["layer10", "layer25"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_10_1",
+        "idBase": "L_ADM_TORRE_10_0",
+        "showOrHide": ["layer11", "layer26"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_11_1",
+        "idBase": "L_ADM_TORRE_11_0",
+        "showOrHide": ["layer12", "layer27"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_12_1",
+        "idBase": "L_ADM_TORRE_12_0",
+        "showOrHide": ["layer13","layer28"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_13_1",
+        "idBase": "L_ADM_TORRE_13_0",
+        "showOrHide": ["layer14", "layer29"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_14_1",
+        "idBase": "L_ADM_TORRE_14_0",
+        "showOrHide": ["layer15","layer30"]
+      }
+    ]
+  },
+  {
+    "id": "024873202000", 
+    "nombre": "LOS MANANTIALES TULIPAN E-2",
+    "svg": "Tulipan_marcado.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_01_1",
+        "idBase": "L_ADM_TORRE_01_0",
+        "showOrHide": ["layer2", "layer17"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_02_1",
+        "idBase": "L_ADM_TORRE_02_0",
+        "showOrHide": ["layer3", "layer18"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_03_1",
+        "idBase": "L_ADM_TORRE_03_0",
+        "showOrHide": ["layer4", "layer19"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_04_1",
+        "idBase": "L_ADM_TORRE_04_0",
+        "showOrHide": ["layer5", "layer20"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_05_1",
+        "idBase": "L_ADM_TORRE_05_0",
+        "showOrHide": ["layer6", "layer21"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_06_1",
+        "idBase": "L_ADM_TORRE_06_0",
+        "showOrHide": ["layer7","layer22"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_07_1",
+        "idBase": "L_ADM_TORRE_07_0",
+        "showOrHide": ["layer8", "layer23"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_08_1",
+        "idBase": "L_ADM_TORRE_08_0",
+        "showOrHide": ["layer9", "layer24"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_09_1",
+        "idBase": "L_ADM_TORRE_09_0",
+        "showOrHide": ["layer10", "layer25"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_10_1",
+        "idBase": "L_ADM_TORRE_10_0",
+        "showOrHide": ["layer11", "layer26"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_11_1",
+        "idBase": "L_ADM_TORRE_11_0",
+        "showOrHide": ["layer12", "layer27"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_12_1",
+        "idBase": "L_ADM_TORRE_12_0",
+        "showOrHide": ["layer13","layer28"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_13_1",
+        "idBase": "L_ADM_TORRE_13_0",
+        "showOrHide": ["layer14", "layer29"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_14_1",
+        "idBase": "L_ADM_TORRE_14_0",
+        "showOrHide": ["layer15","layer30"]
+      }
+    ]
   }
 ]
