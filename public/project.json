@@ -10014,7 +10014,7 @@
     ]
   },
   {
-    "id": "007833111000", 
+    "id": "007833111000",
     "nombre": "SAN MIGUEL",
     "svg": "San Miguel.svg",
     "informacion": [
@@ -10041,17 +10041,17 @@
       {
         "idFrente": "L_ADM_TORRE_5_1",
         "idBase": "L_ADM_TORRE_5_0",
-        "showOrHide": ["layer5","layer13"]
+        "showOrHide": ["layer5", "layer13"]
       },
       {
         "idFrente": "L_ADM_TORRE_2_1_1",
         "idBase": "L_ADM_TORRE_2_1_0",
-        "showOrHide": ["layer2","layer10","layer12", "layer4"]
+        "showOrHide": ["layer2", "layer10", "layer12", "layer4"]
       }
     ]
   },
   {
-    "id": "007843101000", 
+    "id": "007843101000",
     "nombre": "BELATERRA VENTUS E1",
     "svg": "Belaterra Ventus MARCADO 19-07-15 v1.svg",
     "informacion": [
@@ -10078,17 +10078,17 @@
       {
         "idFrente": "L_ADM_TORRE_05_1",
         "idBase": "L_ADM_TORRE_05_0",
-        "showOrHide": ["layer6","layer13"]
+        "showOrHide": ["layer6", "layer13"]
       },
       {
         "idFrente": "L_ADM_TORRE_06_1",
         "idBase": "L_ADM_TORRE_06_0",
-        "showOrHide": ["layer7","layer14"]
+        "showOrHide": ["layer7", "layer14"]
       }
     ]
   },
   {
-    "id": "007843102000", 
+    "id": "007843102000",
     "nombre": "BELATERRA VENTUS E2",
     "svg": "Belaterra Ventus MARCADO 19-07-15 v1.svg",
     "informacion": [
@@ -10115,17 +10115,17 @@
       {
         "idFrente": "L_ADM_TORRE_05_1",
         "idBase": "L_ADM_TORRE_05_0",
-        "showOrHide": ["layer6","layer13"]
+        "showOrHide": ["layer6", "layer13"]
       },
       {
         "idFrente": "L_ADM_TORRE_06_1",
         "idBase": "L_ADM_TORRE_06_0",
-        "showOrHide": ["layer7","layer14"]
+        "showOrHide": ["layer7", "layer14"]
       }
     ]
   },
   {
-    "id": "007843103000", 
+    "id": "007843103000",
     "nombre": "BELATERRA VENTUS E3",
     "svg": "Belaterra Ventus MARCADO 19-07-15 v1.svg",
     "informacion": [
@@ -10152,12 +10152,12 @@
       {
         "idFrente": "L_ADM_TORRE_05_1",
         "idBase": "L_ADM_TORRE_05_0",
-        "showOrHide": ["layer6","layer13"]
+        "showOrHide": ["layer6", "layer13"]
       },
       {
         "idFrente": "L_ADM_TORRE_06_1",
         "idBase": "L_ADM_TORRE_06_0",
-        "showOrHide": ["layer7","layer14"]
+        "showOrHide": ["layer7", "layer14"]
       }
     ]
   }
