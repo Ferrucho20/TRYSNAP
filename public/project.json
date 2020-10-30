@@ -10012,5 +10012,42 @@
         "showOrHide": ["layer5", "layer10"]
       }
     ]
+  },
+  {
+    "id": "007833111000", 
+    "nombre": "SAN MIGUEL",
+    "svg": "San Miguel.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_1_1",
+        "idBase": "L_ADM_TORRE_1_0",
+        "showOrHide": ["layer11", "layer3"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_2_1",
+        "idBase": "L_ADM_TORRE_2_0",
+        "showOrHide": ["layer12", "layer4"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_3_1",
+        "idBase": "L_ADM_TORRE_3_0",
+        "showOrHide": ["layer7", "layer9"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_4_1",
+        "idBase": "L_ADM_TORRE_4_0",
+        "showOrHide": ["layer6", "layer14"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_5_1",
+        "idBase": "L_ADM_TORRE_5_0",
+        "showOrHide": ["layer5","layer13"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_2_1_1",
+        "idBase": "L_ADM_TORRE_2_1_0",
+        "showOrHide": ["layer2","layer10","layer12", "layer4"]
+      }
+    ]
   }
 ]
