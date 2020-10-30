@@ -9361,15 +9361,27 @@
     "informacion": []
   },
   {
-    "id": "024748103000", 
+    "id": "024748103000",
     "nombre": "RESERVA DE LOS ALMENDROS E-3",
     "svg": "Reserva de los Almendros F3.svg",
     "informacion": []
   },
   {
-    "id": "024748104000", 
+    "id": "024748104000",
     "nombre": "RESERVA DE LOS ALMENDROS E-4",
     "svg": "Reserva de Almendros F4 MARCADO.svg",
+    "informacion": []
+  },
+  {
+    "id": "024749201000",
+    "nombre": "CIUDAD DEL PARQUE GALERAS F1",
+    "svg": "Ciudad del Parque Galeras F1 MARCADO.svg",
+    "informacion": []
+  },
+  {
+    "id": "024749202000",
+    "nombre": "CIUDAD DEL PARQUE GALERAS F2",
+    "svg": "Ciudad del Parque Galeras F2 MARCADO.svg",
     "informacion": []
   }
 ]
