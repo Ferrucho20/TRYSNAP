@@ -9717,7 +9717,7 @@
       },
       {
         "idFrente": "L_ADM_TORRE_3_1_1",
-        "idBase": "L_ADM_TORRE_3_1_1",
+        "idBase": "L_ADM_TORRE_3_1_0",
         "showOrHide": ["layer4", "layer11", "layer5", "layer12"]
       }
     ]
