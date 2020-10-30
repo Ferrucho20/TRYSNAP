@@ -10160,5 +10160,293 @@
         "showOrHide": ["layer7","layer14"]
       }
     ]
+  },
+  {
+    "id": "007843151000", 
+    "nombre": "BELATERRA AQUARIS E1",
+    "svg": "AQUARIS Marcado 20-02-05.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_01_1",
+        "idBase": "L_ADM_TORRE_01_0",
+        "showOrHide": ["layer3", "layer4"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_02_1",
+        "idBase": "L_ADM_TORRE_02_0",
+        "showOrHide": ["layer5", "layer6"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_03_1",
+        "idBase": "L_ADM_TORRE_03_0",
+        "showOrHide": ["layer7", "layer8"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_04_1",
+        "idBase": "L_ADM_TORRE_04_0",
+        "showOrHide": ["layer9", "layer10"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_05_1",
+        "idBase": "L_ADM_TORRE_05_0",
+        "showOrHide": ["layer26","layer11"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_06_1",
+        "idBase": "L_ADM_TORRE_06_0",
+        "showOrHide": ["layer12","layer13"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_07_1",
+        "idBase": "L_ADM_TORRE_07_0",
+        "showOrHide": ["layer14", "layer15"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_08_1",
+        "idBase": "L_ADM_TORRE_08_0",
+        "showOrHide": ["layer16", "layer17"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_09_1",
+        "idBase": "L_ADM_TORRE_09_0",
+        "showOrHide": ["layer19", "layer18"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_10_1",
+        "idBase": "L_ADM_TORRE_10_0",
+        "showOrHide": ["layer20", "layer21"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_11_1",
+        "idBase": "L_ADM_TORRE_11_0",
+        "showOrHide": ["layer22", "layer23"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_12_1",
+        "idBase": "L_ADM_TORRE_12_0",
+        "showOrHide": ["layer24","layer25"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_09_10_1",
+        "idBase": "L_ADM_TORRE_09_10_0",
+        "showOrHide": ["layer27","layer28","layer19", "layer18","layer20", "layer21"]
+      }
+    ]
+  },
+  {
+    "id": "007843152000", 
+    "nombre": "BELATERRA AQUARIS E2",
+    "svg": "AQUARIS Marcado 20-02-05.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_01_1",
+        "idBase": "L_ADM_TORRE_01_0",
+        "showOrHide": ["layer3", "layer4"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_02_1",
+        "idBase": "L_ADM_TORRE_02_0",
+        "showOrHide": ["layer5", "layer6"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_03_1",
+        "idBase": "L_ADM_TORRE_03_0",
+        "showOrHide": ["layer7", "layer8"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_04_1",
+        "idBase": "L_ADM_TORRE_04_0",
+        "showOrHide": ["layer9", "layer10"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_05_1",
+        "idBase": "L_ADM_TORRE_05_0",
+        "showOrHide": ["layer26","layer11"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_06_1",
+        "idBase": "L_ADM_TORRE_06_0",
+        "showOrHide": ["layer12","layer13"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_07_1",
+        "idBase": "L_ADM_TORRE_07_0",
+        "showOrHide": ["layer14", "layer15"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_08_1",
+        "idBase": "L_ADM_TORRE_08_0",
+        "showOrHide": ["layer16", "layer17"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_09_1",
+        "idBase": "L_ADM_TORRE_09_0",
+        "showOrHide": ["layer19", "layer18"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_10_1",
+        "idBase": "L_ADM_TORRE_10_0",
+        "showOrHide": ["layer20", "layer21"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_11_1",
+        "idBase": "L_ADM_TORRE_11_0",
+        "showOrHide": ["layer22", "layer23"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_12_1",
+        "idBase": "L_ADM_TORRE_12_0",
+        "showOrHide": ["layer24","layer25"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_09_10_1",
+        "idBase": "L_ADM_TORRE_09_10_0",
+        "showOrHide": ["layer27","layer28","layer19", "layer18","layer20", "layer21"]
+      }
+    ]
+  },
+  {
+    "id": "007843153000", 
+    "nombre": "BELATERRA AQUARIS E3",
+    "svg": "AQUARIS Marcado 20-02-05.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_01_1",
+        "idBase": "L_ADM_TORRE_01_0",
+        "showOrHide": ["layer3", "layer4"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_02_1",
+        "idBase": "L_ADM_TORRE_02_0",
+        "showOrHide": ["layer5", "layer6"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_03_1",
+        "idBase": "L_ADM_TORRE_03_0",
+        "showOrHide": ["layer7", "layer8"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_04_1",
+        "idBase": "L_ADM_TORRE_04_0",
+        "showOrHide": ["layer9", "layer10"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_05_1",
+        "idBase": "L_ADM_TORRE_05_0",
+        "showOrHide": ["layer26","layer11"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_06_1",
+        "idBase": "L_ADM_TORRE_06_0",
+        "showOrHide": ["layer12","layer13"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_07_1",
+        "idBase": "L_ADM_TORRE_07_0",
+        "showOrHide": ["layer14", "layer15"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_08_1",
+        "idBase": "L_ADM_TORRE_08_0",
+        "showOrHide": ["layer16", "layer17"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_09_1",
+        "idBase": "L_ADM_TORRE_09_0",
+        "showOrHide": ["layer19", "layer18"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_10_1",
+        "idBase": "L_ADM_TORRE_10_0",
+        "showOrHide": ["layer20", "layer21"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_11_1",
+        "idBase": "L_ADM_TORRE_11_0",
+        "showOrHide": ["layer22", "layer23"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_12_1",
+        "idBase": "L_ADM_TORRE_12_0",
+        "showOrHide": ["layer24","layer25"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_09_10_1",
+        "idBase": "L_ADM_TORRE_09_10_0",
+        "showOrHide": ["layer27","layer28","layer19", "layer18","layer20", "layer21"]
+      }
+    ]
+  },
+  {
+    "id": "007843154000", 
+    "nombre": "BELATERRA AQUARIS E4",
+    "svg": "AQUARIS Marcado 20-02-05.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_01_1",
+        "idBase": "L_ADM_TORRE_01_0",
+        "showOrHide": ["layer3", "layer4"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_02_1",
+        "idBase": "L_ADM_TORRE_02_0",
+        "showOrHide": ["layer5", "layer6"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_03_1",
+        "idBase": "L_ADM_TORRE_03_0",
+        "showOrHide": ["layer7", "layer8"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_04_1",
+        "idBase": "L_ADM_TORRE_04_0",
+        "showOrHide": ["layer9", "layer10"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_05_1",
+        "idBase": "L_ADM_TORRE_05_0",
+        "showOrHide": ["layer26","layer11"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_06_1",
+        "idBase": "L_ADM_TORRE_06_0",
+        "showOrHide": ["layer12","layer13"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_07_1",
+        "idBase": "L_ADM_TORRE_07_0",
+        "showOrHide": ["layer14", "layer15"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_08_1",
+        "idBase": "L_ADM_TORRE_08_0",
+        "showOrHide": ["layer16", "layer17"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_09_1",
+        "idBase": "L_ADM_TORRE_09_0",
+        "showOrHide": ["layer19", "layer18"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_10_1",
+        "idBase": "L_ADM_TORRE_10_0",
+        "showOrHide": ["layer20", "layer21"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_11_1",
+        "idBase": "L_ADM_TORRE_11_0",
+        "showOrHide": ["layer22", "layer23"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_12_1",
+        "idBase": "L_ADM_TORRE_12_0",
+        "showOrHide": ["layer24","layer25"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_09_10_1",
+        "idBase": "L_ADM_TORRE_09_10_0",
+        "showOrHide": ["layer27","layer28","layer19", "layer18","layer20", "layer21"]
+      }
+    ]
   }
 ]
