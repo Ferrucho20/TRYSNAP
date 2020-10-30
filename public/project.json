@@ -8900,5 +8900,216 @@
         ]
       }
     ]
+  },
+  {
+    "id": "005937201000",
+    "nombre": "PUERTA DORADA LA ISLA F1",
+    "svg": "PUERTA DORADA LA ISLA marcado.SVG",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_1_1",
+        "idBase": "L_ADM_TORRE_1_0",
+        "showOrHide": ["layer3", "layer22"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_2_1",
+        "idBase": "L_ADM_TORRE_2_0",
+        "showOrHide": ["layer4", "layer23"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_3_1",
+        "idBase": "L_ADM_TORRE_3_0",
+        "showOrHide": ["layer5", "layer24"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_4_1",
+        "idBase": "L_ADM_TORRE_4_0",
+        "showOrHide": ["layer6", "layer25"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_5_1",
+        "idBase": "L_ADM_TORRE_5_0",
+        "showOrHide": ["layer7", "layer26"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_6_1",
+        "idBase": "L_ADM_TORRE_6_0",
+        "showOrHide": ["layer9", "layer29"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_7_1",
+        "idBase": "L_ADM_TORRE_7_0",
+        "showOrHide": ["layer10", "layer30"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_8_1",
+        "idBase": "L_ADM_TORRE_8_0",
+        "showOrHide": ["layer31", "layer11"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_9_1",
+        "idBase": "L_ADM_TORRE_9_0",
+        "showOrHide": ["layer13", "layer33"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_10_1",
+        "idBase": "L_ADM_TORRE_10_0",
+        "showOrHide": ["layer14", "layer34"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_11_1",
+        "idBase": "L_ADM_TORRE_11_0",
+        "showOrHide": ["layer35", "layer15"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_12_1",
+        "idBase": "L_ADM_TORRE_12_0",
+        "showOrHide": ["layer36", "layer16"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_13_1",
+        "idBase": "L_ADM_TORRE_13_0",
+        "showOrHide": ["layer37", "layer17"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_14_1",
+        "idBase": "L_ADM_TORRE_14_0",
+        "showOrHide": ["layer38", "layer18"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_15_1",
+        "idBase": "L_ADM_TORRE_15_0",
+        "showOrHide": ["layer19", "layer39"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_16_1",
+        "idBase": "L_ADM_TORRE_16_0",
+        "showOrHide": ["layer20", "layer40"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_1_5_1",
+        "idBase": "L_ADM_TORRE_1_5_0",
+        "showOrHide": [
+          "layer2",
+          "layer27",
+          "layer3",
+          "layer22",
+          "layer4",
+          "layer23",
+          "layer5",
+          "layer24",
+          "layer6",
+          "layer25",
+          "layer7",
+          "layer26"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "005937202000",
+    "nombre": "PUERTA DORADA LA ISLA F2",
+    "svg": "PUERTA DORADA LA ISLA marcado.SVG",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_1_1",
+        "idBase": "L_ADM_TORRE_1_0",
+        "showOrHide": ["layer3", "layer22"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_2_1",
+        "idBase": "L_ADM_TORRE_2_0",
+        "showOrHide": ["layer4", "layer23"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_3_1",
+        "idBase": "L_ADM_TORRE_3_0",
+        "showOrHide": ["layer5", "layer24"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_4_1",
+        "idBase": "L_ADM_TORRE_4_0",
+        "showOrHide": ["layer6", "layer25"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_5_1",
+        "idBase": "L_ADM_TORRE_5_0",
+        "showOrHide": ["layer7", "layer26"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_6_1",
+        "idBase": "L_ADM_TORRE_6_0",
+        "showOrHide": ["layer9", "layer29"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_7_1",
+        "idBase": "L_ADM_TORRE_7_0",
+        "showOrHide": ["layer10", "layer30"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_8_1",
+        "idBase": "L_ADM_TORRE_8_0",
+        "showOrHide": ["layer31", "layer11"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_9_1",
+        "idBase": "L_ADM_TORRE_9_0",
+        "showOrHide": ["layer13", "layer33"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_10_1",
+        "idBase": "L_ADM_TORRE_10_0",
+        "showOrHide": ["layer14", "layer34"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_11_1",
+        "idBase": "L_ADM_TORRE_11_0",
+        "showOrHide": ["layer35", "layer15"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_12_1",
+        "idBase": "L_ADM_TORRE_12_0",
+        "showOrHide": ["layer36", "layer16"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_13_1",
+        "idBase": "L_ADM_TORRE_13_0",
+        "showOrHide": ["layer37", "layer17"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_14_1",
+        "idBase": "L_ADM_TORRE_14_0",
+        "showOrHide": ["layer38", "layer18"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_15_1",
+        "idBase": "L_ADM_TORRE_15_0",
+        "showOrHide": ["layer19", "layer39"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_16_1",
+        "idBase": "L_ADM_TORRE_16_0",
+        "showOrHide": ["layer20", "layer40"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_1_5_1",
+        "idBase": "L_ADM_TORRE_1_5_0",
+        "showOrHide": [
+          "layer2",
+          "layer27",
+          "layer3",
+          "layer22",
+          "layer4",
+          "layer23",
+          "layer5",
+          "layer24",
+          "layer6",
+          "layer25",
+          "layer7",
+          "layer26"
+        ]
+      }
+    ]
   }
+]
 ]
