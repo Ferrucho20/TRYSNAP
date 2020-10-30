@@ -9929,5 +9929,61 @@
         "showOrHide": ["layer5", "layer6", "layer3", "layer13"]
       }
     ]
+  },
+  {
+    "id": "007838111000",
+    "nombre": "MORETTI",
+    "svg": "Moretti.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_1_1",
+        "idBase": "L_ADM_TORRE_1_0",
+        "showOrHide": ["layer2", "layer12"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_2_1",
+        "idBase": "L_ADM_TORRE_2_0",
+        "showOrHide": ["layer3", "layer13"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_3_1",
+        "idBase": "L_ADM_TORRE_3_0",
+        "showOrHide": ["layer4", "layer14"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_4_1",
+        "idBase": "L_ADM_TORRE_4_0",
+        "showOrHide": ["layer5", "layer15"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_5_1",
+        "idBase": "L_ADM_TORRE_5_0",
+        "showOrHide": ["layer16", "layer6"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_6_1",
+        "idBase": "L_ADM_TORRE_6_0",
+        "showOrHide": ["layer18", "layer8"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_7_1",
+        "idBase": "L_ADM_TORRE_7_0",
+        "showOrHide": ["layer19", "layer9"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_5_6_7_1",
+        "idBase": "L_ADM_TORRE_5_6_7_0",
+        "showOrHide": [
+          "layer7",
+          "layer17",
+          "layer19",
+          "layer9",
+          "layer18",
+          "layer8",
+          "layer16",
+          "layer6"
+        ]
+      }
+    ]
   }
 ]
