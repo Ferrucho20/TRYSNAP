@@ -9003,6 +9003,20 @@
           "layer7",
           "layer26"
         ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_6_8_1",
+        "idBase": "L_ADM_TORRE_6_8_0",
+        "showOrHide": [
+          "layer8",
+          "layer28",
+          "layer9",
+          "layer29",
+          "layer10",
+          "layer30",
+          "layer31",
+          "layer11"
+        ]
       }
     ]
   },
