@@ -10527,7 +10527,7 @@
     ]
   },
   {
-    "id": "007844101000", 
+    "id": "007844101000",
     "nombre": "ANKARA",
     "svg": "Ankara Marcado v2.svg",
     "informacion": [
@@ -10544,7 +10544,7 @@
     ]
   },
   {
-    "id": "007845101000", 
+    "id": "007845101000",
     "nombre": "BAIKAL",
     "svg": "Baikal -Marcado.svg",
     "informacion": [
@@ -10566,12 +10566,12 @@
       {
         "idFrente": "L_ADM_TORRE_03_0_1",
         "idBase": "L_ADM_TORRE_03_0_0",
-        "showOrHide": ["layer9","layer8", "layer5","layer4"]
+        "showOrHide": ["layer9", "layer8", "layer5", "layer4"]
       }
     ]
   },
   {
-    "id": "007846101000", 
+    "id": "007846101000",
     "nombre": "FIORINO",
     "svg": "Fiorino MARCADO v1.svg",
     "informacion": [
@@ -10588,7 +10588,7 @@
     ]
   },
   {
-    "id": "007849201000", 
+    "id": "007849201000",
     "nombre": "TRIBECA E1",
     "svg": "TRIBECA 20-07-23 - Marcado.svg",
     "informacion": [
@@ -10625,12 +10625,21 @@
       {
         "idFrente": "L_ADM_TORRE_02_04_06_1",
         "idBase": "L_ADM_TORRE_02_04_06_0",
-        "showOrHide": ["layer10","layer9","layer16", "layer15","layer13", "layer14","layer11", "layer12"]
+        "showOrHide": [
+          "layer10",
+          "layer9",
+          "layer16",
+          "layer15",
+          "layer13",
+          "layer14",
+          "layer11",
+          "layer12"
+        ]
       }
     ]
   },
   {
-    "id": "007849202000", 
+    "id": "007849202000",
     "nombre": "TRIBECA E2",
     "svg": "TRIBECA 20-07-23 - Marcado.svg",
     "informacion": [
@@ -10667,12 +10676,21 @@
       {
         "idFrente": "L_ADM_TORRE_02_04_06_1",
         "idBase": "L_ADM_TORRE_02_04_06_0",
-        "showOrHide": ["layer10","layer9","layer16", "layer15","layer13", "layer14","layer11", "layer12"]
+        "showOrHide": [
+          "layer10",
+          "layer9",
+          "layer16",
+          "layer15",
+          "layer13",
+          "layer14",
+          "layer11",
+          "layer12"
+        ]
       }
     ]
   },
   {
-    "id": "007849203000", 
+    "id": "007849203000",
     "nombre": "TRIBECA E3",
     "svg": "TRIBECA 20-07-23 - Marcado.svg",
     "informacion": [
@@ -10709,12 +10727,21 @@
       {
         "idFrente": "L_ADM_TORRE_02_04_06_1",
         "idBase": "L_ADM_TORRE_02_04_06_0",
-        "showOrHide": ["layer10","layer9","layer16", "layer15","layer13", "layer14","layer11", "layer12"]
+        "showOrHide": [
+          "layer10",
+          "layer9",
+          "layer16",
+          "layer15",
+          "layer13",
+          "layer14",
+          "layer11",
+          "layer12"
+        ]
       }
     ]
   },
   {
-    "id": "014491101000", 
+    "id": "014491101000",
     "nombre": "PORTO CASTELLO",
     "svg": "Porto Castello.svg",
     "informacion": [
@@ -10741,7 +10768,7 @@
     ]
   },
   {
-    "id": "014491201000", 
+    "id": "014491201000",
     "nombre": "PORTO BAHIA",
     "svg": "PortoBahia MARCADO.svg",
     "informacion": [
@@ -10758,7 +10785,7 @@
     ]
   },
   {
-    "id": "014491301000", 
+    "id": "014491301000",
     "nombre": "PORTO NOVO",
     "svg": "12 Porto Novo MARCADO.svg",
     "informacion": [
@@ -10770,7 +10797,7 @@
     ]
   },
   {
-    "id": "014507201000", 
+    "id": "014507201000",
     "nombre": "TORRES DEL JARDIN F1",
     "svg": "F1.svg",
     "informacion": [
@@ -10797,7 +10824,7 @@
     ]
   },
   {
-    "id": "014507202000", 
+    "id": "014507202000",
     "nombre": "TORRES DEL JARDIN F2",
     "svg": "F2.svg",
     "informacion": [
@@ -10824,12 +10851,12 @@
       {
         "idFrente": "L_ADM_TORRE_1_1_1",
         "idBase": "L_ADM_TORRE_1_1_0",
-        "showOrHide": ["layer13","layer7"]
+        "showOrHide": ["layer13", "layer7"]
       }
     ]
   },
   {
-    "id": "014507211000", 
+    "id": "014507211000",
     "nombre": "ALAMEDA DEL JARDIN F1",
     "svg": "Alameda del Jardin_F1.svg",
     "informacion": [
@@ -10861,17 +10888,24 @@
       {
         "idFrente": "L_ADM_TORRE_1_2_1",
         "idBase": "L_ADM_TORRE_1_2_0",
-        "showOrHide": ["layer2","layer13","layer15", "layer6","layer5", "layer14"]
+        "showOrHide": [
+          "layer2",
+          "layer13",
+          "layer15",
+          "layer6",
+          "layer5",
+          "layer14"
+        ]
       },
       {
         "idFrente": "L_ADM_TORRE_10_0_1",
         "idBase": "L_ADM_TORRE_10_0_0",
-        "showOrHide": ["layer16","layer7","layer8", "layer17"]
+        "showOrHide": ["layer16", "layer7", "layer8", "layer17"]
       }
     ]
   },
   {
-    "id": "014507212000", 
+    "id": "014507212000",
     "nombre": "ALAMEDA DEL JARDIN F2",
     "svg": "aF2.svg",
     "informacion": [
@@ -10903,22 +10937,29 @@
       {
         "idFrente": "L_ADM_TORRE_F1_1",
         "idBase": "L_ADM_TORRE_F1_0",
-        "showOrHide": ["layer18","layer14"]
+        "showOrHide": ["layer18", "layer14"]
       },
       {
         "idFrente": "L_ADM_TORRE_9_1_1",
         "idBase": "L_ADM_TORRE_9_1_0",
-        "showOrHide": ["layer10", "layer11","layer12", "layer13"]
+        "showOrHide": ["layer10", "layer11", "layer12", "layer13"]
       },
       {
         "idFrente": "L_ADM_TORRE_7_8_1",
         "idBase": "L_ADM_TORRE_7_8_0",
-        "showOrHide": ["layer15","layer5","layer16", "layer6","layer17", "layer8"]
+        "showOrHide": [
+          "layer15",
+          "layer5",
+          "layer16",
+          "layer6",
+          "layer17",
+          "layer8"
+        ]
       }
     ]
   },
   {
-    "id": "014507221000", 
+    "id": "014507221000",
     "nombre": "PALMERAS DEL JARDIN F1",
     "svg": "palmeras_del_jardin_F1.svg",
     "informacion": [
@@ -10945,12 +10986,12 @@
       {
         "idFrente": "L_ADM_TORRE_8_8_1",
         "idBase": "L_ADM_TORRE_8_8_0",
-        "showOrHide": ["layer12","layer5","layer6", "layer13"]
+        "showOrHide": ["layer12", "layer5", "layer6", "layer13"]
       }
     ]
   },
   {
-    "id": "014507222000", 
+    "id": "014507222000",
     "nombre": "PALMERAS DEL JARDIN F2",
     "svg": "palmeras_del_jardin_F2.svg",
     "informacion": [
@@ -10977,12 +11018,12 @@
       {
         "idFrente": "L_ADM_TORRE_5_5_1",
         "idBase": "L_ADM_TORRE_5_5_0",
-        "showOrHide": ["layer12","layer5","layer3", "layer10"]
+        "showOrHide": ["layer12", "layer5", "layer3", "layer10"]
       }
     ]
   },
   {
-    "id": "014507241000", 
+    "id": "014507241000",
     "nombre": "BALCONES DEL JARDIN F1",
     "svg": "11 BALCONES DEL JARDIN MARCADO.svg",
     "informacion": [
@@ -11009,7 +11050,7 @@
       {
         "idFrente": "L_ADM_TORRE_5_1",
         "idBase": "L_ADM_TORRE_5_0",
-        "showOrHide": ["layer7","layer19"]
+        "showOrHide": ["layer7", "layer19"]
       },
       {
         "idFrente": "L_ADM_TORRE_6_1",
@@ -11019,7 +11060,7 @@
       {
         "idFrente": "L_ADM_TORRE_7_1",
         "idBase": "L_ADM_TORRE_7_0",
-        "showOrHide": ["layer22","layer10"]
+        "showOrHide": ["layer22", "layer10"]
       },
       {
         "idFrente": "L_ADM_TORRE_8_1",
@@ -11029,22 +11070,29 @@
       {
         "idFrente": "L_ADM_TORRE_7_0_1",
         "idBase": "L_ADM_TORRE_7_0_0",
-        "showOrHide": ["layer21","layer9","layer22","layer10"]
+        "showOrHide": ["layer21", "layer9", "layer22", "layer10"]
       },
       {
         "idFrente": "L_ADM_TORRE_8_0_1",
         "idBase": "L_ADM_TORRE_8_0_0",
-        "showOrHide": ["layer23","layer11","layer24", "layer12"]
+        "showOrHide": ["layer23", "layer11", "layer24", "layer12"]
       },
       {
         "idFrente": "L_ADM_TORRE_5_6_1",
         "idBase": "L_ADM_TORRE_5_6_0",
-        "showOrHide": ["layer6","layer18","layer7","layer19","layer8", "layer20"]
+        "showOrHide": [
+          "layer6",
+          "layer18",
+          "layer7",
+          "layer19",
+          "layer8",
+          "layer20"
+        ]
       }
     ]
   },
   {
-    "id": "014507242000", 
+    "id": "014507242000",
     "nombre": "BALCONES DEL JARDIN F2",
     "svg": "11 BALCONES DEL JARDIN MARCADO.svg",
     "informacion": [
@@ -11071,7 +11119,7 @@
       {
         "idFrente": "L_ADM_TORRE_5_1",
         "idBase": "L_ADM_TORRE_5_0",
-        "showOrHide": ["layer7","layer19"]
+        "showOrHide": ["layer7", "layer19"]
       },
       {
         "idFrente": "L_ADM_TORRE_6_1",
@@ -11081,7 +11129,7 @@
       {
         "idFrente": "L_ADM_TORRE_7_1",
         "idBase": "L_ADM_TORRE_7_0",
-        "showOrHide": ["layer22","layer10"]
+        "showOrHide": ["layer22", "layer10"]
       },
       {
         "idFrente": "L_ADM_TORRE_8_1",
@@ -11091,17 +11139,68 @@
       {
         "idFrente": "L_ADM_TORRE_7_0_1",
         "idBase": "L_ADM_TORRE_7_0_0",
-        "showOrHide": ["layer21","layer9","layer22","layer10"]
+        "showOrHide": ["layer21", "layer9", "layer22", "layer10"]
       },
       {
         "idFrente": "L_ADM_TORRE_8_0_1",
         "idBase": "L_ADM_TORRE_8_0_0",
-        "showOrHide": ["layer23","layer11","layer24", "layer12"]
+        "showOrHide": ["layer23", "layer11", "layer24", "layer12"]
       },
       {
         "idFrente": "L_ADM_TORRE_5_6_1",
         "idBase": "L_ADM_TORRE_5_6_0",
-        "showOrHide": ["layer6","layer18","layer7","layer19","layer8", "layer20"]
+        "showOrHide": [
+          "layer6",
+          "layer18",
+          "layer7",
+          "layer19",
+          "layer8",
+          "layer20"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "014507261000",
+    "nombre": "EL JARDIN ORQUIDEA E1",
+    "svg": "Jardin Orquidea MARCADO 19-07-08 v1.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_01_1",
+        "idBase": "L_ADM_TORRE_01_0",
+        "showOrHide": ["layer2", "layer6"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_02_1",
+        "idBase": "L_ADM_TORRE_02_0",
+        "showOrHide": ["layer3", "layer7"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_03_1",
+        "idBase": "L_ADM_TORRE_03_0",
+        "showOrHide": ["layer8", "layer4"]
+      }
+    ]
+  },
+  {
+    "id": "014507262000",
+    "nombre": "EL JARDIN ORQUIDEA E2",
+    "svg": "Jardin Orquidea MARCADO 19-07-08 v1.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_01_1",
+        "idBase": "L_ADM_TORRE_01_0",
+        "showOrHide": ["layer2", "layer6"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_02_1",
+        "idBase": "L_ADM_TORRE_02_0",
+        "showOrHide": ["layer3", "layer7"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_03_1",
+        "idBase": "L_ADM_TORRE_03_0",
+        "showOrHide": ["layer8", "layer4"]
       }
     ]
   }
