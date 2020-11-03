@@ -10542,5 +10542,32 @@
         "showOrHide": ["layer3", "layer6"]
       }
     ]
+  },
+  {
+    "id": "007845101000", 
+    "nombre": "BAIKAL",
+    "svg": "Baikal -Marcado.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_01_1",
+        "idBase": "L_ADM_TORRE_01_0",
+        "showOrHide": ["layer2", "layer6"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_02_1",
+        "idBase": "L_ADM_TORRE_02_0",
+        "showOrHide": ["layer3", "layer7"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_03_1",
+        "idBase": "L_ADM_TORRE_03_0",
+        "showOrHide": ["layer8", "layer5"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_03_0_1",
+        "idBase": "L_ADM_TORRE_03_0_0",
+        "showOrHide": ["layer9","layer8", "layer5","layer4"]
+      }
+    ]
   }
 ]
