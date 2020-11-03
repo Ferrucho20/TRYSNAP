@@ -10712,5 +10712,32 @@
         "showOrHide": ["layer10","layer9","layer16", "layer15","layer13", "layer14","layer11", "layer12"]
       }
     ]
+  },
+  {
+    "id": "014491101000", 
+    "nombre": "PORTO CASTELLO",
+    "svg": "Porto Castello.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_1_1",
+        "idBase": "L_ADM_TORRE_1_0",
+        "showOrHide": ["layer2", "layer8"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_2_1",
+        "idBase": "L_ADM_TORRE_2_0",
+        "showOrHide": ["layer3", "layer7"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_3_1",
+        "idBase": "L_ADM_TORRE_3_0",
+        "showOrHide": ["layer10", "layer4"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_4_1",
+        "idBase": "L_ADM_TORRE_4_0",
+        "showOrHide": ["layer9", "layer5"]
+      }
+    ]
   }
 ]
