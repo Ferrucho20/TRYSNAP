@@ -10948,5 +10948,37 @@
         "showOrHide": ["layer12","layer5","layer6", "layer13"]
       }
     ]
+  },
+  {
+    "id": "014507222000", 
+    "nombre": "PALMERAS DEL JARDIN F2",
+    "svg": "palmeras_del_jardin_F2.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_4_1",
+        "idBase": "L_ADM_TORRE_4_0",
+        "showOrHide": ["layer2", "layer9"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_5_1",
+        "idBase": "L_ADM_TORRE_5_0",
+        "showOrHide": ["layer5", "layer12"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_6_1",
+        "idBase": "L_ADM_TORRE_6_0",
+        "showOrHide": ["layer14", "layer6"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_7_1",
+        "idBase": "L_ADM_TORRE_7_0",
+        "showOrHide": ["layer7", "layer13"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_5_5_1",
+        "idBase": "L_ADM_TORRE_5_5_0",
+        "showOrHide": ["layer12","layer5","layer3", "layer10"]
+      }
+    ]
   }
 ]
