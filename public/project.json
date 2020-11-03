@@ -10756,5 +10756,17 @@
         "showOrHide": ["layer3", "layer6"]
       }
     ]
+  },
+  {
+    "id": "014491301000", 
+    "nombre": "PORTO NOVO",
+    "svg": "12 Porto Novo MARCADO.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_1_1",
+        "idBase": "L_ADM_TORRE_1_0",
+        "showOrHide": ["layer2", "layer4"]
+      }
+    ]
   }
 ]
