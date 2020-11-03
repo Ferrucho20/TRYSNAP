@@ -10739,5 +10739,22 @@
         "showOrHide": ["layer9", "layer5"]
       }
     ]
+  },
+  {
+    "id": "014491201000", 
+    "nombre": "PORTO BAHIA",
+    "svg": "PortoBahia MARCADO.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_1_1",
+        "idBase": "L_ADM_TORRE_1_0",
+        "showOrHide": ["layer2", "layer5"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_2_1",
+        "idBase": "L_ADM_TORRE_2_0",
+        "showOrHide": ["layer3", "layer6"]
+      }
+    ]
   }
 ]
