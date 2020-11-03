@@ -10869,5 +10869,52 @@
         "showOrHide": ["layer16","layer7","layer8", "layer17"]
       }
     ]
+  },
+  {
+    "id": "014507212000", 
+    "nombre": "ALAMEDA DEL JARDIN F2",
+    "svg": "aF2.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_5_1",
+        "idBase": "L_ADM_TORRE_5_0",
+        "showOrHide": ["layer2", "layer7"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_6_1",
+        "idBase": "L_ADM_TORRE_6_0",
+        "showOrHide": ["layer3", "layer9"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_7_1",
+        "idBase": "L_ADM_TORRE_7_0",
+        "showOrHide": ["layer16", "layer6"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_8_1",
+        "idBase": "L_ADM_TORRE_8_0",
+        "showOrHide": ["layer17", "layer8"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_9_1",
+        "idBase": "L_ADM_TORRE_9_0",
+        "showOrHide": ["layer12", "layer13"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_F1_1",
+        "idBase": "L_ADM_TORRE_F1_0",
+        "showOrHide": ["layer18","layer14"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_9_1_1",
+        "idBase": "L_ADM_TORRE_9_1_0",
+        "showOrHide": ["layer10", "layer11","layer12", "layer13"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_7_8_1",
+        "idBase": "L_ADM_TORRE_7_8_0",
+        "showOrHide": ["layer15","layer5","layer16", "layer6","layer17", "layer8"]
+      }
+    ]
   }
 ]
