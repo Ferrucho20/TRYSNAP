@@ -11522,11 +11522,25 @@
           "layer24",
           "layer10"
         ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_4_6_1",
+        "idBase": "L_ADM_TORRE_4_6_0",
+        "showOrHide": [
+          "layer5",
+          "layer19",
+          "layer22",
+          "layer8",
+          "layer21",
+          "layer7",
+          "layer6",
+          "layer20"
+        ]
       }
     ]
   },
   {
-    "id": "014747201000", 
+    "id": "014747201000",
     "nombre": "PARMA E1",
     "svg": "PARMA marcado.svg",
     "informacion": [
@@ -11548,12 +11562,12 @@
       {
         "idFrente": "L_ADM_TORRE_00_03_1",
         "idBase": "L_ADM_TORRE_00_03_0",
-        "showOrHide": ["layer7", "layer8","layer11", "layer12"]
+        "showOrHide": ["layer7", "layer8", "layer11", "layer12"]
       }
     ]
   },
   {
-    "id": "014747202000", 
+    "id": "014747202000",
     "nombre": "PARMA E2",
     "svg": "PARMA marcado.svg",
     "informacion": [
@@ -11575,12 +11589,12 @@
       {
         "idFrente": "L_ADM_TORRE_00_03_1",
         "idBase": "L_ADM_TORRE_00_03_0",
-        "showOrHide": ["layer7", "layer8","layer11", "layer12"]
+        "showOrHide": ["layer7", "layer8", "layer11", "layer12"]
       }
     ]
   },
   {
-    "id": "014747203000", 
+    "id": "014747203000",
     "nombre": "PARMA E3",
     "svg": "PARMA marcado.svg",
     "informacion": [
@@ -11602,7 +11616,7 @@
       {
         "idFrente": "L_ADM_TORRE_00_03_1",
         "idBase": "L_ADM_TORRE_00_03_0",
-        "showOrHide": ["layer7", "layer8","layer11", "layer12"]
+        "showOrHide": ["layer7", "layer8", "layer11", "layer12"]
       }
     ]
   }
