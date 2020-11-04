@@ -5892,6 +5892,7 @@
     "id": "002431401000",
     "nombre": "ARAGON CASTILLA RESERVADO",
     "svg": "Aragon - Marcado v2.svg",
+    "rp04": "002",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_1_1",
@@ -5934,6 +5935,7 @@
     "id": "002431601000",
     "nombre": "BURGOS CASTILLA RESERVADO",
     "svg": "Burgos - Marcado v2.svg",
+    "rp04": "002",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_1_1",
@@ -6019,6 +6021,7 @@
     "id": "002433301000",
     "nombre": "ALCAZAR CASTILLA RESERVADO",
     "svg": "Alcazar.svg",
+    "rp04": "002",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_1_1",
@@ -6071,6 +6074,7 @@
     "id": "002433401000",
     "nombre": "TOLEDO CASTILLA RESERVADO",
     "svg": "Toledo.svg",
+    "rp04": "002",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_1_1",
@@ -6122,6 +6126,7 @@
     "id": "002433501000",
     "nombre": "SALAMANCA CASTILLA RESERVADO",
     "svg": "Salamanca.svg",
+    "rp04": "002",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_1_1",
@@ -6181,6 +6186,7 @@
     "id": "002433701000",
     "nombre": "MALAGA CASTILLA RESERVADO",
     "svg": "malaga v2.svg",
+    "rp04": "002",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_1_1",
@@ -6252,6 +6258,7 @@
     "id": "002459101000",
     "nombre": "RESERVA DE ARANJUEZ",
     "svg": "Reserva_Aranjuez.svg",
+    "rp04": "002",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_1_1",
@@ -6294,6 +6301,7 @@
     "id": "002498101000",
     "nombre": "IZOLA - ZENTRAL",
     "svg": "Izola MARCADO.svg",
+    "rp04": "002",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_1_1",
@@ -6311,6 +6319,7 @@
     "id": "002508101000",
     "nombre": "CASTELLON DE LOS CONDES",
     "svg": "Castellon de los condes MARCADO.svg",
+    "rp04": "002",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_1_1",
@@ -6358,6 +6367,7 @@
     "id": "002618221000",
     "nombre": "LA FONTANA",
     "svg": "La Fontana - MARCADO.svg",
+    "rp04": "002",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_1_1",
@@ -6385,6 +6395,7 @@
     "id": "002621101000",
     "nombre": "MANANTIAL DEL SOL",
     "svg": "Manantial del Sol - Marcado v2.svg",
+    "rp04": "002",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_1_1",
@@ -6487,6 +6498,7 @@
     "id": "002470701000",
     "nombre": "RESERVA DE LA SIERRA E-7",
     "svg": "Reserva de la Sierra T9 MARCADO.SVG",
+    "rp04": "002",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_9_1",
@@ -6499,6 +6511,7 @@
     "id": "002470501000",
     "nombre": "RESERVA DE LA SIERRA E-5",
     "svg": "reservadelasierra_T7.svg",
+    "rp04": "002",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_7_1",
@@ -6511,6 +6524,7 @@
     "id": "002470601000",
     "nombre": "RESERVA DE LA SIERRA E-6",
     "svg": "Reserva_de_la_Sierra T6.svg",
+    "rp04": "002",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_6_1",
@@ -6523,6 +6537,7 @@
     "id": "002470401000",
     "nombre": "RESERVA DE LA SIERRA E-4",
     "svg": "reservadelasierra_T5.svg",
+    "rp04": "002",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_5_1",
@@ -6558,6 +6573,7 @@
     "id": "002737101000",
     "nombre": "BAVIERA",
     "svg": "Baviera MARCADO.svg",
+    "rp04": "002",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_1_1",
@@ -6575,6 +6591,7 @@
     "id": "002741101000",
     "nombre": "SENDEROS DE CAMPO VERDE",
     "svg": "Sendero Campo Verde.svg",
+    "rp04": "002",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_1_1",
@@ -6592,6 +6609,7 @@
     "id": "002622101000",
     "nombre": "VALLE DEL SOL",
     "svg": "Valle del Sol MARCADO v2.svg",
+    "rp04": "002",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_1_1",
@@ -6694,6 +6712,7 @@
     "id": "002842333000",
     "nombre": "VILLANOVA",
     "svg": "VILLANOVA MARCADO2.svg",
+    "rp04": "002",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_1_1",
@@ -6738,6 +6757,7 @@
     "id": "002848151000",
     "nombre": "LYON CIUDAD LA SALLE",
     "svg": "LYON 19-10-23 marcado.svg",
+    "rp04": "002",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -6765,6 +6785,7 @@
     "id": "002848201000",
     "nombre": "LYON 2 CIUDAD LA SALLE",
     "svg": "LYON 19-10-23 marcado.svg",
+    "rp04": "002",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -6792,12 +6813,14 @@
     "id": "021071106000",
     "nombre": "CASAS HACIENDA SAN RAFAEL F-2",
     "svg": "casas_hacienda_san_rafael.svg",
+    "rp04": "002",
     "informacion": []
   },
   {
     "id": "002741201000",
     "nombre": "RESERVA DE CAMPO VERDE",
     "svg": "Reserva Campo Verde Marcado v2.svg",
+    "rp04": "002",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_1_1",
@@ -6943,6 +6966,7 @@
     "id": "021076101000",
     "nombre": "SAN SIMÓN - LA QUINTA",
     "svg": "San Simon La Quinta 17-02-06 MARCADO v2.svg",
+    "rp04": "002",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_1_1",
@@ -7004,6 +7028,7 @@
     "id": "021076301000",
     "nombre": "SAN LUCAS - LA QUINTA E1",
     "svg": "SAN LUCAS 19-10-24 marcado.svg",
+    "rp04": "002",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -7127,6 +7152,7 @@
     "id": "021076302000",
     "nombre": "SAN LUCAS - LA QUINTA E2",
     "svg": "SAN LUCAS 19-10-24 marcado.svg",
+    "rp04": "002",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -7250,6 +7276,7 @@
     "id": "021076303000",
     "nombre": "SAN LUCAS - LA QUINTA E3",
     "svg": "SAN LUCAS 19-10-24 marcado.svg",
+    "rp04": "002",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -7373,6 +7400,7 @@
     "id": "021072501000",
     "nombre": "BOSQUES SAN RAFAEL F1",
     "svg": "Bosques San Rafael - Marcado.svg",
+    "rp04": "002",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -7451,6 +7479,7 @@
     "id": "021072502000",
     "nombre": "BOSQUES SAN RAFAEL F2",
     "svg": "Bosques San Rafael - Marcado.svg",
+    "rp04": "002",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -7529,6 +7558,7 @@
     "id": "021072503000",
     "nombre": "BOSQUES SAN RAFAEL F3",
     "svg": "Bosques San Rafael - Marcado.svg",
+    "rp04": "002",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -7607,6 +7637,7 @@
     "id": "023987101000",
     "nombre": "ALCAPARRO F-1",
     "svg": "Alcaparro MARCADO v1.svg",
+    "rp04": "002",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -7749,6 +7780,7 @@
     "id": "023987201000",
     "nombre": "ALCAPARRO F-2",
     "svg": "Alcaparro MARCADO v1.svg",
+    "rp04": "002",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -7891,6 +7923,7 @@
     "id": "023987301000",
     "nombre": "ALCAPARRO F-3",
     "svg": "Alcaparro MARCADO v1.svg",
+    "rp04": "002",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -8033,6 +8066,7 @@
     "id": "023089102000",
     "nombre": "CALA F-2",
     "svg": "Cala F2 MARCADO.svg",
+    "rp04": "002",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_7_1",
@@ -8070,6 +8104,7 @@
     "id": "023089103000",
     "nombre": "CALA F-3",
     "svg": "Cala F3 MARCADO.svg",
+    "rp04": "002",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_11_1",
@@ -8097,6 +8132,7 @@
     "id": "023089104000",
     "nombre": "CALA F-4",
     "svg": "Cala F4 MARCADO.svg",
+    "rp04": "002",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_21_1",
@@ -8109,6 +8145,7 @@
     "id": "031955201000",
     "nombre": "PEÑAZUL LA MORADA",
     "svg": "Peña Azul La Morada MARCADO v2.svg",
+    "rp04": "002",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_1_1",
@@ -8168,6 +8205,7 @@
     "id": "023984201000",
     "nombre": "LILO F-2",
     "svg": "Lilo F2 MARCADO v2.svg",
+    "rp04": "002",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_4_1",
@@ -8200,6 +8238,7 @@
     "id": "023984301000",
     "nombre": "LILO F-3",
     "svg": "Lilo F3 MARCADO v2.svg",
+    "rp04": "002",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_7_1",
@@ -8227,6 +8266,7 @@
     "id": "031955301000",
     "nombre": "PEÑAZUL LA VILLA",
     "svg": "Peñazul La Villa - marcado.svg",
+    "rp04": "002",
     "informacion": []
   },
   {
@@ -8270,12 +8310,14 @@
     "id": "031955601000",
     "nombre": "PEÑAZUL LA CAMPIÑA",
     "svg": "Peñazul La Campiña 19-08-21 MARCADO v1.svg",
+    "rp04": "002",
     "informacion": []
   },
   {
     "id": "031955401000",
     "nombre": "PEÑAZUL LA ALDEA",
     "svg": "Peñazul La Aldea Marcado.svg",
+    "rp04": "002",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_1_1",
@@ -8342,12 +8384,14 @@
     "id": "005469101000",
     "nombre": "CASTELLANA DEL MAR",
     "svg": "Castellana del Mar MARCADO.svg",
+    "rp04": "005",
     "informacion": []
   },
   {
     "id": "005474101000",
     "nombre": "TOZCANA",
     "svg": "tozcana.svg",
+    "rp04": "005",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_1_1",
@@ -8402,6 +8446,7 @@
     "id": "005493101000",
     "nombre": "MIRADOR DEL PARQUE",
     "svg": "Mirador_del_Parque.svg",
+    "rp04": "005",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_1_1",
@@ -8449,6 +8494,7 @@
     "id": "005465301000",
     "nombre": "TORRES DE LA MACARENA E-3",
     "svg": "Torres_MacarenaE3.svg",
+    "rp04": "005",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_25_26_1",
@@ -8486,6 +8532,7 @@
     "id": "005494101000",
     "nombre": "ALTOS DEL PARQUE",
     "svg": "altos_del_parque.svg",
+    "rp04": "005",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_1_1",
@@ -8552,6 +8599,7 @@
     "id": "005495101000",
     "nombre": "IBIZA",
     "svg": "Ibiza.svg",
+    "rp04": "005",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_1_1",
@@ -8579,12 +8627,14 @@
     "id": "005504101000",
     "nombre": "ZIOON TOWERS",
     "svg": "Zioon.svg",
+    "rp04": "005",
     "informacion": []
   },
   {
     "id": "005500101000",
     "nombre": "ALTOS DE SAN ISIDRO",
     "svg": "Altos_de_San_Isidro.svg",
+    "rp04": "005",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_1_1",
@@ -8632,6 +8682,7 @@
     "id": "005505101000",
     "nombre": "BOLONIA",
     "svg": "BOLONIA MARCADO v2.svg",
+    "rp04": "005",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_1_1",
@@ -8681,6 +8732,7 @@
     "id": "005509102000",
     "nombre": "PALMETTO TOWERS",
     "svg": "Palmetto.svg",
+    "rp04": "005",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_1_1",
@@ -8698,6 +8750,7 @@
     "id": "005514101000",
     "nombre": "SIENA",
     "svg": "Siena MARCADO.SVG",
+    "rp04": "005",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_1_1",
@@ -8932,6 +8985,7 @@
     "id": "005513101000",
     "nombre": "TORINO",
     "svg": "TORINO_MARCADO v1.SVG",
+    "rp04": "005",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_1_1",
@@ -9008,6 +9062,7 @@
     "id": "005937201000",
     "nombre": "PUERTA DORADA LA ISLA F1",
     "svg": "PUERTA DORADA LA ISLA marcado.svg",
+    "rp04": "005",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_1_1",
@@ -9139,6 +9194,7 @@
     "id": "005937202000",
     "nombre": "PUERTA DORADA LA ISLA F2",
     "svg": "PUERTA DORADA LA ISLA marcado.svg",
+    "rp04": "005",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_1_1",
@@ -9270,6 +9326,7 @@
     "id": "005937101000",
     "nombre": "PUERTA DORADA LA BAHIA",
     "svg": "14 - PUERTA DORADA LA BAHIA marcado.svg",
+    "rp04": "005",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_1_1",
@@ -9346,6 +9403,7 @@
     "id": "005937301000",
     "nombre": "PUERTA DORADA CORALINA F-1",
     "svg": "Puerta Dorada Coralina F1 MARCADO.svg",
+    "rp04": "005",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_5_1",
@@ -9378,6 +9436,7 @@
     "id": "005937302000",
     "nombre": "PUERTA DORADA CORALINA F-2",
     "svg": "Puerta Dorada Coralina F2 MARCADO.svg",
+    "rp04": "005",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_1_1",
@@ -9417,6 +9476,7 @@
     "id": "005939101000",
     "nombre": "OPORTO",
     "svg": "oporto.svg",
+    "rp04": "005",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_1_1",
@@ -9461,42 +9521,49 @@
     "id": "024749111000",
     "nombre": "CIUDAD DEL PARQUE QUIMBAYA ",
     "svg": "22 CIUDAD DEL PARQUE QUIMBAYA marcado.svg",
+    "rp04": "005",
     "informacion": []
   },
   {
     "id": "024748103000",
     "nombre": "RESERVA DE LOS ALMENDROS E-3",
     "svg": "Reserva de los Almendros F3.svg",
+    "rp04": "005",
     "informacion": []
   },
   {
     "id": "024748104000",
     "nombre": "RESERVA DE LOS ALMENDROS E-4",
     "svg": "Reserva de Almendros F4 MARCADO.svg",
+    "rp04": "005",
     "informacion": []
   },
   {
     "id": "024749201000",
     "nombre": "CIUDAD DEL PARQUE GALERAS F1",
     "svg": "Ciudad del Parque Galeras F1 MARCADO.svg",
+    "rp04": "005",
     "informacion": []
   },
   {
     "id": "024749202000",
     "nombre": "CIUDAD DEL PARQUE GALERAS F2",
     "svg": "Ciudad del Parque Galeras F2 MARCADO.svg",
+    "rp04": "005",
     "informacion": []
   },
   {
     "id": "024749451000",
     "nombre": "CIUDAD DEL PARQUE TAYRONA",
     "svg": "Tayrona - marcado.svg",
+    "rp04": "005",
     "informacion": []
   },
   {
     "id": "024749501000",
     "nombre": "CIUDAD DEL PARQUE ACANDI E1",
     "svg": "Acandi - marcado.svg",
+    "rp04": "005",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -9559,6 +9626,7 @@
     "id": "024749502000",
     "nombre": "CIUDAD DEL PARQUE ACANDI E2",
     "svg": "Acandi - marcado.svg",
+    "rp04": "005",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -9621,6 +9689,7 @@
     "id": "024749503000",
     "nombre": "CIUDAD DEL PARQUE ACANDI E3",
     "svg": "Acandi - marcado.svg",
+    "rp04": "005",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -9683,6 +9752,7 @@
     "id": "024760101000",
     "nombre": "PORTAL DE LOS MANANTIALES E1-F1",
     "svg": "PORTAL DE LOS MANANTIALES E1F1.svg",
+    "rp04": "005",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_1_2_1",
@@ -9792,6 +9862,7 @@
     "id": "007826101000",
     "nombre": "SAN GABRIEL",
     "svg": "San Gabriel.svg",
+    "rp04": "007",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_1_1",
@@ -9829,6 +9900,7 @@
     "id": "024873201000",
     "nombre": "LOS MANANTIALES TULIPAN E-1",
     "svg": "Tulipan_marcado.svg",
+    "rp04": "005",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -9906,6 +9978,7 @@
     "id": "024873202000",
     "nombre": "LOS MANANTIALES TULIPAN E-2",
     "svg": "Tulipan_marcado.svg",
+    "rp04": "005",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -10010,6 +10083,7 @@
     "id": "007829101000",
     "nombre": "SANTA ANA",
     "svg": "10 CALI - SANTA ANA_Marcado.svg",
+    "rp04": "007",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_1_1",
@@ -10037,6 +10111,7 @@
     "id": "007838111000",
     "nombre": "MORETTI",
     "svg": "13 Moretti MARCADO v2.svg",
+    "rp04": "007",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_1_1",
@@ -10120,6 +10195,7 @@
     "id": "007833111000",
     "nombre": "SAN MIGUEL",
     "svg": "San Miguel.svg",
+    "rp04": "007",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_1_1",
@@ -10157,6 +10233,7 @@
     "id": "007843101000",
     "nombre": "BELATERRA VENTUS E1",
     "svg": "Belaterra Ventus MARCADO 19-07-15 v1.svg",
+    "rp04": "007",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -10194,6 +10271,7 @@
     "id": "007843102000",
     "nombre": "BELATERRA VENTUS E2",
     "svg": "Belaterra Ventus MARCADO 19-07-15 v1.svg",
+    "rp04": "007",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -10231,6 +10309,7 @@
     "id": "007843103000",
     "nombre": "BELATERRA VENTUS E3",
     "svg": "Belaterra Ventus MARCADO 19-07-15 v1.svg",
+    "rp04": "007",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -10268,6 +10347,7 @@
     "id": "007843151000",
     "nombre": "BELATERRA AQUARIS E1",
     "svg": "AQUARIS Marcado 20-02-05.svg",
+    "rp04": "007",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -10347,6 +10427,7 @@
     "id": "007843152000",
     "nombre": "BELATERRA AQUARIS E2",
     "svg": "AQUARIS Marcado 20-02-05.svg",
+    "rp04": "007",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -10426,6 +10507,7 @@
     "id": "007843153000",
     "nombre": "BELATERRA AQUARIS E3",
     "svg": "AQUARIS Marcado 20-02-05.svg",
+    "rp04": "007",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -10505,6 +10587,7 @@
     "id": "007843154000",
     "nombre": "BELATERRA AQUARIS E4",
     "svg": "AQUARIS Marcado 20-02-05.svg",
+    "rp04": "007",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -10584,6 +10667,7 @@
     "id": "007843201000",
     "nombre": "BELATERRA AREIA",
     "svg": "AREIA - marcado 20-06-03.svg",
+    "rp04": "007",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -10616,6 +10700,7 @@
     "id": "007844201000",
     "nombre": "SAONA",
     "svg": "Saona MARCADO v1.svg",
+    "rp04": "007",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -10633,6 +10718,7 @@
     "id": "007844101000",
     "nombre": "ANKARA",
     "svg": "Ankara Marcado v2.svg",
+    "rp04": "007",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_1_1",
@@ -10650,6 +10736,7 @@
     "id": "007845101000",
     "nombre": "BAIKAL",
     "svg": "Baikal -Marcado.svg",
+    "rp04": "007",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -10677,6 +10764,7 @@
     "id": "007846101000",
     "nombre": "FIORINO",
     "svg": "Fiorino MARCADO v1.svg",
+    "rp04": "007",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -10694,6 +10782,7 @@
     "id": "007849201000",
     "nombre": "TRIBECA E1",
     "svg": "TRIBECA 20-07-23 - Marcado.svg",
+    "rp04": "007",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -10745,6 +10834,7 @@
     "id": "007849202000",
     "nombre": "TRIBECA E2",
     "svg": "TRIBECA 20-07-23 - Marcado.svg",
+    "rp04": "007",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -10796,6 +10886,7 @@
     "id": "007849203000",
     "nombre": "TRIBECA E3",
     "svg": "TRIBECA 20-07-23 - Marcado.svg",
+    "rp04": "007",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -10847,6 +10938,7 @@
     "id": "014491101000",
     "nombre": "PORTO CASTELLO",
     "svg": "Porto Castello.svg",
+    "rp04": "008",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_1_1",
@@ -10874,6 +10966,7 @@
     "id": "014491201000",
     "nombre": "PORTO BAHIA",
     "svg": "PortoBahia MARCADO.svg",
+    "rp04": "008",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_1_1",
@@ -10891,6 +10984,7 @@
     "id": "014491301000",
     "nombre": "PORTO NOVO",
     "svg": "12 Porto Novo MARCADO.svg",
+    "rp04": "008",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_1_1",
@@ -10903,6 +10997,7 @@
     "id": "014507201000",
     "nombre": "TORRES DEL JARDIN F1",
     "svg": "F1.svg",
+    "rp04": "008",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_1_1",
@@ -10930,6 +11025,7 @@
     "id": "014507202000",
     "nombre": "TORRES DEL JARDIN F2",
     "svg": "F2.svg",
+    "rp04": "008",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_4_1",
@@ -10962,6 +11058,7 @@
     "id": "014507211000",
     "nombre": "ALAMEDA DEL JARDIN F1",
     "svg": "Alameda del Jardin_F1.svg",
+    "rp04": "008",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_1_1",
@@ -11011,6 +11108,7 @@
     "id": "014507212000",
     "nombre": "ALAMEDA DEL JARDIN F2",
     "svg": "aF2.svg",
+    "rp04": "008",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_5_1",
@@ -11065,6 +11163,7 @@
     "id": "014507221000",
     "nombre": "PALMERAS DEL JARDIN F1",
     "svg": "palmeras_del_jardin_F1.svg",
+    "rp04": "008",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_1_1",
@@ -11097,6 +11196,7 @@
     "id": "014507222000",
     "nombre": "PALMERAS DEL JARDIN F2",
     "svg": "palmeras_del_jardin_F2.svg",
+    "rp04": "008",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_4_1",
@@ -11129,6 +11229,7 @@
     "id": "014507241000",
     "nombre": "BALCONES DEL JARDIN F1",
     "svg": "11 BALCONES DEL JARDIN MARCADO.svg",
+    "rp04": "008",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_1_1",
@@ -11198,6 +11299,7 @@
     "id": "014507242000",
     "nombre": "BALCONES DEL JARDIN F2",
     "svg": "11 BALCONES DEL JARDIN MARCADO.svg",
+    "rp04": "008",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_1_1",
@@ -11267,6 +11369,7 @@
     "id": "014507261000",
     "nombre": "EL JARDIN ORQUIDEA E1",
     "svg": "Jardin Orquidea MARCADO 19-07-08 v1.svg",
+    "rp04": "008",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -11289,6 +11392,7 @@
     "id": "014507262000",
     "nombre": "EL JARDIN ORQUIDEA E2",
     "svg": "Jardin Orquidea MARCADO 19-07-08 v1.svg",
+    "rp04": "008",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -11311,6 +11415,7 @@
     "id": "014507271000",
     "nombre": "EL JARDIN CAMELIA E1",
     "svg": "El Jardin Camelia MARCADO v1.svg",
+    "rp04": "008",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -11348,6 +11453,7 @@
     "id": "014507272000",
     "nombre": "EL JARDIN CAMELIA E2",
     "svg": "El Jardin Camelia MARCADO v1.svg",
+    "rp04": "008",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -11385,6 +11491,7 @@
     "id": "014507281000",
     "nombre": "EL JARDIN LAUREL E1",
     "svg": "EL JARDIN LAUREL 20-07-30.svg",
+    "rp04": "008",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -11407,6 +11514,7 @@
     "id": "014507282000",
     "nombre": "EL JARDIN LAUREL E2",
     "svg": "EL JARDIN LAUREL 20-07-30.svg",
+    "rp04": "008",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -11456,6 +11564,7 @@
     "id": "014734101000",
     "nombre": "VERONA",
     "svg": "verona.svg",
+    "rp04": "008",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_1_1",
@@ -11493,6 +11602,7 @@
     "id": "014966101000",
     "nombre": "PUNTALTA ALTOFARO",
     "svg": "Puntalta AltoFaro Marcado.svg",
+    "rp04": "008",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_1_1",
@@ -11520,6 +11630,7 @@
     "id": "014966201000",
     "nombre": "PUNTALTA ALTAGRACIA",
     "svg": "PUNTALTA ALTAGRACIA MARCADO.svg",
+    "rp04": "008",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_1_1",
@@ -11646,6 +11757,7 @@
     "id": "014747201000",
     "nombre": "PARMA E1",
     "svg": "PARMA marcado.svg",
+    "rp04": "008",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -11673,6 +11785,7 @@
     "id": "014747202000",
     "nombre": "PARMA E2",
     "svg": "PARMA marcado.svg",
+    "rp04": "008",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -11700,6 +11813,7 @@
     "id": "014747203000",
     "nombre": "PARMA E3",
     "svg": "PARMA marcado.svg",
+    "rp04": "008",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
