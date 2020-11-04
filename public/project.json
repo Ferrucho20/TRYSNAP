@@ -11279,7 +11279,7 @@
     ]
   },
   {
-    "id": "014507281000", 
+    "id": "014507281000",
     "nombre": "EL JARDIN LAUREL E1",
     "svg": "EL JARDIN LAUREL 20-07-30.svg",
     "informacion": [
@@ -11301,7 +11301,7 @@
     ]
   },
   {
-    "id": "014507282000", 
+    "id": "014507282000",
     "nombre": "EL JARDIN LAUREL E2",
     "svg": "EL JARDIN LAUREL 20-07-30.svg",
     "informacion": [
@@ -11319,6 +11319,33 @@
         "idFrente": "L_ADM_TORRE_03_1",
         "idBase": "L_ADM_TORRE_03_0",
         "showOrHide": ["layer3", "layer4"]
+      }
+    ]
+  },
+  {
+    "id": "014734201000",
+    "nombre": "FIORENTTI",
+    "svg": "Fiorentti.svg",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_1_1",
+        "idBase": "L_ADM_TORRE_1_0",
+        "showOrHide": ["layer2", "layer10"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_2_1",
+        "idBase": "L_ADM_TORRE_2_0",
+        "showOrHide": ["layer3", "layer9"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_3_1",
+        "idBase": "L_ADM_TORRE_3_0",
+        "showOrHide": ["layer4", "layer8"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_4_1",
+        "idBase": "L_ADM_TORRE_4_0",
+        "showOrHide": ["layer5", "layer6"]
       }
     ]
   }
