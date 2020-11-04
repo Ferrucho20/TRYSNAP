@@ -2259,6 +2259,7 @@
     "id": "001084201000",
     "nombre": "CITY CENTER",
     "svg": "CITY CENTER marcado 19-10-02.svg",
+    "rp04": "001",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -2291,6 +2292,7 @@
     "id": "014507231000",
     "nombre": "BRISAS DEL JARDIN E1",
     "svg": "Brisas del Jardin-Marcado.svg",
+    "rp04": "008",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_1_1",
@@ -2372,6 +2374,7 @@
     "id": "014507232000",
     "nombre": "BRISAS DEL JARDIN E2",
     "svg": "Brisas del Jardin-Marcado.svg",
+    "rp04": "008",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_1_1",
@@ -2451,8 +2454,9 @@
   },
   {
     "id": "023985101000",
-    "nombre": "MACADAMIA E1",
+    "nombre": "MACADAMIA F-1",
     "svg": "Macadamia MARCADO 19-07-08 v2.svg",
+    "rp04": "002",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -2553,8 +2557,9 @@
   },
   {
     "id": "023985201000",
-    "nombre": "MACADAMIA E2",
+    "nombre": "MACADAMIA F-2",
     "svg": "Macadamia MARCADO 19-07-08 v2.svg",
+    "rp04": "002",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -2655,8 +2660,9 @@
   },
   {
     "id": "023985301000",
-    "nombre": "MACADAMIA E3",
+    "nombre": "MACADAMIA F-3",
     "svg": "Macadamia MARCADO 19-07-08 v2.svg",
+    "rp04": "002",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -2759,6 +2765,7 @@
     "id": "005932102000",
     "nombre": "VALLARTA",
     "svg": "Vallarta MARCADO.SVG",
+    "rp04": "005",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_1_1",
