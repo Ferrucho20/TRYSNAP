@@ -10056,6 +10056,7 @@
     "id": "007827101000",
     "nombre": "SAN RAFAEL",
     "svg": "San Rafael.svg",
+    "rp04": "007",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_1_1",
