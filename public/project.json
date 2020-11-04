@@ -3,6 +3,7 @@
     "id": "002079201000",
     "nombre": "LA FLORA ALSACIA RESERVADO",
     "svg": "LA FLORA 20-07-10.svg",
+    "rp04": "002",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -20,6 +21,7 @@
     "id": "002848251000",
     "nombre": "LOIRA E1 CIUDAD LA SALLE",
     "svg": "LOIRA 20-09-10.svg",
+    "rp04": "002",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -47,6 +49,7 @@
     "id": "002848252000",
     "nombre": "LOIRA E2 CIUDAD LA SALLE",
     "svg": "LOIRA 20-09-10.svg",
+    "rp04": "002",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -74,6 +77,7 @@
     "id": "002080501000",
     "nombre": "LA CABRERA E1",
     "svg": "LA CABRERA 20-10-15 (1) (1).svg",
+    "rp04": "002",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_02_1",
@@ -131,6 +135,7 @@
     "id": "002080502000",
     "nombre": "LA CABRERA E2",
     "svg": "LA CABRERA 20-10-15 (1) (1).svg",
+    "rp04": "002",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_02_1",
@@ -188,6 +193,7 @@
     "id": "002080503000",
     "nombre": "LA CABRERA E3",
     "svg": "LA CABRERA 20-10-15 (1) (1).svg",
+    "rp04": "002",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_02_1",
@@ -246,6 +252,7 @@
     "id": "005937451000",
     "nombre": "PUERTA DORADA ARRECIFE E1",
     "svg": "ARRECIFE 1 19-09-05 marcado v1.svg",
+    "rp04": "005",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_00_1",
@@ -258,6 +265,7 @@
     "id": "005937452000",
     "nombre": "PUERTA DORADA ARRECIFE E2",
     "svg": "ARRECIFE 2 20-08-18 marcado.svg",
+    "rp04": "005",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_17_1",
@@ -336,6 +344,7 @@
     "id": "005937453000",
     "nombre": "PUERTA DORADA ARRECIFE E3",
     "svg": "ARRECIFE 2 20-08-18 marcado.svg",
+    "rp04": "005",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_17_1",
@@ -414,6 +423,7 @@
     "id": "005937454000",
     "nombre": "PUERTA DORADA ARRECIFE E4",
     "svg": "ARRECIFE 2 20-08-18 marcado.svg",
+    "rp04": "005",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_17_1",
@@ -492,6 +502,7 @@
     "id": "002848301000",
     "nombre": "SAINT MICHEL CIUDAD LA SALLE",
     "svg": "SAINT MICHEL 20-10-06.svg",
+    "rp04": "002",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -519,6 +530,7 @@
     "id": "023986101000",
     "nombre": "FRESNO F-1",
     "svg": "FRESNO marcado  20-08-18.svg",
+    "rp04": "002",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_07_1",
@@ -576,6 +588,7 @@
     "id": "023986201000",
     "nombre": "FRESNO F-2",
     "svg": "FRESNO marcado  20-08-18.svg",
+    "rp04": "002",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_07_1",
@@ -633,6 +646,7 @@
     "id": "023986301000",
     "nombre": "FRESNO F-3",
     "svg": "FRESNO marcado  20-08-18.svg",
+    "rp04": "002",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_07_1",
@@ -690,6 +704,7 @@
     "id": "002848101000",
     "nombre": "MONTPELLIER CIUDAD LA SALLE",
     "svg": "MONTPELLIER marcado 20-10-20.svg",
+    "rp04": "002",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_03_1",
@@ -712,6 +727,7 @@
     "id": "021072601000",
     "nombre": "ABADIA SAN RAFAEL E1",
     "svg": "ABADIA SVG - marcado.svg",
+    "rp04": "002",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -798,6 +814,7 @@
     "id": "021072602000",
     "nombre": "ABADIA SAN RAFAEL E2",
     "svg": "ABADIA SVG - marcado.svg",
+    "rp04": "002",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -884,6 +901,7 @@
     "id": "021072603000",
     "nombre": "ABADIA SAN RAFAEL E3",
     "svg": "ABADIA SVG - marcado.svg",
+    "rp04": "002",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -970,6 +988,7 @@
     "id": "024874101000",
     "nombre": "CIUDAD DEL PARQUE SALAMANCA E1",
     "svg": "SALAMANCA marcado 20-10-15.svg",
+    "rp04": "005",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -1063,6 +1082,7 @@
     "id": "024874102000",
     "nombre": "CIUDAD DEL PARQUE SALAMANCA E2",
     "svg": "SALAMANCA marcado 20-10-15.svg",
+    "rp04": "005",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -1156,6 +1176,7 @@
     "id": "005523201000",
     "nombre": "DIMARO",
     "svg": "DIMARO MARCADO 20-10-16.svg",
+    "rp04": "005",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -1193,6 +1214,7 @@
     "id": "024749651000",
     "nombre": "CIUDAD DEL PARQUE NUKAK E1",
     "svg": "NUKAK Marcado 20-02-05.svg",
+    "rp04": "005",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -1265,6 +1287,7 @@
     "id": "024749652000",
     "nombre": "CIUDAD DEL PARQUE NUKAK E2",
     "svg": "NUKAK Marcado 20-02-05.svg",
+    "rp04": "005",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -1337,6 +1360,7 @@
     "id": "005523101000",
     "nombre": "FLORENCIA E1",
     "svg": "FLORENCIA MARCADO 20-02-14.svg",
+    "rp04": "005",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -1398,6 +1422,7 @@
     "id": "005523102000",
     "nombre": "FLORENCIA E2",
     "svg": "FLORENCIA MARCADO 20-02-14.svg",
+    "rp04": "005",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -1459,6 +1484,7 @@
     "id": "005523103000",
     "nombre": "FLORENCIA E3",
     "svg": "FLORENCIA MARCADO 20-02-14.svg",
+    "rp04": "005",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -1520,6 +1546,7 @@
     "id": "024749601000",
     "nombre": "CIUDAD DEL PARQUE LOS KATIOS E1",
     "svg": "KATIOS marcado 20-02-04.svg",
+    "rp04": "005",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -1661,6 +1688,7 @@
     "id": "024749602000",
     "nombre": "CIUDAD DEL PARQUE LOS KATIOS E2",
     "svg": "KATIOS marcado 20-02-04.svg",
+    "rp04": "005",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -1802,6 +1830,7 @@
     "id": "014747101000",
     "nombre": "MILAN",
     "svg": "Milan MARCADO v1.svg",
+    "rp04": "008",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -1829,6 +1858,7 @@
     "id": "005516101000",
     "nombre": "LA PLAZUELA",
     "svg": "LA PLAZUELA 20-08-12.svg",
+    "rp04": "005",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -1883,6 +1913,7 @@
     "id": "012496151000",
     "nombre": "EL COUNTRY - MASAI",
     "svg": "MASAI 19-09-03 marcado.svg",
+    "rp04": "001",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -1910,6 +1941,7 @@
     "id": "002498201000",
     "nombre": "ZAJARI - ZENTRAL",
     "svg": "Zajari 19-07-17 MARCADO v1.svg",
+    "rp04": "002",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -1932,6 +1964,7 @@
     "id": "002510101000",
     "nombre": "PASEO DE SEVILLA",
     "svg": "09 PASEO DE SEVILLA marSVG 18-08-08 v2.svg",
+    "rp04": "002",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_1_1",
@@ -1995,6 +2028,7 @@
     "id": "005517101000",
     "nombre": "NAPOLI",
     "svg": "Napoli MARCADO.svg",
+    "rp04": "005",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -2081,6 +2115,7 @@
     "id": "005937501000",
     "nombre": "PUERTA DORADA EL LAGO E1",
     "svg": "Puerta Dorada El Lago marcado v2.svg",
+    "rp04": "005",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -2138,6 +2173,7 @@
     "id": "005937502000",
     "nombre": "PUERTA DORADA EL LAGO E2",
     "svg": "Puerta Dorada El Lago marcado v2.svg",
+    "rp04": "005",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -2195,6 +2231,7 @@
     "id": "003088101000",
     "nombre": "SAMARIA",
     "svg": "Samaria - Marcado.svg",
+    "rp04": "003",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_1_1",
