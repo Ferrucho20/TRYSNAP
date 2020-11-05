@@ -11865,5 +11865,18 @@
         "showOrHide": ["layer2", "layer4"]
       }
     ]
+  },
+  {
+    "id": "001049201000",
+    "nombre": "RESERVA DE ANDALUCIA",
+    "svg": "Reserva Andalucia MARCADO 19-07-16 v1.svg",
+    "rp04": "001",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_01_1",
+        "idBase": "L_ADM_TORRE_01_0",
+        "showOrHide": ["layer2", "layer4"]
+      }
+    ]
   }
 ]
