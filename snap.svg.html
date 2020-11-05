@@ -1,170 +1,154 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
-    <meta content="utf-8" http-equiv="encoding" />
-    <link rel="stylesheet" type="text/css" href="/style.css" />
-    <title>Planos</title>
-    <script src="/snap.svg.js"></script>
 
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous"
-    />
-  </head>
+<head>
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+  <meta content="utf-8" http-equiv="encoding" />
+  <link rel="stylesheet" type="text/css" href="/style.css" />
+  <title>Planos</title>
+  <script src="/snap.svg.js"></script>
 
-  <body>
-    <div class="container" id="planos">
-      <div class="row" id="headrow">
-        <div class="col-3" id="searchbox">
-          <button id="elbutton" class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown"  >Sucursal</button>
-          <div class="dropdown-menu">
-            <button id="sucu1" class="dropdown-item" onclick="escribe1()">Bucaramanga</button>
-            <button id="sucu2" class="dropdown-item" onclick="escribe2()">Bogotá</button>
-            <button id="sucu3" class="dropdown-item" onclick="escribe3()">Barranquilla</button>
-            <button id="sucu4" class="dropdown-item" onclick="escribe4()">Cali</button>
-            <button id="sucu5" class="dropdown-item" onclick="escribe5()">Cartagena</button>
-          </div> 
-          <hr>
-          <input
-            type="text"
-            id="buscar-pal"
-            onkeyup="autocompletado()"
-            onclick="autocompletado1()"
-            style="border: solid 1px; z-index: -1; border-radius: 7px;"
-            placeholder="Buscar proyectos"
-          />
-          <ol id="demo"></ol>
-        </div>
-        <div class="col-6" id="titulo_proy">
-          <h3 id="elnombre"></h3>
-        </div>
-        <div class="col-3" data-toggle="tooltip" title="Info apto" id="mycard1">
-          <h6>INFORMACION APARTAMENTO</h6>
-        </div>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+</head>
+
+<body>
+  <div class="container" id="planos">
+    <div class="row" id="headrow">
+      <div class="col-3" id="searchbox">
+        <select name="Sucursal" id="lalist" style="border-radius: 5px;">
+          <option value="001" selected>Bucaramanga</option>
+          <option value="002">Bogota</option>
+          <option value="003">Santa Marta</option>
+          <option value="005">Barranquilla</option>
+          <option value="007">Cali</option>
+          <option value="008">Cartagena</option>
+        </select>
+        <hr>
+        <input type="text" id="buscar-pal" onkeyup="autocompletado()" onclick="autocompletado1()"
+          style="border: solid 1px; z-index: -1; border-radius: 7px;" placeholder="Buscar proyectos" />
+        <ol id="demo"></ol>
       </div>
-      <div class="row" id="bodyrow">
-        <div class="col-10" id="contenido">
-          <object style="height: 100%; width: 100%" id="svg">
-            <img src="marval.jpg" width="500" height="333"
-              style="
+      <div class="col-6" id="titulo_proy">
+        <h3 id="elnombre"></h3>
+      </div>
+      <div class="col-3" data-toggle="tooltip" title="Info apto" id="mycard1">
+        <h6>INFORMACION APARTAMENTO</h6>
+      </div>
+    </div>
+    <div class="row" id="bodyrow">
+      <div class="col-10" id="contenido">
+        <object style="height: 100%; width: 100%" id="svg">
+          <img src="marval.jpg" width="500" height="333" style="
                 position: relative;
                 left: 300px;
-                opacity: 0.4;"
-            />
-          </object>
-        </div>
-        <div class="col-2" id="card-body">
-          <div id="interno">
-            <p id="elpopover">
-              <span id="pro" class="badge badge-primary"> </span>
-              <small>por lanzar</small>
-            </p>
-            <p id="elpopover">
-              <span id="pro1" class="badge badge-secondary"> </span>
-              <small>en sala</small>
-            </p>
-            <p id="elpopover">
-              <span id="pro2" class="badge badge-success"> </span>
-              <small>opcionado</small>
-            </p>
-            <p id="elpopover">
-              <span id="pro3" class="badge badge-danger"> </span>
-              <small>vendido</small>
-            </p>
-            <p id="elpopover">
-              <span id="pro4" class="badge badge-warning"> </span>
-              <small>v mes actual</small>
-            </p>
-            <p id="elpopover">
-              <span id="pro5" class="badge badge-info"> </span>
-              <small>Escriturado</small>
-            </p>
-          </div>
+                opacity: 0.4;" />
+        </object>
+      </div>
+      <div class="col-2" id="card-body">
+        <div id="interno">
+          <p id="elpopover">
+            <span id="pro" class="badge badge-primary"> </span>
+            <small>por lanzar</small>
+          </p>
+          <p id="elpopover">
+            <span id="pro1" class="badge badge-secondary"> </span>
+            <small>en sala</small>
+          </p>
+          <p id="elpopover">
+            <span id="pro2" class="badge badge-success"> </span>
+            <small>opcionado</small>
+          </p>
+          <p id="elpopover">
+            <span id="pro3" class="badge badge-danger"> </span>
+            <small>vendido</small>
+          </p>
+          <p id="elpopover">
+            <span id="pro4" class="badge badge-warning"> </span>
+            <small>v mes actual</small>
+          </p>
+          <p id="elpopover">
+            <span id="pro5" class="badge badge-info"> </span>
+            <small>Escriturado</small>
+          </p>
         </div>
       </div>
     </div>
-    <!--plano svg-->
+  </div>
+  <!--plano svg-->
 
-    <script>
-      //SVG
-      var state2 = false;
-      var torre1 = true;
-      //Archivo de diseño del plano
-      var name = "";
-      var projectoID = "";
-      s = Snap("#svg");
-      //drawIt()
+  <script>
+    //SVG
+    var state2 = false;
+    var torre1 = true;
+    //Archivo de diseño del plano
+    var name = "";
+    var projectoID = "";
+    s = Snap("#svg");
+    //drawIt()
 
-      var proyectosJson = {};
-      var projectJson;
+    var proyectosJson = {};
+    var projectJson;
 
-      function getDatos() {
-        return new Promise((resolve, reject) => {
-          try {
-            fetch("/project.json")
-              .then((response) => response.json())
-              .then((data) => (projectJson = data))
-              .then(() => resolve(projectJson));
-          } catch (error) {
-            reject(error);
-          }
-        });
-      }
-
-      projectJson = getDatos();
-
-      function escribe1(){
-        var sucu = document.getElementById("sucu1").innerText;
-        var dropdown = document.getElementById("elbutton").innerHTML= sucu;
-        
-      }
-      function escribe2(){
-        var sucu = document.getElementById("sucu2").innerText;
-        var dropdown = document.getElementById("elbutton").innerHTML= sucu;
-      }
-      function escribe3(){
-        var sucu = document.getElementById("sucu3").innerText;
-        var dropdown = document.getElementById("elbutton").innerHTML= sucu;
-      }
-      function escribe4(){
-        var sucu = document.getElementById("sucu4").innerText;
-        var dropdown = document.getElementById("elbutton").innerHTML= sucu;
-      }
-      function escribe5(){
-        var sucu = document.getElementById("sucu5").innerText;
-        var dropdown = document.getElementById("elbutton").innerHTML= sucu;
-      }
-      //Search
-      function autocompletado1(){
-        cleanList()
-        for (indice in projectJson) {
-          var projecto = projectJson[indice];
-          var node = document.createElement("ol");
-              var link = document.createElement("a");
-              link.setAttribute("id", projectJson[indice].id);
-              link.innerHTML = projectJson[indice].nombre;
-              node.appendChild(link);
-              document.getElementById("demo").appendChild(node);
+    function getDatos() {
+      return new Promise((resolve, reject) => {
+        try {
+          fetch("/project.json")
+            .then((response) => response.json())
+            .then((data) => (projectJson = data))
+            .then(() => resolve(projectJson));
+        } catch (error) {
+          reject(error);
         }
-        fullLinks();
-      }
-      function autocompletado() {
-        var pal = document.getElementById("buscar-pal").value;
-        var tam = pal.length;
-        cleanList();
-        for (indice in projectJson) {
+      });
+    }
+
+    projectJson = getDatos();
+    function sortList() {
+      var ul = document.getElementById("demo");
+      Array.from(ul.getElementsByTagName("LI"))
+        .sort((a, b) => a.textContent.localeCompare(b.textContent))
+        .forEach(li => ul.appendChild(li));
+    }
+
+    //Search
+    function autocompletado1() {
+      let sucursal = document.getElementById("lalist");
+      cleanList()
+      for (indice in projectJson) {
+        var projecto = projectJson[indice];
+        var str2 = projecto.rp04;
+        if (sucursal.options[sucursal.selectedIndex].value == str2) {
           var projecto = projectJson[indice];
-          var str = projecto.nombre.substring(0, tam);
+          var node = document.createElement("LI");
+          var link = document.createElement("a");
+          link.setAttribute("id", projectJson[indice].id);
+          link.innerHTML = projectJson[indice].nombre;
+          node.appendChild(link);
+          document.getElementById("demo").appendChild(node);
+        }
+      }
+      fullLinks();
+      sortList();
+    }
+
+    function autocompletado() {
+      var pal = document.getElementById("buscar-pal").value;
+      var tam = pal.length;
+      let sucursal = document.getElementById("lalist");
+      cleanList();
+      for (indice in projectJson) {
+        var projecto = projectJson[indice];
+        var str = projecto.nombre.substring(0, tam);
+        var str2 = projecto.rp04;
+        if (sucursal.options[sucursal.selectedIndex].value == str2) {
           if (
             pal.length <= projecto.nombre.length &&
             pal.length != 0 &&
             projecto.nombre.length != 0
           ) {
             if (pal.toLowerCase() == str.toLowerCase()) {
-              var node = document.createElement("ol");
+              var node = document.createElement("LI");
               var link = document.createElement("a");
               link.setAttribute("id", projectJson[indice].id);
               link.innerHTML = projectJson[indice].nombre;
@@ -173,221 +157,218 @@
             }
           }
         }
-        fullLinks();
       }
+      fullLinks();
+      sortList();
+    }
 
-      function fullLinks() {
-        var lista = document.getElementById("demo");
-        var lista2 = lista.getElementsByTagName("ol");
-        var arr = [...lista2];
-        if (arr.length > 22){
-          document.getElementById("demo").setAttribute("style","height:500px; overflow-y:scroll;");
-        } else {
-          document.getElementById("demo").setAttribute("style","height:auto;");
-        }
-        for (var p = 0; p < arr.length; p++) {
-          var tempr = arr[p];
-          var cosaA = tempr.getElementsByTagName("a")[0].id;
-          createHandler(cosaA);
-        }
-        document.getElementById("demo").style.visibility="visible";
+    function fullLinks() {
+      var lista = document.getElementById("demo");
+      var lista2 = lista.getElementsByTagName("LI");
+      var arr = [...lista2];
+      if (arr.length > 22) {
+        document.getElementById("demo").setAttribute("style", "height:500px; overflow-y:scroll;");
+      } else {
+        document.getElementById("demo").setAttribute("style", "height:auto;");
       }
+      for (var p = 0; p < arr.length; p++) {
+        var tempr = arr[p];
+        var cosaA = tempr.getElementsByTagName("a")[0].id;
+        createHandler(cosaA);
+      }
+      document.getElementById("demo").style.visibility = "visible";
+    }
 
-      function createHandler(cosaA) {
-        this[cosaA] = document.getElementById(cosaA);
-        this["handler" + cosaA] = () => {
-          projectoID = cosaA;
-          for (indice2 in projectJson) {
-            if (cosaA == projectJson[indice2].id) {
-              name = projectJson[indice2].svg;
-              document.getElementById("elnombre").innerHTML =
-                projectJson[indice2].nombre;
-              killIt();
-              drawIt();
-              document.getElementById("buscar-pal").value = "";
-              cleanList();
-            }
+    function createHandler(cosaA) {
+      this[cosaA] = document.getElementById(cosaA);
+      this["handler" + cosaA] = () => {
+        projectoID = cosaA;
+        for (indice2 in projectJson) {
+          if (cosaA == projectJson[indice2].id) {
+            name = projectJson[indice2].svg;
+            document.getElementById("elnombre").innerHTML =
+              projectJson[indice2].nombre;
+            killIt();
+            drawIt();
+            document.getElementById("buscar-pal").value = "";
+            cleanList();
           }
-        };
-        this[cosaA].onclick = this["handler" + cosaA];
-      }
-
-      function cleanList() {
-        let borra = document.getElementById("demo");
-        while (borra.hasChildNodes()) {
-          borra.removeChild(borra.lastChild);
         }
-        borra.setAttribute("style","overflow-y:auto;");
+      };
+      this[cosaA].onclick = this["handler" + cosaA];
+    }
+
+    function cleanList() {
+      let borra = document.getElementById("demo");
+      while (borra.hasChildNodes()) {
+        borra.removeChild(borra.lastChild);
       }
+      borra.setAttribute("style", "overflow-y:auto;");
+    }
 
-      function drawIt() {
-        s = Snap("#svg");
-        //Carga del plano usando Snap
-        var fragment = Snap.load(name, (data) => {
-          //Asignación de colores a LOIRA 20-09-10os apartamentos por estado
-          s.append(data);
+    function drawIt() {
+      s = Snap("#svg");
+      //Carga del plano usando Snap
+      var fragment = Snap.load(name, (data) => {
+        //Asignación de colores a LOIRA 20-09-10os apartamentos por estado
+        s.append(data);
 
-          var dataPost = { CodPry: projectoID };
-          async function datos() {
-            const respuesta = await fetch(
-              "/api/api/sqlserver/JDEVTAS/getPlano",
-              {
-                method: "POST",
-                mode: "cors",
-                body: JSON.stringify(dataPost),
-                headers: {
-                  "Content-Type": "application/json",
-                  Accept: "application/json",
-                },
+        var dataPost = { CodPry: projectoID };
+        async function datos() {
+          const respuesta = await fetch(
+            "/api/api/sqlserver/JDEVTAS/getPlano",
+            {
+              method: "POST",
+              mode: "cors",
+              body: JSON.stringify(dataPost),
+              headers: {
+                "Content-Type": "application/json",
+                Accept: "application/json",
+              },
+            }
+          )
+            .then((response) => response.json())
+            .then((response) => {
+              for (var i = 0; i < response.dataList.length; i++) {
+                var apto = document.getElementById(
+                  response.dataList[i].CodLot
+                );
+                console.log(
+                  "apartamento " +
+                  i +
+                  " --> apto.CodLot = " +
+                  response.dataList[i].CodLot
+                );
+                apto.style.fill = response.dataList[i].EtqClr;
+                apto.style.opacity = "0.7";
+                //document.getElementById(name2.listaId[i].id).onmouseover = function() {mouseOver()};
+                //document.getElementById(name2.listaId[i].id).onmouseout = function() {mouseOut()};
+                apto.addEventListener("mouseover", myFunc, false);
+                apto.addEventListener("mouseout", myFunc2, false);
               }
-            )
-              .then((response) => response.json())
-              .then((response) => {
+              function myFunc() {
                 for (var i = 0; i < response.dataList.length; i++) {
-                  var apto = document.getElementById(
-                    response.dataList[i].CodLot
-                  );
-                  console.log(
-                    "apartamento " +
-                      i +
-                      " --> apto.CodLot = " +
+                  if (this.id == response.dataList[i].CodLot) {
+                    $(function () {
+                      $('[data-toggle="tooltip"]').tooltip();
+                    });
+                    var id = document.getElementById(
                       response.dataList[i].CodLot
-                  );
-                  apto.style.fill = response.dataList[i].EtqClr;
-                  apto.style.opacity = "0.7";
-                  //document.getElementById(name2.listaId[i].id).onmouseover = function() {mouseOver()};
-                  //document.getElementById(name2.listaId[i].id).onmouseout = function() {mouseOut()};
-                  apto.addEventListener("mouseover", myFunc, false);
-                  apto.addEventListener("mouseout", myFunc2, false);
-                }
-                function myFunc() {
-                  for (var i = 0; i < response.dataList.length; i++) {
-                    if (this.id == response.dataList[i].CodLot) {
-                      $(function () {
-                        $('[data-toggle="tooltip"]').tooltip();
-                      });
-                      var id = document.getElementById(
-                        response.dataList[i].CodLot
-                      );
-                      //Coordenadas X/Y
-                      var xCoords = event.clientX;
-                      var yCoords = event.clientY;
-                      //Nueva posición de las coordenadas
-                      var lacaja = document.getElementById("mycard1");
-                      if (xCoords < 950) {
-                        xCoords = xCoords + 40;
-                        lacaja.style.left = xCoords + "px";
-                      } else {
-                        xCoords = xCoords - 340;
-                        lacaja.style.left = xCoords + "px";
-                      }
-                      lacaja.style.top = yCoords + "px";
-                      lacaja.style.visibility = "visible";
-                      document.getElementById("mycard1").innerHTML =
-                        " " +
-                        response.dataList[i].EtqEst +
-                        " <br> " +
-                        response.dataList[i].EtqAre +
-                        " <br> " +
-                        response.dataList[i].EtqVlm +
-                        " <br> " +
-                        response.dataList[i].EtqFev +
-                        " <br> " +
-                        response.dataList[i].EtqVlb +
-                        " <br> " +
-                        response.dataList[i].EtqNcl;
-                      // + " <br> " + response.dataList[i].EtqClr;
-                      //document.getElementById("mititle").innerHTML = this.id;
+                    );
+                    //Coordenadas X/Y
+                    var xCoords = event.clientX;
+                    var yCoords = event.clientY;
+                    //Nueva posición de las coordenadas
+                    var lacaja = document.getElementById("mycard1");
+                    if (xCoords < 950) {
+                      xCoords = xCoords + 40;
+                      lacaja.style.left = xCoords + "px";
+                    } else {
+                      xCoords = xCoords - 340;
+                      lacaja.style.left = xCoords + "px";
                     }
+                    lacaja.style.top = yCoords + "px";
+                    lacaja.style.visibility = "visible";
+                    document.getElementById("mycard1").innerHTML =
+                      " " +
+                      response.dataList[i].EtqEst +
+                      " <br> " +
+                      response.dataList[i].EtqAre +
+                      " <br> " +
+                      response.dataList[i].EtqVlm +
+                      " <br> " +
+                      response.dataList[i].EtqFev +
+                      " <br> " +
+                      response.dataList[i].EtqVlb +
+                      " <br> " +
+                      response.dataList[i].EtqNcl;
+                    // + " <br> " + response.dataList[i].EtqClr;
+                    //document.getElementById("mititle").innerHTML = this.id;
                   }
                 }
-                function myFunc2() {
-                  for (var i = 0; i < response.dataList.length; i++) {
-                    if (this.id !== response.dataList[i].CodLot) {
-                      var lacaja = document.getElementById("mycard1");
-                      lacaja.style.visibility = "hidden";
-                    }
-                  }
-                }
-              })
-              .catch((error) => {
-                console.error("Error:", error);
-              });
-          }
-
-          datos();
-          var frente = "frenteTorre";
-          var base = "baseTorre";
-          var handShow = "handlerButtonClickShow";
-          var handHide = "handlerButtonClickHide";
-          var torre = "torre";
-
-          for (var i = 0; i < projectJson.length; i++) {
-            if (projectJson[i].id == projectoID) {
-              for (var j = 0; j < projectJson[i].informacion.length; j++) {
-                //Asignación del botón respecto a la base Torre 2
-
-                this[frente + j] = document.getElementById(
-                  projectJson[i].informacion[j].idFrente
-                );
-
-                //Asignación del botón respecto al frente Torre 2
-                this[base + j] = document.getElementById(
-                  projectJson[i].informacion[j].idBase
-                );
-
-                let listaShowHide = projectJson[i].informacion[j].showOrHide;
-                //función para mostrar
-                this[handShow + j] = () => {
-                  for (item in listaShowHide) {
-                    let este = document.getElementById(listaShowHide[item]);
-
-                    este.style.visibility = "visible";
-                  }
-                };
-                this[base + j].onclick = this[handShow + j];
-
-                //función para remover
-                this[handHide + j] = () => {
-                  for (item in listaShowHide) {
-                    let este2 = document.getElementById(listaShowHide[item]);
-                    este2.style.visibility = "hidden";
-                  }
-                };
-                this[frente + j].onclick = this[handHide + j];
               }
+              function myFunc2() {
+                for (var i = 0; i < response.dataList.length; i++) {
+                  if (this.id !== response.dataList[i].CodLot) {
+                    var lacaja = document.getElementById("mycard1");
+                    lacaja.style.visibility = "hidden";
+                  }
+                }
+              }
+            })
+            .catch((error) => {
+              console.error("Error:", error);
+            });
+        }
+
+        datos();
+        var frente = "frenteTorre";
+        var base = "baseTorre";
+        var handShow = "handlerButtonClickShow";
+        var handHide = "handlerButtonClickHide";
+        var torre = "torre";
+
+        for (var i = 0; i < projectJson.length; i++) {
+          if (projectJson[i].id == projectoID) {
+            for (var j = 0; j < projectJson[i].informacion.length; j++) {
+              //Asignación del botón respecto a la base Torre 2
+
+              this[frente + j] = document.getElementById(
+                projectJson[i].informacion[j].idFrente
+              );
+
+              //Asignación del botón respecto al frente Torre 2
+              this[base + j] = document.getElementById(
+                projectJson[i].informacion[j].idBase
+              );
+
+              let listaShowHide = projectJson[i].informacion[j].showOrHide;
+              //función para mostrar
+              this[handShow + j] = () => {
+                for (item in listaShowHide) {
+                  let este = document.getElementById(listaShowHide[item]);
+
+                  este.style.visibility = "visible";
+                }
+              };
+              this[base + j].onclick = this[handShow + j];
+
+              //función para remover
+              this[handHide + j] = () => {
+                for (item in listaShowHide) {
+                  let este2 = document.getElementById(listaShowHide[item]);
+                  este2.style.visibility = "hidden";
+                }
+              };
+              this[frente + j].onclick = this[handHide + j];
             }
           }
-        });
-      }
+        }
+      });
+    }
 
-      function killIt() {
-        var elem = document.getElementById("svg");
-        var obj1 = document.createElement("object");
-        obj1.setAttribute("id", "svg");
-        obj1.setAttribute("style", "height: 100%; width: 100%;");
+    function killIt() {
+      var elem = document.getElementById("svg");
+      var obj1 = document.createElement("object");
+      obj1.setAttribute("id", "svg");
+      obj1.setAttribute("style", "height: 100%; width: 100%;");
 
-        var element = document.getElementById("contenido");
-        element.appendChild(obj1);
-        elem.remove(elem);
-        return false;
-      }
-    </script>
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-      crossorigin="anonymous"
-    ></script>
-    <!--<svg></svg> -->
-  </body>
+      var element = document.getElementById("contenido");
+      element.appendChild(obj1);
+      elem.remove(elem);
+      return false;
+    }
+  </script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <!--<svg></svg> -->
+</body>
+
 </html>
