@@ -11839,18 +11839,5 @@
         "showOrHide": ["layer7", "layer8", "layer11", "layer12"]
       }
     ]
-  },
-  {
-    "id": "001049203000",
-    "nombre": "RESERVA DE CATALUÑA",
-    "svg": "Reserva Cataluña 19-07-16 MARCADO v1.svg",
-    "rp04": "001",
-    "informacion": [
-      {
-        "idFrente": "L_ADM_TORRE_02_1",
-        "idBase": "L_ADM_TORRE_02_0",
-        "showOrHide": ["layer2", "layer4"]
-      }
-    ]
   }
 ]
