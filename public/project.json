@@ -11839,5 +11839,18 @@
         "showOrHide": ["layer7", "layer8", "layer11", "layer12"]
       }
     ]
+  },
+  {
+    "id": "001049202000",
+    "nombre": "RESERVA DE ALCALA",
+    "svg": "Reserva Alcala MARVAL 19-07-17 v1.svg",
+    "rp04": "001",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_03_1",
+        "idBase": "L_ADM_TORRE_03_0",
+        "showOrHide": ["layer2", "layer4"]
+      }
+    ]
   }
 ]
