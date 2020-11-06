@@ -8805,6 +8805,7 @@
     "id": "005727201000",
     "nombre": "FIRENZE E1",
     "svg": "Firenze MARCADO 20-08-03.SVG",
+    "rp04": "005",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -8866,6 +8867,7 @@
     "id": "005727202000",
     "nombre": "FIRENZE E2",
     "svg": "Firenze MARCADO 20-08-03.SVG",
+    "rp04": "005",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
@@ -8927,6 +8929,7 @@
     "id": "005727203000",
     "nombre": "FIRENZE E3",
     "svg": "Firenze MARCADO 20-08-03.svg",
+    "rp04": "005",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
