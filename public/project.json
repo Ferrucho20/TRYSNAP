@@ -11879,5 +11879,81 @@
         "showOrHide": ["layer2", "layer4"]
       }
     ]
+  },
+  {
+    "id": "024874201000",
+    "nombre": "CIUDAD DEL PARQUE BARI E1",
+    "svg": "BARI 20-10-27 marcado.svg",
+    "rp04": "005",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_01_02_03_04_1",
+        "idBase": "L_ADM_TORRE_01_02_03_04_0",
+        "showOrHide": ["layer9", "layer10"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_06_05_1",
+        "idBase": "L_ADM_TORRE_06_05_0",
+        "showOrHide": ["layer11", "layer12"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_07_08_09_10_11_12_1",
+        "idBase": "L_ADM_TORRE_07_08_09_10_11_12_0",
+        "showOrHide": ["layer13", "layer14"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_13_14_15_1",
+        "idBase": "L_ADM_TORRE_13_14_15_0",
+        "showOrHide": ["layer7", "layer8"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_16_17_18_1",
+        "idBase": "L_ADM_TORRE_16_17_18_0",
+        "showOrHide": ["layer5", "layer6"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_19_20_21_22_23_24_25_1",
+        "idBase": "L_ADM_TORRE_19_20_21_22_23_24_25_0",
+        "showOrHide": ["layer3", "layer4"]
+      }
+    ]
+  },
+  {
+    "id": "024874202000",
+    "nombre": "CIUDAD DEL PARQUE BARI E1",
+    "svg": "BARI 20-10-27 marcado.svg",
+    "rp04": "005",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_01_02_03_04_1",
+        "idBase": "L_ADM_TORRE_01_02_03_04_0",
+        "showOrHide": ["layer9", "layer10"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_06_05_1",
+        "idBase": "L_ADM_TORRE_06_05_0",
+        "showOrHide": ["layer11", "layer12"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_07_08_09_10_11_12_1",
+        "idBase": "L_ADM_TORRE_07_08_09_10_11_12_0",
+        "showOrHide": ["layer13", "layer14"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_13_14_15_1",
+        "idBase": "L_ADM_TORRE_13_14_15_0",
+        "showOrHide": ["layer7", "layer8"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_16_17_18_1",
+        "idBase": "L_ADM_TORRE_16_17_18_0",
+        "showOrHide": ["layer5", "layer6"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_19_20_21_22_23_24_25_1",
+        "idBase": "L_ADM_TORRE_19_20_21_22_23_24_25_0",
+        "showOrHide": ["layer3", "layer4"]
+      }
+    ]
   }
 ]
