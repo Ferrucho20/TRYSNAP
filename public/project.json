@@ -1835,22 +1835,22 @@
       {
         "idFrente": "L_ADM_TORRE_01_1",
         "idBase": "L_ADM_TORRE_01_0",
-        "showOrHide": ["layer2", "layer7"]
+        "showOrHide": ["layer9", "layer10"]
       },
       {
         "idFrente": "L_ADM_TORRE_02_1",
         "idBase": "L_ADM_TORRE_02_0",
-        "showOrHide": ["layer3", "layer8"]
+        "showOrHide": ["layer7", "layer8"]
       },
       {
         "idFrente": "L_ADM_TORRE_03_1",
         "idBase": "L_ADM_TORRE_03_0",
-        "showOrHide": ["layer4", "layer9"]
+        "showOrHide": ["layer4", "layer3"]
       },
       {
         "idFrente": "L_ADM_TORRE_04_1",
         "idBase": "L_ADM_TORRE_04_0",
-        "showOrHide": ["layer5", "layer10"]
+        "showOrHide": ["layer5", "layer6"]
       }
     ]
   },
