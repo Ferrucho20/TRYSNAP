@@ -11546,6 +11546,7 @@
     "id": "014734201000",
     "nombre": "FIORENTTI",
     "svg": "Fiorentti.svg",
+    "rp04": "008",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_1_1",
