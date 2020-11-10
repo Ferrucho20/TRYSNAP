@@ -13,40 +13,95 @@
 </head>
 
 <body>
+
+
+
   <div class="container" id="planos">
-    <div class="text-center">
-      <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#modalGM">Dashboard</button>
-    </div>
-    <div class="modal fade" id="modalGM" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-xl" role="document"> 
-        <div class="modal-content">
-          <div class="modal-body mb-0 p-0">
-            <div style="height: auto">
-              <iframe src="https://analytics.zoho.com/open-view/1954380000009511373/b9208c002d3343cc94a2d00904368758" frameborder="0"
-                style="border:0; height: 650px; width: 100%;" allowfullscreen></iframe>
+    <div class="row">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary col-12">
+    <a class="navbar-brand" href="#">MARVAL</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <div class="text-center">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalGM">Dashboard</button>
+          </div>
+          <div class="modal fade" id="modalGM" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+              <div class="modal-content">
+                <div class="modal-body mb-0 p-0">
+                  <div style="height: auto">
+                    <iframe
+                      src="https://analytics.zoho.com/open-view/1954380000009511373/b9208c002d3343cc94a2d00904368758"
+                      frameborder="0" style="border:0; height: 650px; width: 100%;" allowfullscreen></iframe>
+                  </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                  <button type="button" class="btn btn-outline-primary btn-md" data-dismiss="modal">Close <i
+                      class="fas fa-times ml-1"></i></button>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="modal-footer justify-content-center">
-            <button type="button" class="btn btn-outline-primary btn-md" data-dismiss="modal">Close <i
-                class="fas fa-times ml-1"></i></button>
-          </div>
-        </div>
-      </div>
+
+        </li>
+        <li class="nav-item dropdown">
+          <!--<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Sucursal
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#"><option value="001">Bucaramanga</option></a>
+            <a class="dropdown-item" href="#"><option value="002">Bogota</option></a>
+            <a class="dropdown-item" href="#"><option value="003">Santa Marta</option></a>
+          </div>-->
+
+          <select name="Sucursal" id="lalist" style="border-radius: 5px;">
+            <!--<option selected>sucursal</option>-->
+            <option value="001" selected>Bucaramanga</option>
+            <option value="002">Bogota</option>
+            <option value="003">Santa Marta</option>
+            <option value="005">Barranquilla</option>
+            <option value="007">Cali</option>
+            <option value="008">Cartagena</option>
+          </select>
+        </li>
+      </ul>
     </div>
+  </nav>
+</div>
     <div class="row" id="headrow">
       <div class="col-3" id="searchbox">
-        <select name="Sucursal" onchange="cleanList()" id="lalist" style="border-radius: 5px;">
-          <option value="001" selected>Bucaramanga</option>
+        <!-- <div class="row">-->
+        <div class="col-6">
+          <div class="row">
+
+          </div>
+          <!-- <select  name="Sucursal" id="lalist" style="border-radius: 5px;">
+          <option selected>sucursal</option>
+          <option value="001">Bucaramanga</option>
           <option value="002">Bogota</option>
           <option value="003">Santa Marta</option>
           <option value="005">Barranquilla</option>
           <option value="007">Cali</option>
           <option value="008">Cartagena</option>
-        </select>
-        <hr>
-        <input type="text" id="buscar-pal" onkeyup="autocompletado()" onclick="autocompletado1()"
-          style="border: solid 1px; z-index: -1; border-radius: 7px;" placeholder="Buscar proyectos" />
-        <ol id="demo"></ol>
+        </select>-->
+          <hr>
+          <input type="text" id="buscar-pal" onkeyup="autocompletado()" onclick="autocompletado1()"
+            style="border: solid 1px; z-index: -1; border-radius: 7px;" placeholder="Buscar proyectos" />
+          <ol id="demo"></ol>
+
+        </div>
+        <!--<div class="col-6">-->
+        <!--</div>-->
+        <!--</div>-->
       </div>
       <div class="col-6" id="titulo_proy">
         <h3 id="elnombre"></h3>
@@ -54,6 +109,7 @@
       <div class="col-3" data-toggle="tooltip" title="Info apto" id="mycard1">
         <h6>INFORMACION APARTAMENTO</h6>
       </div>
+
     </div>
     <div class="row" id="bodyrow">
       <div class="col-10" id="contenido">
@@ -93,10 +149,47 @@
         </div>
       </div>
     </div>
-  </div>
-  <!--plano svg-->
 
+    <div class="row">
+      <div id="footer" class="card text-center bg-primary col-12">
+        <div class="elementor-element elementor-element-6fb016d elementor-widget elementor-widget-image"
+          data-id="6fb016d" data-element_type="widget" data-widget_type="image.default">
+          <div class="elementor-widget-container">
+            <div class="elementor-image">
+              <img src="https://marval.com.co/wp-content/uploads/2019/03/logoMarvalCut.png"
+                class="attachment-large size-large lazyloaded" alt="logoMarvalCut" loading="lazy"
+                sizes="(max-width: 304px) 100vw, 304px"
+                srcset="https://marval.com.co/wp-content/uploads/2019/03/logoMarvalCut.png 304w, https://marval.com.co/wp-content/uploads/2019/03/logoMarvalCut-300x66.png 300w"
+                data-ll-status="loaded" width="304" height="67"><noscript><img width="304" height="67"
+                  src="https://marval.com.co/wp-content/uploads/2019/03/logoMarvalCut.png"
+                  class="attachment-large size-large" alt="logoMarvalCut" loading="lazy"
+                  srcset="https://marval.com.co/wp-content/uploads/2019/03/logoMarvalCut.png 304w, https://marval.com.co/wp-content/uploads/2019/03/logoMarvalCut-300x66.png 300w"
+                  sizes="(max-width: 304px) 100vw, 304px" /></noscript> </div>
+          </div>
+          <div class="elementor-element elementor-element-9ac5e04 elementor-widget elementor-widget-heading"
+            data-id="9ac5e04" data-element_type="widget" data-widget_type="heading.default">
+            <div class="elementor-widget-container" style="color:azure">
+              <p class="elementor-heading-title elementor-size-default">Oficina principal</p>
+            </div>
+          </div>
+          <div class="elementor-element elementor-element-20f1a0d elementor-widget elementor-widget-text-editor"
+            data-id="20f1a0d" data-element_type="widget" data-widget_type="text-editor.default">
+            <div class="elementor-widget-container">
+              <div class="elementor-text-editor elementor-clearfix" style="color:azure; background-color: rgba(45, 45, 175, 0.253);">
+                <p>(7) 633 3987</p>
+                <p>Cra. 29 No. 45 – 45</p>
+                <p>Centro Empresarial</p>
+                <p>Metropolitan Business Park</p>
+                <p>Bucaramanga, Colombia</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <script>
+
     //SVG
     var state2 = false;
     var torre1 = true;
@@ -123,6 +216,9 @@
     }
 
     projectJson = getDatos();
+
+
+    //Search
     function sortList() {
       var ul = document.getElementById("demo");
       Array.from(ul.getElementsByTagName("LI"))
@@ -130,7 +226,7 @@
         .forEach(li => ul.appendChild(li));
     }
 
-    //Search
+
     function autocompletado1() {
       let sucursal = document.getElementById("lalist");
       cleanList()
@@ -152,6 +248,7 @@
     }
 
     function autocompletado() {
+      //console.log("lista:"+document.getElementById("lalist").getAttribute);
       var pal = document.getElementById("buscar-pal").value;
       var tam = pal.length;
       let sucursal = document.getElementById("lalist");
@@ -291,8 +388,6 @@
                     document.getElementById("mycard1").innerHTML =
                       " " +
                       response.dataList[i].EtqEst +
-                      " <br> " +
-                      response.dataList[i].EtqPrc +
                       " <br> " +
                       response.dataList[i].EtqAre +
                       " <br> " +
