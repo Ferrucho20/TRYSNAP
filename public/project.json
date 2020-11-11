@@ -11950,5 +11950,48 @@
         "showOrHide": ["layer3", "layer4"]
       }
     ]
+  },
+  {
+    "id": "024875101000",
+    "nombre": "CIUDAD DEL PARQUE COCUY E1",
+    "svg": "COCUY 1 20-10-23 MARCADO.SVG",
+    "rp04": "005",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_01_02_1",
+        "idBase": "L_ADM_TORRE_01_02_0",
+        "showOrHide": ["layer3", "layer4"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_03_04_1",
+        "idBase": "L_ADM_TORRE_03_04_0",
+        "showOrHide": ["layer5", "layer6"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_05_06_07_1",
+        "idBase": "L_ADM_TORRE_05_06_07_0",
+        "showOrHide": ["layer7", "layer8"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_08_09_10_1",
+        "idBase": "L_ADM_TORRE_08_09_10_0",
+        "showOrHide": ["layer9", "layer10"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_11_12_13_14_1",
+        "idBase": "L_ADM_TORRE_11_12_13_14_0",
+        "showOrHide": ["layer11", "layer15"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_27_28_29_30_1",
+        "idBase": "L_ADM_TORRE_27_28_29_30_0",
+        "showOrHide": ["layer13", "layer12"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_31_32_33_34_35_36_37_38_39_1",
+        "idBase": "L_ADM_TORRE_31_32_33_34_35_36_37_38_39_0",
+        "showOrHide": ["layer14", "layer16"]
+      }
+    ]
   }
 ]
