@@ -11993,5 +11993,23 @@
         "showOrHide": ["layer14", "layer16"]
       }
     ]
+  },
+  {
+    "id": "024875102000",
+    "nombre": "CIUDAD DEL PARQUE COCUY E2",
+    "svg": "COCUY 2 20-10-23 MARCADO.SVG",
+    "rp04": "005",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_20_19_18_17_16_15_1",
+        "idBase": "L_ADM_TORRE_20_19_18_17_16_15_0",
+        "showOrHide": ["layer3", "layer4"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_26_25_24_23_22_21_1",
+        "idBase": "L_ADM_TORRE_26_25_24_23_22_21_0",
+        "showOrHide": ["layer5", "layer6"]
+      }
+    ]
   }
 ]
