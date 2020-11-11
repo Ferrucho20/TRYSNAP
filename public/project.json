@@ -6524,19 +6524,6 @@
     ]
   },
   {
-    "id": "002470601000",
-    "nombre": "RESERVA DE LA SIERRA E-6",
-    "svg": "Reserva_de_la_Sierra T6.svg",
-    "rp04": "002",
-    "informacion": [
-      {
-        "idFrente": "L_ADM_TORRE_6_1",
-        "idBase": "L_ADM_TORRE_6_0",
-        "showOrHide": ["layer2", "layer3"]
-      }
-    ]
-  },
-  {
     "id": "002470401000",
     "nombre": "RESERVA DE LA SIERRA E-4",
     "svg": "reservadelasierra_T5.svg",
