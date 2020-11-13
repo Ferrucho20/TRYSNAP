@@ -12120,5 +12120,209 @@
         "showOrHide": ["layer3", "layer4"]
       }
     ]
+  },
+  {
+    "id": "021072401000",
+    "nombre": "LA FLORESTA SAN RAFAEL F1",
+    "svg": "La Floresta San Rafael MARCADO.SVG",
+    "rp04": "002",
+    "informacion": [
+      {
+        "idFrente": "",
+        "idBase": "",
+        "showOrHide": ["layer", "layer"]
+      },
+      {
+        "idFrente": "",
+        "idBase": "",
+        "showOrHide": ["layer9", "layer10"]
+      },
+      {
+        "idFrente": "",
+        "idBase": "",
+        "showOrHide": ["layer", "layer"]
+      },
+      {
+        "idFrente": "",
+        "idBase": "",
+        "showOrHide": ["layer", "layer"]
+      },
+      {
+        "idFrente": "",
+        "idBase": "",
+        "showOrHide": ["layer", "layer"]
+      },
+      {
+        "idFrente": "",
+        "idBase": "",
+        "showOrHide": ["layer", "layer"]
+      },
+      {
+        "idFrente": "",
+        "idBase": "",
+        "showOrHide": ["layer", "layer"]
+      },
+      {
+        "idFrente": "",
+        "idBase": "",
+        "showOrHide": ["layer", "layer"]
+      },
+      {
+        "idFrente": "",
+        "idBase": "",
+        "showOrHide": ["layer", "layer"]
+      },
+      {
+        "idFrente": "",
+        "idBase": "",
+        "showOrHide": ["layer", "layer"]
+      },
+      {
+        "idFrente": "",
+        "idBase": "",
+        "showOrHide": ["layer", "layer"]
+      },
+      {
+        "idFrente": "",
+        "idBase": "",
+        "showOrHide": ["layer", "layer"]
+      }
+    ]
+  },
+  {
+    "id": "021072402000", 
+    "nombre": "LA FLORESTA SAN RAFAEL F2",
+    "svg": "La Floresta San Rafael MARCADO.SVG",
+    "rp04": "002",
+    "informacion": [
+      {
+        "idFrente": "",
+        "idBase": "",
+        "showOrHide": ["layer", "layer"]
+      },
+      {
+        "idFrente": "",
+        "idBase": "",
+        "showOrHide": ["layer9", "layer10"]
+      },
+      {
+        "idFrente": "",
+        "idBase": "",
+        "showOrHide": ["layer", "layer"]
+      },
+      {
+        "idFrente": "",
+        "idBase": "",
+        "showOrHide": ["layer", "layer"]
+      },
+      {
+        "idFrente": "",
+        "idBase": "",
+        "showOrHide": ["layer", "layer"]
+      },
+      {
+        "idFrente": "",
+        "idBase": "",
+        "showOrHide": ["layer", "layer"]
+      },
+      {
+        "idFrente": "",
+        "idBase": "",
+        "showOrHide": ["layer", "layer"]
+      },
+      {
+        "idFrente": "",
+        "idBase": "",
+        "showOrHide": ["layer", "layer"]
+      },
+      {
+        "idFrente": "",
+        "idBase": "",
+        "showOrHide": ["layer", "layer"]
+      },
+      {
+        "idFrente": "",
+        "idBase": "",
+        "showOrHide": ["layer", "layer"]
+      },
+      {
+        "idFrente": "",
+        "idBase": "",
+        "showOrHide": ["layer", "layer"]
+      },
+      {
+        "idFrente": "",
+        "idBase": "",
+        "showOrHide": ["layer", "layer"]
+      }
+    ]
+  },
+  {
+    "id": "021072403000", 
+    "nombre": "LA FLORESTA SAN RAFAEL F3",
+    "svg": "La Floresta San Rafael MARCADO.SVG",
+    "rp04": "002",
+    "informacion": [
+      {
+        "idFrente": "",
+        "idBase": "",
+        "showOrHide": ["layer", "layer"]
+      },
+      {
+        "idFrente": "",
+        "idBase": "",
+        "showOrHide": ["layer9", "layer10"]
+      },
+      {
+        "idFrente": "",
+        "idBase": "",
+        "showOrHide": ["layer", "layer"]
+      },
+      {
+        "idFrente": "",
+        "idBase": "",
+        "showOrHide": ["layer", "layer"]
+      },
+      {
+        "idFrente": "",
+        "idBase": "",
+        "showOrHide": ["layer", "layer"]
+      },
+      {
+        "idFrente": "",
+        "idBase": "",
+        "showOrHide": ["layer", "layer"]
+      },
+      {
+        "idFrente": "",
+        "idBase": "",
+        "showOrHide": ["layer", "layer"]
+      },
+      {
+        "idFrente": "",
+        "idBase": "",
+        "showOrHide": ["layer", "layer"]
+      },
+      {
+        "idFrente": "",
+        "idBase": "",
+        "showOrHide": ["layer", "layer"]
+      },
+      {
+        "idFrente": "",
+        "idBase": "",
+        "showOrHide": ["layer", "layer"]
+      },
+      {
+        "idFrente": "",
+        "idBase": "",
+        "showOrHide": ["layer", "layer"]
+      },
+      {
+        "idFrente": "",
+        "idBase": "",
+        "showOrHide": ["layer", "layer"]
+      }
+    ]
   }
 ]
