@@ -12122,207 +12122,136 @@
     ]
   },
   {
-    "id": "021072401000",
-    "nombre": "LA FLORESTA SAN RAFAEL F1",
-    "svg": "La Floresta San Rafael MARCADO.SVG",
-    "rp04": "002",
+    "id": "012482201000",
+    "nombre": "VENTURA F-1",
+    "svg": "VENTURA MARCADO 20-11-17.svg",
+    "rp04": "001",
     "informacion": [
       {
-        "idFrente": "",
-        "idBase": "",
-        "showOrHide": ["layer", "layer"]
+        "idFrente": "L_ADM_TORRE_01_1",
+        "idBase": "L_ADM_TORRE_01_0",
+        "showOrHide": ["layer5", "layer6"]
       },
       {
-        "idFrente": "",
-        "idBase": "",
+        "idFrente": "L_ADM_TORRE_02_1",
+        "idBase": "L_ADM_TORRE_02_0",
         "showOrHide": ["layer9", "layer10"]
       },
       {
-        "idFrente": "",
-        "idBase": "",
-        "showOrHide": ["layer", "layer"]
+        "idFrente": "L_ADM_TORRE_03_1",
+        "idBase": "L_ADM_TORRE_03_0",
+        "showOrHide": ["layer12", "layer11"]
       },
       {
-        "idFrente": "",
-        "idBase": "",
-        "showOrHide": ["layer", "layer"]
+        "idFrente": "L_ADM_TORRE_04_1",
+        "idBase": "L_ADM_TORRE_04_0",
+        "showOrHide": ["layer3", "layer4"]
       },
       {
-        "idFrente": "",
-        "idBase": "",
-        "showOrHide": ["layer", "layer"]
-      },
-      {
-        "idFrente": "",
-        "idBase": "",
-        "showOrHide": ["layer", "layer"]
-      },
-      {
-        "idFrente": "",
-        "idBase": "",
-        "showOrHide": ["layer", "layer"]
-      },
-      {
-        "idFrente": "",
-        "idBase": "",
-        "showOrHide": ["layer", "layer"]
-      },
-      {
-        "idFrente": "",
-        "idBase": "",
-        "showOrHide": ["layer", "layer"]
-      },
-      {
-        "idFrente": "",
-        "idBase": "",
-        "showOrHide": ["layer", "layer"]
-      },
-      {
-        "idFrente": "",
-        "idBase": "",
-        "showOrHide": ["layer", "layer"]
-      },
-      {
-        "idFrente": "",
-        "idBase": "",
-        "showOrHide": ["layer", "layer"]
+        "idFrente": "L_ADM_TORRE_02_03_1",
+        "idBase": "L_ADM_TORRE_02_03_0",
+        "showOrHide": ["layer7", "layer8","layer9", "layer10","layer12", "layer11"]
       }
     ]
   },
   {
-    "id": "021072402000", 
-    "nombre": "LA FLORESTA SAN RAFAEL F2",
-    "svg": "La Floresta San Rafael MARCADO.SVG",
-    "rp04": "002",
+    "id": "012482202000",
+    "nombre": "VENTURA F-2",
+    "svg": "VENTURA MARCADO 20-11-17.svg",
+    "rp04": "001",
     "informacion": [
       {
-        "idFrente": "",
-        "idBase": "",
-        "showOrHide": ["layer", "layer"]
+        "idFrente": "L_ADM_TORRE_01_1",
+        "idBase": "L_ADM_TORRE_01_0",
+        "showOrHide": ["layer5", "layer6"]
       },
       {
-        "idFrente": "",
-        "idBase": "",
+        "idFrente": "L_ADM_TORRE_02_1",
+        "idBase": "L_ADM_TORRE_02_0",
         "showOrHide": ["layer9", "layer10"]
       },
       {
-        "idFrente": "",
-        "idBase": "",
-        "showOrHide": ["layer", "layer"]
+        "idFrente": "L_ADM_TORRE_03_1",
+        "idBase": "L_ADM_TORRE_03_0",
+        "showOrHide": ["layer12", "layer11"]
       },
       {
-        "idFrente": "",
-        "idBase": "",
-        "showOrHide": ["layer", "layer"]
+        "idFrente": "L_ADM_TORRE_04_1",
+        "idBase": "L_ADM_TORRE_04_0",
+        "showOrHide": ["layer3", "layer4"]
       },
       {
-        "idFrente": "",
-        "idBase": "",
-        "showOrHide": ["layer", "layer"]
-      },
-      {
-        "idFrente": "",
-        "idBase": "",
-        "showOrHide": ["layer", "layer"]
-      },
-      {
-        "idFrente": "",
-        "idBase": "",
-        "showOrHide": ["layer", "layer"]
-      },
-      {
-        "idFrente": "",
-        "idBase": "",
-        "showOrHide": ["layer", "layer"]
-      },
-      {
-        "idFrente": "",
-        "idBase": "",
-        "showOrHide": ["layer", "layer"]
-      },
-      {
-        "idFrente": "",
-        "idBase": "",
-        "showOrHide": ["layer", "layer"]
-      },
-      {
-        "idFrente": "",
-        "idBase": "",
-        "showOrHide": ["layer", "layer"]
-      },
-      {
-        "idFrente": "",
-        "idBase": "",
-        "showOrHide": ["layer", "layer"]
+        "idFrente": "L_ADM_TORRE_02_03_1",
+        "idBase": "L_ADM_TORRE_02_03_0",
+        "showOrHide": ["layer7", "layer8","layer9", "layer10","layer12", "layer11"]
       }
     ]
   },
   {
-    "id": "021072403000", 
-    "nombre": "LA FLORESTA SAN RAFAEL F3",
-    "svg": "La Floresta San Rafael MARCADO.SVG",
-    "rp04": "002",
+    "id": "012482203000",
+    "nombre": "VENTURA F-3",
+    "svg": "VENTURA MARCADO 20-11-17.svg",
+    "rp04": "001",
     "informacion": [
       {
-        "idFrente": "",
-        "idBase": "",
-        "showOrHide": ["layer", "layer"]
+        "idFrente": "L_ADM_TORRE_01_1",
+        "idBase": "L_ADM_TORRE_01_0",
+        "showOrHide": ["layer5", "layer6"]
       },
       {
-        "idFrente": "",
-        "idBase": "",
+        "idFrente": "L_ADM_TORRE_02_1",
+        "idBase": "L_ADM_TORRE_02_0",
         "showOrHide": ["layer9", "layer10"]
       },
       {
-        "idFrente": "",
-        "idBase": "",
-        "showOrHide": ["layer", "layer"]
+        "idFrente": "L_ADM_TORRE_03_1",
+        "idBase": "L_ADM_TORRE_03_0",
+        "showOrHide": ["layer12", "layer11"]
       },
       {
-        "idFrente": "",
-        "idBase": "",
-        "showOrHide": ["layer", "layer"]
+        "idFrente": "L_ADM_TORRE_04_1",
+        "idBase": "L_ADM_TORRE_04_0",
+        "showOrHide": ["layer3", "layer4"]
       },
       {
-        "idFrente": "",
-        "idBase": "",
-        "showOrHide": ["layer", "layer"]
+        "idFrente": "L_ADM_TORRE_02_03_1",
+        "idBase": "L_ADM_TORRE_02_03_0",
+        "showOrHide": ["layer7", "layer8","layer9", "layer10","layer12", "layer11"]
+      }
+    ]
+  },
+  {
+    "id": "012482204000",
+    "nombre": "VENTURA F-4",
+    "svg": "VENTURA MARCADO 20-11-17.svg",
+    "rp04": "001",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_01_1",
+        "idBase": "L_ADM_TORRE_01_0",
+        "showOrHide": ["layer5", "layer6"]
       },
       {
-        "idFrente": "",
-        "idBase": "",
-        "showOrHide": ["layer", "layer"]
+        "idFrente": "L_ADM_TORRE_02_1",
+        "idBase": "L_ADM_TORRE_02_0",
+        "showOrHide": ["layer9", "layer10"]
       },
       {
-        "idFrente": "",
-        "idBase": "",
-        "showOrHide": ["layer", "layer"]
+        "idFrente": "L_ADM_TORRE_03_1",
+        "idBase": "L_ADM_TORRE_03_0",
+        "showOrHide": ["layer12", "layer11"]
       },
       {
-        "idFrente": "",
-        "idBase": "",
-        "showOrHide": ["layer", "layer"]
+        "idFrente": "L_ADM_TORRE_04_1",
+        "idBase": "L_ADM_TORRE_04_0",
+        "showOrHide": ["layer3", "layer4"]
       },
       {
-        "idFrente": "",
-        "idBase": "",
-        "showOrHide": ["layer", "layer"]
-      },
-      {
-        "idFrente": "",
-        "idBase": "",
-        "showOrHide": ["layer", "layer"]
-      },
-      {
-        "idFrente": "",
-        "idBase": "",
-        "showOrHide": ["layer", "layer"]
-      },
-      {
-        "idFrente": "",
-        "idBase": "",
-        "showOrHide": ["layer", "layer"]
+        "idFrente": "L_ADM_TORRE_02_03_1",
+        "idBase": "L_ADM_TORRE_02_03_0",
+        "showOrHide": ["layer7", "layer8","layer9", "layer10","layer12", "layer11"]
       }
     ]
   }
+
 ]
