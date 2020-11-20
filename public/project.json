@@ -4937,58 +4937,6 @@
     ]
   },
   {
-    "id": "012482201000",
-    "nombre": "VENTURA F-1",
-    "svg": "Ventura F1 MARCADO.svg",
-    "rp04": "001",
-    "informacion": [
-      {
-        "idFrente": "L_ADM_TORRE_3_1",
-        "idBase": "L_ADM_TORRE_3_0_",
-        "showOrHide": ["layer2", "layer4"]
-      }
-    ]
-  },
-  {
-    "id": "012482202000",
-    "nombre": "VENTURA F-2",
-    "svg": "Ventura F2 MARCADO.svg",
-    "rp04": "001",
-    "informacion": [
-      {
-        "idFrente": "L_ADM_TORRE_2_1",
-        "idBase": "L_ADM_TORRE_2_0",
-        "showOrHide": ["layer2", "layer4"]
-      }
-    ]
-  },
-  {
-    "id": "012482203000",
-    "nombre": "VENTURA F-3",
-    "svg": "Ventura F3 MARCADO.svg",
-    "rp04": "001",
-    "informacion": [
-      {
-        "idFrente": "L_ADM_TORRE_1_1",
-        "idBase": "L_ADM_TORRE_1_0",
-        "showOrHide": ["layer2", "layer4"]
-      }
-    ]
-  },
-  {
-    "id": "012482204000",
-    "nombre": "VENTURA F-4",
-    "svg": "Ventura F4 MARCADO.svg",
-    "rp04": "001",
-    "informacion": [
-      {
-        "idFrente": "L_ADM_TORRE_4_1",
-        "idBase": "L_ADM_TORRE_4_0",
-        "showOrHide": ["layer2", "layer4"]
-      }
-    ]
-  },
-  {
     "id": "011617101000",
     "nombre": "MIRAFLORES DEL VALLE E1",
     "svg": "Miraflores del Valle 19-07-19 v2.svg",
