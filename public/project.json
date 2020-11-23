@@ -5529,18 +5529,18 @@
   {
     "id": "002079301000",
     "nombre": "LA RIOJA ALSACIA RESERVADO",
-    "svg": "La Rioja Alsacia Reservado-1 MARCADO v2.svg",
+    "svg": "LA RIOJA ALSACIA MARCADO 20-11-20.svg",
     "rp04": "002",
     "informacion": [
       {
-        "idFrente": "L_ADM_TORRE_1_1",
-        "idBase": "L_ADM_TORRE_1_0",
-        "showOrHide": ["layer2", "layer5"]
+        "idFrente": "L_ADM_TORRE_01_1",
+        "idBase": "L_ADM_TORRE_01_0",
+        "showOrHide": ["layer3", "layer4"]
       },
       {
-        "idFrente": "L_ADM_TORRE_2_1",
-        "idBase": "L_ADM_TORRE_2_0",
-        "showOrHide": ["layer3", "layer6"]
+        "idFrente": "L_ADM_TORRE_02_1",
+        "idBase": "L_ADM_TORRE_02_0",
+        "showOrHide": ["layer5", "layer6"]
       }
     ]
   },
