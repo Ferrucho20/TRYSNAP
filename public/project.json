@@ -7393,23 +7393,12 @@
       {
         "idFrente": "L_ADM_TORRE_05_0_1",
         "idBase": "L_ADM_TORRE_05_0_0",
-        "showOrHide": [
-          "layer19",
-          "layer6",
-          "layer7",
-          "layer20",
-          "layer11",
-          "layer24",
-          "layer12",
-          "layer25",
-          "layer13",
-          "layer26"
-        ]
+        "showOrHide": ["layer9", "layer22","layer10", "layer23","layer8", "layer21"]
       },
       {
         "idFrente": "L_ADM_TORRE_01_04_1",
         "idBase": "L_ADM_TORRE_01_04_0",
-        "showOrHide": []
+        "showOrHide": ["layer19","layer6","layer7", "layer20","layer11", "layer24","layer12", "layer25","layer13", "layer26"]
       }
     ]
   },
@@ -7472,23 +7461,12 @@
       {
         "idFrente": "L_ADM_TORRE_05_0_1",
         "idBase": "L_ADM_TORRE_05_0_0",
-        "showOrHide": [
-          "layer19",
-          "layer6",
-          "layer7",
-          "layer20",
-          "layer11",
-          "layer24",
-          "layer12",
-          "layer25",
-          "layer13",
-          "layer26"
-        ]
+        "showOrHide": ["layer9", "layer22","layer10", "layer23","layer8", "layer21"]
       },
       {
         "idFrente": "L_ADM_TORRE_01_04_1",
         "idBase": "L_ADM_TORRE_01_04_0",
-        "showOrHide": []
+        "showOrHide": ["layer19","layer6","layer7", "layer20","layer11", "layer24","layer12", "layer25","layer13", "layer26"]
       }
     ]
   },
@@ -7551,23 +7529,12 @@
       {
         "idFrente": "L_ADM_TORRE_05_0_1",
         "idBase": "L_ADM_TORRE_05_0_0",
-        "showOrHide": [
-          "layer19",
-          "layer6",
-          "layer7",
-          "layer20",
-          "layer11",
-          "layer24",
-          "layer12",
-          "layer25",
-          "layer13",
-          "layer26"
-        ]
+        "showOrHide": ["layer9", "layer22","layer10", "layer23","layer8", "layer21"]
       },
       {
         "idFrente": "L_ADM_TORRE_01_04_1",
         "idBase": "L_ADM_TORRE_01_04_0",
-        "showOrHide": []
+        "showOrHide": ["layer19","layer6","layer7", "layer20","layer11", "layer24","layer12", "layer25","layer13", "layer26"]
       }
     ]
   },
