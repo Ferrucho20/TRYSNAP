@@ -7337,7 +7337,7 @@
   {
     "id": "021072501000",
     "nombre": "BOSQUES SAN RAFAEL F1",
-    "svg": "Bosques San Rafael - Marcado.svg",
+    "svg": "Bosques San Rafael - Marcado 20-12-02.svg",
     "rp04": "002",
     "informacion": [
       {
@@ -7391,21 +7391,21 @@
         "showOrHide": ["layer13", "layer26"]
       },
       {
-        "idFrente": "L_ADM_TORRE_05_0_1",
-        "idBase": "L_ADM_TORRE_05_0_0",
-        "showOrHide": ["layer9", "layer22","layer10", "layer23","layer8", "layer21"]
+        "idFrente": "L_ADM_TORRE_06_07_1",
+        "idBase": "L_ADM_TORRE_06_07_0",
+        "showOrHide": ["layer21","layer8","layer10", "layer23","layer9", "layer22"]
       },
       {
-        "idFrente": "L_ADM_TORRE_01_04_1",
-        "idBase": "L_ADM_TORRE_01_04_0",
-        "showOrHide": ["layer19","layer6","layer7", "layer20","layer11", "layer24","layer12", "layer25","layer13", "layer26"]
+        "idFrente": "L_ADM_TORRE_05_08_09_10_1",
+        "idBase": "L_ADM_TORRE_05_08_09_10_0",
+        "showOrHide": ["layer6","layer19","layer7", "layer20","layer11", "layer24","layer12", "layer25","layer13", "layer26"]
       }
     ]
   },
   {
     "id": "021072502000",
     "nombre": "BOSQUES SAN RAFAEL F2",
-    "svg": "Bosques San Rafael - Marcado.svg",
+    "svg": "Bosques San Rafael - Marcado 20-12-02.svg",
     "rp04": "002",
     "informacion": [
       {
@@ -7459,21 +7459,21 @@
         "showOrHide": ["layer13", "layer26"]
       },
       {
-        "idFrente": "L_ADM_TORRE_05_0_1",
-        "idBase": "L_ADM_TORRE_05_0_0",
-        "showOrHide": ["layer9", "layer22","layer10", "layer23","layer8", "layer21"]
+        "idFrente": "L_ADM_TORRE_06_07_1",
+        "idBase": "L_ADM_TORRE_06_07_0",
+        "showOrHide": ["layer21","layer8","layer10", "layer23","layer9", "layer22"]
       },
       {
-        "idFrente": "L_ADM_TORRE_01_04_1",
-        "idBase": "L_ADM_TORRE_01_04_0",
-        "showOrHide": ["layer19","layer6","layer7", "layer20","layer11", "layer24","layer12", "layer25","layer13", "layer26"]
+        "idFrente": "L_ADM_TORRE_05_08_09_10_1",
+        "idBase": "L_ADM_TORRE_05_08_09_10_0",
+        "showOrHide": ["layer6","layer19","layer7", "layer20","layer11", "layer24","layer12", "layer25","layer13", "layer26"]
       }
     ]
   },
   {
     "id": "021072503000",
     "nombre": "BOSQUES SAN RAFAEL F3",
-    "svg": "Bosques San Rafael - Marcado.svg",
+    "svg": "Bosques San Rafael - Marcado 20-12-02.svg",
     "rp04": "002",
     "informacion": [
       {
@@ -7527,14 +7527,14 @@
         "showOrHide": ["layer13", "layer26"]
       },
       {
-        "idFrente": "L_ADM_TORRE_05_0_1",
-        "idBase": "L_ADM_TORRE_05_0_0",
-        "showOrHide": ["layer9", "layer22","layer10", "layer23","layer8", "layer21"]
+        "idFrente": "L_ADM_TORRE_06_07_1",
+        "idBase": "L_ADM_TORRE_06_07_0",
+        "showOrHide": ["layer21","layer8","layer10", "layer23","layer9", "layer22"]
       },
       {
-        "idFrente": "L_ADM_TORRE_01_04_1",
-        "idBase": "L_ADM_TORRE_01_04_0",
-        "showOrHide": ["layer19","layer6","layer7", "layer20","layer11", "layer24","layer12", "layer25","layer13", "layer26"]
+        "idFrente": "L_ADM_TORRE_05_08_09_10_1",
+        "idBase": "L_ADM_TORRE_05_08_09_10_0",
+        "showOrHide": ["layer6","layer19","layer7", "layer20","layer11", "layer24","layer12", "layer25","layer13", "layer26"]
       }
     ]
   },
