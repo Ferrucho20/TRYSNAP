@@ -12167,6 +12167,57 @@
         "showOrHide": ["layer7", "layer8","layer9", "layer10","layer12", "layer11"]
       }
     ]
-  }
+  },
+  {
+    "id": "002079601000",
+    "nombre": "LA ALMERIA ALSACIA RESERVADO",
+    "svg": "ALMERIA 20-12-09 Marcado.svg",
+    "rp04": "002",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_01_1",
+        "idBase": "L_ADM_TORRE_01_0",
+        "showOrHide": ["layer5","layer6"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_02_1",
+        "idBase": "L_ADM_TORRE_02_0",
+        "showOrHide": ["layer4","layer3"]
+      }
+    ]
+  },
+  {
+    "id": "002410921000",
+    "nombre": "PEÑON DE ALICANTE",
+    "svg": "PEÑON DE ALICANTE 20-12-11 Marcado.svg",
+    "rp04": "002",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_01_1",
+        "idBase": "L_ADM_TORRE_01_0",
+        "showOrHide": ["layer11","layer12"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_02_1",
+        "idBase": "L_ADM_TORRE_02_0",
+        "showOrHide": ["layer9","layer10"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_03_1",
+        "idBase": "L_ADM_TORRE_03_0",
+        "showOrHide": ["layer7","layer8"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_04_1",
+        "idBase": "L_ADM_TORRE_04_0",
+        "showOrHide": ["layer4","layer3"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_05_1",
+        "idBase": "L_ADM_TORRE_05_0",
+        "showOrHide": ["layer6","layer5"]
+      }
+    ]
+  } 
 
 ]
