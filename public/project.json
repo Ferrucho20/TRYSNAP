@@ -10611,18 +10611,13 @@
   {
     "id": "007844201000",
     "nombre": "SAONA",
-    "svg": "Saona MARCADO v1.svg",
+    "svg": "SAONA 20-03-09(1).svg",
     "rp04": "007",
     "informacion": [
       {
         "idFrente": "L_ADM_TORRE_01_1",
         "idBase": "L_ADM_TORRE_01_0",
-        "showOrHide": ["layer2", "layer5"]
-      },
-      {
-        "idFrente": "L_ADM_TORRE_02_1",
-        "idBase": "L_ADM_TORRE_02_0",
-        "showOrHide": ["layer3", "layer6"]
+        "showOrHide": ["layer3", "layer4"]
       }
     ]
   },
