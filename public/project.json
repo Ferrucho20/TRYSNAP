@@ -11135,7 +11135,7 @@
   {
     "id": "014507241000",
     "nombre": "BALCONES DEL JARDIN F1",
-    "svg": "11 BALCONES DEL JARDIN MARCADO(1).SVG",
+    "svg": "11 BALCONES DEL JARDIN MARCADO_ant.svg", 
     "rp04": "008",
     "informacion": [
       {
@@ -11205,7 +11205,7 @@
   {
     "id": "014507242000",
     "nombre": "BALCONES DEL JARDIN F2",
-    "svg": "11 BALCONES DEL JARDIN MARCADO_ant.svg",
+    "svg": "11 BALCONES DEL JARDIN MARCADO(1).SVG",
     "rp04": "008",
     "informacion": [
       {
