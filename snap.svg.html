@@ -1,156 +1,147 @@
 <!DOCTYPE html>
-<html>
+<html style="height: 90%;">
 
 <head>
+  <title>MARVAL</title>
   <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
   <meta content="utf-8" http-equiv="encoding" />
-  <link rel="stylesheet" type="text/css" href="/style.css" />
-  <title>Planos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="/snap.svg.js"></script>
-
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+  <link rel="stylesheet" type="text/css" href="/style.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
 </head>
 
-<body>
-  <div class="container-fluid div-header">
-    <div class="row">
-      <div class="col-lg-4 col-md-5 col-sm-6 ">
-        <img src="logo.png" alt="" class="img-responsive">
-      </div>
-      <div class="col-lg-3 col-md-5 col-sm-6" style="top: 20px; right: 100px;">
-        <span class="badge badge-light">Sucursal</span>
-        <select name="Sucursal" onchange="cleanList()" id="lalist" style="border-radius: 5px;">
-          <option value="001" selected>Bucaramanga</option>
-          <option value="002">Bogota</option>
-          <option value="003">Santa Marta</option>
-          <option value="005">Barranquilla</option>
-          <option value="007">Cali</option>
-          <option value="008">Cartagena</option>
-        </select>
-      </div>
-      <div class="col-lg-3 col-md-1" style="top: 20px; right: 260px;">
-        <div class="text-center">
-          <button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#modalGM">Tablero
-            Ventas</button>
+<body style="height: 90%; background: url(fondo.jpg) no-repeat fixed center;">
+
+  <div style="background-color:whitesmoke; opacity: .9; padding: 15px;">
+    <img src="logoMarval.png" style="max-width: 100%; height: auto;">
+    <div style="float: right; margin-top: 30px;">
+      <b><span>Vista &nbsp;</span></b>
+      <div class="dropdown">
+        <button onclick="desplegarLista('listaOpcion')" class="dropbtn">Planos de Inventario &#9662;</button>
+        <div id="listaOpcion" class="dropdown-content" style="z-index: 2 !important;">
+          <a onclick="cambiarOpcion('planos')">Planos de Inventario</a>
+          <a onclick="cambiarOpcion('ventas')">Tablero de Ventas</a>
         </div>
-        <div class="modal fade" id="modalGM" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-          aria-hidden="true">
-          <div class="modal-dialog modal-xl" role="document">
-            <div class="modal-content">
-              <div class="modal-body mb-0 p-0">
-                <div style="height: auto">
-                  <iframe
-                    src="https://analytics.zoho.com/open-view/1954380000009511373/b9208c002d3343cc94a2d00904368758"
-                    frameborder="0" style="border:0; height: 650px; width: 100%;" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+
+  <div id="planos" style="overflow: hidden; width: 100%; height: 90%;">
+    <div class="menu">
+      <div class="menuitem" id="filtros">
+        <table cellpadding="4px">
+          <!--lista de sucursales-->
+          <tr>
+            <td>
+              <b><span>Sucursal</span></b>
+            </td>
+            <td>
+              <div class="dropdown" onclick="cleanList(); ocultarLista()">
+                <button id="btnSucursal" onclick="desplegarLista('listaSucursal')" class="dropbtn">Barranquilla &#9662;</button>
+                <div id="listaSucursal" class="dropdown-content" style="width: 200px; z-index: 2 !important;">
+                  <a onclick="asignarSucursal(this, '005')">Barranquilla</a>
+                  <a onclick="asignarSucursal(this, '002')">Bogotá</a>
+                  <a onclick="asignarSucursal(this, '001')">Bucaramanga</a>
+                  <a onclick="asignarSucursal(this, '007')">Cali</a>
+                  <a onclick="asignarSucursal(this, '008')">Cartagena</a>
+                  <a onclick="asignarSucursal(this, '003')">Santa Marta</a>
                 </div>
               </div>
-              <div class="modal-footer justify-content-center">
-                <button type="button" class="btn btn-outline-primary btn-md" data-dismiss="modal">Close <i
-                    class="fas fa-times ml-1"></i></button>
+            </td>
+          </tr>
+          <!--lista de ciudades-->
+          <tr>
+            <td>
+              <b><span>Ciudad</span></b>
+            </td>
+            <td>
+              <div class="dropdown" onclick="cleanList(); ocultarLista()">
+                <button id="btnCiudad" onclick="desplegarLista('listaCiudad')" class="dropbtn">Barranquilla &#9662;</button>
+                <div id="listaCiudad" class="dropdown-content" style="width: 200px;"></div>
               </div>
-            </div>
+            </td>
+          </tr>
+        </table>
+        <p id="codSucursal" style="color: transparent">005</p>
+        <p id="codCiudad" style="color: transparent"></p>
+      </div>
+      <div class="menuitem">
+        <!--barra de busqueda de proyectos-->
+        <b><span>Proyecto</span></b>
+        <br />
+        <input type="text" id="buscar-pal" onkeyup="autocompletado()" onclick="autocompletado1()" style="border: solid 1px; z-index: -1; border-radius: 5px; width: 100%;" placeholder="Buscar por Proyecto" />
+        <ol id="demo"></ol>
+      </div>
+      <div class="menuitem" style="width: 40%; background-color: transparent; border: none;">
+        <!-- cuadro de convenciones de color -->
+        <div id="card-body" style="display: none;">
+          <div id="interno">
+            <p id="elpopover">
+              <span id="pro" class="badge badge-primary"> </span>
+              <b>Por Lanzar</b>
+            </p>
+            <p id="elpopover">
+              <span id="pro6" class="badge badge-primary"> </span>
+              <b>Arriendos</b>
+            </p>
+            <p id="elpopover">
+              <span id="pro1" class="badge badge-secondary"> </span>
+              <b>En Sala</b>
+            </p>
+            <p id="elpopover">
+              <span id="pro2" class="badge badge-success"> </span>
+              <b>Opcionado</b>
+            </p>
+            <p id="elpopover">
+              <span id="pro3" class="badge badge-danger"> </span>
+              <b>Vendido</b>
+            </p>
+            <p id="elpopover">
+              <span id="pro4" class="badge badge-warning"> </span>
+              <b>V Mes Actual</b>
+            </p>
+            <p id="elpopover">
+              <span id="pro5" class="badge badge-info"> </span>
+              <b>Escriturado</b>
+            </p>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="container" id="planos">
 
-    <div class="row" id="headrow">
-      <div class="col-3" id="searchbox">
-        <hr>
-        <input type="text" id="buscar-pal" onkeyup="autocompletado()" onclick="autocompletado1()"
-          style="border: solid 1px; z-index: -1; border-radius: 7px;" placeholder="Buscar proyectos" />
-        <ol id="demo"></ol>
+    <div class="main">
+      <!--titulo del proyecto-->
+      <div id="titulo_proy" style="height: auto; text-align: center;">
+        <h1 id="elnombre" style="font-weight: bold; color: #000; text-shadow: 1px 2px gray;"></h1>
       </div>
-      <div class="col-6" id="titulo_proy">
-        <h3 id="elnombre"></h3>
+      <!--graficos svg-->
+      <div id="contenido" style="height: 200px; text-align: center;">
+        <img id="fondoMarval" src="logoMarvalAzul.png" style="width: 50%; margin-top: 5%; opacity: .9;"></img>
+        <object style="height: 100%; width: 100%; z-index: -1;" id="svg"></object>
       </div>
+      <!--tooltip de informacion de apartamento-->
       <div class="col-3" data-toggle="tooltip" title="Info apto" id="mycard1">
         <h6>INFORMACION APARTAMENTO</h6>
       </div>
     </div>
-    <div class="row" id="bodyrow">
-      <div class="col-10" id="contenido">
-        <object style="height: 100%; width: 100%; z-index: -1;" id="svg">
-          <img src="marval.jpg" width="500" height="210" style="
-                position: relative;
-                left: 300px;
-                opacity: 0.4;" />
-        </object>
-      </div>
-      <div class="col-2" id="card-body">
-        <div id="interno">
-          <p id="elpopover">
-            <span id="pro" class="badge badge-primary"> </span>
-            <small>por lanzar</small>
-          </p>
-          <p id="elpopover">
-            <span id="pro6" class="badge badge-primary"> </span>
-            <small>Arriendos</small>
-          </p>
-          <p id="elpopover">
-            <span id="pro1" class="badge badge-secondary"> </span>
-            <small>en sala</small>
-          </p>
-          <p id="elpopover">
-            <span id="pro2" class="badge badge-success"> </span>
-            <small>opcionado</small>
-          </p>
-          <p id="elpopover">
-            <span id="pro3" class="badge badge-danger"> </span>
-            <small>vendido</small>
-          </p>
-          <p id="elpopover">
-            <span id="pro4" class="badge badge-warning"> </span>
-            <small>v mes actual</small>
-          </p>
-          <p id="elpopover">
-            <span id="pro5" class="badge badge-info"> </span>
-            <small>Escriturado</small>
-          </p>
-        </div>
-      </div>
+  </div>
+
+  <div id="ventas" style="overflow: hidden; width: 100%; height: 100%; margin-top: 50px; margin-bottom: 20px; display: none;">
+    <div style="position: relative; height: 100%; margin-left: 10px; margin-right: 10px;">
+      <iframe id="frameVentas" style="width: 100%; height: 100%; border: none;" allowfullscreen></iframe>
     </div>
   </div>
-  <div class="container-fluid div-footer" style="z-index: 1;">
-    <div class="row">
-      <div class="col-lg-3 col-md-2">
-      </div>
-      <div class="col-lg-6 col-md-8">
-        <div class="row">
-          <p>
-            <a href="http://marval.com.co/contactanos/informacion-sobre-proyectos">
-              <img alt="" class="img_mail_footer" src="img/icono-contacto.png">
-              Env&iacute;anos un mensaje
-            </a>
-            <img alt="" class="img_mail_footer" src="img/icono-linea.png">
-            L&iacute;nea de atenci&oacute;n al cliente 57 - (7) 633 3987 - 642 2423
-          </p>
-        </div>
-        <div class="row">
-          <p>
-            MARVAL S.A. ©
-          </p>
-        </div>
-        <div class="row">
-          <p>
-            <a class="linkcondiciones" href="#">
-              2016 © Copyright Marval S.A. l Bucaramanga, Colombia.
-            </a>
-            <a href="http://marval.com.co/contactanos/informacion-sobre-proyectos">
-              Conozca nuestras sucursales aqu&iacute;
-            </a>
-            <a class="linkcondiciones" href="#">Texto Legal</a>
-          </p>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-2">
-      </div>
-    </div>
+
+  <div id="inventario" style="position: relative; height: 100%; margin-left: 10px; margin-right: 10px; margin-bottom: 20px;">
+    <iframe style="width: 100%; height: 100%; border: none;" src="https://analytics.zoho.com/open-view/1954380000010442013/20e140296d3623f943ab0843c88c972d" allowfullscreen></iframe>
   </div>
-  <!--plano svg-->
+
+  <div class="footer">
+    <b>
+      <p>2020 © Copyright Marval S.A. | Bucaramanga, Colombia.</p>
+    </b>
+  </div>
 
   <script>
     //SVG
@@ -179,28 +170,33 @@
     }
 
     projectJson = getDatos();
+
     function sortList() {
       var ul = document.getElementById("demo");
-      Array.from(ul.getElementsByTagName("LI"))
+      Array.from(ul.getElementsByTagName("li"))
         .sort((a, b) => a.textContent.localeCompare(b.textContent))
         .forEach(li => ul.appendChild(li));
     }
 
     //Search
     function autocompletado1() {
-      let sucursal = document.getElementById("lalist");
-      cleanList()
+      let sucursal = document.getElementById("codSucursal").innerText;
+      let ciudad = document.getElementById("codCiudad").innerText;
+      cleanList();
       for (indice in projectJson) {
         var projecto = projectJson[indice];
-        var str2 = projecto.rp04;
-        if (sucursal.options[sucursal.selectedIndex].value == str2) {
-          var projecto = projectJson[indice];
-          var node = document.createElement("LI");
-          var link = document.createElement("a");
-          link.setAttribute("id", projectJson[indice].id);
-          link.innerHTML = projectJson[indice].nombre;
-          node.appendChild(link);
-          document.getElementById("demo").appendChild(node);
+        if (sucursal == projecto.rp04) {
+          if (ciudad == projecto.rp05) {
+            var node = document.createElement("li");
+            var link = document.createElement("a");
+            link.setAttribute("id", projecto.id);
+            link.innerHTML = projecto.nombre;
+            node.appendChild(link);
+            node.style.width = "100%";
+            link.style.width = "100%";
+            link.style.textAlign = "left";
+            document.getElementById("demo").appendChild(node);
+          }
         }
       }
       fullLinks();
@@ -210,25 +206,30 @@
     function autocompletado() {
       var pal = document.getElementById("buscar-pal").value;
       var tam = pal.length;
-      let sucursal = document.getElementById("lalist");
+      let sucursal = document.getElementById("codSucursal").innerText;
+      let ciudad = document.getElementById("codCiudad").innerText;
       cleanList();
       for (indice in projectJson) {
         var projecto = projectJson[indice];
         var str = projecto.nombre.substring(0, tam);
-        var str2 = projecto.rp04;
-        if (sucursal.options[sucursal.selectedIndex].value == str2) {
-          if (
-            pal.length <= projecto.nombre.length &&
-            pal.length != 0 &&
-            projecto.nombre.length != 0
-          ) {
-            if (pal.toLowerCase() == str.toLowerCase()) {
-              var node = document.createElement("LI");
-              var link = document.createElement("a");
-              link.setAttribute("id", projectJson[indice].id);
-              link.innerHTML = projectJson[indice].nombre;
-              node.appendChild(link);
-              document.getElementById("demo").appendChild(node);
+        if (sucursal == projecto.rp04) {
+          if (ciudad == projecto.rp05) {
+            if (
+              pal.length <= projecto.nombre.length &&
+              pal.length != 0 &&
+              projecto.nombre.length != 0
+            ) {
+              if (pal.toLowerCase() == str.toLowerCase()) {
+                var node = document.createElement("li");
+                var link = document.createElement("a");
+                link.setAttribute("id", projecto.id);
+                link.innerHTML = projecto.nombre;
+                node.appendChild(link);
+                node.style.width = "100%";
+                link.style.width = "100%";
+                link.style.textAlign = "left";
+                document.getElementById("demo").appendChild(node);
+              }
             }
           }
         }
@@ -239,13 +240,9 @@
 
     function fullLinks() {
       var lista = document.getElementById("demo");
-      var lista2 = lista.getElementsByTagName("LI");
+      var lista2 = lista.getElementsByTagName("li");
       var arr = [...lista2];
-      if (arr.length > 22) {
-        document.getElementById("demo").setAttribute("style", "height:500px; overflow-y:scroll;");
-      } else {
-        document.getElementById("demo").setAttribute("style", "height:auto;");
-      }
+      document.getElementById("demo").setAttribute("style", "height: 300px; width: 100%;");
       for (var p = 0; p < arr.length; p++) {
         var tempr = arr[p];
         var cosaA = tempr.getElementsByTagName("a")[0].id;
@@ -261,8 +258,7 @@
         for (indice2 in projectJson) {
           if (cosaA == projectJson[indice2].id) {
             name = projectJson[indice2].svg;
-            document.getElementById("elnombre").innerHTML =
-              projectJson[indice2].nombre;
+            document.getElementById("elnombre").innerHTML = projectJson[indice2].nombre;
             killIt();
             drawIt();
             document.getElementById("buscar-pal").value = "";
@@ -282,55 +278,56 @@
     }
 
     function drawIt() {
+      document.getElementById("card-body").style.display = "block";
+      document.getElementById("fondoMarval").style.display = "none";
+
       s = Snap("#svg");
       //Carga del plano usando Snap
       var fragment = Snap.load(name, (data) => {
+
         //Asignación de colores a LOIRA 20-09-10os apartamentos por estado
         s.append(data);
 
-        var dataPost = { CodPry: projectoID };
+        var dataPost = {
+          CodPry: projectoID
+        };
         async function datos() {
           const respuesta = await fetch(
-            "/api/api/sqlserver/JDEVTAS/getPlano",
-            {
-              method: "POST",
-              mode: "cors",
-              body: JSON.stringify(dataPost),
-              headers: {
-                "Content-Type": "application/json",
-                Accept: "application/json",
-              },
-            }
-          )
+              "/api/api/sqlserver/JDEVTAS/getPlano", {
+                method: "POST",
+                mode: "cors",
+                body: JSON.stringify(dataPost),
+                headers: {
+                  "Content-Type": "application/json",
+                  Accept: "application/json",
+                },
+              }
+            )
             .then((response) => response.json())
             .then((response) => {
               for (var i = 0; i < response.dataList.length; i++) {
-                if (document.getElementById(response.dataList[i].CodLot)) {
-                  var apto = document.getElementById(
-                    response.dataList[i].CodLot
-                  );
-                  console.log("xxxxx")
-                  console.log(
-                    "apartamento " +
-                    i +
-                    " --> apto.CodLot = " +
-                    response.dataList[i].CodLot
-                  );
-                  apto.style.fill = response.dataList[i].EtqClr;
-                  apto.style.opacity = "0.7";
-                  //document.getElementById(name2.listaId[i].id).onmouseover = function() {mouseOver()};
-                  //document.getElementById(name2.listaId[i].id).onmouseout = function() {mouseOut()};
-                  apto.addEventListener("mouseover", myFunc, false);
-                  apto.addEventListener("mouseout", myFunc2, false);
-                }
-                else {
-                  console.log("error de id de inmueble" +  " --> apto.CodLot = " + response.dataList[i].CodLot )
-                }
+                var apto = document.getElementById(
+                  response.dataList[i].CodLot
+                );
+                console.log(
+                  "apartamento " +
+                  i +
+                  " --> apto.CodLot = " +
+                  response.dataList[i].CodLot
+                );
+                apto.style.fill = response.dataList[i].EtqClr;
+                apto.style.opacity = "0.7";
+                //document.getElementById(name2.listaId[i].id).onmouseover = function() {mouseOver()};
+                //document.getElementById(name2.listaId[i].id).onmouseout = function() {mouseOut()};
+                apto.addEventListener("mouseover", myFunc, false);
+                apto.addEventListener("mouseout", myFunc2, false);
               }
+
               function myFunc() {
+                console.log("mouseover");
                 for (var i = 0; i < response.dataList.length; i++) {
                   if (this.id == response.dataList[i].CodLot) {
-                    $(function () {
+                    $(function() {
                       $('[data-toggle="tooltip"]').tooltip();
                     });
                     var id = document.getElementById(
@@ -370,7 +367,9 @@
                   }
                 }
               }
+
               function myFunc2() {
+                console.log("mouseout");
                 for (var i = 0; i < response.dataList.length; i++) {
                   if (this.id !== response.dataList[i].CodLot) {
                     var lacaja = document.getElementById("mycard1");
@@ -410,7 +409,6 @@
               this[handShow + j] = () => {
                 for (item in listaShowHide) {
                   let este = document.getElementById(listaShowHide[item]);
-
                   este.style.visibility = "visible";
                 }
               };
@@ -441,16 +439,93 @@
       elem.remove(elem);
       return false;
     }
+
+    function ocultarLista() {
+      document.getElementById("demo").style.visibility = "hidden";
+    }
+
+    function cambiarOpcion(op) {
+      if (op == "planos") {
+        document.getElementById("planos").style.display = "block";
+        document.getElementById("inventario").style.display = "block";
+        document.getElementById("ventas").style.display = "none";
+      } else {
+        document.getElementById("planos").style.display = "none";
+        document.getElementById("inventario").style.display = "none";
+        document.getElementById("ventas").style.display = "block";
+        document.getElementById("frameVentas").src = "https://analytics.zoho.com/open-view/1954380000009511373/457c13fec63a79ccaf02897d18eb6957";
+      }
+    }
+
+    function desplegarLista(idLista) {
+      document.getElementById(idLista).classList.toggle("show");
+    }
+
+    function asignarSucursal(element, cod) {
+      document.getElementById("codSucursal").innerText = cod;
+      document.getElementById("btnSucursal").innerHTML = element.innerText + " &#9662;";
+      cargarCiudades();
+    }
+
+    function asignarCiudad(element, cod) {
+      document.getElementById("codCiudad").innerText = cod;
+      document.getElementById("btnCiudad").innerHTML = element.innerText + " &#9662;";
+    }
+
+    function cargarCiudades() {
+      var div = document.getElementById("listaCiudad");
+      while (div.hasChildNodes()) {
+        div.removeChild(div.lastChild);
+      }
+
+      var myArr = [];
+      let sucursal = document.getElementById("codSucursal").innerText;
+      for (indice in projectJson) {
+        var projecto = projectJson[indice];
+        if (sucursal == projecto.rp04) {
+          myArr[indice] = projecto.rp05 + "**" + projecto.ciudad;
+        }
+      }
+
+      var unique = myArr.filter(onlyUnique);
+      for (indice in unique.sort()) {
+        var sp = unique[indice].split("**");
+        var a = document.createElement("a");
+        a.setAttribute("onclick", "asignarCiudad(this, '" + sp[0] + "')");
+        a.innerText = sp[1];
+        div.appendChild(a);
+      }
+
+      var sp2 = unique[0].split("**");
+      document.getElementById("codCiudad").innerText = sp2[0];
+      document.getElementById("btnCiudad").innerHTML = sp2[1] + " &#9662;";
+    }
+
+    function onlyUnique(value, index, self) {
+      //elimina los elementos repetidos
+      return self.indexOf(value) === index;
+    }
+
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+
+    window.onload = function() {
+      cargarCiudades();
+    }
   </script>
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
   <!--<svg></svg> -->
 </body>
 
