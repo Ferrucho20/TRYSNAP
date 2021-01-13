@@ -11,21 +11,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
 </head>
 
-<body style="height: 90%; background: url(fondo.jpg) no-repeat fixed center;">
-
-  <div style="background-color:whitesmoke; opacity: .9; padding: 15px;">
-    <img src="logoMarval.png" style="max-width: 100%; height: auto;">
-    <div style="float: right; margin-top: 30px;">
-      <b><span>Vista &nbsp;</span></b>
-      <div class="dropdown">
-        <button onclick="desplegarLista('listaOpcion')" class="dropbtn">Planos de Inventario &#9662;</button>
-        <div id="listaOpcion" class="dropdown-content" style="z-index: 2 !important;">
-          <a onclick="cambiarOpcion('planos')">Planos de Inventario</a>
-          <a onclick="cambiarOpcion('ventas')">Tablero de Ventas</a>
-        </div>
-      </div>
-    </div>
-  </div>
+<body style="height: 90%;">
 
   <div id="planos" style="overflow: hidden; width: 100%; height: 90%;">
     <div class="menu">
@@ -37,7 +23,7 @@
               <b><span>Sucursal</span></b>
             </td>
             <td>
-              <div class="dropdown" onclick="cleanList(); ocultarLista()">
+              <div class="dropdown" onclick="cleanList(); ocultarLista();">
                 <button id="btnSucursal" onclick="desplegarLista('listaSucursal')" class="dropbtn">Barranquilla &#9662;</button>
                 <div id="listaSucursal" class="dropdown-content" style="width: 200px; z-index: 2 !important;">
                   <a onclick="asignarSucursal(this, '005')">Barranquilla</a>
@@ -56,7 +42,7 @@
               <b><span>Ciudad</span></b>
             </td>
             <td>
-              <div class="dropdown" onclick="cleanList(); ocultarLista()">
+              <div class="dropdown" onclick="cleanList(); ocultarLista();">
                 <button id="btnCiudad" onclick="desplegarLista('listaCiudad')" class="dropbtn">Barranquilla &#9662;</button>
                 <div id="listaCiudad" class="dropdown-content" style="width: 200px;"></div>
               </div>
@@ -117,7 +103,6 @@
       </div>
       <!--graficos svg-->
       <div id="contenido" style="height: 200px; text-align: center;">
-        <img id="fondoMarval" src="logoMarvalAzul.png" style="width: 50%; margin-top: 5%; opacity: .9;"></img>
         <object style="height: 100%; width: 100%; z-index: -1;" id="svg"></object>
       </div>
       <!--tooltip de informacion de apartamento-->
@@ -125,22 +110,6 @@
         <h6>INFORMACION APARTAMENTO</h6>
       </div>
     </div>
-  </div>
-
-  <div id="ventas" style="overflow: hidden; width: 100%; height: 100%; margin-top: 50px; margin-bottom: 20px; display: none;">
-    <div style="position: relative; height: 100%; margin-left: 10px; margin-right: 10px;">
-      <iframe id="frameVentas" style="width: 100%; height: 100%; border: none;" allowfullscreen></iframe>
-    </div>
-  </div>
-
-  <div id="inventario" style="position: relative; height: 100%; margin-left: 10px; margin-right: 10px; margin-bottom: 20px;">
-    <iframe style="width: 100%; height: 100%; border: none;" src="https://analytics.zoho.com/open-view/1954380000010442013/20e140296d3623f943ab0843c88c972d" allowfullscreen></iframe>
-  </div>
-
-  <div class="footer">
-    <b>
-      <p>2020 © Copyright Marval S.A. | Bucaramanga, Colombia.</p>
-    </b>
   </div>
 
   <script>
@@ -279,7 +248,6 @@
 
     function drawIt() {
       document.getElementById("card-body").style.display = "block";
-      document.getElementById("fondoMarval").style.display = "none";
 
       s = Snap("#svg");
       //Carga del plano usando Snap
@@ -444,19 +412,6 @@
       document.getElementById("demo").style.visibility = "hidden";
     }
 
-    function cambiarOpcion(op) {
-      if (op == "planos") {
-        document.getElementById("planos").style.display = "block";
-        document.getElementById("inventario").style.display = "block";
-        document.getElementById("ventas").style.display = "none";
-      } else {
-        document.getElementById("planos").style.display = "none";
-        document.getElementById("inventario").style.display = "none";
-        document.getElementById("ventas").style.display = "block";
-        document.getElementById("frameVentas").src = "https://analytics.zoho.com/open-view/1954380000009511373/457c13fec63a79ccaf02897d18eb6957";
-      }
-    }
-
     function desplegarLista(idLista) {
       document.getElementById(idLista).classList.toggle("show");
     }
@@ -520,7 +475,9 @@
     }
 
     window.onload = function() {
-      cargarCiudades();
+      setTimeout(() => {
+        cargarCiudades();
+      }, 2000);
     }
   </script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
