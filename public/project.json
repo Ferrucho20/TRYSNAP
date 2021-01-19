@@ -12410,5 +12410,78 @@
         "showOrHide": ["layer17", "layer18"]
       }
     ]
+  },
+  {
+    "id": "",
+    "nombre": "CRISTALINA",
+    "svg": "CRISTALINA 21-01-13.svg",
+    "rp04": "",
+    "rp05": "",
+    "ciudad": "",
+    "informacion": [{
+        "idFrente": "L_ADM_TORRE_13_14_15_16_17_1",
+        "idBase": "L_ADM_TORRE_13_14_15_16_17_0",
+        "showOrHide": ["layer7", "layer8"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_08_09_10_11_12_1",
+        "idBase": "L_ADM_TORRE_08_09_10_11_12_0",
+        "showOrHide": ["layer5", "layer6"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_01_02_03_04_05_06_07_1",
+        "idBase": "L_ADM_TORRE_01_02_03_04_05_06_07_0",
+        "showOrHide": ["layer3", "layer4"]
+      }
+    ]
+  },
+  {
+    "id": "002080701000",
+    "nombre": "EL ROSAL E1",
+    "svg": "EL ROSAL 21-01-18.svg",
+    "rp04": "002",
+    "rp05": "002",
+    "ciudad": "Bogotá",
+    "informacion": [{
+        "idFrente": "L_ADM_TORRE_22_1",
+        "idBase": "L_ADM_TORRE_22_0",
+        "showOrHide": ["layer17", "layer18"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_19_20_21_1",
+        "idBase": "L_ADM_TORRE_19_20_21_0",
+        "showOrHide": ["layer15", "layer16"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_16_17_18_1",
+        "idBase": "L_ADM_TORRE_16_17_18_0",
+        "showOrHide": ["layer13", "layer14"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_13_14_15_1",
+        "idBase": "L_ADM_TORRE_13_14_15_0",
+        "showOrHide": ["layer11", "layer12"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_10_11_12_1",
+        "idBase": "L_ADM_TORRE_10_11_12_0",
+        "showOrHide": ["layer7", "layer8"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_07_08_09_1",
+        "idBase": "L_ADM_TORRE_07_08_09_0",
+        "showOrHide": ["layer9", "layer10"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_04_05_06_1",
+        "idBase": "L_ADM_TORRE_04_05_06_0",
+        "showOrHide": ["layer5", "layer6"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_01_02_03_1",
+        "idBase": "L_ADM_TORRE_01_02_03_0",
+        "showOrHide": ["layer3", "layer4"]
+      }
+    ]
   }
 ]
