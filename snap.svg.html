@@ -11,9 +11,9 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
 </head>
 
-<body style="height: 90%;">
+<body style="height: 100%;">
 
-  <div id="planos" style="overflow: hidden; width: 100%; height: 90%;">
+  <div id="planos" style="overflow: hidden; width: 100%; height: 100%;">
     <div class="menu">
       <div class="menuitem" id="filtros">
         <table cellpadding="4px">
@@ -113,17 +113,12 @@
   </div>
 
   <script>
-    //SVG
-    var state2 = false;
-    var torre1 = true;
     //Archivo de diseño del plano
     var name = "";
     var projectoID = "";
     s = Snap("#svg");
-    //drawIt()
-
-    var proyectosJson = {};
-    var projectJson;
+    var projectJson = getDatos();
+    var datosJson = getCiudades();
 
     function getDatos() {
       return new Promise((resolve, reject) => {
@@ -138,7 +133,18 @@
       });
     }
 
-    projectJson = getDatos();
+    function getCiudades() {
+      return new Promise((resolve, reject) => {
+        try {
+          fetch("/datos.json")
+            .then((response) => response.json())
+            .then((data) => (datosJson = data))
+            .then(() => resolve(datosJson));
+        } catch (error) {
+          reject(error);
+        }
+      });
+    }
 
     function sortList() {
       var ul = document.getElementById("demo");
@@ -356,7 +362,6 @@
         var base = "baseTorre";
         var handShow = "handlerButtonClickShow";
         var handHide = "handlerButtonClickHide";
-        var torre = "torre";
 
         for (var i = 0; i < projectJson.length; i++) {
           if (projectJson[i].id == projectoID) {
@@ -436,9 +441,12 @@
       var myArr = [];
       let sucursal = document.getElementById("codSucursal").innerText;
       for (indice in projectJson) {
-        var projecto = projectJson[indice];
-        if (sucursal == projecto.rp04) {
-          myArr[indice] = projecto.rp05 + "**" + projecto.ciudad;
+        if (sucursal == projectJson[indice].rp04) {
+          for (dato in datosJson) {
+            if (projectJson[indice].rp05 == datosJson[dato].rp05) {
+              myArr[indice] = projectJson[indice].rp05 + "**" + datosJson[dato].ciudad;
+            }
+          }
         }
       }
 
