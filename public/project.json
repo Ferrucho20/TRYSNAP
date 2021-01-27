@@ -10526,6 +10526,430 @@
         "showOrHide": ["layer17", "layer18"]
       }
     ]
+  },
+  {
+    "id": "005937452000",
+    "nombre": "PUERTA DORADA ARRECIFE E2",
+    "svg": "ARRECIFE 2 20-08-18 marcado.svg",
+    "rp04": "005",
+    "rp05": "005",
+    "informacion": [{
+        "idFrente": "L_ADM_TORRE_17_1",
+        "idBase": "L_ADM_TORRE_17_0",
+        "showOrHide": ["layer31", "layer30"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_18_1",
+        "idBase": "L_ADM_TORRE_18_0",
+        "showOrHide": ["layer29", "layer28"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_19_1",
+        "idBase": "L_ADM_TORRE_19_0",
+        "showOrHide": ["layer27", "layer26"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_20_1",
+        "idBase": "L_ADM_TORRE_20_0",
+        "showOrHide": ["layer25", "layer24"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_21_1",
+        "idBase": "L_ADM_TORRE_21_0",
+        "showOrHide": ["layer23", "layer22"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_22_1",
+        "idBase": "L_ADM_TORRE_22_0",
+        "showOrHide": ["layer21", "layer20"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_20_21_22_1",
+        "idBase": "L_ADM_TORRE_20_21_22_0",
+        "showOrHide": [
+          "layer6",
+          "layer8",
+          "layer25",
+          "layer24",
+          "layer23",
+          "layer22",
+          "layer21",
+          "layer20"
+        ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_23_1",
+        "idBase": "L_ADM_TORRE_23_0",
+        "showOrHide": ["layer12", "layer13"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_24_1",
+        "idBase": "L_ADM_TORRE_24_0",
+        "showOrHide": ["layer10", "layer11"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_23_24_1",
+        "idBase": "L_ADM_TORRE_23_24_0",
+        "showOrHide": [
+          "layer2",
+          "layer14",
+          "layer12",
+          "layer13",
+          "layer10",
+          "layer11"
+        ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_25_1",
+        "idBase": "L_ADM_TORRE_25_0",
+        "showOrHide": ["layer4", "layer5"]
+      }
+    ]
+  },
+  {
+    "id": "005937453000",
+    "nombre": "PUERTA DORADA ARRECIFE E3",
+    "svg": "ARRECIFE 2 20-08-18 marcado.svg",
+    "rp04": "005",
+    "rp05": "005",
+    "informacion": [{
+        "idFrente": "L_ADM_TORRE_17_1",
+        "idBase": "L_ADM_TORRE_17_0",
+        "showOrHide": ["layer31", "layer30"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_18_1",
+        "idBase": "L_ADM_TORRE_18_0",
+        "showOrHide": ["layer29", "layer28"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_19_1",
+        "idBase": "L_ADM_TORRE_19_0",
+        "showOrHide": ["layer27", "layer26"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_20_1",
+        "idBase": "L_ADM_TORRE_20_0",
+        "showOrHide": ["layer25", "layer24"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_21_1",
+        "idBase": "L_ADM_TORRE_21_0",
+        "showOrHide": ["layer23", "layer22"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_22_1",
+        "idBase": "L_ADM_TORRE_22_0",
+        "showOrHide": ["layer21", "layer20"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_20_21_22_1",
+        "idBase": "L_ADM_TORRE_20_21_22_0",
+        "showOrHide": [
+          "layer6",
+          "layer8",
+          "layer25",
+          "layer24",
+          "layer23",
+          "layer22",
+          "layer21",
+          "layer20"
+        ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_23_1",
+        "idBase": "L_ADM_TORRE_23_0",
+        "showOrHide": ["layer12", "layer13"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_24_1",
+        "idBase": "L_ADM_TORRE_24_0",
+        "showOrHide": ["layer10", "layer11"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_23_24_1",
+        "idBase": "L_ADM_TORRE_23_24_0",
+        "showOrHide": [
+          "layer2",
+          "layer14",
+          "layer12",
+          "layer13",
+          "layer10",
+          "layer11"
+        ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_25_1",
+        "idBase": "L_ADM_TORRE_25_0",
+        "showOrHide": ["layer4", "layer5"]
+      }
+    ]
+  },
+  {
+    "id": "005937454000",
+    "nombre": "PUERTA DORADA ARRECIFE E4",
+    "svg": "ARRECIFE 2 20-08-18 marcado.svg",
+    "rp04": "005",
+    "rp05": "005",
+    "informacion": [{
+        "idFrente": "L_ADM_TORRE_17_1",
+        "idBase": "L_ADM_TORRE_17_0",
+        "showOrHide": ["layer31", "layer30"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_18_1",
+        "idBase": "L_ADM_TORRE_18_0",
+        "showOrHide": ["layer29", "layer28"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_19_1",
+        "idBase": "L_ADM_TORRE_19_0",
+        "showOrHide": ["layer27", "layer26"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_20_1",
+        "idBase": "L_ADM_TORRE_20_0",
+        "showOrHide": ["layer25", "layer24"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_21_1",
+        "idBase": "L_ADM_TORRE_21_0",
+        "showOrHide": ["layer23", "layer22"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_22_1",
+        "idBase": "L_ADM_TORRE_22_0",
+        "showOrHide": ["layer21", "layer20"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_20_21_22_1",
+        "idBase": "L_ADM_TORRE_20_21_22_0",
+        "showOrHide": [
+          "layer6",
+          "layer8",
+          "layer25",
+          "layer24",
+          "layer23",
+          "layer22",
+          "layer21",
+          "layer20"
+        ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_23_1",
+        "idBase": "L_ADM_TORRE_23_0",
+        "showOrHide": ["layer12", "layer13"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_24_1",
+        "idBase": "L_ADM_TORRE_24_0",
+        "showOrHide": ["layer10", "layer11"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_23_24_1",
+        "idBase": "L_ADM_TORRE_23_24_0",
+        "showOrHide": [
+          "layer2",
+          "layer14",
+          "layer12",
+          "layer13",
+          "layer10",
+          "layer11"
+        ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_25_1",
+        "idBase": "L_ADM_TORRE_25_0",
+        "showOrHide": ["layer4", "layer5"]
+      }
+    ]
+  },
+  {
+    "id": "005516101000",
+    "nombre": "LA PLAZUELA",
+    "svg": "LA PLAZUELA 20-08-12.svg",
+    "rp04": "005",
+    "rp05": "005",
+    "informacion": [{
+        "idFrente": "L_ADM_TORRE_01_1",
+        "idBase": "L_ADM_TORRE_01_0",
+        "showOrHide": ["layer19", "layer20"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_02_1",
+        "idBase": "L_ADM_TORRE_02_0",
+        "showOrHide": ["layer17", "layer18"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_03_1",
+        "idBase": "L_ADM_TORRE_03_0",
+        "showOrHide": ["layer15", "layer16"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_04_1",
+        "idBase": "L_ADM_TORRE_04_0",
+        "showOrHide": ["layer7", "layer8"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_05_1",
+        "idBase": "L_ADM_TORRE_05_0",
+        "showOrHide": ["layer5", "layer6"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_06_1",
+        "idBase": "L_ADM_TORRE_06_0",
+        "showOrHide": ["layer3", "layer4"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_01_02_1",
+        "idBase": "L_ADM_TORRE_01_02_0",
+        "showOrHide": [
+          "layer19",
+          "layer20",
+          "layer17",
+          "layer18",
+          "layer21",
+          "layer22"
+        ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_03_03_1",
+        "idBase": "L_ADM_TORRE_03_03_0",
+        "showOrHide": ["layer15", "layer16", "layer10", "layer9"]
+      }
+    ]
+  },
+  {
+    "id": "005727201000",
+    "nombre": "FIRENZE E1",
+    "svg": "Firenze MARCADO 20-08-03.SVG",
+    "rp04": "005",
+    "rp05": "005",
+    "informacion": [{
+        "idFrente": "L_ADM_TORRE_01_1",
+        "idBase": "L_ADM_TORRE_01_0",
+        "showOrHide": ["layer2", "layer12"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_02_1",
+        "idBase": "L_ADM_TORRE_02_0",
+        "showOrHide": ["layer3", "layer13"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_03_1",
+        "idBase": "L_ADM_TORRE_03_0",
+        "showOrHide": ["layer14", "layer4"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_04_1",
+        "idBase": "L_ADM_TORRE_04_0",
+        "showOrHide": ["layer15", "layer5"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_05_1",
+        "idBase": "L_ADM_TORRE_05_0",
+        "showOrHide": ["layer16", "layer6"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_06_1",
+        "idBase": "L_ADM_TORRE_06_0",
+        "showOrHide": ["layer8", "layer18"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_07_1",
+        "idBase": "L_ADM_TORRE_07_0",
+        "showOrHide": ["layer19", "layer9"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_08_1",
+        "idBase": "L_ADM_TORRE_08_0",
+        "showOrHide": ["layer10", "layer20"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_06_07_08_1",
+        "idBase": "L_ADM_TORRE_06_07_08_0",
+        "showOrHide": [
+          "layer7",
+          "layer17",
+          "layer10",
+          "layer20",
+          "layer19",
+          "layer9",
+          "layer8",
+          "layer18"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "005727202000",
+    "nombre": "FIRENZE E2",
+    "svg": "Firenze MARCADO 20-08-03.SVG",
+    "rp04": "005",
+    "rp05": "005",
+    "informacion": [{
+        "idFrente": "L_ADM_TORRE_01_1",
+        "idBase": "L_ADM_TORRE_01_0",
+        "showOrHide": ["layer2", "layer12"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_02_1",
+        "idBase": "L_ADM_TORRE_02_0",
+        "showOrHide": ["layer3", "layer13"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_03_1",
+        "idBase": "L_ADM_TORRE_03_0",
+        "showOrHide": ["layer14", "layer4"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_04_1",
+        "idBase": "L_ADM_TORRE_04_0",
+        "showOrHide": ["layer15", "layer5"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_05_1",
+        "idBase": "L_ADM_TORRE_05_0",
+        "showOrHide": ["layer16", "layer6"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_06_1",
+        "idBase": "L_ADM_TORRE_06_0",
+        "showOrHide": ["layer8", "layer18"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_07_1",
+        "idBase": "L_ADM_TORRE_07_0",
+        "showOrHide": ["layer19", "layer9"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_08_1",
+        "idBase": "L_ADM_TORRE_08_0",
+        "showOrHide": ["layer10", "layer20"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_06_07_08_1",
+        "idBase": "L_ADM_TORRE_06_07_08_0",
+        "showOrHide": [
+          "layer7",
+          "layer17",
+          "layer10",
+          "layer20",
+          "layer19",
+          "layer9",
+          "layer8",
+          "layer18"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "024749201000",
+    "nombre": "CIUDAD DEL PARQUE GALERAS F1",
+    "svg": "Ciudad del Parque Galeras F1 MARCADO.svg",
+    "rp04": "005",
+    "rp05": "024",
+    "informacion": []
   }
 
 ]
