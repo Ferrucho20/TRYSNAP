@@ -29,6 +29,34 @@
     }]
   },
   {
+    "id": "003088101000",
+    "nombre": "SAMARIA",
+    "svg": "Samaria - Marcado.svg",
+    "rp04": "003",
+    "rp05": "003",
+    "informacion": [{
+        "idFrente": "L_ADM_TORRE_1_1",
+        "idBase": "L_ADM_TORRE_1_0",
+        "showOrHide": ["layer2", "layer7"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_2_1",
+        "idBase": "L_ADM_TORRE_2_0",
+        "showOrHide": ["layer3", "layer8"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_3_1",
+        "idBase": "L_ADM_TORRE_3_0",
+        "showOrHide": ["layer4", "layer9"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_4_1",
+        "idBase": "L_ADM_TORRE_4_0",
+        "showOrHide": ["layer5", "layer10"]
+      }
+    ]
+  },
+  {
     "id": "002848301000",
     "nombre": "SAINT MICHEL CIUDAD LA SALLE",
     "svg": "SAINT MICHEL 20-10-06.svg",
