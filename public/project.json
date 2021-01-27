@@ -10950,6 +10950,1168 @@
     "rp04": "005",
     "rp05": "024",
     "informacion": []
+  },
+  {
+    "id": "002848251000",
+    "nombre": "LOIRA E1 CIUDAD LA SALLE",
+    "svg": "LOIRA 20-09-10.svg",
+    "rp04": "002",
+    "rp05": "002",
+    "informacion": [{
+        "idFrente": "L_ADM_TORRE_01_1",
+        "idBase": "L_ADM_TORRE_01_0",
+        "showOrHide": ["layer9", "layer10"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_02_1",
+        "idBase": "L_ADM_TORRE_02_0",
+        "showOrHide": ["layer5", "layer6"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_03_1",
+        "idBase": "L_ADM_TORRE_03_0",
+        "showOrHide": ["layer3", "layer4"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_01_01_1",
+        "idBase": "L_ADM_TORRE_01_01_0",
+        "showOrHide": ["layer9", "layer10", "layer8", "layer7"]
+      }
+    ]
+  },
+  {
+    "id": "002848252000",
+    "nombre": "LOIRA E2 CIUDAD LA SALLE",
+    "svg": "LOIRA 20-09-10.svg",
+    "rp04": "002",
+    "rp05": "002",
+    "informacion": [{
+        "idFrente": "L_ADM_TORRE_01_1",
+        "idBase": "L_ADM_TORRE_01_0",
+        "showOrHide": ["layer9", "layer10"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_02_1",
+        "idBase": "L_ADM_TORRE_02_0",
+        "showOrHide": ["layer5", "layer6"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_03_1",
+        "idBase": "L_ADM_TORRE_03_0",
+        "showOrHide": ["layer3", "layer4"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_01_01_1",
+        "idBase": "L_ADM_TORRE_01_01_0",
+        "showOrHide": ["layer9", "layer10", "layer8", "layer7"]
+      }
+    ]
+  },
+  {
+    "id": "002080501000",
+    "nombre": "LA CABRERA E1",
+    "svg": "LA CABRERA 20-10-15 (1) (1).svg",
+    "rp04": "002",
+    "rp05": "002",
+    "informacion": [{
+        "idFrente": "L_ADM_TORRE_01_02_1",
+        "idBase": "L_ADM_TORRE_01_02_0",
+        "showOrHide": ["layer3", "layer4"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_03_04_05_06_07_1",
+        "idBase": "L_ADM_TORRE_03_04_05_06_07_0",
+        "showOrHide": ["layer7", "layer8"]
+      },
+      {
+        "idFrente": "L_TORRE_ADM_03_04_05_06_07_1",
+        "idBase": "L_TORRE_ADM_03_04_05_06_07_0",
+        "showOrHide": ["layer5", "layer6", "layer7", "layer8"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_08_09_10_11_12_13_14_1",
+        "idBase": "L_ADM_TORRE_08_09_10_11_12_13_14_0",
+        "showOrHide": ["layer11", "layer12"]
+      },
+      {
+        "idFrente": "L_TORRE_ADM_08_09_10_11_12_13_14_1",
+        "idBase": "L_TORRE_ADM_08_09_10_11_12_13_14_0",
+        "showOrHide": ["layer9", "layer10", "layer11", "layer12"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_15_16_17_18_19_20_1",
+        "idBase": "L_ADM_TORRE_15_16_17_18_19_20_0",
+        "showOrHide": ["layer13", "layer14"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_21_22_23_24_1",
+        "idBase": "L_ADM_TORRE_21_22_23_24_0",
+        "showOrHide": ["layer15", "layer16"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_25_26_27_28_1",
+        "idBase": "L_ADM_TORRE_25_26_27_28_0",
+        "showOrHide": ["layer17", "layer18"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_29_30_31_32_33_34_1",
+        "idBase": "L_ADM_TORRE_29_30_31_32_33_34_0",
+        "showOrHide": ["layer19", "layer20"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_35_36_37_1",
+        "idBase": "L_ADM_TORRE_35_36_37_0",
+        "showOrHide": ["layer21", "layer22"]
+      }
+    ]
+  },
+  {
+    "id": "002080502000",
+    "nombre": "LA CABRERA E2",
+    "svg": "LA CABRERA 20-10-15 (1) (1).svg",
+    "rp04": "002",
+    "rp05": "002",
+    "informacion": [{
+        "idFrente": "L_ADM_TORRE_01_02_1",
+        "idBase": "L_ADM_TORRE_01_02_0",
+        "showOrHide": ["layer3", "layer4"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_03_04_05_06_07_1",
+        "idBase": "L_ADM_TORRE_03_04_05_06_07_0",
+        "showOrHide": ["layer7", "layer8"]
+      },
+      {
+        "idFrente": "L_TORRE_ADM_03_04_05_06_07_1",
+        "idBase": "L_TORRE_ADM_03_04_05_06_07_0",
+        "showOrHide": ["layer5", "layer6", "layer7", "layer8"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_08_09_10_11_12_13_14_1",
+        "idBase": "L_ADM_TORRE_08_09_10_11_12_13_14_0",
+        "showOrHide": ["layer11", "layer12"]
+      },
+      {
+        "idFrente": "L_TORRE_ADM_08_09_10_11_12_13_14_1",
+        "idBase": "L_TORRE_ADM_08_09_10_11_12_13_14_0",
+        "showOrHide": ["layer9", "layer10", "layer11", "layer12"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_15_16_17_18_19_20_1",
+        "idBase": "L_ADM_TORRE_15_16_17_18_19_20_0",
+        "showOrHide": ["layer13", "layer14"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_21_22_23_24_1",
+        "idBase": "L_ADM_TORRE_21_22_23_24_0",
+        "showOrHide": ["layer15", "layer16"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_25_26_27_28_1",
+        "idBase": "L_ADM_TORRE_25_26_27_28_0",
+        "showOrHide": ["layer17", "layer18"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_29_30_31_32_33_34_1",
+        "idBase": "L_ADM_TORRE_29_30_31_32_33_34_0",
+        "showOrHide": ["layer19", "layer20"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_35_36_37_1",
+        "idBase": "L_ADM_TORRE_35_36_37_0",
+        "showOrHide": ["layer21", "layer22"]
+      }
+    ]
+  },
+  {
+    "id": "002080503000",
+    "nombre": "LA CABRERA E3",
+    "svg": "LA CABRERA 20-10-15 (1) (1).svg",
+    "rp04": "002",
+    "rp05": "002",
+    "informacion": [{
+        "idFrente": "L_ADM_TORRE_01_02_1",
+        "idBase": "L_ADM_TORRE_01_02_0",
+        "showOrHide": ["layer3", "layer4"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_03_04_05_06_07_1",
+        "idBase": "L_ADM_TORRE_03_04_05_06_07_0",
+        "showOrHide": ["layer7", "layer8"]
+      },
+      {
+        "idFrente": "L_TORRE_ADM_03_04_05_06_07_1",
+        "idBase": "L_TORRE_ADM_03_04_05_06_07_0",
+        "showOrHide": ["layer5", "layer6", "layer7", "layer8"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_08_09_10_11_12_13_14_1",
+        "idBase": "L_ADM_TORRE_08_09_10_11_12_13_14_0",
+        "showOrHide": ["layer11", "layer12"]
+      },
+      {
+        "idFrente": "L_TORRE_ADM_08_09_10_11_12_13_14_1",
+        "idBase": "L_TORRE_ADM_08_09_10_11_12_13_14_0",
+        "showOrHide": ["layer9", "layer10", "layer11", "layer12"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_15_16_17_18_19_20_1",
+        "idBase": "L_ADM_TORRE_15_16_17_18_19_20_0",
+        "showOrHide": ["layer13", "layer14"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_21_22_23_24_1",
+        "idBase": "L_ADM_TORRE_21_22_23_24_0",
+        "showOrHide": ["layer15", "layer16"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_25_26_27_28_1",
+        "idBase": "L_ADM_TORRE_25_26_27_28_0",
+        "showOrHide": ["layer17", "layer18"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_29_30_31_32_33_34_1",
+        "idBase": "L_ADM_TORRE_29_30_31_32_33_34_0",
+        "showOrHide": ["layer19", "layer20"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_35_36_37_1",
+        "idBase": "L_ADM_TORRE_35_36_37_0",
+        "showOrHide": ["layer21", "layer22"]
+      }
+    ]
+  },
+  {
+    "id": "002498201000",
+    "nombre": "ZAJARI - ZENTRAL",
+    "svg": "Zajari 19-07-17 MARCADO v1.svg",
+    "rp04": "002",
+    "rp05": "002",
+    "informacion": [{
+        "idFrente": "L_ADM_TORRE_01_1",
+        "idBase": "L_ADM_TORRE_01_0",
+        "showOrHide": ["layer2", "layer6"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_02_1",
+        "idBase": "L_ADM_TORRE_02_0",
+        "showOrHide": ["layer3", "layer7"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_03_1",
+        "idBase": "L_ADM_TORRE_03_0",
+        "showOrHide": ["layer4", "layer8"]
+      }
+    ]
+  },
+  {
+    "id": "002510101000",
+    "nombre": "PASEO DE SEVILLA",
+    "svg": "09 PASEO DE SEVILLA marSVG 18-08-08 v2.svg",
+    "rp04": "002",
+    "rp05": "002",
+    "informacion": [{
+        "idFrente": "L_ADM_TORRE_1_1",
+        "idBase": "L_ADM_TORRE_1_0",
+        "showOrHide": ["layer3", "layer12"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_2_1",
+        "idBase": "L_ADM_TORRE_2_0",
+        "showOrHide": ["layer4", "layer13"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_3_1",
+        "idBase": "L_ADM_TORRE_3_0",
+        "showOrHide": ["layer5", "layer14"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_4_1",
+        "idBase": "L_ADM_TORRE_4_0",
+        "showOrHide": ["layer6", "layer15"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_5_1",
+        "idBase": "L_ADM_TORRE_5_0",
+        "showOrHide": ["layer7", "layer16"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_6_1",
+        "idBase": "L_ADM_TORRE_6_0",
+        "showOrHide": ["layer8", "layer17"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_7_1",
+        "idBase": "L_ADM_TORRE_7_0",
+        "showOrHide": ["layer9", "layer18"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_8_1",
+        "idBase": "L_ADM_TORRE_8_0",
+        "showOrHide": ["layer10", "layer19"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_1_4_1",
+        "idBase": "L_ADM_TORRE_1_4_0",
+        "showOrHide": [
+          "layer3",
+          "layer12",
+          "layer4",
+          "layer13",
+          "layer5",
+          "layer14",
+          "layer6",
+          "layer15",
+          "layer2",
+          "layer20"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "002433401000",
+    "nombre": "TOLEDO CASTILLA RESERVADO",
+    "svg": "Toledo.svg",
+    "rp04": "002",
+    "rp05": "002",
+    "informacion": [{
+        "idFrente": "L_ADM_TORRE_1_1",
+        "idBase": "L_ADM_TORRE_1_0",
+        "showOrHide": ["layer11", "layer3"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_2_1",
+        "idBase": "L_ADM_TORRE_2_0",
+        "showOrHide": ["layer12", "layer4"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_3_1",
+        "idBase": "L_ADM_TORRE_3_0",
+        "showOrHide": ["layer5", "layer13"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_4_1",
+        "idBase": "L_ADM_TORRE_4_0",
+        "showOrHide": ["layer6", "layer14"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_5_1",
+        "idBase": "L_ADM_TORRE_5_0",
+        "showOrHide": ["layer7", "layer15"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_6_1",
+        "idBase": "L_ADM_TORRE_6_0",
+        "showOrHide": ["layer8", "layer16"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_1_3_1",
+        "idBase": "L_ADM_TORRE_1_3_0",
+        "showOrHide": [
+          "layer10",
+          "layer2",
+          "layer11",
+          "layer3",
+          "layer12",
+          "layer4",
+          "layer5",
+          "layer13"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "002459101000",
+    "nombre": "RESERVA DE ARANJUEZ",
+    "svg": "Reserva_Aranjuez.svg",
+    "rp04": "002",
+    "rp05": "002",
+    "informacion": [{
+        "idFrente": "L_ADM_TORRE_1_1",
+        "idBase": "L_ADM_TORRE_1_0",
+        "showOrHide": ["layer10", "layer2"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_2_1",
+        "idBase": "L_ADM_TORRE_2_0",
+        "showOrHide": ["layer11", "layer3"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_3_1",
+        "idBase": "L_ADM_TORRE_3_0",
+        "showOrHide": ["layer4", "layer12"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_4_1",
+        "idBase": "L_ADM_TORRE_4_0",
+        "showOrHide": ["layer5", "layer13"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_5_1",
+        "idBase": "L_ADM_TORRE_5_0",
+        "showOrHide": ["layer6", "layer14"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_6_1",
+        "idBase": "L_ADM_TORRE_6_0",
+        "showOrHide": ["layer7", "layer16"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_7_1",
+        "idBase": "L_ADM_TORRE_7_0",
+        "showOrHide": ["layer8", "layer15"]
+      }
+    ]
+  },
+  {
+    "id": "002741101000",
+    "nombre": "SENDEROS DE CAMPO VERDE",
+    "svg": "Sendero Campo Verde.svg",
+    "rp04": "002",
+    "rp05": "002",
+    "informacion": [{
+        "idFrente": "L_ADM_TORRE_1_1",
+        "idBase": "L_ADM_TORRE_1_0",
+        "showOrHide": ["layer2", "layer5"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_2_1",
+        "idBase": "L_ADM_TORRE_2_0",
+        "showOrHide": ["layer3", "layer6"]
+      }
+    ]
+  },
+  {
+    "id": "002842333000",
+    "nombre": "VILLANOVA",
+    "svg": "VILLANOVA MARCADO2.svg",
+    "rp04": "002",
+    "rp05": "002",
+    "informacion": [{
+        "idFrente": "L_ADM_TORRE_1_1",
+        "idBase": "L_ADM_TORRE_1_0",
+        "showOrHide": ["layer3", "layer10"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_2_1",
+        "idBase": "L_ADM_TORRE_2_0",
+        "showOrHide": ["layer4", "layer11"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_3_1",
+        "idBase": "L_ADM_TORRE_3_0",
+        "showOrHide": ["layer5", "layer12"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_4_1",
+        "idBase": "L_ADM_TORRE_4_0",
+        "showOrHide": ["layer6", "layer13"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_5_1",
+        "idBase": "L_ADM_TORRE_5_0",
+        "showOrHide": ["layer7", "layer14"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_1_2_1",
+        "idBase": "L_ADM_TORRE_1_2_0",
+        "showOrHide": [
+          "layer2",
+          "layer9",
+          "layer3",
+          "layer10",
+          "layer4",
+          "layer11"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "021071106000",
+    "nombre": "CASAS HACIENDA SAN RAFAEL F-2",
+    "svg": "casas_hacienda_san_rafael.svg",
+    "rp04": "002",
+    "rp05": "021",
+    "informacion": []
+  },
+  {
+    "id": "023987301000",
+    "nombre": "ALCAPARRO F-3",
+    "svg": "Alcaparro MARCADO v1.svg",
+    "rp04": "002",
+    "rp05": "023",
+    "informacion": [{
+        "idFrente": "L_ADM_TORRE_01_1",
+        "idBase": "L_ADM_TORRE_01_0",
+        "showOrHide": ["layer2", "layer30"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_02_1",
+        "idBase": "L_ADM_TORRE_02_0",
+        "showOrHide": ["layer3", "layer31"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_03_1",
+        "idBase": "L_ADM_TORRE_03_0",
+        "showOrHide": ["layer4", "layer32"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_04_1",
+        "idBase": "L_ADM_TORRE_04_0",
+        "showOrHide": ["layer5", "layer33"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_05_1",
+        "idBase": "L_ADM_TORRE_05_0",
+        "showOrHide": ["layer6", "layer34"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_06_1",
+        "idBase": "L_ADM_TORRE_06_0",
+        "showOrHide": ["layer7", "layer35"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_07_1",
+        "idBase": "L_ADM_TORRE_07_0",
+        "showOrHide": ["layer8", "layer36"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_08_1",
+        "idBase": "L_ADM_TORRE_08_0",
+        "showOrHide": ["layer9", "layer37"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_09_1",
+        "idBase": "L_ADM_TORRE_09_0",
+        "showOrHide": ["layer10", "layer38"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_10_1",
+        "idBase": "L_ADM_TORRE_10_0",
+        "showOrHide": ["layer11", "layer39"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_11_1",
+        "idBase": "L_ADM_TORRE_11_0",
+        "showOrHide": ["layer12", "layer40"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_12_1",
+        "idBase": "L_ADM_TORRE_12_0",
+        "showOrHide": ["layer13", "layer41"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_13_1",
+        "idBase": "L_ADM_TORRE_13_0",
+        "showOrHide": ["layer14", "layer42"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_14_1",
+        "idBase": "L_ADM_TORRE_14_0",
+        "showOrHide": ["layer15", "layer43"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_15_1",
+        "idBase": "L_ADM_TORRE_15_0",
+        "showOrHide": ["layer16", "layer44"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_16_1",
+        "idBase": "L_ADM_TORRE_16_0",
+        "showOrHide": ["layer17", "layer45"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_17_1",
+        "idBase": "L_ADM_TORRE_17_0",
+        "showOrHide": ["layer18", "layer46"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_18_1",
+        "idBase": "L_ADM_TORRE_18_0",
+        "showOrHide": ["layer19", "layer47"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_12_1-3",
+        "idBase": "L_ADM_TORRE_19_0",
+        "showOrHide": ["layer20", "layer48"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_20_1",
+        "idBase": "L_ADM_TORRE_20_0",
+        "showOrHide": ["layer21", "layer49"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_21_1",
+        "idBase": "L_ADM_TORRE_21_0",
+        "showOrHide": ["layer22", "layer50"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_22_1",
+        "idBase": "L_ADM_TORRE_22_0",
+        "showOrHide": ["layer23", "layer51"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_23_1",
+        "idBase": "L_ADM_TORRE_23_0",
+        "showOrHide": ["layer24", "layer52"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_24_1",
+        "idBase": "L_ADM_TORRE_24_0",
+        "showOrHide": ["layer25", "layer53"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_25_1",
+        "idBase": "L_ADM_TORRE_25_0",
+        "showOrHide": ["layer26", "layer54"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_26_1",
+        "idBase": "L_ADM_TORRE_26_0",
+        "showOrHide": ["layer27", "layer55"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_27_1",
+        "idBase": "L_ADM_TORRE_27_0",
+        "showOrHide": ["layer28", "layer56"]
+      }
+    ]
+  },
+  {
+    "id": "023089104000",
+    "nombre": "CALA F-4",
+    "svg": "Cala F4 MARCADO.svg",
+    "rp04": "002",
+    "rp05": "023",
+    "informacion": [{
+      "idFrente": "L_ADM_TORRE_21_1",
+      "idBase": "L_ADM_TORRE_21_0",
+      "showOrHide": ["layer2", "layer4"]
+    }]
+  },
+  {
+    "id": "002508301000",
+    "nombre": "CADIZ E1",
+    "svg": "Cadiz - marcado 20-08-06.svg",
+    "rp04": "002",
+    "rp05": "002",
+    "informacion": [{
+        "idFrente": "L_ADM_TORRE_01_1",
+        "idBase": "L_ADM_TORRE_01_0",
+        "showOrHide": ["layer11", "layer12"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_02_1",
+        "idBase": "L_ADM_TORRE_02_0",
+        "showOrHide": ["layer9", "layer10"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_03_1",
+        "idBase": "L_ADM_TORRE_03_0",
+        "showOrHide": ["layer7", "layer8"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_04_1",
+        "idBase": "L_ADM_TORRE_04_0",
+        "showOrHide": ["layer5", "layer6"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_05_1",
+        "idBase": "L_ADM_TORRE_05_0",
+        "showOrHide": ["layer3", "layer4"]
+      }
+    ]
+  },
+  {
+    "id": "002508302000",
+    "nombre": "CADIZ E2",
+    "svg": "Cadiz - marcado 20-08-06.svg",
+    "rp04": "002",
+    "rp05": "002",
+    "informacion": [{
+        "idFrente": "L_ADM_TORRE_01_1",
+        "idBase": "L_ADM_TORRE_01_0",
+        "showOrHide": ["layer11", "layer12"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_02_1",
+        "idBase": "L_ADM_TORRE_02_0",
+        "showOrHide": ["layer9", "layer10"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_03_1",
+        "idBase": "L_ADM_TORRE_03_0",
+        "showOrHide": ["layer7", "layer8"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_04_1",
+        "idBase": "L_ADM_TORRE_04_0",
+        "showOrHide": ["layer5", "layer6"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_05_1",
+        "idBase": "L_ADM_TORRE_05_0",
+        "showOrHide": ["layer3", "layer4"]
+      }
+    ]
+  },
+  {
+    "id": "007843151000",
+    "nombre": "BELATERRA AQUARIS E1",
+    "svg": "AQUARIS Marcado 20-02-05.svg",
+    "rp04": "007",
+    "rp05": "007",
+    "informacion": [{
+        "idFrente": "L_ADM_TORRE_01_1",
+        "idBase": "L_ADM_TORRE_01_0",
+        "showOrHide": ["layer3", "layer4"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_02_1",
+        "idBase": "L_ADM_TORRE_02_0",
+        "showOrHide": ["layer5", "layer6"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_03_1",
+        "idBase": "L_ADM_TORRE_03_0",
+        "showOrHide": ["layer7", "layer8"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_04_1",
+        "idBase": "L_ADM_TORRE_04_0",
+        "showOrHide": ["layer9", "layer10"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_05_1",
+        "idBase": "L_ADM_TORRE_05_0",
+        "showOrHide": ["layer26", "layer11"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_06_1",
+        "idBase": "L_ADM_TORRE_06_0",
+        "showOrHide": ["layer12", "layer13"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_07_1",
+        "idBase": "L_ADM_TORRE_07_0",
+        "showOrHide": ["layer14", "layer15"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_08_1",
+        "idBase": "L_ADM_TORRE_08_0",
+        "showOrHide": ["layer16", "layer17"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_09_1",
+        "idBase": "L_ADM_TORRE_09_0",
+        "showOrHide": ["layer19", "layer18"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_10_1",
+        "idBase": "L_ADM_TORRE_10_0",
+        "showOrHide": ["layer20", "layer21"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_11_1",
+        "idBase": "L_ADM_TORRE_11_0",
+        "showOrHide": ["layer22", "layer23"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_12_1",
+        "idBase": "L_ADM_TORRE_12_0",
+        "showOrHide": ["layer24", "layer25"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_09_10_1",
+        "idBase": "L_ADM_TORRE_09_10_0",
+        "showOrHide": [
+          "layer27",
+          "layer28",
+          "layer19",
+          "layer18",
+          "layer20",
+          "layer21"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "007843152000",
+    "nombre": "BELATERRA AQUARIS E2",
+    "svg": "AQUARIS Marcado 20-02-05.svg",
+    "rp04": "007",
+    "rp05": "007",
+    "informacion": [{
+        "idFrente": "L_ADM_TORRE_01_1",
+        "idBase": "L_ADM_TORRE_01_0",
+        "showOrHide": ["layer3", "layer4"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_02_1",
+        "idBase": "L_ADM_TORRE_02_0",
+        "showOrHide": ["layer5", "layer6"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_03_1",
+        "idBase": "L_ADM_TORRE_03_0",
+        "showOrHide": ["layer7", "layer8"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_04_1",
+        "idBase": "L_ADM_TORRE_04_0",
+        "showOrHide": ["layer9", "layer10"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_05_1",
+        "idBase": "L_ADM_TORRE_05_0",
+        "showOrHide": ["layer26", "layer11"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_06_1",
+        "idBase": "L_ADM_TORRE_06_0",
+        "showOrHide": ["layer12", "layer13"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_07_1",
+        "idBase": "L_ADM_TORRE_07_0",
+        "showOrHide": ["layer14", "layer15"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_08_1",
+        "idBase": "L_ADM_TORRE_08_0",
+        "showOrHide": ["layer16", "layer17"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_09_1",
+        "idBase": "L_ADM_TORRE_09_0",
+        "showOrHide": ["layer19", "layer18"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_10_1",
+        "idBase": "L_ADM_TORRE_10_0",
+        "showOrHide": ["layer20", "layer21"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_11_1",
+        "idBase": "L_ADM_TORRE_11_0",
+        "showOrHide": ["layer22", "layer23"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_12_1",
+        "idBase": "L_ADM_TORRE_12_0",
+        "showOrHide": ["layer24", "layer25"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_09_10_1",
+        "idBase": "L_ADM_TORRE_09_10_0",
+        "showOrHide": [
+          "layer27",
+          "layer28",
+          "layer19",
+          "layer18",
+          "layer20",
+          "layer21"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "007843153000",
+    "nombre": "BELATERRA AQUARIS E3",
+    "svg": "AQUARIS Marcado 20-02-05.svg",
+    "rp04": "007",
+    "rp05": "007",
+    "informacion": [{
+        "idFrente": "L_ADM_TORRE_01_1",
+        "idBase": "L_ADM_TORRE_01_0",
+        "showOrHide": ["layer3", "layer4"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_02_1",
+        "idBase": "L_ADM_TORRE_02_0",
+        "showOrHide": ["layer5", "layer6"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_03_1",
+        "idBase": "L_ADM_TORRE_03_0",
+        "showOrHide": ["layer7", "layer8"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_04_1",
+        "idBase": "L_ADM_TORRE_04_0",
+        "showOrHide": ["layer9", "layer10"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_05_1",
+        "idBase": "L_ADM_TORRE_05_0",
+        "showOrHide": ["layer26", "layer11"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_06_1",
+        "idBase": "L_ADM_TORRE_06_0",
+        "showOrHide": ["layer12", "layer13"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_07_1",
+        "idBase": "L_ADM_TORRE_07_0",
+        "showOrHide": ["layer14", "layer15"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_08_1",
+        "idBase": "L_ADM_TORRE_08_0",
+        "showOrHide": ["layer16", "layer17"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_09_1",
+        "idBase": "L_ADM_TORRE_09_0",
+        "showOrHide": ["layer19", "layer18"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_10_1",
+        "idBase": "L_ADM_TORRE_10_0",
+        "showOrHide": ["layer20", "layer21"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_11_1",
+        "idBase": "L_ADM_TORRE_11_0",
+        "showOrHide": ["layer22", "layer23"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_12_1",
+        "idBase": "L_ADM_TORRE_12_0",
+        "showOrHide": ["layer24", "layer25"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_09_10_1",
+        "idBase": "L_ADM_TORRE_09_10_0",
+        "showOrHide": [
+          "layer27",
+          "layer28",
+          "layer19",
+          "layer18",
+          "layer20",
+          "layer21"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "007843154000",
+    "nombre": "BELATERRA AQUARIS E4",
+    "svg": "AQUARIS Marcado 20-02-05.svg",
+    "rp04": "007",
+    "rp05": "007",
+    "informacion": [{
+        "idFrente": "L_ADM_TORRE_01_1",
+        "idBase": "L_ADM_TORRE_01_0",
+        "showOrHide": ["layer3", "layer4"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_02_1",
+        "idBase": "L_ADM_TORRE_02_0",
+        "showOrHide": ["layer5", "layer6"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_03_1",
+        "idBase": "L_ADM_TORRE_03_0",
+        "showOrHide": ["layer7", "layer8"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_04_1",
+        "idBase": "L_ADM_TORRE_04_0",
+        "showOrHide": ["layer9", "layer10"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_05_1",
+        "idBase": "L_ADM_TORRE_05_0",
+        "showOrHide": ["layer26", "layer11"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_06_1",
+        "idBase": "L_ADM_TORRE_06_0",
+        "showOrHide": ["layer12", "layer13"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_07_1",
+        "idBase": "L_ADM_TORRE_07_0",
+        "showOrHide": ["layer14", "layer15"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_08_1",
+        "idBase": "L_ADM_TORRE_08_0",
+        "showOrHide": ["layer16", "layer17"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_09_1",
+        "idBase": "L_ADM_TORRE_09_0",
+        "showOrHide": ["layer19", "layer18"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_10_1",
+        "idBase": "L_ADM_TORRE_10_0",
+        "showOrHide": ["layer20", "layer21"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_11_1",
+        "idBase": "L_ADM_TORRE_11_0",
+        "showOrHide": ["layer22", "layer23"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_12_1",
+        "idBase": "L_ADM_TORRE_12_0",
+        "showOrHide": ["layer24", "layer25"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_09_10_1",
+        "idBase": "L_ADM_TORRE_09_10_0",
+        "showOrHide": [
+          "layer27",
+          "layer28",
+          "layer19",
+          "layer18",
+          "layer20",
+          "layer21"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "007844201000",
+    "nombre": "SAONA",
+    "svg": "SAONA 20-03-09(1).svg",
+    "rp04": "007",
+    "rp05": "007",
+    "informacion": [{
+      "idFrente": "L_ADM_TORRE_01_1",
+      "idBase": "L_ADM_TORRE_01_0",
+      "showOrHide": ["layer3", "layer4"]
+    }]
+  },
+  {
+    "id": "007829101000",
+    "nombre": "SANTA ANA",
+    "svg": "10 Santa Ana MARCADO 20-12-15.svg",
+    "rp04": "007",
+    "rp05": "007",
+    "informacion": [{
+        "idFrente": "L_ADM_TORRE_1_1",
+        "idBase": "L_ADM_TORRE_1_0",
+        "showOrHide": ["layer2", "layer12"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_2_1",
+        "idBase": "L_ADM_TORRE_2_0",
+        "showOrHide": ["layer3", "layer13"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_3_1",
+        "idBase": "L_ADM_TORRE_3_0",
+        "showOrHide": ["layer4", "layer14"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_02_1",
+        "idBase": "L_ADM_TORRE_02_0",
+        "showOrHide": ["layer5", "layer6", "layer3", "layer13"]
+      }
+    ]
+  },
+  {
+    "id": "014507241000",
+    "nombre": "BALCONES DEL JARDIN F1",
+    "svg": "11 BALCONES DEL JARDIN MARCADO(1).SVG",
+    "rp04": "008",
+    "rp05": "014",
+    "informacion": [{
+        "idFrente": "L_ADM_TORRE_1_1",
+        "idBase": "L_ADM_TORRE_1_0",
+        "showOrHide": ["layer2", "layer14"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_2_1",
+        "idBase": "L_ADM_TORRE_2_0",
+        "showOrHide": ["layer15", "layer3"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_3_1",
+        "idBase": "L_ADM_TORRE_3_0",
+        "showOrHide": ["layer4", "layer16"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_4_1",
+        "idBase": "L_ADM_TORRE_4_0",
+        "showOrHide": ["layer17", "layer5"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_5_1",
+        "idBase": "L_ADM_TORRE_5_0",
+        "showOrHide": ["layer7", "layer19"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_6_1",
+        "idBase": "L_ADM_TORRE_6_0",
+        "showOrHide": ["layer8", "layer20"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_7_1",
+        "idBase": "L_ADM_TORRE_7_0",
+        "showOrHide": ["layer22", "layer10"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_8_1",
+        "idBase": "L_ADM_TORRE_8_0",
+        "showOrHide": ["layer24", "layer12"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_7_0_1",
+        "idBase": "L_ADM_TORRE_7_0_0",
+        "showOrHide": ["layer21", "layer9", "layer22", "layer10"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_8_0_1",
+        "idBase": "L_ADM_TORRE_8_0_0",
+        "showOrHide": ["layer23", "layer11", "layer24", "layer12"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_5_6_1",
+        "idBase": "L_ADM_TORRE_5_6_0",
+        "showOrHide": [
+          "layer6",
+          "layer18",
+          "layer7",
+          "layer19",
+          "layer8",
+          "layer20"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "003088101000",
+    "nombre": "SAMARIA",
+    "svg": "Samaria - Marcado.svg",
+    "rp04": "003",
+    "rp05": "003",
+    "informacion": [{
+        "idFrente": "L_ADM_TORRE_1_1",
+        "idBase": "L_ADM_TORRE_1_0",
+        "showOrHide": ["layer2", "layer7"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_2_1",
+        "idBase": "L_ADM_TORRE_2_0",
+        "showOrHide": ["layer3", "layer8"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_3_1",
+        "idBase": "L_ADM_TORRE_3_0",
+        "showOrHide": ["layer4", "layer9"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_4_1",
+        "idBase": "L_ADM_TORRE_4_0",
+        "showOrHide": ["layer5", "layer10"]
+      }
+    ]
   }
 
 ]
