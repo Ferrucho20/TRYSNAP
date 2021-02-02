@@ -10766,8 +10766,63 @@
   },
   {
     "id": "005516101000",
-    "nombre": "LA PLAZUELA",
+    "nombre": "LA PLAZUELA new",
     "svg": "LA PLAZUELA 20-08-12new.svg",
+    "rp04": "005",
+    "rp05": "005",
+    "informacion": [{
+        "idFrente": "L_ADM_TORRE_01_1",
+        "idBase": "L_ADM_TORRE_01_0",
+        "showOrHide": ["layer19", "layer20"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_02_1",
+        "idBase": "L_ADM_TORRE_02_0",
+        "showOrHide": ["layer17", "layer18"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_03_1",
+        "idBase": "L_ADM_TORRE_03_0",
+        "showOrHide": ["layer15", "layer16"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_04_1",
+        "idBase": "L_ADM_TORRE_04_0",
+        "showOrHide": ["layer7", "layer8"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_05_1",
+        "idBase": "L_ADM_TORRE_05_0",
+        "showOrHide": ["layer5", "layer6"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_06_1",
+        "idBase": "L_ADM_TORRE_06_0",
+        "showOrHide": ["layer3", "layer4"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_01_02_1",
+        "idBase": "L_ADM_TORRE_01_02_0",
+        "showOrHide": [
+          "layer19",
+          "layer20",
+          "layer17",
+          "layer18",
+          "layer21",
+          "layer22"
+        ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_03_03_1",
+        "idBase": "L_ADM_TORRE_03_03_0",
+        "showOrHide": ["layer15", "layer16", "layer10", "layer9"]
+      }
+    ]
+  },
+  {
+    "id": "005516101000",
+    "nombre": "LA PLAZUELA old",
+    "svg": "LA PLAZUELA 20-08-12.svg",
     "rp04": "005",
     "rp05": "005",
     "informacion": [{
