@@ -280,7 +280,18 @@
             .then((response) => response.json())
             .then((response) => {
               for (var i = 0; i < response.dataList.length; i++) {
-                var apto = document.getElementById(response.dataList[i].CodLot);
+                try {
+                  var apto = document.getElementById(response.dataList[i].CodLot);
+                  console.log("xxxxx")
+                  console.log("apartamento " + i + " --> apto.CodLot = " + response.dataList[i].CodLot);
+                  apto.style.fill = response.dataList[i].EtqClr;
+                  apto.style.opacity = "0.7";
+                  apto.addEventListener("mouseover", myFunc, false);
+                  apto.addEventListener("mouseout", myFunc2, false);
+                } catch (error) {
+                  console.log("error de id de inmueble" + " --> apto.CodLot = " + response.dataList[i].CodLot)
+                }
+               /* var apto = document.getElementById(response.dataList[i].CodLot);
                 if (apto){
                   console.log( "apartamento " + i + " --> apto.CodLot = " + response.dataList[i].CodLot);
                 apto.style.fill = response.dataList[i].EtqClr;
@@ -289,7 +300,7 @@
                 apto.addEventListener("mouseout", myFunc2, false);
                 } else {
                   console.log('error de etiqueta en el apto:'+ response.dataList[i].CodLot)
-                }
+                }*/
                 //document.getElementById(name2.listaId[i].id).onmouseover = function() {mouseOver()};
                 //document.getElementById(name2.listaId[i].id).onmouseout = function() {mouseOut()};
               }
