@@ -103,8 +103,6 @@
       </div>
       <!--graficos svg-->
       <div id="contenido" style="height: 200px; text-align: center;">
-        <img alt="">
-        <h1 id="manteni"></h1>
         <object style="height: 100%; width: 100%; z-index: -1;" id="svg"></object>
       </div>
       <!--tooltip de informacion de apartamento-->
@@ -237,18 +235,7 @@
             name = projectJson[indice2].svg;
             document.getElementById("elnombre").innerHTML = projectJson[indice2].nombre;
             killIt();
-           // if (projectJson[indice2].error != 0) {
-              drawIt();
-          //  } else {          
-           //   var img = document.getElementsByTagName("IMG")[0];   // Get the first <h1> element in the document
-           //   console.log(img);
-           //   var att = document.createAttribute("src");       // Create a "class" attribute
-          //    att.value = "/mantenimiento.png";                           // Set the value of the class attribut
-           //   img.setAttributeNode(att);
-          //    var texto = document.getElementById("manteni").innerHTML="Plano svg en mantenimiento"
-              //document.getElementById("elnombre").innerHTML = document.createElement("img")
-        //    }
-            killIt();
+            drawIt();
             document.getElementById("buscar-pal").value = "";
             cleanList();
           }
