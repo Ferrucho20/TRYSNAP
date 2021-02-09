@@ -238,8 +238,8 @@
         for (indice2 in projectJson) {
           if (cosaA == projectJson[indice2].id) {
             if (projectJson[indice2].error == 0) {
-              name = Hard_Hat_clip_art.svg;
-              document.getElementById("manteni").innerHTML="Plano en mantenimiento";
+              name = "/Hard_Hat_clip_art.svg";
+              document.getElementById("manteni").innerHTML = "Plano en mantenimiento";
             } else {
               name = projectJson[indice2].svg;
               document.getElementById("elnombre").innerHTML = projectJson[indice2].nombre;
@@ -250,264 +250,264 @@
             }
           }
         }
+      };
+      this[cosaA].onclick = this["handler" + cosaA];
+    }
+
+    function cleanList() {
+      let borra = document.getElementById("demo");
+      while (borra.hasChildNodes()) {
+        borra.removeChild(borra.lastChild);
+      }
+      borra.setAttribute("style", "overflow-y:auto;");
+    }
+
+    function drawIt() {
+      document.getElementById("card-body").style.display = "block";
+
+      s = Snap("#svg");
+      //Carga del plano usando Snap
+      var fragment = Snap.load(name, (data) => {
+
+        //Asignación de colores a LOIRA 20-09-10os apartamentos por estado
+        s.append(data);
+
+        var dataPost = {
+          CodPry: projectoID
         };
-        this[cosaA].onclick = this["handler" + cosaA];
-      }
+        async function datos() {
+          const respuesta = await fetch(
+            "/api/api/sqlserver/JDEVTAS/getPlano", {
+            method: "POST",
+            mode: "cors",
+            body: JSON.stringify(dataPost),
+            headers: {
+              "Content-Type": "application/json",
+              Accept: "application/json",
+              "pwd": "acee589663a018703bb1c4685f55682f3a43426530f5946f9679f97946ca5436",
+            },
+          }
+          )
+            .then((response) => response.json())
+            .then((response) => {
+              for (var i = 0; i < response.dataList.length; i++) {
+                try {
+                  var apto = document.getElementById(response.dataList[i].CodLot);
+                  var elapto = response.dataList[i].CodLot;
+                  var patron = /\bL[0-9]/g
+                  //console.log("apto"+elapto);
+                  console.log("apartamento " + i + " --> apto.CodLot = " + response.dataList[i].CodLot);
+                  apto.style.fill = response.dataList[i].EtqClr;
+                  apto.style.opacity = "0.7";
+                  apto.addEventListener("mouseover", myFunc, false);
+                  apto.addEventListener("mouseout", myFunc2, false);
+                } catch (error) {
+                  console.log("error de id de inmueble" + " --> apto.CodLot = " + response.dataList[i].CodLot)
+                }
+                /* var apto = document.getElementById(response.dataList[i].CodLot);
+                 if (apto){
+                   console.log( "apartamento " + i + " --> apto.CodLot = " + response.dataList[i].CodLot);
+                 apto.style.fill = response.dataList[i].EtqClr;
+                 apto.style.opacity = "0.7";
+                 apto.addEventListener("mouseover", myFunc, false);
+                 apto.addEventListener("mouseout", myFunc2, false);
+                 } else {
+                   console.log('error de etiqueta en el apto:'+ response.dataList[i].CodLot)
+                 }*/
+                //document.getElementById(name2.listaId[i].id).onmouseover = function() {mouseOver()};
+                //document.getElementById(name2.listaId[i].id).onmouseout = function() {mouseOut()};
+              }
 
-      function cleanList() {
-        let borra = document.getElementById("demo");
-        while (borra.hasChildNodes()) {
-          borra.removeChild(borra.lastChild);
-        }
-        borra.setAttribute("style", "overflow-y:auto;");
-      }
-
-      function drawIt() {
-        document.getElementById("card-body").style.display = "block";
-
-        s = Snap("#svg");
-        //Carga del plano usando Snap
-        var fragment = Snap.load(name, (data) => {
-
-          //Asignación de colores a LOIRA 20-09-10os apartamentos por estado
-          s.append(data);
-
-          var dataPost = {
-            CodPry: projectoID
-          };
-          async function datos() {
-            const respuesta = await fetch(
-              "/api/api/sqlserver/JDEVTAS/getPlano", {
-              method: "POST",
-              mode: "cors",
-              body: JSON.stringify(dataPost),
-              headers: {
-                "Content-Type": "application/json",
-                Accept: "application/json",
-                "pwd": "acee589663a018703bb1c4685f55682f3a43426530f5946f9679f97946ca5436",
-              },
-            }
-            )
-              .then((response) => response.json())
-              .then((response) => {
+              function myFunc() {
+                //console.log("mouseover");
                 for (var i = 0; i < response.dataList.length; i++) {
-                  try {
-                    var apto = document.getElementById(response.dataList[i].CodLot);
-                    var elapto = response.dataList[i].CodLot;
-                    var patron = /\bL[0-9]/g
-                    //console.log("apto"+elapto);
-                    console.log("apartamento " + i + " --> apto.CodLot = " + response.dataList[i].CodLot);
-                    apto.style.fill = response.dataList[i].EtqClr;
-                    apto.style.opacity = "0.7";
-                    apto.addEventListener("mouseover", myFunc, false);
-                    apto.addEventListener("mouseout", myFunc2, false);
-                  } catch (error) {
-                    console.log("error de id de inmueble" + " --> apto.CodLot = " + response.dataList[i].CodLot)
-                  }
-                  /* var apto = document.getElementById(response.dataList[i].CodLot);
-                   if (apto){
-                     console.log( "apartamento " + i + " --> apto.CodLot = " + response.dataList[i].CodLot);
-                   apto.style.fill = response.dataList[i].EtqClr;
-                   apto.style.opacity = "0.7";
-                   apto.addEventListener("mouseover", myFunc, false);
-                   apto.addEventListener("mouseout", myFunc2, false);
-                   } else {
-                     console.log('error de etiqueta en el apto:'+ response.dataList[i].CodLot)
-                   }*/
-                  //document.getElementById(name2.listaId[i].id).onmouseover = function() {mouseOver()};
-                  //document.getElementById(name2.listaId[i].id).onmouseout = function() {mouseOut()};
-                }
-
-                function myFunc() {
-                  //console.log("mouseover");
-                  for (var i = 0; i < response.dataList.length; i++) {
-                    if (this.id == response.dataList[i].CodLot) {
-                      $(function () {
-                        $('[data-toggle="tooltip"]').tooltip();
-                      });
-                      var id = document.getElementById(
-                        response.dataList[i].CodLot
-                      );
-                      //Coordenadas X/Y
-                      var xCoords = event.clientX;
-                      var yCoords = event.clientY;
-                      //Nueva posición de las coordenadas
-                      var lacaja = document.getElementById("mycard1");
-                      if (xCoords < 950) {
-                        xCoords = xCoords + 40;
-                        lacaja.style.left = xCoords + "px";
-                      } else {
-                        xCoords = xCoords - 340;
-                        lacaja.style.left = xCoords + "px";
-                      }
-                      lacaja.style.top = yCoords + "px";
-                      lacaja.style.visibility = "visible";
-                      document.getElementById("mycard1").innerHTML =
-                        " " +
-                        response.dataList[i].EtqEst +
-                        " <br> " +
-                        response.dataList[i].EtqPrc +
-                        " <br> " +
-                        response.dataList[i].EtqAre +
-                        " <br> " +
-                        response.dataList[i].EtqVlm +
-                        " <br> " +
-                        response.dataList[i].EtqFev +
-                        " <br> " +
-                        response.dataList[i].EtqVlb +
-                        " <br> " +
-                        response.dataList[i].EtqNcl;
-                      // + " <br> " + response.dataList[i].EtqClr;
-                      //document.getElementById("mititle").innerHTML = this.id;
+                  if (this.id == response.dataList[i].CodLot) {
+                    $(function () {
+                      $('[data-toggle="tooltip"]').tooltip();
+                    });
+                    var id = document.getElementById(
+                      response.dataList[i].CodLot
+                    );
+                    //Coordenadas X/Y
+                    var xCoords = event.clientX;
+                    var yCoords = event.clientY;
+                    //Nueva posición de las coordenadas
+                    var lacaja = document.getElementById("mycard1");
+                    if (xCoords < 950) {
+                      xCoords = xCoords + 40;
+                      lacaja.style.left = xCoords + "px";
+                    } else {
+                      xCoords = xCoords - 340;
+                      lacaja.style.left = xCoords + "px";
                     }
+                    lacaja.style.top = yCoords + "px";
+                    lacaja.style.visibility = "visible";
+                    document.getElementById("mycard1").innerHTML =
+                      " " +
+                      response.dataList[i].EtqEst +
+                      " <br> " +
+                      response.dataList[i].EtqPrc +
+                      " <br> " +
+                      response.dataList[i].EtqAre +
+                      " <br> " +
+                      response.dataList[i].EtqVlm +
+                      " <br> " +
+                      response.dataList[i].EtqFev +
+                      " <br> " +
+                      response.dataList[i].EtqVlb +
+                      " <br> " +
+                      response.dataList[i].EtqNcl;
+                    // + " <br> " + response.dataList[i].EtqClr;
+                    //document.getElementById("mititle").innerHTML = this.id;
                   }
                 }
-
-                function myFunc2() {
-                  //console.log("mouseout");
-                  for (var i = 0; i < response.dataList.length; i++) {
-                    if (this.id !== response.dataList[i].CodLot) {
-                      var lacaja = document.getElementById("mycard1");
-                      lacaja.style.visibility = "hidden";
-                    }
-                  }
-                }
-              })
-              .catch((error) => {
-                console.error("Error:", error);
-              });
-          }
-
-          datos();
-          var frente = "frenteTorre";
-          var base = "baseTorre";
-          var handShow = "handlerButtonClickShow";
-          var handHide = "handlerButtonClickHide";
-
-          for (var i = 0; i < projectJson.length; i++) {
-            if (projectJson[i].id == projectoID) {
-              for (var j = 0; j < projectJson[i].informacion.length; j++) {
-                //Asignación del botón respecto a la base Torre 2
-
-                this[frente + j] = document.getElementById(
-                  projectJson[i].informacion[j].idFrente
-                );
-
-                //Asignación del botón respecto al frente Torre 2
-                this[base + j] = document.getElementById(
-                  projectJson[i].informacion[j].idBase
-                );
-
-                let listaShowHide = projectJson[i].informacion[j].showOrHide;
-                //función para mostrar
-                this[handShow + j] = () => {
-                  for (item in listaShowHide) {
-                    let este = document.getElementById(listaShowHide[item]);
-                    este.style.visibility = "visible";
-                  }
-                };
-                this[base + j].onclick = this[handShow + j];
-
-                //función para remover
-                this[handHide + j] = () => {
-                  for (item in listaShowHide) {
-                    let este2 = document.getElementById(listaShowHide[item]);
-                    este2.style.visibility = "hidden";
-                  }
-                };
-                this[frente + j].onclick = this[handHide + j];
               }
+
+              function myFunc2() {
+                //console.log("mouseout");
+                for (var i = 0; i < response.dataList.length; i++) {
+                  if (this.id !== response.dataList[i].CodLot) {
+                    var lacaja = document.getElementById("mycard1");
+                    lacaja.style.visibility = "hidden";
+                  }
+                }
+              }
+            })
+            .catch((error) => {
+              console.error("Error:", error);
+            });
+        }
+
+        datos();
+        var frente = "frenteTorre";
+        var base = "baseTorre";
+        var handShow = "handlerButtonClickShow";
+        var handHide = "handlerButtonClickHide";
+
+        for (var i = 0; i < projectJson.length; i++) {
+          if (projectJson[i].id == projectoID) {
+            for (var j = 0; j < projectJson[i].informacion.length; j++) {
+              //Asignación del botón respecto a la base Torre 2
+
+              this[frente + j] = document.getElementById(
+                projectJson[i].informacion[j].idFrente
+              );
+
+              //Asignación del botón respecto al frente Torre 2
+              this[base + j] = document.getElementById(
+                projectJson[i].informacion[j].idBase
+              );
+
+              let listaShowHide = projectJson[i].informacion[j].showOrHide;
+              //función para mostrar
+              this[handShow + j] = () => {
+                for (item in listaShowHide) {
+                  let este = document.getElementById(listaShowHide[item]);
+                  este.style.visibility = "visible";
+                }
+              };
+              this[base + j].onclick = this[handShow + j];
+
+              //función para remover
+              this[handHide + j] = () => {
+                for (item in listaShowHide) {
+                  let este2 = document.getElementById(listaShowHide[item]);
+                  este2.style.visibility = "hidden";
+                }
+              };
+              this[frente + j].onclick = this[handHide + j];
             }
           }
-        });
+        }
+      });
+    }
+
+    function killIt() {
+      var elem = document.getElementById("svg");
+      var obj1 = document.createElement("object");
+      obj1.setAttribute("id", "svg");
+      obj1.setAttribute("style", "height: 100%; width: 100%;");
+
+      var element = document.getElementById("contenido");
+      element.appendChild(obj1);
+      elem.remove(elem);
+      return false;
+    }
+
+    function ocultarLista() {
+      document.getElementById("demo").style.visibility = "hidden";
+    }
+
+    function desplegarLista(idLista) {
+      document.getElementById(idLista).classList.toggle("show");
+    }
+
+    function asignarSucursal(element, cod) {
+      document.getElementById("codSucursal").innerText = cod;
+      document.getElementById("btnSucursal").innerHTML = element.innerText + " &#9662;";
+      cargarCiudades();
+    }
+
+    function asignarCiudad(element, cod) {
+      document.getElementById("codCiudad").innerText = cod;
+      document.getElementById("btnCiudad").innerHTML = element.innerText + " &#9662;";
+    }
+
+    function cargarCiudades() {
+      var div = document.getElementById("listaCiudad");
+      while (div.hasChildNodes()) {
+        div.removeChild(div.lastChild);
       }
 
-      function killIt() {
-        var elem = document.getElementById("svg");
-        var obj1 = document.createElement("object");
-        obj1.setAttribute("id", "svg");
-        obj1.setAttribute("style", "height: 100%; width: 100%;");
-
-        var element = document.getElementById("contenido");
-        element.appendChild(obj1);
-        elem.remove(elem);
-        return false;
+      var myArr = [];
+      let sucursal = document.getElementById("codSucursal").innerText;
+      for (indice in projectJson) {
+        if (sucursal == projectJson[indice].rp04) {
+          for (dato in datosJson) {
+            if (projectJson[indice].rp05 == datosJson[dato].rp05) {
+              myArr[indice] = projectJson[indice].rp05 + "**" + datosJson[dato].ciudad;
+            }
+          }
+        }
       }
 
-      function ocultarLista() {
-        document.getElementById("demo").style.visibility = "hidden";
+      var unique = myArr.filter(onlyUnique);
+      for (indice in unique.sort()) {
+        var sp = unique[indice].split("**");
+        var a = document.createElement("a");
+        a.setAttribute("onclick", "asignarCiudad(this, '" + sp[0] + "')");
+        a.innerText = sp[1];
+        div.appendChild(a);
       }
 
-      function desplegarLista(idLista) {
-        document.getElementById(idLista).classList.toggle("show");
-      }
+      var sp2 = unique[0].split("**");
+      document.getElementById("codCiudad").innerText = sp2[0];
+      document.getElementById("btnCiudad").innerHTML = sp2[1] + " &#9662;";
+    }
 
-      function asignarSucursal(element, cod) {
-        document.getElementById("codSucursal").innerText = cod;
-        document.getElementById("btnSucursal").innerHTML = element.innerText + " &#9662;";
+    function onlyUnique(value, index, self) {
+      //elimina los elementos repetidos
+      return self.indexOf(value) === index;
+    }
+
+    window.onclick = function (event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+
+    window.onload = function () {
+      setTimeout(() => {
         cargarCiudades();
-      }
-
-      function asignarCiudad(element, cod) {
-        document.getElementById("codCiudad").innerText = cod;
-        document.getElementById("btnCiudad").innerHTML = element.innerText + " &#9662;";
-      }
-
-      function cargarCiudades() {
-        var div = document.getElementById("listaCiudad");
-        while (div.hasChildNodes()) {
-          div.removeChild(div.lastChild);
-        }
-
-        var myArr = [];
-        let sucursal = document.getElementById("codSucursal").innerText;
-        for (indice in projectJson) {
-          if (sucursal == projectJson[indice].rp04) {
-            for (dato in datosJson) {
-              if (projectJson[indice].rp05 == datosJson[dato].rp05) {
-                myArr[indice] = projectJson[indice].rp05 + "**" + datosJson[dato].ciudad;
-              }
-            }
-          }
-        }
-
-        var unique = myArr.filter(onlyUnique);
-        for (indice in unique.sort()) {
-          var sp = unique[indice].split("**");
-          var a = document.createElement("a");
-          a.setAttribute("onclick", "asignarCiudad(this, '" + sp[0] + "')");
-          a.innerText = sp[1];
-          div.appendChild(a);
-        }
-
-        var sp2 = unique[0].split("**");
-        document.getElementById("codCiudad").innerText = sp2[0];
-        document.getElementById("btnCiudad").innerHTML = sp2[1] + " &#9662;";
-      }
-
-      function onlyUnique(value, index, self) {
-        //elimina los elementos repetidos
-        return self.indexOf(value) === index;
-      }
-
-      window.onclick = function (event) {
-        if (!event.target.matches('.dropbtn')) {
-          var dropdowns = document.getElementsByClassName("dropdown-content");
-          var i;
-          for (i = 0; i < dropdowns.length; i++) {
-            var openDropdown = dropdowns[i];
-            if (openDropdown.classList.contains('show')) {
-              openDropdown.classList.remove('show');
-            }
-          }
-        }
-      }
-
-      window.onload = function () {
-        setTimeout(() => {
-          cargarCiudades();
-        }, 2000);
-      }
+      }, 2000);
+    }
   </script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
