@@ -237,15 +237,15 @@
         projectoID = cosaA;
         for (indice2 in projectJson) {
           if (cosaA == projectJson[indice2].id) {
-            if (projectJson[indice2].error == 0) {
+            if(projectJson[indice2].error == 0){
               name = "/Hard_Hat_clip_art.svg";
-              document.getElementById("manteni").innerHTML = "Plano en mantenimiento";
-            } else {
-              name = projectJson[indice2].svg;
-              document.getElementById("manteni").innerHTML = "";
-            }
-            document.getElementById("elnombre").innerHTML = projectJson[indice2].nombre;
-            killIt();
+              document.getElementById("manteni").innerHTML="Plano svg en mantenimiento";
+            }else{           
+            name = projectJson[indice2].svg;
+              document.getElementById("manteni").innerHTML="";
+          }
+          document.getElementById("elnombre").innerHTML = projectJson[indice2].nombre;
+            killIt()
             drawIt();
             document.getElementById("buscar-pal").value = "";
             cleanList();
