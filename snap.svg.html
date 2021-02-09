@@ -242,12 +242,13 @@
               document.getElementById("manteni").innerHTML = "Plano en mantenimiento";
             } else {
               name = projectJson[indice2].svg;
-              document.getElementById("elnombre").innerHTML = projectJson[indice2].nombre;
-              killIt();
-              drawIt();
-              document.getElementById("buscar-pal").value = "";
-              cleanList();
+              document.getElementById("manteni").innerHTML = "";
             }
+            document.getElementById("elnombre").innerHTML = projectJson[indice2].nombre;
+            killIt();
+            drawIt();
+            document.getElementById("buscar-pal").value = "";
+            cleanList();
           }
         }
       };
