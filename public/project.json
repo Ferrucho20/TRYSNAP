@@ -12113,6 +12113,75 @@
         "showOrHide": ["layer5", "layer10"]
       }
     ]
+  },
+  {
+    "id": "005937601000",
+    "nombre": "CRISTALINA-E1",
+    "svg": "CRISTALINA 21-01-13.svg",
+    "rp04": "005",
+    "rp05": "005",
+    "informacion": [{
+        "idFrente": "L_ADM_TORRE_01_02_03_04_05_06_07_1",
+        "idBase": "L_ADM_TORRE_01_02_03_04_05_06_07_0",
+        "showOrHide": ["layer3", "layer4"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_08_09_10_11_12_1",
+        "idBase": "L_ADM_TORRE_08_09_10_11_12_0",
+        "showOrHide": ["layer5", "layer6"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_13_14_15_16_17_1",
+        "idBase": "L_ADM_TORRE_13_14_15_16_17_0",
+        "showOrHide": ["layer7", "layer8"]
+      }
+    ]
+  },
+  {
+    "id": "005937602000",
+    "nombre": "CRISTALINA-E2",
+    "svg": "CRISTALINA 21-01-13.svg",
+    "rp04": "005",
+    "rp05": "005",
+    "informacion": [{
+        "idFrente": "L_ADM_TORRE_01_02_03_04_05_06_07_1",
+        "idBase": "L_ADM_TORRE_01_02_03_04_05_06_07_0",
+        "showOrHide": ["layer3", "layer4"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_08_09_10_11_12_1",
+        "idBase": "L_ADM_TORRE_08_09_10_11_12_0",
+        "showOrHide": ["layer5", "layer6"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_13_14_15_16_17_1",
+        "idBase": "L_ADM_TORRE_13_14_15_16_17_0",
+        "showOrHide": ["layer7", "layer8"]
+      }
+    ]
+  },
+  {
+    "id": "005937603000",
+    "nombre": "CRISTALINA-E3",
+    "svg": "CRISTALINA 21-01-13.svg",
+    "rp04": "005",
+    "rp05": "005",
+    "informacion": [{
+        "idFrente": "L_ADM_TORRE_01_02_03_04_05_06_07_1",
+        "idBase": "L_ADM_TORRE_01_02_03_04_05_06_07_0",
+        "showOrHide": ["layer3", "layer4"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_08_09_10_11_12_1",
+        "idBase": "L_ADM_TORRE_08_09_10_11_12_0",
+        "showOrHide": ["layer5", "layer6"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_13_14_15_16_17_1",
+        "idBase": "L_ADM_TORRE_13_14_15_16_17_0",
+        "showOrHide": ["layer7", "layer8"]
+      }
+    ]
   }
 
 ]
