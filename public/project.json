@@ -12182,24 +12182,6 @@
         "showOrHide": ["layer7", "layer8"]
       }
     ]
-  },
-  {
-    "id": "002080701000",
-    "nombre": "EL ROSAL E-1",
-    "svg": "EL ROSAL 21-01-18.svg",
-    "rp04": "002",
-    "rp05": "002",
-    "informacion": [{
-        "idFrente": "",
-        "idBase": "",
-        "showOrHide": []
-      },
-      {
-        "idFrente": "",
-        "idBase": "",
-        "showOrHide": []
-      }
-    ]
   }
 
 ]
