@@ -9125,76 +9125,6 @@
     ]
   },
   {
-    "id": "014507242000",
-    "nombre": "BALCONES DEL JARDIN F2",
-    "svg": "11 BALCONES DEL JARDIN MARCADO_ant.svg",
-    "rp04": "008",
-    "rp05": "014",
-    "informacion": [{
-        "idFrente": "L_ADM_TORRE_1_1",
-        "idBase": "L_ADM_TORRE_1_0",
-        "showOrHide": ["layer2", "layer14"]
-      },
-      {
-        "idFrente": "L_ADM_TORRE_2_1",
-        "idBase": "L_ADM_TORRE_2_0",
-        "showOrHide": ["layer15", "layer3"]
-      },
-      {
-        "idFrente": "L_ADM_TORRE_3_1",
-        "idBase": "L_ADM_TORRE_3_0",
-        "showOrHide": ["layer4", "layer16"]
-      },
-      {
-        "idFrente": "L_ADM_TORRE_4_1",
-        "idBase": "L_ADM_TORRE_4_0",
-        "showOrHide": ["layer17", "layer5"]
-      },
-      {
-        "idFrente": "L_ADM_TORRE_5_1",
-        "idBase": "L_ADM_TORRE_5_0",
-        "showOrHide": ["layer7", "layer19"]
-      },
-      {
-        "idFrente": "L_ADM_TORRE_6_1",
-        "idBase": "L_ADM_TORRE_6_0",
-        "showOrHide": ["layer8", "layer20"]
-      },
-      {
-        "idFrente": "L_ADM_TORRE_7_1",
-        "idBase": "L_ADM_TORRE_7_0",
-        "showOrHide": ["layer22", "layer10"]
-      },
-      {
-        "idFrente": "L_ADM_TORRE_8_1",
-        "idBase": "L_ADM_TORRE_8_0",
-        "showOrHide": ["layer24", "layer12"]
-      },
-      {
-        "idFrente": "L_ADM_TORRE_7_0_1",
-        "idBase": "L_ADM_TORRE_7_0_0",
-        "showOrHide": ["layer21", "layer9", "layer22", "layer10"]
-      },
-      {
-        "idFrente": "L_ADM_TORRE_8_0_1",
-        "idBase": "L_ADM_TORRE_8_0_0",
-        "showOrHide": ["layer23", "layer11", "layer24", "layer12"]
-      },
-      {
-        "idFrente": "L_ADM_TORRE_5_6_1",
-        "idBase": "L_ADM_TORRE_5_6_0",
-        "showOrHide": [
-          "layer6",
-          "layer18",
-          "layer7",
-          "layer19",
-          "layer8",
-          "layer20"
-        ]
-      }
-    ]
-  },
-  {
     "id": "014507261000",
     "nombre": "EL JARDIN ORQUIDEA E1",
     "svg": "Jardin Orquidea MARCADO 19-07-08 v1.svg",
@@ -12019,7 +11949,77 @@
   {
     "id": "014507241000",
     "nombre": "BALCONES DEL JARDIN F1",
-    "svg": "11 BALCONES DEL JARDIN MARCADO(1).SVG",
+    "svg": "11 BALCONES DEL JARDIN MARCADO_ant.svg",
+    "rp04": "008",
+    "rp05": "014",
+    "informacion": [{
+        "idFrente": "L_ADM_TORRE_1_1",
+        "idBase": "L_ADM_TORRE_1_0",
+        "showOrHide": ["layer2", "layer14"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_2_1",
+        "idBase": "L_ADM_TORRE_2_0",
+        "showOrHide": ["layer15", "layer3"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_3_1",
+        "idBase": "L_ADM_TORRE_3_0",
+        "showOrHide": ["layer4", "layer16"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_4_1",
+        "idBase": "L_ADM_TORRE_4_0",
+        "showOrHide": ["layer17", "layer5"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_5_1",
+        "idBase": "L_ADM_TORRE_5_0",
+        "showOrHide": ["layer7", "layer19"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_6_1",
+        "idBase": "L_ADM_TORRE_6_0",
+        "showOrHide": ["layer8", "layer20"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_7_1",
+        "idBase": "L_ADM_TORRE_7_0",
+        "showOrHide": ["layer22", "layer10"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_8_1",
+        "idBase": "L_ADM_TORRE_8_0",
+        "showOrHide": ["layer24", "layer12"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_7_0_1",
+        "idBase": "L_ADM_TORRE_7_0_0",
+        "showOrHide": ["layer21", "layer9", "layer22", "layer10"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_8_0_1",
+        "idBase": "L_ADM_TORRE_8_0_0",
+        "showOrHide": ["layer23", "layer11", "layer24", "layer12"]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_5_6_1",
+        "idBase": "L_ADM_TORRE_5_6_0",
+        "showOrHide": [
+          "layer6",
+          "layer18",
+          "layer7",
+          "layer19",
+          "layer8",
+          "layer20"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "014507242000",
+    "nombre": "BALCONES DEL JARDIN F2",
+    "svg": "11 BALCONES DEL JARDIN MARCADO(1).SVG", 
     "rp04": "008",
     "rp05": "014",
     "informacion": [{
