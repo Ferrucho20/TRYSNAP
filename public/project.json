@@ -12296,6 +12296,74 @@
         ]
       }
     ]
+  },
+  {
+    "id": "011507101000",
+    "nombre": "LA VEGA DE SAN ROQUE E1",
+    "svg": "LA VEGA SAN ROQUE ETAPAS 1-3 2021-02-16.svg",
+    "rp04": "001",
+    "rp05": "011",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_01_02_03_04_1",
+        "idBase": "L_ADM_TORRE_01_02_03_04_0",
+        "showOrHide": [
+          "layer9",
+          "layer10"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "011507102000",
+    "nombre": "LA VEGA DE SAN ROQUE E2",
+    "svg": "LA VEGA SAN ROQUE ETAPAS 2-4 2021-02-16.svg",
+    "rp04": "001",
+    "rp05": "011",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_01_02_03_04_1",
+        "idBase": "L_ADM_TORRE_01_02_03_04_0",
+        "showOrHide": [
+          "layer9",
+          "layer10"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "011507103000",
+    "nombre": "LA VEGA DE SAN ROQUE E3",
+    "svg": "LA VEGA SAN ROQUE ETAPAS 1-3 2021-02-16.svg",
+    "rp04": "001",
+    "rp05": "011",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_01_02_03_04_1",
+        "idBase": "L_ADM_TORRE_01_02_03_04_0",
+        "showOrHide": [
+          "layer9",
+          "layer10"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "011507104000",
+    "nombre": "LA VEGA DE SAN ROQUE E4",
+    "svg": "LA VEGA SAN ROQUE ETAPAS 2-4 2021-02-16.svg",
+    "rp04": "001",
+    "rp05": "011",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_01_02_03_04_1",
+        "idBase": "L_ADM_TORRE_01_02_03_04_0",
+        "showOrHide": [
+          "layer9",
+          "layer10"
+        ]
+      }
+    ]
   }
 
 ]
