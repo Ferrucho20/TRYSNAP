@@ -2422,7 +2422,7 @@
        d="m 71.513926,24.931457 2.349869,0.03341 0.0125,0.651469 -2.374733,-0.0167 z"
        id="LTORRE_16_0"
        sodipodi:nodetypes="ccccc" />
-    <circle
+    <path
        style="opacity:0.2;fill:#000080;fill-opacity:1;stroke:#000000;stroke-width:0.106511;stroke-miterlimit:4;stroke-dasharray:none"
        id="L_ADM_TORRE_13_14_15_16_0"
        sodipodi:type="arc"
@@ -3968,7 +3968,7 @@
        d="m 71.513958,24.930801 2.349869,0.03341 0.0125,0.651469 -2.374733,-0.0167 z"
        id="LTORRE_16_1"
        sodipodi:nodetypes="ccccc" />
-    <circle
+    <path
        style="display:inline;opacity:0.2;fill:#000080;fill-opacity:1;stroke:#000000;stroke-width:0.106511;stroke-miterlimit:4;stroke-dasharray:none"
        id="L_ADM_TORRE_13_14_15_16_1"
        sodipodi:type="arc"
