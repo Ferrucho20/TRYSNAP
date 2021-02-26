@@ -12322,11 +12322,11 @@
     "rp05": "011",
     "informacion": [
       {
-        "idFrente": "L_ADM_TORRE_01_02_03_04_1",
-        "idBase": "L_ADM_TORRE_01_02_03_04_0",
+        "idFrente": "L_ADM_TORRE_37_38_1",
+        "idBase": "L_ADM_TORRE_37_38_0",
         "showOrHide": [
-          "layer9",
-          "layer10"
+          "layer15",
+          "layer16"
         ]
       }
     ]
