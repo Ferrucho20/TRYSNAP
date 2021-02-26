@@ -4985,15 +4985,9 @@
     <path
        style="display:inline;opacity:0.2;fill:#000080;fill-opacity:1;stroke:#000000;stroke-width:0.105833;stroke-miterlimit:4;stroke-dasharray:none"
        id="L_ADM_TORRE_25_26_1"
-       sodipodi:type="arc"
-       sodipodi:cx="62.092106"
-       sodipodi:cy="2.0365229"
-       sodipodi:rx="0.51157057"
-       sodipodi:ry="0.33617494"
-       sodipodi:start="0.03460953"
-       sodipodi:end="0.032583901"
-       sodipodi:open="true"
-       sodipodi:arc-type="arc"
-       d="M 62.60337,2.0481554 A 0.51157057,0.33617494 0 0 1 62.074663,2.3725023 0.51157057,0.33617494 0 0 1 61.580824,2.0252306 0.51157057,0.33617494 0 0 1 62.109031,1.700532 0.51157057,0.33617494 0 0 1 62.603405,2.0474748" />
+       cx="62.092106"
+       cy="2.0365229"
+       rx="0.51157057"
+       ry="0.33617494" />
   </g>
 </svg>
