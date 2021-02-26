@@ -1299,7 +1299,7 @@
        d="M 65.42314,6.4463264 64.488278,5.9983397 64.490678,5.7028271 63.589854,5.2223555 60.95357,6.253492 60.92827,7.4922698 61.867629,8.0101406 62.402684,7.7914834 63.224468,8.2287968 65.42319,7.3656785 Z"
        id="L1726"
        sodipodi:nodetypes="ccccccccccc" />
-    <circle
+    <path
        style="opacity:0.2;fill:#000080;fill-opacity:1;stroke:#000000;stroke-width:0.110243;stroke-miterlimit:4;stroke-dasharray:none"
        id="L_ADM_TORRE_05_0"
        sodipodi:type="arc"
@@ -1335,7 +1335,7 @@
        sodipodi:open="true"
        sodipodi:arc-type="arc"
        d="m 36.255611,4.1548686 a 0.95379925,0.45960253 0 0 1 -0.985749,0.4434318 0.95379925,0.45960253 0 0 1 -0.92074,-0.4747735 0.95379925,0.45960253 0 0 1 0.984817,-0.4439127 0.95379925,0.45960253 0 0 1 0.921737,0.4743239" />
-    <circle
+    <path
        style="opacity:0.2;fill:#000080;fill-opacity:1;stroke:#000000;stroke-width:0.105833;stroke-miterlimit:4;stroke-dasharray:none"
        id="L_ADM_TORRE_03_0"
        sodipodi:type="arc"
@@ -2700,7 +2700,7 @@
        d="m 61.328895,8.8065521 -2.212509,0.9176716 -1.159387,-0.6794292 -0.266475,0.079415 -0.867654,-0.4804367 -0.0079,-0.8564346 2.615871,-1.1299214 0.395699,0.2313843 0.320753,-0.1592047 0.916139,0.5025989 0.0016,0.5063014 0.267156,0.1522966 z"
        id="L1727"
        sodipodi:nodetypes="ccccccccccccc" />
-    <circle
+    <path
        style="display:inline;opacity:0.2;mix-blend-mode:normal;fill:#000080;fill-opacity:1;stroke:#000000;stroke-width:0.105833;stroke-miterlimit:4;stroke-dasharray:none"
        id="L_ADM_TORRE_03_1"
        sodipodi:type="arc"
