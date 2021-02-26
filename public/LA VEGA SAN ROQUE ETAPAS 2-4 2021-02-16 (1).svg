@@ -2232,7 +2232,7 @@
        d="m 34.287149,14.560174 2.388721,0.02506 v 0.659821 l -2.405426,-0.0084 z"
        id="LTORRE_40_0"
        inkscape:connector-curvature="0" />
-    <circle
+    <path
        style="opacity:0.2;fill:#000080;fill-opacity:1;stroke:#000000;stroke-width:0.106362;stroke-miterlimit:4;stroke-dasharray:none"
        id="L_ADM_TORRE_39_40_0"
        sodipodi:type="arc"
@@ -2255,7 +2255,7 @@
        d="m 34.323033,22.184215 2.388721,0.02506 v 0.659821 l -2.405426,-0.0084 z"
        id="LTORRE_41_0"
        inkscape:connector-curvature="0" />
-    <circle
+    <path
        style="opacity:0.2;fill:#000080;fill-opacity:1;stroke:#000000;stroke-width:0.106362;stroke-miterlimit:4;stroke-dasharray:none"
        id="L_ADM_TORRE_41_42_0"
        sodipodi:type="arc"
@@ -2278,7 +2278,7 @@
        d="m 34.305386,29.969142 2.388721,0.02506 v 0.659821 l -2.405426,-0.0084 z"
        id="LTORRE_44_0"
        inkscape:connector-curvature="0" />
-    <circle
+    <path
        style="opacity:0.2;fill:#000080;fill-opacity:1;stroke:#000000;stroke-width:0.106362;stroke-miterlimit:4;stroke-dasharray:none"
        id="L_ADM_TORRE_43_44_0"
        sodipodi:type="arc"
@@ -2301,7 +2301,7 @@
        d="m 58.109255,33.173274 2.388721,0.02506 v 0.659821 l -2.405426,-0.0084 z"
        id="LTORRE_28_0"
        inkscape:connector-curvature="0" />
-    <circle
+    <path
        style="opacity:0.2;fill:#000080;fill-opacity:1;stroke:#000000;stroke-width:0.106362;stroke-miterlimit:4;stroke-dasharray:none"
        id="L_ADM_TORRE_27_28_0"
        sodipodi:type="arc"
@@ -2324,7 +2324,7 @@
        d="m 55.382945,25.487579 2.388721,0.02506 v 0.659821 l -2.405426,-0.0084 z"
        id="LTORRE_29_0"
        inkscape:connector-curvature="0" />
-    <circle
+    <path
        style="opacity:0.2;fill:#000080;fill-opacity:1;stroke:#000000;stroke-width:0.106362;stroke-miterlimit:4;stroke-dasharray:none"
        id="L_ADM_TORRE_29_30_0"
        sodipodi:type="arc"
@@ -2347,7 +2347,7 @@
        d="m 57.241792,17.809407 2.388721,0.02506 v 0.659821 l -2.405426,-0.0084 z"
        id="LTORRE_32_0"
        inkscape:connector-curvature="0" />
-    <circle
+    <path
        style="opacity:0.2;fill:#000080;fill-opacity:1;stroke:#000000;stroke-width:0.106362;stroke-miterlimit:4;stroke-dasharray:none"
        id="L_ADM_TORRE_31_32_0"
        sodipodi:type="arc"
@@ -2370,7 +2370,7 @@
        d="m 56.957162,10.206452 2.388721,0.02506 v 0.659821 l -2.405426,-0.0084 z"
        id="LTORRE_33_0"
        inkscape:connector-curvature="0" />
-    <circle
+    <path
        style="opacity:0.2;fill:#000080;fill-opacity:1;stroke:#000000;stroke-width:0.106362;stroke-miterlimit:4;stroke-dasharray:none"
        id="L_ADM_TORRE_33_34_0"
        sodipodi:type="arc"
@@ -2393,7 +2393,7 @@
        d="m 53.859231,3.037116 2.388721,0.02506 v 0.659821 l -2.405426,-0.0084 z"
        id="LTORRE_35_0"
        inkscape:connector-curvature="0" />
-    <circle
+    <path
        style="opacity:0.2;fill:#000080;fill-opacity:1;stroke:#000000;stroke-width:0.106362;stroke-miterlimit:4;stroke-dasharray:none"
        id="L_ADM_TORRE_35_36_0"
        sodipodi:type="arc"
@@ -2662,7 +2662,7 @@
        d="m 58.109222,33.173866 2.388721,0.02506 v 0.659821 l -2.405426,-0.0084 z"
        id="LTORRE_28_1"
        inkscape:connector-curvature="0" />
-    <circle
+    <path
        style="opacity:0.2;fill:#000080;fill-opacity:1;stroke:#000000;stroke-width:0.106362;stroke-miterlimit:4;stroke-dasharray:none"
        id="L_ADM_TORRE_27_28_1"
        sodipodi:type="arc"
@@ -2932,7 +2932,7 @@
        d="m 55.382915,25.488195 2.388721,0.02506 v 0.659821 l -2.405426,-0.0084 z"
        id="LTORRE_29_1"
        inkscape:connector-curvature="0" />
-    <circle
+    <path
        style="opacity:0.2;fill:#000080;fill-opacity:1;stroke:#000000;stroke-width:0.106362;stroke-miterlimit:4;stroke-dasharray:none"
        id="L_ADM_TORRE_29_30_1"
        sodipodi:type="arc"
@@ -3202,7 +3202,7 @@
        d="m 57.241759,17.810007 2.388721,0.02506 v 0.659821 l -2.405426,-0.0084 z"
        id="LTORRE_32_1"
        inkscape:connector-curvature="0" />
-    <circle
+    <path
        style="opacity:0.2;fill:#000080;fill-opacity:1;stroke:#000000;stroke-width:0.106362;stroke-miterlimit:4;stroke-dasharray:none"
        id="L_ADM_TORRE_31_32_1"
        sodipodi:type="arc"
@@ -3472,7 +3472,7 @@
        d="m 56.95713,10.207046 2.388721,0.02506 v 0.659821 l -2.405426,-0.0084 z"
        id="LTORRE_33_1"
        inkscape:connector-curvature="0" />
-    <circle
+    <path
        style="opacity:0.2;fill:#000080;fill-opacity:1;stroke:#000000;stroke-width:0.106362;stroke-miterlimit:4;stroke-dasharray:none"
        id="L_ADM_TORRE_33_34_1"
        sodipodi:type="arc"
@@ -3742,7 +3742,7 @@
        d="m 53.8592,3.0376989 2.388721,0.02506 v 0.659821 l -2.405426,-0.0084 z"
        id="LTORRE_35_1"
        inkscape:connector-curvature="0" />
-    <circle
+    <path
        style="opacity:0.2;fill:#000080;fill-opacity:1;stroke:#000000;stroke-width:0.106362;stroke-miterlimit:4;stroke-dasharray:none"
        id="L_ADM_TORRE_35_36_1"
        sodipodi:type="arc"
@@ -4282,7 +4282,7 @@
        d="m 34.287116,14.560753 2.388721,0.02506 v 0.659821 l -2.405426,-0.0084 z"
        id="LTORRE_40_1"
        inkscape:connector-curvature="0" />
-    <circle
+    <path
        style="opacity:0.2;fill:#000080;fill-opacity:1;stroke:#000000;stroke-width:0.106362;stroke-miterlimit:4;stroke-dasharray:none"
        id="L_ADM_TORRE_39_40_1"
        sodipodi:type="arc"
@@ -4552,7 +4552,7 @@
        d="m 34.323002,22.184831 2.38872,0.02506 v 0.659821 l -2.405425,-0.0084 z"
        id="LTORRE_41_1"
        inkscape:connector-curvature="0" />
-    <circle
+    <path
        style="opacity:0.2;fill:#000080;fill-opacity:1;stroke:#000000;stroke-width:0.106362;stroke-miterlimit:4;stroke-dasharray:none"
        id="L_ADM_TORRE_41_42_1"
        sodipodi:type="arc"
@@ -4822,7 +4822,7 @@
        d="m 34.305418,29.968527 2.388721,0.02506 v 0.659821 l -2.405426,-0.0084 z"
        id="LTORRE_44_1"
        inkscape:connector-curvature="0" />
-    <circle
+    <path
        style="opacity:0.2;fill:#000080;fill-opacity:1;stroke:#000000;stroke-width:0.106362;stroke-miterlimit:4;stroke-dasharray:none"
        id="L_ADM_TORRE_43_44_1"
        sodipodi:type="arc"

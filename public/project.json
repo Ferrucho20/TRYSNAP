@@ -12392,6 +12392,14 @@
           "layer15",
           "layer16"
         ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_37_38_1",
+        "idBase": "L_ADM_TORRE_37_38_0",
+        "showOrHide": [
+          "layer15",
+          "layer16"
+        ]
       }
     ]
   },
