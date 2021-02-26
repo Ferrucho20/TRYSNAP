@@ -12364,6 +12364,124 @@
         ]
       }
     ]
+  },
+  {
+    "id": "002848351000",
+    "nombre": "GALLET E1 CIUDAD DE LA SALLE",
+    "svg": "GALLET 2021-01-03.svg",
+    "rp04": "002",
+    "rp05": "002",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_01_1",
+        "idBase": "L_ADM_TORRE_01_0",
+        "showOrHide": [
+          "layer9",
+          "layer10"
+        ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_02_1",
+        "idBase": "L_ADM_TORRE_02_0",
+        "showOrHide": [
+          "layer9",
+          "layer10"
+        ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_04_1",
+        "idBase": "L_ADM_TORRE_04_0",
+        "showOrHide": [
+          "layer3",
+          "layer4"
+        ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_05_1",
+        "idBase": "L_ADM_TORRE_05_0",
+        "showOrHide": [
+          "layer3",
+          "layer4"
+        ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_03_1",
+        "idBase": "L_ADM_TORRE_03_0",
+        "showOrHide": [
+          "layer5",
+          "layer6"
+        ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_01_02_1",
+        "idBase": "L_ADM_TORRE_01_02_0",
+        "showOrHide": [
+          "layer9",
+          "layer10",
+          "layer7",
+          "layer8"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "002848352000",
+    "nombre": "GALLET E2 CIUDAD DE LA SALLE",
+    "svg": "GALLET 2021-01-03.svg",
+    "rp04": "002",
+    "rp05": "002",
+    "informacion": [
+      {
+        "idFrente": "L_ADM_TORRE_01_1",
+        "idBase": "L_ADM_TORRE_01_0",
+        "showOrHide": [
+          "layer9",
+          "layer10"
+        ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_02_1",
+        "idBase": "L_ADM_TORRE_02_0",
+        "showOrHide": [
+          "layer9",
+          "layer10"
+        ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_04_1",
+        "idBase": "L_ADM_TORRE_04_0",
+        "showOrHide": [
+          "layer3",
+          "layer4"
+        ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_05_1",
+        "idBase": "L_ADM_TORRE_05_0",
+        "showOrHide": [
+          "layer3",
+          "layer4"
+        ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_03_1",
+        "idBase": "L_ADM_TORRE_03_0",
+        "showOrHide": [
+          "layer5",
+          "layer6"
+        ]
+      },
+      {
+        "idFrente": "L_ADM_TORRE_01_02_1",
+        "idBase": "L_ADM_TORRE_01_02_0",
+        "showOrHide": [
+          "layer9",
+          "layer10",
+          "layer7",
+          "layer8"
+        ]
+      }
+    ]
   }
 
 ]
