@@ -12445,8 +12445,8 @@
         "idFrente": "L_ADM_TORRE_29_30_1",
         "idBase": "L_ADM_TORRE_29_30_0",
         "showOrHide": [
-          "layer7",
-          "layer8"
+          "layer5",
+          "layer6"
         ]
       },
       {
@@ -12607,8 +12607,8 @@
         "idFrente": "L_ADM_TORRE_29_30_1",
         "idBase": "L_ADM_TORRE_29_30_0",
         "showOrHide": [
-          "layer7",
-          "layer8"
+          "layer5",
+          "layer6"
         ]
       },
       {
